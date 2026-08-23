@@ -131,6 +131,17 @@ style_tests:
     subject: benchmark 12 — hands (OpenAI pipeline proof)
     status: reference_only
 
+mood_proofs:
+  - id: MOOD-PROOF-04
+    mood: Endurance
+    scene: MAR-GATE-INT-01
+    file: assets/mood-proofs/mood-04-endurance-gate.png
+    model: gpt-image-2
+    size: 3840x2160
+    palette: iron 40% / indigo 35% / bone 25% / gold none
+    result: PASS — host reads as layered bands; diffuse overcast; no gold; gate boundary clear
+    status: draft
+
 # Known defects in the style tests, kept as examples of the failure modes:
 #   STYLE-D: invented star-boss shield device, unsourced. Illustrates why prop
 #            boards must precede dramatic frames.
