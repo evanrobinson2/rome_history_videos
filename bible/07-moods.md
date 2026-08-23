@@ -371,8 +371,15 @@ distinct emotions rather than as the same picture in different colours.
 
 Two late-Roman infantrymen as featureless dark silhouettes at the left and right
 frame edges, seen from behind, holding spears and oval shields. Through the stone
-arch: the vast Gothic host — wagons, livestock, cooking smoke, families stretching
-to the horizon on a dirt road.
+arch: the vast Gothic host on the road outside — wagons, livestock, cooking smoke,
+families stretching to the horizon.
+
+**Blocking rule (do not invert):** the road runs **north** from the gate into the
+host (`04-locations.md`). In this view we are **inside** the city looking **out**.
+Gothic figures in the midground and foreground must face **toward the gate** —
+toward the camera, toward Rome — waiting, not walking away. Only the distant host
+recedes north behind them. Roman guards face out; Gothic supplicants face in. If
+the crowd's backs are to the gate, the geography is wrong.
 
 Why this scene for the first mood proof:
 

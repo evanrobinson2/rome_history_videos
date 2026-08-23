@@ -43,7 +43,11 @@ Load-bearing spatial facts this plan must establish and then never contradict:
 
 1. The gate is the boundary between the Gothic host and the city.
 2. The road runs north from the gate into the host.
-3. The headquarters lies inward along the main street from the gate.
+3. **Facing:** Gothic figures at the gate face **south toward the city** — supplicant,
+   waiting, petitioning. They do not walk north with their backs to the gate. In
+   `MAR-GATE-INT-01` (interior looking out), the near host faces the camera; only
+   the distant road recedes north behind them.
+4. The headquarters lies inward along the main street from the gate.
 4. The courtyard adjoins the banquet hall, with a door between them.
 5. The retainers wait in the courtyard, roughly 15 metres from where Fritigern sits.
 6. A messenger can run gate → street → courtyard → banquet door, and we can see
