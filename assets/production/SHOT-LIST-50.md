@@ -1,6 +1,6 @@
 # Production Shot List — 50 Frames
 
-Status: **IN GENERATION**  
+Status: **COMPLETE — 50/50 generated (draft)**  
 Branch: `cursor/story-batch-images-4c2f`  
 Style: R1 cut-paper unless noted R3 (charcoal) for unknowable banquet interior.
 
