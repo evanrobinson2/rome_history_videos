@@ -3,8 +3,11 @@
 Status: **draft** — for banquet treachery and all mixed scenes.
 
 In the cut-paper register, **both peoples get identical cut quality, detail budget,
-and dignity** (Principle 5). Differentiation is **shape grammar only** — never
+and dignity** (Principle 5). Differentiation is **shape grammar** — never
 darker/heavier hand for Romans, never "squalor" shapes for Goths.
+
+**Named principals have visible stylized faces** (cut-paper eyes, nose, mouth) on
+every approved turnaround. Crowds and extras remain faceless silhouettes.
 
 ---
 

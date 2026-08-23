@@ -29,9 +29,19 @@ deliberately diverged from the source.
 
 Flat digital illustration imitating layered cut paper: stacked planes with soft drop
 shadows, visible handmade paper fibre throughout, hard scissor-cut edges, torn
-deckle edges for anything damaged or organic. **Figures are featureless
-silhouettes.** Light is drawn as flat translucent shape, never rendered
-illumination. No brushwork anywhere.
+deckle edges for anything damaged or organic.
+
+**Face rule (locked after character review):**
+- **Named principals** (Fritigern, Alavivus, Lupicinus, and any character with an
+  approved identity sheet) have **visible stylized faces** — simple cut-paper features
+  (eyes, nose, mouth readable at turnaround scale). Faces are invented likenesses,
+  never claimed as attested.
+- **Crowds, extras, and distant figures** remain featureless silhouettes.
+- Principals must NOT be rendered as solid black Batman-style silhouettes with no
+  face. Cloaks are travelling cloaks, not superhero capes.
+
+Light is drawn as flat translucent shape, never rendered illumination. No brushwork
+anywhere.
 
 Palette, four colours, rigidly held: deep indigo, bone, iron grey, tarnished gold.
 
@@ -46,9 +56,9 @@ Screened against four benchmark subjects and passed all four:
 
 ### Why this register solves three standing problems
 
-1. **Character continuity.** No faces means no face to keep consistent across
-   hundreds of generations. Identity is silhouette, posture and costume shape —
-   specifiable, inspectable, stable. Character sheets become silhouette sheets.
+1. **Character continuity.** Named principals carry a locked stylized face from
+   approved turnaround sheets; crowds stay silhouettes. Identity is face + posture +
+   costume shape — specifiable, inspectable, stable.
 2. **Parallax.** The style is made of separated planes. The aesthetic and the
    delivery constraint in `00-scope-and-decisions.md` §4.2 are the same thing.
 3. **Epistemic honesty.** Nothing here pretends to be a photograph, so the work
