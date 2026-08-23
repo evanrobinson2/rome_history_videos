@@ -5,6 +5,10 @@ Thumbs.db
 # Secrets — never commit
 .env
 .env.*
+
+# Downloaded Suno exports (local only)
+assets/audio/*.mp3
+assets/audio/*.json
 *.pem
 *.key
 credentials.json
