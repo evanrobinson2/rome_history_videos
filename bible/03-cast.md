@@ -14,29 +14,36 @@ options where the history permits latitude, and with sourcing where it does not.
 Gothic leader (Thervingi). Intelligent, politically capable, later conducts a
 brutal war. **Must not be visually sanctified** (Principle 5).
 
-- Sheet: `[ ] assets/characters/FRI-001.md`
-- Age band: `[ ]`
-- Build / bearing: `[ ]`
-- Silhouette signature (what identifies him at 200m in a crowd): `[ ]`
-- Costume states: `[ ]` principal / travelling / armed
-- Known from sources vs invented: `[ ]`
+- Sheet: `assets/characters/FRI-001.md` (draft)
+- Turnaround: `assets/characters/FRI-001-turnaround.png` (draft)
+- Age band: mature adult
+- Build / bearing: tallest principal; upright, head slightly forward
+- Silhouette signature: fur deckle at shoulders + long hair + sword left hip
+- Costume states: principal / travelling / armed / banquet (`FRI-001-BANQUET`)
+- Known from sources vs invented: attested leader; face and costume detail invented
 
 ### ALA — Alavivus
 Co-leader with Fritigern. Historically thin — disappears from the record after
 Marcianople. That absence is a storytelling asset, not a problem.
 
-- Sheet: `[ ] assets/characters/ALA-001.md`
-- Distinguishing him from Fritigern at a glance: `[ ]`
-- Uncertainty note: `[ ]`
+> **Not Alaric.** Alaric was ~6 in 376 and is not attested at Marcianople. Alavivus
+> is the co-leader here. A later `ALR-001` sheet can cover Alaric for Adrianople.
+
+- Sheet: `assets/characters/ALA-001.md` (draft)
+- Turnaround: `assets/characters/ALA-001-turnaround.png` (draft)
+- Distinguishing him from Fritigern at a glance: one-shoulder triangle drape; beard
+  point; shorter; no sword
+- Uncertainty note: thin record after Marcianople — disappearance is dramatic asset
 
 ### LUP — Lupicinus
 Roman comes rei militaris in Thrace. **Principle 5 applies hardest here.** He is
 not to be drawn as a villain. At the banquet he may be genuinely convivial.
 
-- Sheet: `[ ] assets/characters/LUP-001.md`
-- Age / condition / bearing: `[ ]`
-- Costume: Roman command dress, Thrace 376: `[ ]`
-- Explicit anti-caricature note for prompts: `[ ]`
+- Sheet: `assets/characters/LUP-001.md` (draft)
+- Turnaround: `assets/characters/LUP-001-turnaround.png` (draft)
+- Age / condition / bearing: same height as Gothic leaders; relaxed convivial posture
+- Costume: columnar tunic, paludamentum right shoulder, calcei — see faction guide
+- Explicit anti-caricature note: no hunch, no claw hands, no heavier cut weight
 
 ## Recurring witnesses
 
