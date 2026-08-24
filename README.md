@@ -4,9 +4,9 @@ A narrated, historically grounded illustrated drama about the Gothic crossing of
 Danube (376 CE) and the road to Adrianople (378 CE). Delivered as video: composed
 still images with controlled moves, spoken narration, captions, and dubs.
 
-**Current state:** Phase 2 complete in skeleton. Phase 3 not started. Image pipeline:
-**OpenAI `gpt-image-2`** via `scripts/generate_image.py` (not Cursor `GenerateImage`).
-**Current scope:** Marcianople only, ~90 seconds. Everything else is deferred.
+**Current state:** See **`sessions/AGENT.md`** for live agent handoff (50-shot batch,
+viewer on Vercel, song arc planned). Image pipeline: **OpenAI `gpt-image-2`** via
+`scripts/generate_image.py` (not Cursor `GenerateImage`).
 
 ---
 
@@ -22,10 +22,12 @@ research/       Source excerpts and material-culture notes.
 scripts/        Image generation (`generate_image.py` → OpenAI gpt-image-2).
 viewer/         Next.js frame review app (keep / discard / reroll) — deploy to Vercel.
 docs/           Cloud agent setup and secrets.
+sessions/       Agent coordination (`AGENT.md`) and session archives.
 ```
 
 ## Read in this order
 
+0. `sessions/AGENT.md` — **agent coordination + current state**
 1. `bible/00-scope-and-decisions.md` — what this is, what's locked, what's deferred
 2. `bible/01-creative-principles.md` — the ten principles, non-negotiable
 3. `bible/02-style-bible.md` — the three-register system
