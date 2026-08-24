@@ -46,7 +46,7 @@ export function ImageStage({
         </div>
       </div>
 
-      <div className="relative aspect-video w-full max-h-[min(56vh,720px)] overflow-hidden rounded-2xl border border-white/10 bg-black/30 shadow-2xl">
+      <div className="relative aspect-video w-full max-h-[min(62vh,820px)] overflow-hidden rounded-2xl border border-white/10 bg-black/30 shadow-2xl">
         {item.exists ? (
           <Image
             src={item.imagePath}

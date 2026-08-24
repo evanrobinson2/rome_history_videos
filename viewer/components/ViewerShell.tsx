@@ -11,10 +11,19 @@ import {
 import { DetailTabs } from "./DetailTabs";
 import { FeedbackToolbar } from "./FeedbackToolbar";
 import { ImageStage } from "./ImageStage";
-import { ThumbnailStrip } from "./ThumbnailStrip";
+import { ThumbnailStrip, type ThumbSize } from "./ThumbnailStrip";
+
+const THUMB_SIZE_KEY = "rome-viewer-thumb-size-v1";
 
 interface ViewerShellProps {
   manifest: Manifest;
+}
+
+function loadThumbSize(): ThumbSize {
+  if (typeof window === "undefined") return "M";
+  const raw = localStorage.getItem(THUMB_SIZE_KEY);
+  if (raw === "S" || raw === "M" || raw === "L" || raw === "XL") return raw;
+  return "M";
 }
 
 export function ViewerShell({ manifest }: ViewerShellProps) {
@@ -22,6 +31,7 @@ export function ViewerShell({ manifest }: ViewerShellProps) {
   const [feedback, setFeedbackState] = useState<FeedbackStore>({});
   const [copied, setCopied] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [thumbSize, setThumbSize] = useState<ThumbSize>("M");
 
   const items = manifest.items;
   const item = items[index];
@@ -29,7 +39,13 @@ export function ViewerShell({ manifest }: ViewerShellProps) {
 
   useEffect(() => {
     setFeedbackState(loadFeedback());
+    setThumbSize(loadThumbSize());
     setMounted(true);
+  }, []);
+
+  const handleThumbSize = useCallback((size: ThumbSize) => {
+    setThumbSize(size);
+    localStorage.setItem(THUMB_SIZE_KEY, size);
   }, []);
 
   const stats = useMemo(() => {
@@ -81,7 +97,8 @@ export function ViewerShell({ manifest }: ViewerShellProps) {
       }
       if (e.key === "ArrowLeft") goPrev();
       if (e.key === "ArrowRight") goNext();
-      if (e.key === "k" || e.key === "K") handleAction(currentAction === "keep" ? null : "keep");
+      if (e.key === "k" || e.key === "K")
+        handleAction(currentAction === "keep" ? null : "keep");
       if (e.key === "d" || e.key === "D")
         handleAction(currentAction === "discard" ? null : "discard");
       if (e.key === "r" || e.key === "R")
@@ -100,15 +117,8 @@ export function ViewerShell({ manifest }: ViewerShellProps) {
   }
 
   return (
-    <div className="flex min-h-screen flex-col lg:flex-row">
-      <ThumbnailStrip
-        items={items}
-        currentIndex={index}
-        feedback={feedback}
-        onSelect={setIndex}
-      />
-
-      <main className="flex min-h-0 flex-1 flex-col gap-4 p-4 sm:p-6">
+    <div className="min-h-screen">
+      <main className="mx-auto flex max-w-7xl flex-col gap-4 p-4 sm:p-6">
         <header className="flex items-center justify-between gap-4 border-b border-white/10 pb-4">
           <div>
             <p className="text-[11px] uppercase tracking-[0.25em] text-gold-warm">
@@ -127,6 +137,15 @@ export function ViewerShell({ manifest }: ViewerShellProps) {
           total={items.length}
           onPrev={goPrev}
           onNext={goNext}
+        />
+
+        <ThumbnailStrip
+          items={items}
+          currentIndex={index}
+          feedback={feedback}
+          onSelect={setIndex}
+          size={thumbSize}
+          onSizeChange={handleThumbSize}
         />
 
         <FeedbackToolbar
