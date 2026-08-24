@@ -30,10 +30,14 @@ Facets on each frame (filter chips in the UI):
 | --- | --- | --- |
 | `storyPart` | `D. Marcianople banquet` | Part |
 | `mood` | `10 Betrayal` | Mood |
-| `storyBeat` | beat text under the image | — |
-| `stanza` | `1` | (ready; chip if present) |
-| `tags` | `stanza1`, `cavalry` | freeform |
-| `prompt` | full gen prompt | Prompt tab |
+| `category` | `scene` / `character` / `turnaround` | Type |
+| `version` | `v1` / `v2` | Ver |
+| `storyBeat` | beat text | Story tab |
+| `context` | era, location, characters, light, withheld… | Context tab |
+| `physical` | px size, hash, medium, palette | Physical tab |
+| `versions[]` | v1 rejected archive + v2 current | Details tab |
+
+See `assets/production/CATALOG-SCHEMA.md`.
 
 ## One-time Vercel Blob setup
 

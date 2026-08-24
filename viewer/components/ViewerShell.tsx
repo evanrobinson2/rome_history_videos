@@ -45,6 +45,8 @@ export function ViewerShell({ initialManifest }: ViewerShellProps) {
   const [thumbSize, setThumbSize] = useState<ThumbSize>("M");
   const [partFilter, setPartFilter] = useState<string>();
   const [moodFilter, setMoodFilter] = useState<string>();
+  const [categoryFilter, setCategoryFilter] = useState<string>();
+  const [versionFilter, setVersionFilter] = useState<string>();
 
   useEffect(() => {
     setFeedbackState(loadFeedback());
@@ -71,14 +73,16 @@ export function ViewerShell({ initialManifest }: ViewerShellProps) {
       filterItems(manifest.items, {
         storyPart: partFilter,
         mood: moodFilter,
+        category: categoryFilter,
+        version: versionFilter,
       }),
-    [manifest.items, partFilter, moodFilter]
+    [manifest.items, partFilter, moodFilter, categoryFilter, versionFilter]
   );
 
   // Clamp index when filters change
   useEffect(() => {
     setIndex(0);
-  }, [partFilter, moodFilter]);
+  }, [partFilter, moodFilter, categoryFilter, versionFilter]);
 
   const item = filtered[index];
   const currentAction = item ? feedback[item.id]?.action ?? null : null;
@@ -89,6 +93,14 @@ export function ViewerShell({ initialManifest }: ViewerShellProps) {
   );
   const moodOptions = useMemo(
     () => uniqueFacets(manifest.items, "mood"),
+    [manifest.items]
+  );
+  const categoryOptions = useMemo(
+    () => uniqueFacets(manifest.items, "category"),
+    [manifest.items]
+  );
+  const versionOptions = useMemo(
+    () => uniqueFacets(manifest.items, "version"),
     [manifest.items]
   );
 
@@ -175,6 +187,8 @@ export function ViewerShell({ initialManifest }: ViewerShellProps) {
           onClick={() => {
             setPartFilter(undefined);
             setMoodFilter(undefined);
+            setCategoryFilter(undefined);
+            setVersionFilter(undefined);
           }}
         >
           Clear
@@ -187,6 +201,7 @@ export function ViewerShell({ initialManifest }: ViewerShellProps) {
   const viewItem = {
     ...item,
     imagePath: shotUrl(item),
+    url: shotUrl(item),
     exists: Boolean(shotUrl(item)),
     storyPart: shotPart(item),
     storyBeat: shotBeat(item),
@@ -201,14 +216,20 @@ export function ViewerShell({ initialManifest }: ViewerShellProps) {
     section: item.section || "",
     sectionTitle: item.sectionTitle || shotPart(item),
     sectionNarrative: item.sectionNarrative || "",
-    category: (item.category as "character" | "scene") || "scene",
+    category: item.category || "scene",
     register: item.register || "R1",
     prompt: item.prompt || "",
+    version: item.version,
+    versions: item.versions,
+    physical: item.physical,
+    context: item.context,
+    tags: item.tags,
   };
 
   const viewItems = filtered.map((f, i) => ({
     ...f,
     imagePath: shotUrl(f),
+    url: shotUrl(f),
     exists: Boolean(shotUrl(f)),
     storyPart: shotPart(f),
     storyBeat: shotBeat(f),
@@ -223,9 +244,14 @@ export function ViewerShell({ initialManifest }: ViewerShellProps) {
     section: f.section || "",
     sectionTitle: f.sectionTitle || shotPart(f),
     sectionNarrative: f.sectionNarrative || "",
-    category: (f.category as "character" | "scene") || "scene",
+    category: f.category || "scene",
     register: f.register || "R1",
     prompt: f.prompt || "",
+    version: f.version,
+    versions: f.versions,
+    physical: f.physical,
+    context: f.context,
+    tags: f.tags,
   }));
 
   return (
@@ -253,6 +279,18 @@ export function ViewerShell({ initialManifest }: ViewerShellProps) {
             options={moodOptions}
             value={moodFilter}
             onChange={setMoodFilter}
+          />
+          <FacetBar
+            label="Type"
+            options={categoryOptions}
+            value={categoryFilter}
+            onChange={setCategoryFilter}
+          />
+          <FacetBar
+            label="Ver"
+            options={versionOptions}
+            value={versionFilter}
+            onChange={setVersionFilter}
           />
         </div>
 

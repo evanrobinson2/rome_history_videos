@@ -1,10 +1,16 @@
 /**
- * Generic frame catalog — works with local paths or Vercel Blob URLs.
- * Adding frames = upload + upsert catalog entry (no app redeploy).
+ * Generic frame catalog — local paths or Vercel Blob URLs.
+ * Versioned assets with rich contextual + physical metadata.
  */
 
 export type ReviewStatus = "pass" | "reject" | "flagged" | "unreviewed";
 export type FeedbackAction = "keep" | "discard" | "reroll" | null;
+export type VersionStatus =
+  | "current"
+  | "archived"
+  | "rejected"
+  | "superseded"
+  | "flagged";
 
 export interface Mood {
   number: number;
@@ -19,28 +25,70 @@ export interface ReviewMeta {
   flagged?: boolean;
 }
 
-/** One reviewable still. New images only need id + url + facets. */
+export interface ImageVersion {
+  label: string;
+  status: VersionStatus;
+  path?: string;
+  url?: string;
+  notes?: string;
+  rejectReason?: string;
+  createdAt?: string;
+}
+
+export interface PhysicalMeta {
+  format: string;
+  width?: number;
+  height?: number;
+  aspectRatio?: string;
+  fileSizeBytes?: number;
+  medium?: string;
+  palette?: string;
+  orientation?: string;
+}
+
+export interface ContextMeta {
+  era?: string;
+  yearApprox?: string;
+  location?: string;
+  setting?: string;
+  characters?: string[];
+  factions?: string[];
+  narrativeRole?: string;
+  emotionalDirection?: string;
+  scale?: string;
+  framing?: string;
+  vantage?: string;
+  light?: string;
+  weather?: string;
+  withheld?: string;
+  materialCulture?: string;
+  continuityNotes?: string;
+}
+
+/** One reviewable still. */
 export interface ShotItem {
   id: string;
-  /** CDN or local path to the image */
   url: string;
   filename?: string;
   shotNumber?: number;
-  /** Facet: story section / part (e.g. "D. Marcianople banquet") */
   storyPart?: string;
-  /** Facet: beat description */
   storyBeat?: string;
-  /** Facet: mood label */
   mood?: Mood | string;
   register?: string;
   category?: string;
   description?: string;
   prompt?: string;
-  /** Extra freeform facets for filtering */
   tags?: string[];
   stanza?: string;
   review?: ReviewMeta;
   archivedUrl?: string;
+
+  /** Current version label, e.g. "v2" */
+  version?: string;
+  versions?: ImageVersion[];
+  physical?: PhysicalMeta;
+  context?: ContextMeta;
+
   /** @deprecated use url */
   imagePath?: string;
   section?: string;
@@ -56,8 +104,8 @@ export interface Manifest {
   styleSuffix?: string;
   totalShots: number;
   items: ShotItem[];
-  /** Where this catalog lives (blob URL when remote) */
   source?: string;
+  schemaVersion?: string;
 }
 
 export interface FeedbackEntry {
@@ -67,8 +115,6 @@ export interface FeedbackEntry {
 }
 
 export type FeedbackStore = Record<string, FeedbackEntry>;
-
-export type FacetKey = "storyPart" | "mood" | "category" | "stanza" | "tags";
 
 export function moodLabel(mood?: Mood | string): string {
   if (!mood) return "—";

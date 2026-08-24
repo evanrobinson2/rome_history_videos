@@ -1,16 +1,13 @@
 #!/usr/bin/env node
 /**
- * Seed Vercel Blob with current frames + catalog.json
- *
+ * Seed Vercel Blob with versioned frames + rich catalog.
  * Requires: BLOB_READ_WRITE_TOKEN
- * Usage:   npm run blob:seed
- *
- * Prints NEXT_PUBLIC_CATALOG_URL to set in Vercel env (one-time).
  */
-import { put, list } from "@vercel/blob";
+import { put } from "@vercel/blob";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { spawnSync } from "node:child_process";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "../..");
@@ -18,9 +15,14 @@ const MANIFEST = path.resolve(__dirname, "../public/data/manifest.json");
 const CATALOG_PATHNAME = "catalog/frames.json";
 
 if (!process.env.BLOB_READ_WRITE_TOKEN) {
-  console.error("Missing BLOB_READ_WRITE_TOKEN. Create a Blob store in Vercel and paste the token.");
+  console.error("Missing BLOB_READ_WRITE_TOKEN");
   process.exit(1);
 }
+
+// Refresh enriched local catalog first
+spawnSync(process.execPath, [path.join(__dirname, "build-manifest.mjs")], {
+  stdio: "inherit",
+});
 
 async function uploadFile(pathname, filePath, contentType) {
   const buf = fs.readFileSync(filePath);
@@ -34,68 +36,60 @@ async function uploadFile(pathname, filePath, contentType) {
 }
 
 async function main() {
-  if (!fs.existsSync(MANIFEST)) {
-    console.error("Run npm run manifest first.");
-    process.exit(1);
-  }
   const manifest = JSON.parse(fs.readFileSync(MANIFEST, "utf8"));
   const items = [];
 
-  console.log(`Seeding ${manifest.items.length} frames…`);
+  console.log(`Seeding ${manifest.items.length} catalog entries…`);
 
   for (const item of manifest.items) {
-    const rel =
-      item.category === "character"
-        ? path.join("assets/characters", item.filename)
-        : path.join("assets/scenes", item.filename);
-    const abs = path.join(ROOT, rel);
+    const localPath = (item.imagePath || item.url || "").replace(/^\//, "");
+    const abs = path.join(ROOT, localPath);
     if (!fs.existsSync(abs)) {
-      console.warn(`skip missing ${rel}`);
+      console.warn(`skip missing ${localPath}`);
       continue;
     }
-    const pathname = `frames/${item.id}.png`;
+
+    const ver = item.version || "v1";
+    const pathname = `frames/${item.id}/${ver}.png`;
     process.stdout.write(`  ${pathname}… `);
     const url = await uploadFile(pathname, abs, "image/png");
     console.log("ok");
 
-    let archivedUrl;
-    if (item.archivedPath) {
-      const archAbs = path.join(ROOT, item.archivedPath.replace(/^\//, ""));
-      // archivedPath is like /assets/rejected/v1/...
-      const archRel = item.archivedPath.replace(/^\//, "");
-      const archFile = path.join(ROOT, archRel.startsWith("assets/") ? archRel : path.join("assets", archRel.replace(/^assets\//, "")));
-      // try rejected path
-      const rejected = path.join(ROOT, "assets/rejected/v1", item.filename);
-      if (fs.existsSync(rejected)) {
-        archivedUrl = await uploadFile(
-          `frames/archive/${item.id}.png`,
-          rejected,
-          "image/png"
-        );
+    const versions = [];
+    for (const v of item.versions || []) {
+      if (v.label === ver) {
+        versions.push({ ...v, url, status: v.status || "current" });
+        continue;
+      }
+      if (v.path) {
+        const vAbs = path.join(ROOT, v.path.replace(/^\//, ""));
+        if (fs.existsSync(vAbs)) {
+          const vUrl = await uploadFile(
+            `frames/${item.id}/${v.label}.png`,
+            vAbs,
+            "image/png"
+          );
+          versions.push({ ...v, url: vUrl });
+        } else {
+          versions.push(v);
+        }
+      } else {
+        versions.push(v);
       }
     }
 
     items.push({
-      id: item.id,
+      ...item,
       url,
-      filename: item.filename,
-      shotNumber: item.shotNumber,
-      storyPart: item.storyPart,
-      storyBeat: item.storyBeat,
-      mood: item.mood,
-      register: item.register,
-      category: item.category,
-      description: item.description,
-      prompt: item.prompt,
-      review: item.review,
-      archivedUrl,
-      tags: [item.section, item.mood?.name].filter(Boolean),
-      section: item.section,
-      sectionTitle: item.sectionTitle,
+      imagePath: url,
+      versions: versions.length ? versions : [{ label: ver, status: "current", url }],
+      archivedUrl: versions.find((v) => v.label === "v1" && v.status === "rejected")
+        ?.url,
     });
   }
 
   const catalog = {
+    schemaVersion: manifest.schemaVersion || "2.0.0",
     generatedAt: new Date().toISOString(),
     title: manifest.title,
     styleSuffix: manifest.styleSuffix,
@@ -112,11 +106,9 @@ async function main() {
   });
 
   console.log("\nSeed complete.");
-  console.log(`Frames: ${items.length}`);
-  console.log(`\nSet this Vercel env var (Project → Settings → Environment Variables):`);
+  console.log(`Entries: ${items.length}`);
+  console.log(`\nSet Vercel env:`);
   console.log(`  NEXT_PUBLIC_CATALOG_URL=${catalogBlob.url}`);
-  console.log(`\nThen redeploy once. After that, add frames with:`);
-  console.log(`  npm run blob:add -- ./path.png --id STZ01-01 --part "1. North" --beat "Ridgeline shadows"`);
 }
 
 main().catch((err) => {

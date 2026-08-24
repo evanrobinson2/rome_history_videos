@@ -24,7 +24,7 @@ export function normalizeManifest(data: Manifest): Manifest {
 
 export function uniqueFacets(
   items: ShotItem[],
-  key: "storyPart" | "mood" | "category" | "stanza"
+  key: "storyPart" | "mood" | "category" | "stanza" | "version"
 ): string[] {
   const set = new Set<string>();
   for (const item of items) {
@@ -32,19 +32,23 @@ export function uniqueFacets(
     else if (key === "storyPart") set.add(shotPart(item));
     else if (key === "category" && item.category) set.add(item.category);
     else if (key === "stanza" && item.stanza) set.add(item.stanza);
+    else if (key === "version" && item.version) set.add(item.version);
   }
   return [...set].filter((v) => v && v !== "—").sort((a, b) => a.localeCompare(b));
 }
 
 export function filterItems(
   items: ShotItem[],
-  filters: Partial<Record<"storyPart" | "mood" | "category" | "stanza", string>>
+  filters: Partial<
+    Record<"storyPart" | "mood" | "category" | "stanza" | "version", string>
+  >
 ): ShotItem[] {
   return items.filter((item) => {
     if (filters.storyPart && shotPart(item) !== filters.storyPart) return false;
     if (filters.mood && moodLabel(item.mood) !== filters.mood) return false;
     if (filters.category && item.category !== filters.category) return false;
     if (filters.stanza && item.stanza !== filters.stanza) return false;
+    if (filters.version && item.version !== filters.version) return false;
     return true;
   });
 }
