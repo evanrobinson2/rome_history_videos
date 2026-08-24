@@ -1,0 +1,18 @@
+{
+  "id": "CH09-04",
+  "chapter": "ch09",
+  "chapterTitle": "Aftermath",
+  "era": "378 CE",
+  "location": "Battlefield and surrounding territory",
+  "shotNumber": 4,
+  "lighting": "afternoon",
+  "camera": "medium",
+  "scene": "Burial parties working, distant, methodical",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch09/CH09-04.png",
+  "fileSizeBytes": 14701813,
+  "generatedAt": "2026-08-24T04:58:58.790347Z"
+}

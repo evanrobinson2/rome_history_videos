@@ -1,0 +1,18 @@
+{
+  "id": "CH09-06",
+  "chapter": "ch09",
+  "chapterTitle": "Aftermath",
+  "era": "378 CE",
+  "location": "Battlefield and surrounding territory",
+  "shotNumber": 6,
+  "lighting": "grey",
+  "camera": "wide city",
+  "scene": "Adrianople walls, closed gates, nobody",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch09/CH09-06.png",
+  "fileSizeBytes": 14125238,
+  "generatedAt": "2026-08-24T05:02:23.962768Z"
+}

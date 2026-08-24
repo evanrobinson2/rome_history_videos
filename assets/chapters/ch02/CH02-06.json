@@ -1,0 +1,18 @@
+{
+  "id": "CH02-06",
+  "chapter": "ch02",
+  "chapterTitle": "Flight to the Danube",
+  "era": "376 CE",
+  "location": "Roads and plains toward the Danube",
+  "shotNumber": 6,
+  "lighting": "sunrise behind",
+  "camera": "silhouette panorama",
+  "scene": "First sight of the Danube, figures stopping to look",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch02/CH02-06.png",
+  "fileSizeBytes": 15139409,
+  "generatedAt": "2026-08-24T05:02:16.405920Z"
+}

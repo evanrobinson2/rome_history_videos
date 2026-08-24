@@ -1,0 +1,18 @@
+{
+  "id": "CH06-02",
+  "chapter": "ch06",
+  "chapterTitle": "Open Revolt Across Thrace",
+  "era": "376-377 CE",
+  "location": "Thracian countryside, villages, roads",
+  "shotNumber": 2,
+  "lighting": "noon dust",
+  "camera": "medium action",
+  "scene": "Gothic warriors on road, Roman supplies captured",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch06/CH06-02.png",
+  "fileSizeBytes": 14882547,
+  "generatedAt": "2026-08-24T04:56:01.743542Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "CH02-08",
+  "chapter": "ch02",
+  "chapterTitle": "Flight to the Danube",
+  "era": "376 CE",
+  "location": "Roads and plains toward the Danube",
+  "shotNumber": 8,
+  "lighting": "dusk purple",
+  "camera": "medium close",
+  "scene": "Old man being helped onto wagon, dignity maintained",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch02/CH02-08.png",
+  "fileSizeBytes": 14683949,
+  "generatedAt": "2026-08-24T05:05:42.410067Z"
+}

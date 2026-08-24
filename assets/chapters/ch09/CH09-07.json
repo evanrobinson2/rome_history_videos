@@ -1,0 +1,18 @@
+{
+  "id": "CH09-07",
+  "chapter": "ch09",
+  "chapterTitle": "Aftermath",
+  "era": "378 CE",
+  "location": "Battlefield and surrounding territory",
+  "shotNumber": 7,
+  "lighting": "rain",
+  "camera": "medium detail",
+  "scene": "Equipment in mud, rain pooling in helmet",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch09/CH09-07.png",
+  "fileSizeBytes": 15970032,
+  "generatedAt": "2026-08-24T05:04:05.528009Z"
+}

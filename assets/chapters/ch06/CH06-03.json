@@ -1,0 +1,18 @@
+{
+  "id": "CH06-03",
+  "chapter": "ch06",
+  "chapterTitle": "Open Revolt Across Thrace",
+  "era": "376-377 CE",
+  "location": "Thracian countryside, villages, roads",
+  "shotNumber": 3,
+  "lighting": "afternoon golden",
+  "camera": "wide landscape",
+  "scene": "Burning villa in distance, figures moving away",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch06/CH06-03.png",
+  "fileSizeBytes": 17129742,
+  "generatedAt": "2026-08-24T04:57:35.337510Z"
+}

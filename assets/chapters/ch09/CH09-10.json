@@ -1,0 +1,18 @@
+{
+  "id": "CH09-10",
+  "chapter": "ch09",
+  "chapterTitle": "Aftermath",
+  "era": "378 CE",
+  "location": "Battlefield and surrounding territory",
+  "shotNumber": 10,
+  "lighting": "morning clearing",
+  "camera": "wide road",
+  "scene": "Empty road leading away, grass reclaiming edges",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch09/CH09-10.png",
+  "fileSizeBytes": 15002706,
+  "generatedAt": "2026-08-24T05:08:50.012050Z"
+}

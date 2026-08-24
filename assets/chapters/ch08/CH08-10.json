@@ -1,0 +1,18 @@
+{
+  "id": "CH08-10",
+  "chapter": "ch08",
+  "chapterTitle": "Adrianople",
+  "era": "9 August 378 CE",
+  "location": "Plains outside Adrianople",
+  "shotNumber": 10,
+  "lighting": "night fires",
+  "camera": "wide field",
+  "scene": "Scattered fires, field of debris, silence",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch08/CH08-10.png",
+  "fileSizeBytes": 14103379,
+  "generatedAt": "2026-08-24T05:08:40.813469Z"
+}

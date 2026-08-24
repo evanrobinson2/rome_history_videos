@@ -1,0 +1,18 @@
+{
+  "id": "CH08-01",
+  "chapter": "ch08",
+  "chapterTitle": "Adrianople",
+  "era": "9 August 378 CE",
+  "location": "Plains outside Adrianople",
+  "shotNumber": 1,
+  "lighting": "dawn pre-battle",
+  "camera": "extreme wide",
+  "scene": "Both armies visible, plain between, low sun",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch08/CH08-01.png",
+  "fileSizeBytes": 15819838,
+  "generatedAt": "2026-08-24T04:54:10.212360Z"
+}

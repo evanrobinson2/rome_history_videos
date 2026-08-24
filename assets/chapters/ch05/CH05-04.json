@@ -1,0 +1,18 @@
+{
+  "id": "CH05-04",
+  "chapter": "ch05",
+  "chapterTitle": "Marcianople",
+  "era": "376 CE",
+  "location": "City of Marcianople - gate, headquarters, banquet hall",
+  "shotNumber": 4,
+  "lighting": "interior lamplight",
+  "camera": "wide room",
+  "scene": "Banquet hall preparation, servants, tables",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch05/CH05-04.png",
+  "fileSizeBytes": 12976889,
+  "generatedAt": "2026-08-24T04:58:50.729191Z"
+}

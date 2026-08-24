@@ -1,0 +1,18 @@
+{
+  "id": "CH08-02",
+  "chapter": "ch08",
+  "chapterTitle": "Adrianople",
+  "era": "9 August 378 CE",
+  "location": "Plains outside Adrianople",
+  "shotNumber": 2,
+  "lighting": "morning heat building",
+  "camera": "medium ranks",
+  "scene": "Roman infantry waiting, dust rising",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch08/CH08-02.png",
+  "fileSizeBytes": 15621558,
+  "generatedAt": "2026-08-24T04:55:39.865126Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "CH07-04",
+  "chapter": "ch07",
+  "chapterTitle": "Valens Turns East to West",
+  "era": "377-378 CE",
+  "location": "Imperial campaign headquarters, roads west",
+  "shotNumber": 4,
+  "lighting": "noon dust march",
+  "camera": "medium wide",
+  "scene": "Cavalry column on road, dust cloud",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch07/CH07-04.png",
+  "fileSizeBytes": 15435848,
+  "generatedAt": "2026-08-24T04:59:17.143971Z"
+}
