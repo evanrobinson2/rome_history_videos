@@ -25,17 +25,28 @@ The `predev` script builds `public/data/manifest.json` from production markdown 
 
 ## Deploy to Vercel
 
+### Fix for the first failed deploy
+
+The GitHub → Vercel project was created with **Root Directory = null**, so Vercel
+tried to build the monorepo root (no Next.js app) and failed.
+
+**Do this once in the Vercel dashboard** (most reliable):
+
+1. Open [rome-history-videos project settings](https://vercel.com/evan-8467/rome-history-videos/settings/general)
+2. Under **Root Directory**, click **Edit** → set to `viewer` → Save
+3. Redeploy the latest commit (Deployments → ⋯ → Redeploy)
+
+The repo also has a root `vercel.json` that points `@vercel/next` at `viewer/package.json`
+as a fallback when Root Directory is unset.
+
 ### What you need from Vercel
 
 1. **A Vercel account** — [vercel.com/signup](https://vercel.com/signup) (Hobby is fine for private review)
 2. **GitHub connection** — link your GitHub account so Vercel can read `evanrobinson2/rome_history_videos`
-3. **New Project** — Import the repo, then set:
-   - **Root Directory:** `viewer`
-   - **Framework Preset:** Next.js (auto-detected)
-   - **Build Command:** `npm run build` (default)
-   - **Install Command:** `npm install` (default)
-4. **No environment variables required** for the viewer itself — it is fully static
-5. **Deploy** — first build will bundle ~160MB of PNGs via the asset symlink/copy step
+3. **Root Directory:** `viewer` (see above — required for clean Next.js builds)
+4. **Framework Preset:** Next.js
+5. **No environment variables** for the viewer itself
+6. **Deploy** — build copies `assets/` into `public/assets` (`VERCEL=1` forces copy, not symlink)
 
 ### Optional (recommended for production)
 
@@ -49,11 +60,11 @@ The `predev` script builds `public/data/manifest.json` from production markdown 
 ### Quick CLI deploy
 
 ```bash
-npm i -g vercel
 cd viewer
-vercel
-# follow prompts — set root to viewer if asked
-vercel --prod
+npx vercel login          # browser OAuth
+npx vercel link           # select team + rome-history-videos
+npx vercel inspect dpl_xxx --logs   # read failed build logs
+npx vercel --prod
 ```
 
 ### After deploy

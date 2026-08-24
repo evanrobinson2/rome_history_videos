@@ -1,15 +1,14 @@
 {
-  "name": "rome-history-viewer",
-  "version": "0.1.0",
+  "name": "rome-history-videos",
   "private": true,
+  "description": "Root Next.js entry so Vercel can build with Root Directory unset. App source lives in viewer/.",
   "scripts": {
-    "predev": "node scripts/build-manifest.mjs && node scripts/link-assets.mjs",
+    "predev": "node viewer/scripts/build-manifest.mjs && node viewer/scripts/link-assets.mjs",
     "dev": "next dev",
-    "prebuild": "node scripts/build-manifest.mjs && node scripts/link-assets.mjs",
+    "prebuild": "node viewer/scripts/build-manifest.mjs && node viewer/scripts/link-assets.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "manifest": "node scripts/build-manifest.mjs"
+    "manifest": "node viewer/scripts/build-manifest.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
