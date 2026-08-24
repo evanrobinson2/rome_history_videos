@@ -29,21 +29,22 @@ body {
   color: var(--color-bone);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
 }
 
 ::selection {
   background: color-mix(in srgb, var(--color-gold-warm) 40%, transparent);
 }
 
-/* Restorative scrollbars */
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--color-indigo-mid) transparent;
 }
 
 *::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
 }
 
 *::-webkit-scrollbar-thumb {
@@ -53,4 +54,15 @@ body {
 
 *::-webkit-scrollbar-track {
   background: transparent;
+}
+
+/* Horizontal filmstrip: hide scrollbar, keep swipe */
+.thumb-scroller {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.thumb-scroller::-webkit-scrollbar {
+  display: none;
 }

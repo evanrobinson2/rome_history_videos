@@ -13,10 +13,10 @@ export const THUMB_SIZES: {
   width: string;
   sizesAttr: string;
 }[] = [
-  { id: "S", label: "S", width: "4.5rem", sizesAttr: "72px" },
-  { id: "M", label: "M", width: "7rem", sizesAttr: "112px" },
-  { id: "L", label: "L", width: "10rem", sizesAttr: "160px" },
-  { id: "XL", label: "XL", width: "14rem", sizesAttr: "224px" },
+  { id: "S", label: "S", width: "4.25rem", sizesAttr: "68px" },
+  { id: "M", label: "M", width: "6.5rem", sizesAttr: "104px" },
+  { id: "L", label: "L", width: "9rem", sizesAttr: "144px" },
+  { id: "XL", label: "XL", width: "12rem", sizesAttr: "192px" },
 ];
 
 interface ThumbnailStripProps {
@@ -28,10 +28,11 @@ interface ThumbnailStripProps {
   onSizeChange: (size: ThumbSize) => void;
 }
 
-function badgeFor(action?: FeedbackAction) {
+function ringFor(action?: FeedbackAction, active?: boolean) {
+  if (active) return "ring-2 ring-gold-warm";
   if (action === "keep") return "ring-2 ring-keep";
-  if (action === "discard") return "ring-2 ring-discard opacity-50";
-  if (action === "reroll") return "ring-2 ring-gold-warm";
+  if (action === "discard") return "ring-2 ring-discard opacity-45";
+  if (action === "reroll") return "ring-2 ring-reroll";
   return "ring-1 ring-white/10";
 }
 
@@ -43,7 +44,6 @@ export function ThumbnailStrip({
   size,
   onSizeChange,
 }: ThumbnailStripProps) {
-  const scrollerRef = useRef<HTMLDivElement>(null);
   const activeRef = useRef<HTMLButtonElement>(null);
   const sizeMeta = THUMB_SIZES.find((s) => s.id === size) ?? THUMB_SIZES[1];
 
@@ -56,35 +56,24 @@ export function ThumbnailStrip({
   }, [currentIndex, size]);
 
   return (
-    <section className="rounded-2xl border border-white/10 bg-indigo-mid/25 backdrop-blur-sm">
-      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 px-4 py-3">
-        <div>
-          <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-bone-muted">
-            Frames
-          </p>
-          <p className="mt-0.5 font-serif text-base text-bone">
-            {items.length} shots
-          </p>
-        </div>
-
+    <section>
+      <div className="mb-2 flex items-center justify-between gap-2 px-0.5">
+        <p className="text-xs text-bone-muted">{items.length} frames</p>
         <div
-          className="inline-flex items-center gap-1 rounded-xl border border-white/10 bg-indigo-deep/50 p-1"
+          className="inline-flex rounded-full border border-white/10 bg-indigo-mid/40 p-0.5"
           role="group"
           aria-label="Thumbnail size"
         >
-          <span className="hidden px-2 text-[10px] uppercase tracking-wider text-bone-muted sm:inline">
-            Size
-          </span>
           {THUMB_SIZES.map((option) => (
             <button
               key={option.id}
               type="button"
               onClick={() => onSizeChange(option.id)}
               className={clsx(
-                "min-w-9 rounded-lg px-2.5 py-1.5 text-xs font-semibold transition",
+                "h-8 min-w-8 rounded-full px-2 text-xs font-semibold",
                 size === option.id
                   ? "bg-gold-warm text-indigo-deep"
-                  : "text-bone-muted hover:bg-white/5 hover:text-bone"
+                  : "text-bone-muted active:bg-white/5"
               )}
               aria-pressed={size === option.id}
             >
@@ -94,11 +83,8 @@ export function ThumbnailStrip({
         </div>
       </div>
 
-      <div
-        ref={scrollerRef}
-        className="overflow-x-auto overflow-y-hidden px-3 py-3"
-      >
-        <div className="flex w-max gap-2.5">
+      <div className="thumb-scroller -mx-4 overflow-x-auto px-4 pb-1 snap-x snap-mandatory">
+        <div className="flex w-max gap-2">
           {items.map((item, index) => {
             const action = feedback[item.id]?.action;
             const isActive = currentIndex === index;
@@ -110,36 +96,30 @@ export function ThumbnailStrip({
                 onClick={() => onSelect(index)}
                 style={{ width: sizeMeta.width }}
                 className={clsx(
-                  "group relative shrink-0 overflow-hidden rounded-lg transition-all",
-                  badgeFor(action),
-                  isActive && "ring-2 ring-gold-warm scale-[1.03]"
+                  "relative shrink-0 snap-center overflow-hidden rounded-md",
+                  ringFor(action, isActive)
                 )}
-                title={`#${item.shotNumber} ${item.filename}`}
+                aria-current={isActive ? "true" : undefined}
+                aria-label={`Shot ${item.shotNumber}`}
               >
-                <div className="relative aspect-video w-full bg-indigo-mid/50">
+                <div className="relative aspect-video w-full bg-indigo-mid/40">
                   {item.exists ? (
                     <Image
                       src={item.imagePath}
-                      alt={item.description}
+                      alt=""
                       fill
                       className="object-cover"
                       sizes={sizeMeta.sizesAttr}
                     />
-                  ) : (
-                    <div className="flex h-full items-center justify-center text-[10px] text-bone-muted">
-                      missing
-                    </div>
-                  )}
+                  ) : null}
                 </div>
-                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent px-1.5 py-1">
-                  <span className="text-[10px] font-mono text-bone/90">
-                    {String(item.shotNumber).padStart(2, "0")}
-                  </span>
-                </div>
-                {action && (
+                <span className="absolute bottom-0.5 left-1 font-mono text-[10px] text-white/90 drop-shadow">
+                  {String(item.shotNumber).padStart(2, "0")}
+                </span>
+                {action ? (
                   <span
                     className={clsx(
-                      "absolute right-1 top-1 rounded px-1 text-[9px] font-bold uppercase",
+                      "absolute right-0.5 top-0.5 rounded px-1 text-[9px] font-bold uppercase",
                       action === "keep" && "bg-keep text-bone",
                       action === "discard" && "bg-discard text-bone",
                       action === "reroll" && "bg-gold-warm text-indigo-deep"
@@ -147,7 +127,7 @@ export function ThumbnailStrip({
                   >
                     {action[0]}
                   </span>
-                )}
+                ) : null}
               </button>
             );
           })}

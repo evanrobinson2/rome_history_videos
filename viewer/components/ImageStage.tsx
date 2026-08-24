@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useRef } from "react";
 import type { ShotItem } from "@/lib/types";
 
 interface ImageStageProps {
@@ -19,46 +20,60 @@ export function ImageStage({
   onPrev,
   onNext,
 }: ImageStageProps) {
+  const touchX = useRef<number | null>(null);
+
   return (
-    <div className="relative flex min-h-0 flex-1 flex-col">
-      <div className="mb-3 flex items-start justify-between gap-4">
-        <div>
-          <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-bone-muted">
-            Shot {String(item.shotNumber).padStart(2, "0")} /{" "}
-            {String(total).padStart(2, "0")}
-          </p>
-          <h1 className="mt-1 font-serif text-xl text-bone sm:text-2xl">
+    <div className="relative flex flex-col gap-2">
+      <div className="flex items-center justify-between gap-3 px-0.5">
+        <div className="min-w-0">
+          <p className="truncate text-xs text-bone-muted">
+            {String(item.shotNumber).padStart(2, "0")} / {total}
+            <span className="mx-1.5 text-white/20">·</span>
             {item.mood.name}
-          </h1>
-          <p className="mt-1 text-sm text-bone-muted">{item.storyPart}</p>
+          </p>
+          <p className="truncate text-sm text-bone/80">{item.storyPart}</p>
         </div>
-        <div className="flex shrink-0 gap-2">
+        <div className="flex shrink-0 gap-1">
           <NavButton onClick={onPrev} label="Previous" disabled={index === 0}>
-            <ChevronLeft size={20} />
+            <ChevronLeft size={22} />
           </NavButton>
           <NavButton
             onClick={onNext}
             label="Next"
             disabled={index === total - 1}
           >
-            <ChevronRight size={20} />
+            <ChevronRight size={22} />
           </NavButton>
         </div>
       </div>
 
-      <div className="relative aspect-video w-full max-h-[min(62vh,820px)] overflow-hidden rounded-2xl border border-white/10 bg-black/30 shadow-2xl">
+      <div
+        className="relative aspect-video w-full overflow-hidden rounded-xl bg-black/40 touch-pan-y"
+        onTouchStart={(e) => {
+          touchX.current = e.changedTouches[0]?.clientX ?? null;
+        }}
+        onTouchEnd={(e) => {
+          if (touchX.current == null) return;
+          const dx = (e.changedTouches[0]?.clientX ?? 0) - touchX.current;
+          touchX.current = null;
+          if (Math.abs(dx) < 48) return;
+          if (dx < 0) onNext();
+          else onPrev();
+        }}
+      >
         {item.exists ? (
           <Image
             src={item.imagePath}
             alt={item.description}
             fill
             className="object-contain"
-            sizes="(max-width: 1280px) 100vw, 80vw"
+            sizes="100vw"
             priority
+            draggable={false}
           />
         ) : (
-          <div className="flex h-full min-h-[240px] items-center justify-center text-bone-muted">
-            Image not found: {item.filename}
+          <div className="flex h-full min-h-[200px] items-center justify-center text-sm text-bone-muted">
+            Missing: {item.filename}
           </div>
         )}
       </div>
@@ -83,7 +98,7 @@ function NavButton({
       onClick={onClick}
       disabled={disabled}
       aria-label={label}
-      className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-indigo-mid/50 text-bone transition hover:bg-white/10 disabled:cursor-not-allowed disabled:opacity-30"
+      className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-indigo-mid/60 text-bone active:bg-white/10 disabled:opacity-25"
     >
       {children}
     </button>

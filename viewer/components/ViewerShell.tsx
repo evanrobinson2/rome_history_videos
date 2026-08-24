@@ -83,8 +83,14 @@ export function ViewerShell({ manifest }: ViewerShellProps) {
         setCopied(true);
         window.setTimeout(() => setCopied(false), 2000);
       }
+      // Standard review flow: decide → advance
+      if (action === "keep" || action === "discard") {
+        window.setTimeout(() => {
+          setIndex((i) => Math.min(items.length - 1, i + 1));
+        }, 120);
+      }
     },
-    [feedback, item]
+    [feedback, item, items.length]
   );
 
   useEffect(() => {
@@ -110,24 +116,21 @@ export function ViewerShell({ manifest }: ViewerShellProps) {
 
   if (!mounted || !item) {
     return (
-      <div className="flex min-h-screen items-center justify-center text-bone-muted">
-        Loading frames…
+      <div className="flex min-h-dvh items-center justify-center text-bone-muted">
+        Loading…
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen">
-      <main className="mx-auto flex max-w-7xl flex-col gap-4 p-4 sm:p-6">
-        <header className="flex items-center justify-between gap-4 border-b border-white/10 pb-4">
-          <div>
-            <p className="text-[11px] uppercase tracking-[0.25em] text-gold-warm">
-              Frame review
-            </p>
-            <h2 className="font-serif text-2xl text-bone">{manifest.title}</h2>
-          </div>
-          <p className="hidden text-xs text-bone-muted sm:block">
-            ← → navigate · K keep · D discard · R reroll
+    <div className="min-h-dvh">
+      <main className="mx-auto flex max-w-3xl flex-col gap-4 px-4 pb-28 pt-[max(0.75rem,env(safe-area-inset-top))] sm:px-6">
+        <header className="flex items-baseline justify-between gap-3">
+          <h1 className="font-serif text-lg text-bone sm:text-xl">
+            Frame review
+          </h1>
+          <p className="text-xs text-bone-muted">
+            {stats.pending} left
           </p>
         </header>
 
@@ -148,21 +151,21 @@ export function ViewerShell({ manifest }: ViewerShellProps) {
           onSizeChange={handleThumbSize}
         />
 
-        <FeedbackToolbar
-          currentAction={currentAction}
-          onAction={handleAction}
-          onExport={() => exportFeedback(manifest, feedback)}
-          onCopyPrompt={() => {
-            copyPrompt(item.prompt);
-            setCopied(true);
-            window.setTimeout(() => setCopied(false), 2000);
-          }}
-          copied={copied}
-          stats={stats}
-        />
-
         <DetailTabs item={item} styleSuffix={manifest.styleSuffix} />
       </main>
+
+      <FeedbackToolbar
+        currentAction={currentAction}
+        onAction={handleAction}
+        onExport={() => exportFeedback(manifest, feedback)}
+        onCopyPrompt={() => {
+          copyPrompt(item.prompt);
+          setCopied(true);
+          window.setTimeout(() => setCopied(false), 2000);
+        }}
+        copied={copied}
+        stats={stats}
+      />
     </div>
   );
 }
