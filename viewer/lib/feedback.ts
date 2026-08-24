@@ -39,7 +39,7 @@ export function exportFeedback(manifest: Manifest, feedback: FeedbackStore) {
       shotNumber: item.shotNumber,
       storyPart: item.storyPart,
       feedback: feedback[item.id] ?? null,
-      reviewStatus: item.review.status,
+      reviewStatus: item.review?.status ?? "unreviewed",
     })),
   };
   const blob = new Blob([JSON.stringify(payload, null, 2)], {

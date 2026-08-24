@@ -3,14 +3,17 @@
   "private": true,
   "description": "Root Next.js entry so Vercel can build with Root Directory unset. App source lives in viewer/.",
   "scripts": {
-    "predev": "node viewer/scripts/build-manifest.mjs && node viewer/scripts/link-assets.mjs",
+    "predev": "node viewer/scripts/prebuild.mjs",
     "dev": "next dev",
-    "prebuild": "node viewer/scripts/build-manifest.mjs && node viewer/scripts/link-assets.mjs",
+    "prebuild": "node viewer/scripts/prebuild.mjs",
     "build": "next build",
     "start": "next start",
-    "manifest": "node viewer/scripts/build-manifest.mjs"
+    "manifest": "node viewer/scripts/build-manifest.mjs",
+    "blob:seed": "node viewer/scripts/seed-blob.mjs",
+    "blob:add": "node viewer/scripts/add-frame.mjs"
   },
   "dependencies": {
+    "@vercel/blob": "^0.27.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.468.0",
     "next": "^15.1.0",

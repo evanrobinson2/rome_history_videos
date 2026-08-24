@@ -3,6 +3,7 @@
 import clsx from "clsx";
 import { useEffect, useState } from "react";
 import type { ShotItem } from "@/lib/types";
+import { moodLabel } from "@/lib/types";
 
 type TabId = "details" | "story" | "prompt" | "review";
 
@@ -70,11 +71,7 @@ export function DetailTabs({ item, styleSuffix }: DetailTabsProps) {
               <code className="break-all text-xs">{item.filename}</code>
             </DetailRow>
             <DetailRow label="Part">{item.storyPart}</DetailRow>
-            <DetailRow label="Mood">
-              {item.mood.number > 0
-                ? `${item.mood.number} — ${item.mood.name}`
-                : item.mood.name}
-            </DetailRow>
+            <DetailRow label="Mood">{moodLabel(item.mood)}</DetailRow>
             <DetailRow label="Register">{item.register}</DetailRow>
             {item.archivedPath && (
               <DetailRow label="v1">
@@ -106,21 +103,23 @@ export function DetailTabs({ item, styleSuffix }: DetailTabsProps) {
         {active === "review" && (
           <dl>
             <DetailRow label="Status">
-              <span className="capitalize">{item.review.status}</span>
-              {item.review.flagged ? " · flagged" : ""}
+              <span className="capitalize">
+                {item.review?.status ?? "unreviewed"}
+              </span>
+              {item.review?.flagged ? " · flagged" : ""}
             </DetailRow>
-            {item.review.notes && (
+            {item.review?.notes && (
               <DetailRow label="Notes">{item.review.notes}</DetailRow>
             )}
-            {item.review.rejectReason && (
+            {item.review?.rejectReason && (
               <DetailRow label="Reason">{item.review.rejectReason}</DetailRow>
             )}
-            {item.review.v2Fix && (
+            {item.review?.v2Fix && (
               <DetailRow label="Fix">{item.review.v2Fix}</DetailRow>
             )}
-            {!item.review.notes &&
-              !item.review.rejectReason &&
-              !item.review.v2Fix && (
+            {!item.review?.notes &&
+              !item.review?.rejectReason &&
+              !item.review?.v2Fix && (
                 <p className="text-sm text-bone-muted">No review notes.</p>
               )}
           </dl>

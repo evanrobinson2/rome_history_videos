@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useRef } from "react";
 import type { ShotItem } from "@/lib/types";
+import { moodLabel, shotUrl } from "@/lib/types";
 
 interface ImageStageProps {
   item: ShotItem;
@@ -29,7 +30,7 @@ export function ImageStage({
           <p className="truncate text-xs text-bone-muted">
             {String(item.shotNumber).padStart(2, "0")} / {total}
             <span className="mx-1.5 text-white/20">·</span>
-            {item.mood.name}
+            {moodLabel(item.mood)}
           </p>
           <p className="truncate text-sm text-bone/80">{item.storyPart}</p>
         </div>
@@ -61,10 +62,10 @@ export function ImageStage({
           else onPrev();
         }}
       >
-        {item.exists ? (
+        {shotUrl(item) ? (
           <Image
-            src={item.imagePath}
-            alt={item.description}
+            src={shotUrl(item)}
+            alt={item.description || item.id}
             fill
             className="object-contain"
             sizes="100vw"
@@ -73,7 +74,7 @@ export function ImageStage({
           />
         ) : (
           <div className="flex h-full min-h-[200px] items-center justify-center text-sm text-bone-muted">
-            Missing: {item.filename}
+            Missing: {item.filename || item.id}
           </div>
         )}
       </div>

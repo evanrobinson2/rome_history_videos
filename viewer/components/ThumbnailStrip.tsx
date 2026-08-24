@@ -4,6 +4,7 @@ import clsx from "clsx";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import type { FeedbackAction, ShotItem } from "@/lib/types";
+import { shotUrl } from "@/lib/types";
 
 export type ThumbSize = "S" | "M" | "L" | "XL";
 
@@ -103,9 +104,9 @@ export function ThumbnailStrip({
                 aria-label={`Shot ${item.shotNumber}`}
               >
                 <div className="relative aspect-video w-full bg-indigo-mid/40">
-                  {item.exists ? (
+                  {shotUrl(item) ? (
                     <Image
-                      src={item.imagePath}
+                      src={shotUrl(item)}
                       alt=""
                       fill
                       className="object-cover"

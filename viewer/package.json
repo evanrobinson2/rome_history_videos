@@ -5,13 +5,16 @@
   "scripts": {
     "predev": "node scripts/build-manifest.mjs && node scripts/link-assets.mjs",
     "dev": "next dev",
-    "prebuild": "node scripts/build-manifest.mjs && node scripts/link-assets.mjs",
+    "prebuild": "node scripts/prebuild.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "manifest": "node scripts/build-manifest.mjs"
+    "manifest": "node scripts/build-manifest.mjs",
+    "blob:seed": "node scripts/seed-blob.mjs",
+    "blob:add": "node scripts/add-frame.mjs"
   },
   "dependencies": {
+    "@vercel/blob": "^0.27.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.468.0",
     "next": "^15.1.0",
