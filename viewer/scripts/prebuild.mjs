@@ -16,10 +16,9 @@ function run(script) {
   if (r.status) process.exit(r.status ?? 1);
 }
 
-run("build-manifest.mjs");
-
 if (process.env.NEXT_PUBLIC_CATALOG_URL) {
-  console.log("NEXT_PUBLIC_CATALOG_URL set — skipping local asset copy (using Blob).");
+  console.log("NEXT_PUBLIC_CATALOG_URL set — skipping local manifest build and asset copy (using Blob).");
 } else {
+  run("build-manifest.mjs");
   run("link-assets.mjs");
 }

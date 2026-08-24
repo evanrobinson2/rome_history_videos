@@ -1,0 +1,4861 @@
+{
+  "schemaVersion": "2.0.0",
+  "generatedAt": "2026-08-24T05:50:00.783256+00:00",
+  "title": "Gothic Invasion \u2014 Frame Review",
+  "styleSuffix": "Layered cut-paper illustration, late-antique 376 CE, stacked paper planes soft drop shadows, handmade paper fibre, scissor-cut edges torn deckle for damage, light as flat translucent wedges, palette deep indigo bone iron grey tarnished gold gold only for light heat fire sun, 16:9 horizontal with crop headroom, no text no watermark no invented heraldry no medieval plate no mail hauberks, named principals stylized visible cut-paper faces, crowds faceless silhouettes, same dignity Gothic and Roman, not Batman not black void silhouettes, off-center composition.",
+  "totalShots": 102,
+  "source": "vercel-blob",
+  "items": [
+    {
+      "shotNumber": 1,
+      "id": "ALA-001-turnaround",
+      "filename": "ALA-001-turnaround.png",
+      "section": "T",
+      "sectionTitle": "Turnarounds \u2014 identity locks",
+      "mood": {
+        "number": 0,
+        "name": "neutral"
+      },
+      "register": "R1",
+      "description": "Alavivus four-view turnaround",
+      "category": "turnaround",
+      "storyPart": "T. Turnarounds \u2014 identity locks",
+      "storyBeat": "Alavivus identity lock: four views, face visible",
+      "tags": [
+        "turnaround",
+        "ALA-001",
+        "reference"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/ALA-001-turnaround/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/ALA-001-turnaround/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/ALA-001-turnaround/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 2,
+      "id": "FRI-001-turnaround",
+      "filename": "FRI-001-turnaround.png",
+      "section": "T",
+      "sectionTitle": "Turnarounds \u2014 identity locks",
+      "mood": {
+        "number": 0,
+        "name": "neutral"
+      },
+      "register": "R1",
+      "description": "Fritigern four-view turnaround",
+      "category": "turnaround",
+      "storyPart": "T. Turnarounds \u2014 identity locks",
+      "storyBeat": "Fritigern identity lock: four views, face visible",
+      "tags": [
+        "turnaround",
+        "FRI-001",
+        "reference"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/FRI-001-turnaround/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/FRI-001-turnaround/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/FRI-001-turnaround/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 3,
+      "id": "LUP-001-turnaround",
+      "filename": "LUP-001-turnaround.png",
+      "section": "T",
+      "sectionTitle": "Turnarounds \u2014 identity locks",
+      "mood": {
+        "number": 0,
+        "name": "neutral"
+      },
+      "register": "R1",
+      "description": "Lupicinus four-view turnaround",
+      "category": "turnaround",
+      "storyPart": "T. Turnarounds \u2014 identity locks",
+      "storyBeat": "Lupicinus identity lock: four views, face visible",
+      "tags": [
+        "turnaround",
+        "LUP-001",
+        "reference"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/LUP-001-turnaround/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/LUP-001-turnaround/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/LUP-001-turnaround/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 4,
+      "id": "CH01-HUNNIC-PRESSURE",
+      "filename": "CH01-HUNNIC-PRESSURE.png",
+      "section": "H",
+      "sectionTitle": "Chapter Headers",
+      "mood": {
+        "number": 0,
+        "name": "header"
+      },
+      "register": "R1",
+      "description": "Chapter header: CH01-HUNNIC-PRESSURE",
+      "category": "header",
+      "storyPart": "CH01-HUNNIC-PRESSURE",
+      "storyBeat": "Chapter header for CH01-HUNNIC-PRESSURE",
+      "tags": [
+        "header",
+        "ch1"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-HUNNIC-PRESSURE/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-HUNNIC-PRESSURE/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-HUNNIC-PRESSURE/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": ""
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 5,
+      "id": "CH02-FLIGHT-DANUBE",
+      "filename": "CH02-FLIGHT-DANUBE.png",
+      "section": "H",
+      "sectionTitle": "Chapter Headers",
+      "mood": {
+        "number": 0,
+        "name": "header"
+      },
+      "register": "R1",
+      "description": "Chapter header: CH02-FLIGHT-DANUBE",
+      "category": "header",
+      "storyPart": "CH02-FLIGHT-DANUBE",
+      "storyBeat": "Chapter header for CH02-FLIGHT-DANUBE",
+      "tags": [
+        "header",
+        "ch2"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-FLIGHT-DANUBE/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-FLIGHT-DANUBE/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-FLIGHT-DANUBE/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": ""
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 6,
+      "id": "CH03-CROSSING-WAITING",
+      "filename": "CH03-CROSSING-WAITING.png",
+      "section": "H",
+      "sectionTitle": "Chapter Headers",
+      "mood": {
+        "number": 0,
+        "name": "header"
+      },
+      "register": "R1",
+      "description": "Chapter header: CH03-CROSSING-WAITING",
+      "category": "header",
+      "storyPart": "CH03-CROSSING-WAITING",
+      "storyBeat": "Chapter header for CH03-CROSSING-WAITING",
+      "tags": [
+        "header",
+        "ch3"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-CROSSING-WAITING/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-CROSSING-WAITING/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-CROSSING-WAITING/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": ""
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 7,
+      "id": "CH04-FAMINE-PRICE",
+      "filename": "CH04-FAMINE-PRICE.png",
+      "section": "H",
+      "sectionTitle": "Chapter Headers",
+      "mood": {
+        "number": 0,
+        "name": "header"
+      },
+      "register": "R1",
+      "description": "Chapter header: CH04-FAMINE-PRICE",
+      "category": "header",
+      "storyPart": "CH04-FAMINE-PRICE",
+      "storyBeat": "Chapter header for CH04-FAMINE-PRICE",
+      "tags": [
+        "header",
+        "ch4"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-FAMINE-PRICE/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-FAMINE-PRICE/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-FAMINE-PRICE/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": ""
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 8,
+      "id": "CH05-MARCIANOPLE",
+      "filename": "CH05-MARCIANOPLE.png",
+      "section": "H",
+      "sectionTitle": "Chapter Headers",
+      "mood": {
+        "number": 0,
+        "name": "header"
+      },
+      "register": "R1",
+      "description": "Chapter header: CH05-MARCIANOPLE",
+      "category": "header",
+      "storyPart": "CH05-MARCIANOPLE",
+      "storyBeat": "Chapter header for CH05-MARCIANOPLE",
+      "tags": [
+        "header",
+        "ch5"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-MARCIANOPLE/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-MARCIANOPLE/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-MARCIANOPLE/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": ""
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 9,
+      "id": "CH06-REVOLT-THRACE",
+      "filename": "CH06-REVOLT-THRACE.png",
+      "section": "H",
+      "sectionTitle": "Chapter Headers",
+      "mood": {
+        "number": 0,
+        "name": "header"
+      },
+      "register": "R1",
+      "description": "Chapter header: CH06-REVOLT-THRACE",
+      "category": "header",
+      "storyPart": "CH06-REVOLT-THRACE",
+      "storyBeat": "Chapter header for CH06-REVOLT-THRACE",
+      "tags": [
+        "header",
+        "ch6"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-REVOLT-THRACE/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-REVOLT-THRACE/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-REVOLT-THRACE/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": ""
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 10,
+      "id": "CH07-VALENS-TURNS",
+      "filename": "CH07-VALENS-TURNS.png",
+      "section": "H",
+      "sectionTitle": "Chapter Headers",
+      "mood": {
+        "number": 0,
+        "name": "header"
+      },
+      "register": "R1",
+      "description": "Chapter header: CH07-VALENS-TURNS",
+      "category": "header",
+      "storyPart": "CH07-VALENS-TURNS",
+      "storyBeat": "Chapter header for CH07-VALENS-TURNS",
+      "tags": [
+        "header",
+        "ch7"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-VALENS-TURNS/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-VALENS-TURNS/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-VALENS-TURNS/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": ""
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 11,
+      "id": "CH08-ADRIANOPLE",
+      "filename": "CH08-ADRIANOPLE.png",
+      "section": "H",
+      "sectionTitle": "Chapter Headers",
+      "mood": {
+        "number": 0,
+        "name": "header"
+      },
+      "register": "R1",
+      "description": "Chapter header: CH08-ADRIANOPLE",
+      "category": "header",
+      "storyPart": "CH08-ADRIANOPLE",
+      "storyBeat": "Chapter header for CH08-ADRIANOPLE",
+      "tags": [
+        "header",
+        "ch8"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-ADRIANOPLE/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-ADRIANOPLE/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-ADRIANOPLE/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": ""
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 12,
+      "id": "CH09-AFTERMATH",
+      "filename": "CH09-AFTERMATH.png",
+      "section": "H",
+      "sectionTitle": "Chapter Headers",
+      "mood": {
+        "number": 0,
+        "name": "header"
+      },
+      "register": "R1",
+      "description": "Chapter header: CH09-AFTERMATH",
+      "category": "header",
+      "storyPart": "CH09-AFTERMATH",
+      "storyBeat": "Chapter header for CH09-AFTERMATH",
+      "tags": [
+        "header",
+        "ch9"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-AFTERMATH/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-AFTERMATH/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-AFTERMATH/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": ""
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 13,
+      "id": "CH01-01",
+      "filename": "CH01-01.png",
+      "section": "CH01",
+      "sectionTitle": "1. Hunnic Pressure",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Gothic village from hilltop, smoke columns on eastern horizon",
+      "category": "scene",
+      "storyPart": "1. Hunnic Pressure",
+      "storyBeat": "Gothic village from hilltop, smoke columns on eastern horizon",
+      "tags": [
+        "scene",
+        "ch01",
+        "pre-dawn grey",
+        "extreme wide, high angle"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-01/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-01/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-01/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "c. 375 CE",
+        "lighting": "pre-dawn grey",
+        "camera": "extreme wide, high angle"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 14,
+      "id": "CH01-02",
+      "filename": "CH01-02.png",
+      "section": "CH01",
+      "sectionTitle": "1. Hunnic Pressure",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Empty road with abandoned cart, dust devils",
+      "category": "scene",
+      "storyPart": "1. Hunnic Pressure",
+      "storyBeat": "Empty road with abandoned cart, dust devils",
+      "tags": [
+        "scene",
+        "ch01",
+        "harsh midday",
+        "medium wide, eye level"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-02/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-02/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-02/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "c. 375 CE",
+        "lighting": "harsh midday",
+        "camera": "medium wide, eye level"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 15,
+      "id": "CH01-03",
+      "filename": "CH01-03.png",
+      "section": "CH01",
+      "sectionTitle": "1. Hunnic Pressure",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Mounted scouts on ridge, gesturing eastward",
+      "category": "scene",
+      "storyPart": "1. Hunnic Pressure",
+      "storyBeat": "Mounted scouts on ridge, gesturing eastward",
+      "tags": [
+        "scene",
+        "ch01",
+        "sunset backlit",
+        "low angle silhouette"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-03/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-03/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-03/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "c. 375 CE",
+        "lighting": "sunset backlit",
+        "camera": "low angle silhouette"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 16,
+      "id": "CH01-04",
+      "filename": "CH01-04.png",
+      "section": "CH01",
+      "sectionTitle": "1. Hunnic Pressure",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Elder's hut, faces lit by hearth, maps on table",
+      "category": "scene",
+      "storyPart": "1. Hunnic Pressure",
+      "storyBeat": "Elder's hut, faces lit by hearth, maps on table",
+      "tags": [
+        "scene",
+        "ch01",
+        "firelight interior",
+        "medium close, Dutch angle"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-04/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-04/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-04/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "c. 375 CE",
+        "lighting": "firelight interior",
+        "camera": "medium close, Dutch angle"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 17,
+      "id": "CH01-05",
+      "filename": "CH01-05.png",
+      "section": "CH01",
+      "sectionTitle": "1. Hunnic Pressure",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Livestock being herded, children running alongside",
+      "category": "scene",
+      "storyPart": "1. Hunnic Pressure",
+      "storyBeat": "Livestock being herded, children running alongside",
+      "tags": [
+        "scene",
+        "ch01",
+        "overcast flat",
+        "wide tracking"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-05/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-05/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-05/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "c. 375 CE",
+        "lighting": "overcast flat",
+        "camera": "wide tracking"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 18,
+      "id": "CH01-06",
+      "filename": "CH01-06.png",
+      "section": "CH01",
+      "sectionTitle": "1. Hunnic Pressure",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Valley with multiple villages, each with smoke rising",
+      "category": "scene",
+      "storyPart": "1. Hunnic Pressure",
+      "storyBeat": "Valley with multiple villages, each with smoke rising",
+      "tags": [
+        "scene",
+        "ch01",
+        "blue hour dusk",
+        "extreme wide panorama"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-06/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-06/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-06/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "c. 375 CE",
+        "lighting": "blue hour dusk",
+        "camera": "extreme wide panorama"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 19,
+      "id": "CH01-07",
+      "filename": "CH01-07.png",
+      "section": "CH01",
+      "sectionTitle": "1. Hunnic Pressure",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Messenger arriving at hall, guards alert",
+      "category": "scene",
+      "storyPart": "1. Hunnic Pressure",
+      "storyBeat": "Messenger arriving at hall, guards alert",
+      "tags": [
+        "scene",
+        "ch01",
+        "torchlight night",
+        "medium, through doorframe"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-07/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-07/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-07/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "c. 375 CE",
+        "lighting": "torchlight night",
+        "camera": "medium, through doorframe"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 20,
+      "id": "CH01-08",
+      "filename": "CH01-08.png",
+      "section": "CH01",
+      "sectionTitle": "1. Hunnic Pressure",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Dark clouds approaching, wheat fields bending",
+      "category": "scene",
+      "storyPart": "1. Hunnic Pressure",
+      "storyBeat": "Dark clouds approaching, wheat fields bending",
+      "tags": [
+        "scene",
+        "ch01",
+        "storm light",
+        "wide, low horizon"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-08/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-08/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-08/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "c. 375 CE",
+        "lighting": "storm light",
+        "camera": "wide, low horizon"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 21,
+      "id": "CH01-09",
+      "filename": "CH01-09.png",
+      "section": "CH01",
+      "sectionTitle": "1. Hunnic Pressure",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Dew on shield boss, sword being lifted",
+      "category": "scene",
+      "storyPart": "1. Hunnic Pressure",
+      "storyBeat": "Dew on shield boss, sword being lifted",
+      "tags": [
+        "scene",
+        "ch01",
+        "dawn mist",
+        "close detail"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-09/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-09/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-09/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "c. 375 CE",
+        "lighting": "dawn mist",
+        "camera": "close detail"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 22,
+      "id": "CH01-10",
+      "filename": "CH01-10.png",
+      "section": "CH01",
+      "sectionTitle": "1. Hunnic Pressure",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Family loading wagon, long shadows",
+      "category": "scene",
+      "storyPart": "1. Hunnic Pressure",
+      "storyBeat": "Family loading wagon, long shadows",
+      "tags": [
+        "scene",
+        "ch01",
+        "golden hour side",
+        "medium wide, profile"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-10/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-10/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH01-10/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "c. 375 CE",
+        "lighting": "golden hour side",
+        "camera": "medium wide, profile"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 23,
+      "id": "CH02-01",
+      "filename": "CH02-01.png",
+      "section": "CH02",
+      "sectionTitle": "2. Flight to the Danube",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Column stretching to horizon, wagons and walkers",
+      "category": "scene",
+      "storyPart": "2. Flight to the Danube",
+      "storyBeat": "Column stretching to horizon, wagons and walkers",
+      "tags": [
+        "scene",
+        "ch02",
+        "grey dawn",
+        "extreme wide aerial"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-01/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-01/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-01/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "grey dawn",
+        "camera": "extreme wide aerial"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 24,
+      "id": "CH02-02",
+      "filename": "CH02-02.png",
+      "section": "CH02",
+      "sectionTitle": "2. Flight to the Danube",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Feet and wheels on dusty road, exhaustion",
+      "category": "scene",
+      "storyPart": "2. Flight to the Danube",
+      "storyBeat": "Feet and wheels on dusty road, exhaustion",
+      "tags": [
+        "scene",
+        "ch02",
+        "noon harsh",
+        "close ground level"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-02/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-02/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-02/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "noon harsh",
+        "camera": "close ground level"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 25,
+      "id": "CH02-03",
+      "filename": "CH02-03.png",
+      "section": "CH02",
+      "sectionTitle": "2. Flight to the Danube",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "River ford crossing, water splashing",
+      "category": "scene",
+      "storyPart": "2. Flight to the Danube",
+      "storyBeat": "River ford crossing, water splashing",
+      "tags": [
+        "scene",
+        "ch02",
+        "late afternoon",
+        "medium wide"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-03/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-03/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-03/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "late afternoon",
+        "camera": "medium wide"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 26,
+      "id": "CH02-04",
+      "filename": "CH02-04.png",
+      "section": "CH02",
+      "sectionTitle": "2. Flight to the Danube",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Families circled around fire, wagons as windbreak",
+      "category": "scene",
+      "storyPart": "2. Flight to the Danube",
+      "storyBeat": "Families circled around fire, wagons as windbreak",
+      "tags": [
+        "scene",
+        "ch02",
+        "campfire night",
+        "medium, warm pool of light"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-04/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-04/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-04/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "campfire night",
+        "camera": "medium, warm pool of light"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 27,
+      "id": "CH02-05",
+      "filename": "CH02-05.png",
+      "section": "CH02",
+      "sectionTitle": "2. Flight to the Danube",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Column trudging through mud, cloaks soaked",
+      "category": "scene",
+      "storyPart": "2. Flight to the Danube",
+      "storyBeat": "Column trudging through mud, cloaks soaked",
+      "tags": [
+        "scene",
+        "ch02",
+        "overcast rain",
+        "wide, rain streaks"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-05/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-05/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-05/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "overcast rain",
+        "camera": "wide, rain streaks"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 28,
+      "id": "CH02-06",
+      "filename": "CH02-06.png",
+      "section": "CH02",
+      "sectionTitle": "2. Flight to the Danube",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "First sight of the Danube, figures stopping to look",
+      "category": "scene",
+      "storyPart": "2. Flight to the Danube",
+      "storyBeat": "First sight of the Danube, figures stopping to look",
+      "tags": [
+        "scene",
+        "ch02",
+        "sunrise behind",
+        "silhouette panorama"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-06/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-06/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-06/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "sunrise behind",
+        "camera": "silhouette panorama"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 29,
+      "id": "CH02-07",
+      "filename": "CH02-07.png",
+      "section": "CH02",
+      "sectionTitle": "2. Flight to the Danube",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Crossroads with multiple columns converging",
+      "category": "scene",
+      "storyPart": "2. Flight to the Danube",
+      "storyBeat": "Crossroads with multiple columns converging",
+      "tags": [
+        "scene",
+        "ch02",
+        "flat midday",
+        "high angle looking down"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-07/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-07/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-07/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "flat midday",
+        "camera": "high angle looking down"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 30,
+      "id": "CH02-08",
+      "filename": "CH02-08.png",
+      "section": "CH02",
+      "sectionTitle": "2. Flight to the Danube",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Old man being helped onto wagon, dignity maintained",
+      "category": "scene",
+      "storyPart": "2. Flight to the Danube",
+      "storyBeat": "Old man being helped onto wagon, dignity maintained",
+      "tags": [
+        "scene",
+        "ch02",
+        "dusk purple",
+        "medium close"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-08/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-08/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-08/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "dusk purple",
+        "camera": "medium close"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 31,
+      "id": "CH02-09",
+      "filename": "CH02-09.png",
+      "section": "CH02",
+      "sectionTitle": "2. Flight to the Danube",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Camp sleeping, single watchfire, stars",
+      "category": "scene",
+      "storyPart": "2. Flight to the Danube",
+      "storyBeat": "Camp sleeping, single watchfire, stars",
+      "tags": [
+        "scene",
+        "ch02",
+        "moonlight blue",
+        "wide night"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-09/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-09/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-09/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "moonlight blue",
+        "camera": "wide night"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 32,
+      "id": "CH02-10",
+      "filename": "CH02-10.png",
+      "section": "CH02",
+      "sectionTitle": "2. Flight to the Danube",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "River appearing through mist, distant shore",
+      "category": "scene",
+      "storyPart": "2. Flight to the Danube",
+      "storyBeat": "River appearing through mist, distant shore",
+      "tags": [
+        "scene",
+        "ch02",
+        "foggy morning",
+        "through fog layers"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-10/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-10/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH02-10/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "foggy morning",
+        "camera": "through fog layers"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 33,
+      "id": "CH03-01",
+      "filename": "CH03-01.png",
+      "section": "CH03",
+      "sectionTitle": "3. The Crossing and Waiting",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Thousands on riverbank, boats in water",
+      "category": "scene",
+      "storyPart": "3. The Crossing and Waiting",
+      "storyBeat": "Thousands on riverbank, boats in water",
+      "tags": [
+        "scene",
+        "ch03",
+        "grey overcast",
+        "extreme wide"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-01/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-01/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-01/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "grey overcast",
+        "camera": "extreme wide"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 34,
+      "id": "CH03-02",
+      "filename": "CH03-02.png",
+      "section": "CH03",
+      "sectionTitle": "3. The Crossing and Waiting",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Families huddled under wagon, children shivering",
+      "category": "scene",
+      "storyPart": "3. The Crossing and Waiting",
+      "storyBeat": "Families huddled under wagon, children shivering",
+      "tags": [
+        "scene",
+        "ch03",
+        "rain slanting",
+        "medium, rain-lashed"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-02/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-02/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-02/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "rain slanting",
+        "camera": "medium, rain-lashed"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 35,
+      "id": "CH03-03",
+      "filename": "CH03-03.png",
+      "section": "CH03",
+      "sectionTitle": "3. The Crossing and Waiting",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "First boats launching, Roman shore distant",
+      "category": "scene",
+      "storyPart": "3. The Crossing and Waiting",
+      "storyBeat": "First boats launching, Roman shore distant",
+      "tags": [
+        "scene",
+        "ch03",
+        "dawn pink",
+        "wide river view"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-03/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-03/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-03/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "dawn pink",
+        "camera": "wide river view"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 36,
+      "id": "CH03-04",
+      "filename": "CH03-04.png",
+      "section": "CH03",
+      "sectionTitle": "3. The Crossing and Waiting",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Hands gripping boat gunwale, knuckles white",
+      "category": "scene",
+      "storyPart": "3. The Crossing and Waiting",
+      "storyBeat": "Hands gripping boat gunwale, knuckles white",
+      "tags": [
+        "scene",
+        "ch03",
+        "harsh noon",
+        "close detail"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-04/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-04/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-04/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "harsh noon",
+        "camera": "close detail"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 37,
+      "id": "CH03-05",
+      "filename": "CH03-05.png",
+      "section": "CH03",
+      "sectionTitle": "3. The Crossing and Waiting",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Overloaded boat mid-river, far shores both visible",
+      "category": "scene",
+      "storyPart": "3. The Crossing and Waiting",
+      "storyBeat": "Overloaded boat mid-river, far shores both visible",
+      "tags": [
+        "scene",
+        "ch03",
+        "afternoon haze",
+        "from water level"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-05/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-05/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-05/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "afternoon haze",
+        "camera": "from water level"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 38,
+      "id": "CH03-06",
+      "filename": "CH03-06.png",
+      "section": "CH03",
+      "sectionTitle": "3. The Crossing and Waiting",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "River as golden road, silhouette boats",
+      "category": "scene",
+      "storyPart": "3. The Crossing and Waiting",
+      "storyBeat": "River as golden road, silhouette boats",
+      "tags": [
+        "scene",
+        "ch03",
+        "sunset gold on water",
+        "panorama"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-06/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-06/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-06/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "sunset gold on water",
+        "camera": "panorama"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 39,
+      "id": "CH03-07",
+      "filename": "CH03-07.png",
+      "section": "CH03",
+      "sectionTitle": "3. The Crossing and Waiting",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Roman checkpoint on far shore, torchlit processing",
+      "category": "scene",
+      "storyPart": "3. The Crossing and Waiting",
+      "storyBeat": "Roman checkpoint on far shore, torchlit processing",
+      "tags": [
+        "scene",
+        "ch03",
+        "night torches",
+        "medium wide"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-07/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-07/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-07/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "night torches",
+        "camera": "medium wide"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 40,
+      "id": "CH03-08",
+      "filename": "CH03-08.png",
+      "section": "CH03",
+      "sectionTitle": "3. The Crossing and Waiting",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Mother holding infant, breath visible",
+      "category": "scene",
+      "storyPart": "3. The Crossing and Waiting",
+      "storyBeat": "Mother holding infant, breath visible",
+      "tags": [
+        "scene",
+        "ch03",
+        "foggy cold",
+        "intimate close"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-08/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-08/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-08/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "foggy cold",
+        "camera": "intimate close"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 41,
+      "id": "CH03-09",
+      "filename": "CH03-09.png",
+      "section": "CH03",
+      "sectionTitle": "3. The Crossing and Waiting",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Boats racing for shore, dark clouds",
+      "category": "scene",
+      "storyPart": "3. The Crossing and Waiting",
+      "storyBeat": "Boats racing for shore, dark clouds",
+      "tags": [
+        "scene",
+        "ch03",
+        "storm approaching",
+        "wide dramatic sky"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-09/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-09/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-09/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "storm approaching",
+        "camera": "wide dramatic sky"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 42,
+      "id": "CH03-10",
+      "filename": "CH03-10.png",
+      "section": "CH03",
+      "sectionTitle": "3. The Crossing and Waiting",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Debris on bank, people searching, calm water",
+      "category": "scene",
+      "storyPart": "3. The Crossing and Waiting",
+      "storyBeat": "Debris on bank, people searching, calm water",
+      "tags": [
+        "scene",
+        "ch03",
+        "morning after storm",
+        "wide aftermath"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-10/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-10/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH03-10/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "morning after storm",
+        "camera": "wide aftermath"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 43,
+      "id": "CH04-01",
+      "filename": "CH04-01.png",
+      "section": "CH04",
+      "sectionTitle": "4. Exploitation, Famine",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Counting station, queues of people, Roman clerks",
+      "category": "scene",
+      "storyPart": "4. Exploitation, Famine",
+      "storyBeat": "Counting station, queues of people, Roman clerks",
+      "tags": [
+        "scene",
+        "ch04",
+        "flat institutional",
+        "wide, clinical"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-01/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-01/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-01/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "flat institutional",
+        "camera": "wide, clinical"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 44,
+      "id": "CH04-02",
+      "filename": "CH04-02.png",
+      "section": "CH04",
+      "sectionTitle": "4. Exploitation, Famine",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Weapons pile, Gothic hands surrendering swords",
+      "category": "scene",
+      "storyPart": "4. Exploitation, Famine",
+      "storyBeat": "Weapons pile, Gothic hands surrendering swords",
+      "tags": [
+        "scene",
+        "ch04",
+        "harsh noon shadows",
+        "medium, high contrast"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-02/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-02/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-02/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "harsh noon shadows",
+        "camera": "medium, high contrast"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 45,
+      "id": "CH04-03",
+      "filename": "CH04-03.png",
+      "section": "CH04",
+      "sectionTitle": "4. Exploitation, Famine",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Holding pen, families sitting on ground",
+      "category": "scene",
+      "storyPart": "4. Exploitation, Famine",
+      "storyBeat": "Holding pen, families sitting on ground",
+      "tags": [
+        "scene",
+        "ch04",
+        "dim interior",
+        "through bars/fence"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-03/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-03/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-03/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "dim interior",
+        "camera": "through bars/fence"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 46,
+      "id": "CH04-04",
+      "filename": "CH04-04.png",
+      "section": "CH04",
+      "sectionTitle": "4. Exploitation, Famine",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Grain being weighed, desperate reach",
+      "category": "scene",
+      "storyPart": "4. Exploitation, Famine",
+      "storyBeat": "Grain being weighed, desperate reach",
+      "tags": [
+        "scene",
+        "ch04",
+        "morning market",
+        "medium transaction"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-04/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-04/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-04/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "morning market",
+        "camera": "medium transaction"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 47,
+      "id": "CH04-05",
+      "filename": "CH04-05.png",
+      "section": "CH04",
+      "sectionTitle": "4. Exploitation, Famine",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Tents and hovels, Roman guards patrolling",
+      "category": "scene",
+      "storyPart": "4. Exploitation, Famine",
+      "storyBeat": "Tents and hovels, Roman guards patrolling",
+      "tags": [
+        "scene",
+        "ch04",
+        "afternoon dust",
+        "wide camp overview"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-05/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-05/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-05/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "afternoon dust",
+        "camera": "wide camp overview"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 48,
+      "id": "CH04-06",
+      "filename": "CH04-06.png",
+      "section": "CH04",
+      "sectionTitle": "4. Exploitation, Famine",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Thin children around small fire, single pot",
+      "category": "scene",
+      "storyPart": "4. Exploitation, Famine",
+      "storyBeat": "Thin children around small fire, single pot",
+      "tags": [
+        "scene",
+        "ch04",
+        "firelight",
+        "close faces"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-06/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-06/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-06/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "firelight",
+        "camera": "close faces"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 49,
+      "id": "CH04-07",
+      "filename": "CH04-07.png",
+      "section": "CH04",
+      "sectionTitle": "4. Exploitation, Famine",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Line for water, buckets, patience exhausted",
+      "category": "scene",
+      "storyPart": "4. Exploitation, Famine",
+      "storyBeat": "Line for water, buckets, patience exhausted",
+      "tags": [
+        "scene",
+        "ch04",
+        "grey drizzle",
+        "medium queue"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-07/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-07/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-07/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "grey drizzle",
+        "camera": "medium queue"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 50,
+      "id": "CH04-08",
+      "filename": "CH04-08.png",
+      "section": "CH04",
+      "sectionTitle": "4. Exploitation, Famine",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Camp perimeter, guards and watched",
+      "category": "scene",
+      "storyPart": "4. Exploitation, Famine",
+      "storyBeat": "Camp perimeter, guards and watched",
+      "tags": [
+        "scene",
+        "ch04",
+        "sunset red",
+        "silhouette wide"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-08/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-08/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-08/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "sunset red",
+        "camera": "silhouette wide"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 51,
+      "id": "CH04-09",
+      "filename": "CH04-09.png",
+      "section": "CH04",
+      "sectionTitle": "4. Exploitation, Famine",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Parent dividing bread, portions painfully small",
+      "category": "scene",
+      "storyPart": "4. Exploitation, Famine",
+      "storyBeat": "Parent dividing bread, portions painfully small",
+      "tags": [
+        "scene",
+        "ch04",
+        "night minimal",
+        "intimate close"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-09/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-09/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-09/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "night minimal",
+        "camera": "intimate close"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 52,
+      "id": "CH04-10",
+      "filename": "CH04-10.png",
+      "section": "CH04",
+      "sectionTitle": "4. Exploitation, Famine",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Camp waking, frost on ground, people stirring",
+      "category": "scene",
+      "storyPart": "4. Exploitation, Famine",
+      "storyBeat": "Camp waking, frost on ground, people stirring",
+      "tags": [
+        "scene",
+        "ch04",
+        "dawn cold",
+        "wide establishing"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-10/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-10/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH04-10/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "dawn cold",
+        "camera": "wide establishing"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 53,
+      "id": "CH05-01",
+      "filename": "CH05-01.png",
+      "section": "CH05",
+      "sectionTitle": "5. Marcianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "City walls from road, Gothic delegation approaching",
+      "category": "scene",
+      "storyPart": "5. Marcianople",
+      "storyBeat": "City walls from road, Gothic delegation approaching",
+      "tags": [
+        "scene",
+        "ch05",
+        "morning clear",
+        "wide approach"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-01/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-01/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-01/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "morning clear",
+        "camera": "wide approach"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 54,
+      "id": "CH05-02",
+      "filename": "CH05-02.png",
+      "section": "CH05",
+      "sectionTitle": "5. Marcianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Gate interior, darkness framing bright exterior crowd",
+      "category": "scene",
+      "storyPart": "5. Marcianople",
+      "storyBeat": "Gate interior, darkness framing bright exterior crowd",
+      "tags": [
+        "scene",
+        "ch05",
+        "noon shadow",
+        "through gate arch"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-02/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-02/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-02/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "noon shadow",
+        "camera": "through gate arch"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 55,
+      "id": "CH05-03",
+      "filename": "CH05-03.png",
+      "section": "CH05",
+      "sectionTitle": "5. Marcianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Headquarters courtyard, retainers waiting, geometry",
+      "category": "scene",
+      "storyPart": "5. Marcianople",
+      "storyBeat": "Headquarters courtyard, retainers waiting, geometry",
+      "tags": [
+        "scene",
+        "ch05",
+        "courtyard afternoon",
+        "medium wide"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-03/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-03/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-03/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "courtyard afternoon",
+        "camera": "medium wide"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 56,
+      "id": "CH05-04",
+      "filename": "CH05-04.png",
+      "section": "CH05",
+      "sectionTitle": "5. Marcianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Banquet hall preparation, servants, tables",
+      "category": "scene",
+      "storyPart": "5. Marcianople",
+      "storyBeat": "Banquet hall preparation, servants, tables",
+      "tags": [
+        "scene",
+        "ch05",
+        "interior lamplight",
+        "wide room"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-04/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-04/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-04/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "interior lamplight",
+        "camera": "wide room"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 57,
+      "id": "CH05-05",
+      "filename": "CH05-05.png",
+      "section": "CH05",
+      "sectionTitle": "5. Marcianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Food and wine on table, Roman hospitality display",
+      "category": "scene",
+      "storyPart": "5. Marcianople",
+      "storyBeat": "Food and wine on table, Roman hospitality display",
+      "tags": [
+        "scene",
+        "ch05",
+        "warm interior",
+        "medium table level"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-05/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-05/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-05/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "warm interior",
+        "camera": "medium table level"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 58,
+      "id": "CH05-06",
+      "filename": "CH05-06.png",
+      "section": "CH05",
+      "sectionTitle": "5. Marcianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Retainers pacing, shadows lengthening",
+      "category": "scene",
+      "storyPart": "5. Marcianople",
+      "storyBeat": "Retainers pacing, shadows lengthening",
+      "tags": [
+        "scene",
+        "ch05",
+        "courtyard dusk",
+        "medium, tension"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-06/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-06/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-06/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "courtyard dusk",
+        "camera": "medium, tension"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 59,
+      "id": "CH05-07",
+      "filename": "CH05-07.png",
+      "section": "CH05",
+      "sectionTitle": "5. Marcianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Glimpse of banquet from courtyard door",
+      "category": "scene",
+      "storyPart": "5. Marcianople",
+      "storyBeat": "Glimpse of banquet from courtyard door",
+      "tags": [
+        "scene",
+        "ch05",
+        "interior gold",
+        "through doorway"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-07/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-07/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-07/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "interior gold",
+        "camera": "through doorway"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 60,
+      "id": "CH05-08",
+      "filename": "CH05-08.png",
+      "section": "CH05",
+      "sectionTitle": "5. Marcianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Messenger running through courtyard",
+      "category": "scene",
+      "storyPart": "5. Marcianople",
+      "storyBeat": "Messenger running through courtyard",
+      "tags": [
+        "scene",
+        "ch05",
+        "torchlight sudden",
+        "dutch angle"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-08/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-08/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-08/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "torchlight sudden",
+        "camera": "dutch angle"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 61,
+      "id": "CH05-09",
+      "filename": "CH05-09.png",
+      "section": "CH05",
+      "sectionTitle": "5. Marcianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Banquet disrupted, overturned cups, movement",
+      "category": "scene",
+      "storyPart": "5. Marcianople",
+      "storyBeat": "Banquet disrupted, overturned cups, movement",
+      "tags": [
+        "scene",
+        "ch05",
+        "interior chaos",
+        "wide room"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-09/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-09/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-09/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "interior chaos",
+        "camera": "wide room"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 62,
+      "id": "CH05-10",
+      "filename": "CH05-10.png",
+      "section": "CH05",
+      "sectionTitle": "5. Marcianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Gate closed, crowd pressing, torches both sides",
+      "category": "scene",
+      "storyPart": "5. Marcianople",
+      "storyBeat": "Gate closed, crowd pressing, torches both sides",
+      "tags": [
+        "scene",
+        "ch05",
+        "night aftermath",
+        "wide gate exterior"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-10/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-10/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH05-10/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376 CE",
+        "lighting": "night aftermath",
+        "camera": "wide gate exterior"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 63,
+      "id": "CH06-01",
+      "filename": "CH06-01.png",
+      "section": "CH06",
+      "sectionTitle": "6. Open Revolt Across Thrace",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Multiple fires across valley, smoke columns",
+      "category": "scene",
+      "storyPart": "6. Open Revolt Across Thrace",
+      "storyBeat": "Multiple fires across valley, smoke columns",
+      "tags": [
+        "scene",
+        "ch06",
+        "dawn red",
+        "extreme wide"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-01/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-01/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-01/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376-377 CE",
+        "lighting": "dawn red",
+        "camera": "extreme wide"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 64,
+      "id": "CH06-02",
+      "filename": "CH06-02.png",
+      "section": "CH06",
+      "sectionTitle": "6. Open Revolt Across Thrace",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Gothic warriors on road, Roman supplies captured",
+      "category": "scene",
+      "storyPart": "6. Open Revolt Across Thrace",
+      "storyBeat": "Gothic warriors on road, Roman supplies captured",
+      "tags": [
+        "scene",
+        "ch06",
+        "noon dust",
+        "medium action"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-02/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-02/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-02/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376-377 CE",
+        "lighting": "noon dust",
+        "camera": "medium action"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 65,
+      "id": "CH06-03",
+      "filename": "CH06-03.png",
+      "section": "CH06",
+      "sectionTitle": "6. Open Revolt Across Thrace",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Burning villa in distance, figures moving away",
+      "category": "scene",
+      "storyPart": "6. Open Revolt Across Thrace",
+      "storyBeat": "Burning villa in distance, figures moving away",
+      "tags": [
+        "scene",
+        "ch06",
+        "afternoon golden",
+        "wide landscape"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-03/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-03/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-03/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376-377 CE",
+        "lighting": "afternoon golden",
+        "camera": "wide landscape"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 66,
+      "id": "CH06-04",
+      "filename": "CH06-04.png",
+      "section": "CH06",
+      "sectionTitle": "6. Open Revolt Across Thrace",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "War council around fire, maps on ground",
+      "category": "scene",
+      "storyPart": "6. Open Revolt Across Thrace",
+      "storyBeat": "War council around fire, maps on ground",
+      "tags": [
+        "scene",
+        "ch06",
+        "firelight night",
+        "medium gathering"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-04/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-04/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-04/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376-377 CE",
+        "lighting": "firelight night",
+        "camera": "medium gathering"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 67,
+      "id": "CH06-05",
+      "filename": "CH06-05.png",
+      "section": "CH06",
+      "sectionTitle": "6. Open Revolt Across Thrace",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Skirmish aftermath, scattered equipment, empty",
+      "category": "scene",
+      "storyPart": "6. Open Revolt Across Thrace",
+      "storyBeat": "Skirmish aftermath, scattered equipment, empty",
+      "tags": [
+        "scene",
+        "ch06",
+        "grey morning",
+        "wide battlefield after"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-05/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-05/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-05/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376-377 CE",
+        "lighting": "grey morning",
+        "camera": "wide battlefield after"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 68,
+      "id": "CH06-06",
+      "filename": "CH06-06.png",
+      "section": "CH06",
+      "sectionTitle": "6. Open Revolt Across Thrace",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Gothic band on hilltop, surveying terrain",
+      "category": "scene",
+      "storyPart": "6. Open Revolt Across Thrace",
+      "storyBeat": "Gothic band on hilltop, surveying terrain",
+      "tags": [
+        "scene",
+        "ch06",
+        "sunset dramatic",
+        "silhouette ridge"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-06/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-06/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-06/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376-377 CE",
+        "lighting": "sunset dramatic",
+        "camera": "silhouette ridge"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 69,
+      "id": "CH06-07",
+      "filename": "CH06-07.png",
+      "section": "CH06",
+      "sectionTitle": "6. Open Revolt Across Thrace",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Column on march, armed, organized",
+      "category": "scene",
+      "storyPart": "6. Open Revolt Across Thrace",
+      "storyBeat": "Column on march, armed, organized",
+      "tags": [
+        "scene",
+        "ch06",
+        "overcast flat",
+        "medium movement"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-07/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-07/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-07/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376-377 CE",
+        "lighting": "overcast flat",
+        "camera": "medium movement"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 70,
+      "id": "CH06-08",
+      "filename": "CH06-08.png",
+      "section": "CH06",
+      "sectionTitle": "6. Open Revolt Across Thrace",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Roman fort in distance, Gothic forces gathering",
+      "category": "scene",
+      "storyPart": "6. Open Revolt Across Thrace",
+      "storyBeat": "Roman fort in distance, Gothic forces gathering",
+      "tags": [
+        "scene",
+        "ch06",
+        "storm light",
+        "wide ominous"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-08/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-08/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-08/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376-377 CE",
+        "lighting": "storm light",
+        "camera": "wide ominous"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 71,
+      "id": "CH06-09",
+      "filename": "CH06-09.png",
+      "section": "CH06",
+      "sectionTitle": "6. Open Revolt Across Thrace",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Hands sharpening blade, firelight glint",
+      "category": "scene",
+      "storyPart": "6. Open Revolt Across Thrace",
+      "storyBeat": "Hands sharpening blade, firelight glint",
+      "tags": [
+        "scene",
+        "ch06",
+        "night minimal",
+        "close detail"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-09/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-09/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-09/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376-377 CE",
+        "lighting": "night minimal",
+        "camera": "close detail"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 72,
+      "id": "CH06-10",
+      "filename": "CH06-10.png",
+      "section": "CH06",
+      "sectionTitle": "6. Open Revolt Across Thrace",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Figures emerging from fog, Roman watchtower",
+      "category": "scene",
+      "storyPart": "6. Open Revolt Across Thrace",
+      "storyBeat": "Figures emerging from fog, Roman watchtower",
+      "tags": [
+        "scene",
+        "ch06",
+        "dawn mist",
+        "wide mysterious"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-10/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-10/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH06-10/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "376-377 CE",
+        "lighting": "dawn mist",
+        "camera": "wide mysterious"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 73,
+      "id": "CH07-01",
+      "filename": "CH07-01.png",
+      "section": "CH07",
+      "sectionTitle": "7. Valens Turns",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Imperial tent, maps, officers standing",
+      "category": "scene",
+      "storyPart": "7. Valens Turns",
+      "storyBeat": "Imperial tent, maps, officers standing",
+      "tags": [
+        "scene",
+        "ch07",
+        "tent interior gold",
+        "wide command"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-01/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-01/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-01/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "377-378 CE",
+        "lighting": "tent interior gold",
+        "camera": "wide command"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 74,
+      "id": "CH07-02",
+      "filename": "CH07-02.png",
+      "section": "CH07",
+      "sectionTitle": "7. Valens Turns",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Emperor at field desk, dispatches",
+      "category": "scene",
+      "storyPart": "7. Valens Turns",
+      "storyBeat": "Emperor at field desk, dispatches",
+      "tags": [
+        "scene",
+        "ch07",
+        "afternoon formal",
+        "medium portrait"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-02/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-02/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-02/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "377-378 CE",
+        "lighting": "afternoon formal",
+        "camera": "medium portrait"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 75,
+      "id": "CH07-03",
+      "filename": "CH07-03.png",
+      "section": "CH07",
+      "sectionTitle": "7. Valens Turns",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Imperial army breaking camp, standards raised",
+      "category": "scene",
+      "storyPart": "7. Valens Turns",
+      "storyBeat": "Imperial army breaking camp, standards raised",
+      "tags": [
+        "scene",
+        "ch07",
+        "dawn departure",
+        "wide column"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-03/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-03/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-03/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "377-378 CE",
+        "lighting": "dawn departure",
+        "camera": "wide column"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 76,
+      "id": "CH07-04",
+      "filename": "CH07-04.png",
+      "section": "CH07",
+      "sectionTitle": "7. Valens Turns",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Cavalry column on road, dust cloud",
+      "category": "scene",
+      "storyPart": "7. Valens Turns",
+      "storyBeat": "Cavalry column on road, dust cloud",
+      "tags": [
+        "scene",
+        "ch07",
+        "noon dust march",
+        "medium wide"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-04/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-04/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-04/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "377-378 CE",
+        "lighting": "noon dust march",
+        "camera": "medium wide"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 77,
+      "id": "CH07-05",
+      "filename": "CH07-05.png",
+      "section": "CH07",
+      "sectionTitle": "7. Valens Turns",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Military camp layout, organized, imperial",
+      "category": "scene",
+      "storyPart": "7. Valens Turns",
+      "storyBeat": "Military camp layout, organized, imperial",
+      "tags": [
+        "scene",
+        "ch07",
+        "evening camp",
+        "wide establishing"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-05/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-05/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-05/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "377-378 CE",
+        "lighting": "evening camp",
+        "camera": "wide establishing"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 78,
+      "id": "CH07-06",
+      "filename": "CH07-06.png",
+      "section": "CH07",
+      "sectionTitle": "7. Valens Turns",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Map being studied, finger tracing route",
+      "category": "scene",
+      "storyPart": "7. Valens Turns",
+      "storyBeat": "Map being studied, finger tracing route",
+      "tags": [
+        "scene",
+        "ch07",
+        "interior lamplight",
+        "over shoulder"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-06/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-06/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-06/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "377-378 CE",
+        "lighting": "interior lamplight",
+        "camera": "over shoulder"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 79,
+      "id": "CH07-07",
+      "filename": "CH07-07.png",
+      "section": "CH07",
+      "sectionTitle": "7. Valens Turns",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Emperor on horseback, aides, western horizon",
+      "category": "scene",
+      "storyPart": "7. Valens Turns",
+      "storyBeat": "Emperor on horseback, aides, western horizon",
+      "tags": [
+        "scene",
+        "ch07",
+        "sunset dramatic",
+        "silhouette imperial"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-07/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-07/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-07/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "377-378 CE",
+        "lighting": "sunset dramatic",
+        "camera": "silhouette imperial"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 80,
+      "id": "CH07-08",
+      "filename": "CH07-08.png",
+      "section": "CH07",
+      "sectionTitle": "7. Valens Turns",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Thousand fires, army at rest, clear sky",
+      "category": "scene",
+      "storyPart": "7. Valens Turns",
+      "storyBeat": "Thousand fires, army at rest, clear sky",
+      "tags": [
+        "scene",
+        "ch07",
+        "night stars",
+        "wide camp"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-08/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-08/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-08/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "377-378 CE",
+        "lighting": "night stars",
+        "camera": "wide camp"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 81,
+      "id": "CH07-09",
+      "filename": "CH07-09.png",
+      "section": "CH07",
+      "sectionTitle": "7. Valens Turns",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Infantry forming up, armor and shields",
+      "category": "scene",
+      "storyPart": "7. Valens Turns",
+      "storyBeat": "Infantry forming up, armor and shields",
+      "tags": [
+        "scene",
+        "ch07",
+        "grey morning",
+        "medium ranks"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-09/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-09/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-09/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "377-378 CE",
+        "lighting": "grey morning",
+        "camera": "medium ranks"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 82,
+      "id": "CH07-10",
+      "filename": "CH07-10.png",
+      "section": "CH07",
+      "sectionTitle": "7. Valens Turns",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Army nearing Adrianople, city visible",
+      "category": "scene",
+      "storyPart": "7. Valens Turns",
+      "storyBeat": "Army nearing Adrianople, city visible",
+      "tags": [
+        "scene",
+        "ch07",
+        "harsh noon",
+        "wide approach"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-10/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-10/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH07-10/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "377-378 CE",
+        "lighting": "harsh noon",
+        "camera": "wide approach"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 83,
+      "id": "CH08-01",
+      "filename": "CH08-01.png",
+      "section": "CH08",
+      "sectionTitle": "8. Adrianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Both armies visible, plain between, low sun",
+      "category": "scene",
+      "storyPart": "8. Adrianople",
+      "storyBeat": "Both armies visible, plain between, low sun",
+      "tags": [
+        "scene",
+        "ch08",
+        "dawn pre-battle",
+        "extreme wide"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-01/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-01/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-01/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "9 August 378 CE",
+        "lighting": "dawn pre-battle",
+        "camera": "extreme wide"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 84,
+      "id": "CH08-02",
+      "filename": "CH08-02.png",
+      "section": "CH08",
+      "sectionTitle": "8. Adrianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Roman infantry waiting, dust rising",
+      "category": "scene",
+      "storyPart": "8. Adrianople",
+      "storyBeat": "Roman infantry waiting, dust rising",
+      "tags": [
+        "scene",
+        "ch08",
+        "morning heat building",
+        "medium ranks"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-02/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-02/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-02/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "9 August 378 CE",
+        "lighting": "morning heat building",
+        "camera": "medium ranks"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 85,
+      "id": "CH08-03",
+      "filename": "CH08-03.png",
+      "section": "CH08",
+      "sectionTitle": "8. Adrianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Sweat on face, hand gripping pilum",
+      "category": "scene",
+      "storyPart": "8. Adrianople",
+      "storyBeat": "Sweat on face, hand gripping pilum",
+      "tags": [
+        "scene",
+        "ch08",
+        "noon brutal",
+        "close detail"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-03/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-03/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-03/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "9 August 378 CE",
+        "lighting": "noon brutal",
+        "camera": "close detail"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 86,
+      "id": "CH08-04",
+      "filename": "CH08-04.png",
+      "section": "CH08",
+      "sectionTitle": "8. Adrianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Gothic cavalry charge, dust cloud, impact",
+      "category": "scene",
+      "storyPart": "8. Adrianople",
+      "storyBeat": "Gothic cavalry charge, dust cloud, impact",
+      "tags": [
+        "scene",
+        "ch08",
+        "afternoon dust haze",
+        "wide chaos"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-04/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-04/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-04/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "9 August 378 CE",
+        "lighting": "afternoon dust haze",
+        "camera": "wide chaos"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 87,
+      "id": "CH08-05",
+      "filename": "CH08-05.png",
+      "section": "CH08",
+      "sectionTitle": "8. Adrianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Shields locked, spears overhead, compression",
+      "category": "scene",
+      "storyPart": "8. Adrianople",
+      "storyBeat": "Shields locked, spears overhead, compression",
+      "tags": [
+        "scene",
+        "ch08",
+        "sun through dust",
+        "from within press"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-05/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-05/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-05/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "9 August 378 CE",
+        "lighting": "sun through dust",
+        "camera": "from within press"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 88,
+      "id": "CH08-06",
+      "filename": "CH08-06.png",
+      "section": "CH08",
+      "sectionTitle": "8. Adrianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Roman square collapsing, cavalry all sides",
+      "category": "scene",
+      "storyPart": "8. Adrianople",
+      "storyBeat": "Roman square collapsing, cavalry all sides",
+      "tags": [
+        "scene",
+        "ch08",
+        "afternoon gold harsh",
+        "wide encirclement"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-06/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-06/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-06/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "9 August 378 CE",
+        "lighting": "afternoon gold harsh",
+        "camera": "wide encirclement"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 89,
+      "id": "CH08-07",
+      "filename": "CH08-07.png",
+      "section": "CH08",
+      "sectionTitle": "8. Adrianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Fallen standards, trampled ground, chaos",
+      "category": "scene",
+      "storyPart": "8. Adrianople",
+      "storyBeat": "Fallen standards, trampled ground, chaos",
+      "tags": [
+        "scene",
+        "ch08",
+        "late afternoon",
+        "ground level"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-07/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-07/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-07/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "9 August 378 CE",
+        "lighting": "late afternoon",
+        "camera": "ground level"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 90,
+      "id": "CH08-08",
+      "filename": "CH08-08.png",
+      "section": "CH08",
+      "sectionTitle": "8. Adrianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Fighting dying down, scattered groups",
+      "category": "scene",
+      "storyPart": "8. Adrianople",
+      "storyBeat": "Fighting dying down, scattered groups",
+      "tags": [
+        "scene",
+        "ch08",
+        "sunset blood red",
+        "wide aftermath beginning"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-08/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-08/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-08/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "9 August 378 CE",
+        "lighting": "sunset blood red",
+        "camera": "wide aftermath beginning"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 91,
+      "id": "CH08-09",
+      "filename": "CH08-09.png",
+      "section": "CH08",
+      "sectionTitle": "8. Adrianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Figures moving among fallen, looking",
+      "category": "scene",
+      "storyPart": "8. Adrianople",
+      "storyBeat": "Figures moving among fallen, looking",
+      "tags": [
+        "scene",
+        "ch08",
+        "dusk purple",
+        "medium searching"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-09/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-09/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-09/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "9 August 378 CE",
+        "lighting": "dusk purple",
+        "camera": "medium searching"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 92,
+      "id": "CH08-10",
+      "filename": "CH08-10.png",
+      "section": "CH08",
+      "sectionTitle": "8. Adrianople",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Scattered fires, field of debris, silence",
+      "category": "scene",
+      "storyPart": "8. Adrianople",
+      "storyBeat": "Scattered fires, field of debris, silence",
+      "tags": [
+        "scene",
+        "ch08",
+        "night fires",
+        "wide field"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-10/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-10/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH08-10/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "9 August 378 CE",
+        "lighting": "night fires",
+        "camera": "wide field"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 93,
+      "id": "CH09-01",
+      "filename": "CH09-01.png",
+      "section": "CH09",
+      "sectionTitle": "9. Aftermath",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Battlefield morning after, mist, stillness",
+      "category": "scene",
+      "storyPart": "9. Aftermath",
+      "storyBeat": "Battlefield morning after, mist, stillness",
+      "tags": [
+        "scene",
+        "ch09",
+        "grey dawn",
+        "extreme wide empty"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-01/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-01/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-01/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "378 CE",
+        "lighting": "grey dawn",
+        "camera": "extreme wide empty"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 94,
+      "id": "CH09-02",
+      "filename": "CH09-02.png",
+      "section": "CH09",
+      "sectionTitle": "9. Aftermath",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Fallen imperial standard, gold eagle, dirt",
+      "category": "scene",
+      "storyPart": "9. Aftermath",
+      "storyBeat": "Fallen imperial standard, gold eagle, dirt",
+      "tags": [
+        "scene",
+        "ch09",
+        "morning pale",
+        "close detail"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-02/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-02/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-02/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "378 CE",
+        "lighting": "morning pale",
+        "camera": "close detail"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 95,
+      "id": "CH09-03",
+      "filename": "CH09-03.png",
+      "section": "CH09",
+      "sectionTitle": "9. Aftermath",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Figures walking field, looking, not finding",
+      "category": "scene",
+      "storyPart": "9. Aftermath",
+      "storyBeat": "Figures walking field, looking, not finding",
+      "tags": [
+        "scene",
+        "ch09",
+        "flat overcast",
+        "wide searching"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-03/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-03/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-03/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "378 CE",
+        "lighting": "flat overcast",
+        "camera": "wide searching"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 96,
+      "id": "CH09-04",
+      "filename": "CH09-04.png",
+      "section": "CH09",
+      "sectionTitle": "9. Aftermath",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Burial parties working, distant, methodical",
+      "category": "scene",
+      "storyPart": "9. Aftermath",
+      "storyBeat": "Burial parties working, distant, methodical",
+      "tags": [
+        "scene",
+        "ch09",
+        "afternoon",
+        "medium"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-04/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-04/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-04/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "378 CE",
+        "lighting": "afternoon",
+        "camera": "medium"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 97,
+      "id": "CH09-05",
+      "filename": "CH09-05.png",
+      "section": "CH09",
+      "sectionTitle": "9. Aftermath",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Survivor walking away, road to horizon",
+      "category": "scene",
+      "storyPart": "9. Aftermath",
+      "storyBeat": "Survivor walking away, road to horizon",
+      "tags": [
+        "scene",
+        "ch09",
+        "sunset lonely",
+        "silhouette single figure"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-05/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-05/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-05/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "378 CE",
+        "lighting": "sunset lonely",
+        "camera": "silhouette single figure"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 98,
+      "id": "CH09-06",
+      "filename": "CH09-06.png",
+      "section": "CH09",
+      "sectionTitle": "9. Aftermath",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Adrianople walls, closed gates, nobody",
+      "category": "scene",
+      "storyPart": "9. Aftermath",
+      "storyBeat": "Adrianople walls, closed gates, nobody",
+      "tags": [
+        "scene",
+        "ch09",
+        "grey",
+        "wide city"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-06/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-06/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-06/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "378 CE",
+        "lighting": "grey",
+        "camera": "wide city"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 99,
+      "id": "CH09-07",
+      "filename": "CH09-07.png",
+      "section": "CH09",
+      "sectionTitle": "9. Aftermath",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Equipment in mud, rain pooling in helmet",
+      "category": "scene",
+      "storyPart": "9. Aftermath",
+      "storyBeat": "Equipment in mud, rain pooling in helmet",
+      "tags": [
+        "scene",
+        "ch09",
+        "rain",
+        "medium detail"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-07/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-07/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-07/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "378 CE",
+        "lighting": "rain",
+        "camera": "medium detail"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 100,
+      "id": "CH09-08",
+      "filename": "CH09-08.png",
+      "section": "CH09",
+      "sectionTitle": "9. Aftermath",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Empty field under stars, no fires",
+      "category": "scene",
+      "storyPart": "9. Aftermath",
+      "storyBeat": "Empty field under stars, no fires",
+      "tags": [
+        "scene",
+        "ch09",
+        "night stars",
+        "extreme wide"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-08/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-08/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-08/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "378 CE",
+        "lighting": "night stars",
+        "camera": "extreme wide"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 101,
+      "id": "CH09-09",
+      "filename": "CH09-09.png",
+      "section": "CH09",
+      "sectionTitle": "9. Aftermath",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Crows circling, field below, distance",
+      "category": "scene",
+      "storyPart": "9. Aftermath",
+      "storyBeat": "Crows circling, field below, distance",
+      "tags": [
+        "scene",
+        "ch09",
+        "dawn pale",
+        "birds eye"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-09/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-09/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-09/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "378 CE",
+        "lighting": "dawn pale",
+        "camera": "birds eye"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    },
+    {
+      "shotNumber": 102,
+      "id": "CH09-10",
+      "filename": "CH09-10.png",
+      "section": "CH09",
+      "sectionTitle": "9. Aftermath",
+      "mood": {
+        "number": 0,
+        "name": "scene"
+      },
+      "register": "R1",
+      "description": "Empty road leading away, grass reclaiming edges",
+      "category": "scene",
+      "storyPart": "9. Aftermath",
+      "storyBeat": "Empty road leading away, grass reclaiming edges",
+      "tags": [
+        "scene",
+        "ch09",
+        "morning clearing",
+        "wide road"
+      ],
+      "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-10/v1.png",
+      "imagePath": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-10/v1.png",
+      "version": "v1",
+      "versions": [
+        {
+          "label": "v1",
+          "status": "current",
+          "url": "https://hxhi8wuqcbh0xuqb.public.blob.vercel-storage.com/frames/CH09-10/v1.png"
+        }
+      ],
+      "physical": {
+        "format": "png",
+        "width": 3840,
+        "height": 2160
+      },
+      "context": {
+        "era": "Late Antiquity",
+        "yearApprox": "378 CE",
+        "lighting": "morning clearing",
+        "camera": "wide road"
+      },
+      "review": {
+        "status": "unreviewed"
+      },
+      "generator": "openai",
+      "exists": true
+    }
+  ]
+}
