@@ -1,0 +1,18 @@
+{
+  "id": "CH01-04",
+  "chapter": "ch01",
+  "chapterTitle": "Hunnic Pressure",
+  "era": "c. 375 CE",
+  "location": "Gothic territories east of the Danube",
+  "shotNumber": 4,
+  "lighting": "firelight interior",
+  "camera": "medium close, Dutch angle",
+  "scene": "Elder's hut, faces lit by hearth, maps on table",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch01/CH01-04.png",
+  "fileSizeBytes": 17175351,
+  "generatedAt": "2026-08-24T04:59:07.602070Z"
+}

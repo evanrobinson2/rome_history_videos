@@ -1,0 +1,18 @@
+{
+  "id": "CH08-07",
+  "chapter": "ch08",
+  "chapterTitle": "Adrianople",
+  "era": "9 August 378 CE",
+  "location": "Plains outside Adrianople",
+  "shotNumber": 7,
+  "lighting": "late afternoon",
+  "camera": "ground level",
+  "scene": "Fallen standards, trampled ground, chaos",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch08/CH08-07.png",
+  "fileSizeBytes": 14501322,
+  "generatedAt": "2026-08-24T05:03:48.479959Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "CH08-04",
+  "chapter": "ch08",
+  "chapterTitle": "Adrianople",
+  "era": "9 August 378 CE",
+  "location": "Plains outside Adrianople",
+  "shotNumber": 4,
+  "lighting": "afternoon dust haze",
+  "camera": "wide chaos",
+  "scene": "Gothic cavalry charge, dust cloud, impact",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch08/CH08-04.png",
+  "fileSizeBytes": 14787722,
+  "generatedAt": "2026-08-24T04:58:50.548932Z"
+}

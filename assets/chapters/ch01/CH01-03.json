@@ -1,0 +1,18 @@
+{
+  "id": "CH01-03",
+  "chapter": "ch01",
+  "chapterTitle": "Hunnic Pressure",
+  "era": "c. 375 CE",
+  "location": "Gothic territories east of the Danube",
+  "shotNumber": 3,
+  "lighting": "sunset backlit",
+  "camera": "low angle silhouette",
+  "scene": "Mounted scouts on ridge, gesturing eastward",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch01/CH01-03.png",
+  "fileSizeBytes": 14675977,
+  "generatedAt": "2026-08-24T04:57:30.128681Z"
+}

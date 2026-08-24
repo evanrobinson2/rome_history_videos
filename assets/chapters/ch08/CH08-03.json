@@ -1,0 +1,18 @@
+{
+  "id": "CH08-03",
+  "chapter": "ch08",
+  "chapterTitle": "Adrianople",
+  "era": "9 August 378 CE",
+  "location": "Plains outside Adrianople",
+  "shotNumber": 3,
+  "lighting": "noon brutal",
+  "camera": "close detail",
+  "scene": "Sweat on face, hand gripping pilum",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch08/CH08-03.png",
+  "fileSizeBytes": 17690579,
+  "generatedAt": "2026-08-24T04:57:15.269758Z"
+}

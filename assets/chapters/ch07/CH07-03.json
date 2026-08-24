@@ -1,0 +1,18 @@
+{
+  "id": "CH07-03",
+  "chapter": "ch07",
+  "chapterTitle": "Valens Turns East to West",
+  "era": "377-378 CE",
+  "location": "Imperial campaign headquarters, roads west",
+  "shotNumber": 3,
+  "lighting": "dawn departure",
+  "camera": "wide column",
+  "scene": "Imperial army breaking camp, standards raised",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch07/CH07-03.png",
+  "fileSizeBytes": 14839848,
+  "generatedAt": "2026-08-24T04:57:38.303045Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "CH08-05",
+  "chapter": "ch08",
+  "chapterTitle": "Adrianople",
+  "era": "9 August 378 CE",
+  "location": "Plains outside Adrianople",
+  "shotNumber": 5,
+  "lighting": "sun through dust",
+  "camera": "from within press",
+  "scene": "Shields locked, spears overhead, compression",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch08/CH08-05.png",
+  "fileSizeBytes": 14950051,
+  "generatedAt": "2026-08-24T05:00:31.063488Z"
+}

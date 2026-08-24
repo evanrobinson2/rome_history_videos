@@ -1,0 +1,18 @@
+{
+  "id": "CH02-03",
+  "chapter": "ch02",
+  "chapterTitle": "Flight to the Danube",
+  "era": "376 CE",
+  "location": "Roads and plains toward the Danube",
+  "shotNumber": 3,
+  "lighting": "late afternoon",
+  "camera": "medium wide",
+  "scene": "River ford crossing, water splashing",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch02/CH02-03.png",
+  "fileSizeBytes": 13469447,
+  "generatedAt": "2026-08-24T04:57:31.333836Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "CH09-05",
+  "chapter": "ch09",
+  "chapterTitle": "Aftermath",
+  "era": "378 CE",
+  "location": "Battlefield and surrounding territory",
+  "shotNumber": 5,
+  "lighting": "sunset lonely",
+  "camera": "silhouette single figure",
+  "scene": "Survivor walking away, road to horizon",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch09/CH09-05.png",
+  "fileSizeBytes": 14128148,
+  "generatedAt": "2026-08-24T05:00:44.122309Z"
+}

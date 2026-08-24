@@ -1,0 +1,18 @@
+{
+  "id": "CH01-08",
+  "chapter": "ch01",
+  "chapterTitle": "Hunnic Pressure",
+  "era": "c. 375 CE",
+  "location": "Gothic territories east of the Danube",
+  "shotNumber": 8,
+  "lighting": "storm light",
+  "camera": "wide, low horizon",
+  "scene": "Dark clouds approaching, wheat fields bending",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch01/CH01-08.png",
+  "fileSizeBytes": 13484788,
+  "generatedAt": "2026-08-24T05:05:33.583372Z"
+}

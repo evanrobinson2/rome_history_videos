@@ -1,0 +1,18 @@
+{
+  "id": "CH03-07",
+  "chapter": "ch03",
+  "chapterTitle": "The Crossing and Waiting",
+  "era": "376 CE",
+  "location": "Danube riverbank and crossing points",
+  "shotNumber": 7,
+  "lighting": "night torches",
+  "camera": "medium wide",
+  "scene": "Roman checkpoint on far shore, torchlit processing",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch03/CH03-07.png",
+  "fileSizeBytes": 13617532,
+  "generatedAt": "2026-08-24T05:04:12.947565Z"
+}

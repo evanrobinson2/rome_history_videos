@@ -1,0 +1,18 @@
+{
+  "id": "CH09-02",
+  "chapter": "ch09",
+  "chapterTitle": "Aftermath",
+  "era": "378 CE",
+  "location": "Battlefield and surrounding territory",
+  "shotNumber": 2,
+  "lighting": "morning pale",
+  "camera": "close detail",
+  "scene": "Fallen imperial standard, gold eagle, dirt",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch09/CH09-02.png",
+  "fileSizeBytes": 13276964,
+  "generatedAt": "2026-08-24T04:55:45.555428Z"
+}

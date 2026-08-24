@@ -1,0 +1,18 @@
+{
+  "id": "CH01-09",
+  "chapter": "ch01",
+  "chapterTitle": "Hunnic Pressure",
+  "era": "c. 375 CE",
+  "location": "Gothic territories east of the Danube",
+  "shotNumber": 9,
+  "lighting": "dawn mist",
+  "camera": "close detail",
+  "scene": "Dew on shield boss, sword being lifted",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch01/CH01-09.png",
+  "fileSizeBytes": 13979630,
+  "generatedAt": "2026-08-24T05:07:14.891847Z"
+}

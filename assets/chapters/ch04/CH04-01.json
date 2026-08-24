@@ -1,0 +1,18 @@
+{
+  "id": "CH04-01",
+  "chapter": "ch04",
+  "chapterTitle": "Exploitation, Famine, the Price of Food",
+  "era": "376 CE",
+  "location": "Roman processing camps and markets",
+  "shotNumber": 1,
+  "lighting": "flat institutional",
+  "camera": "wide, clinical",
+  "scene": "Counting station, queues of people, Roman clerks",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch04/CH04-01.png",
+  "fileSizeBytes": 14180252,
+  "generatedAt": "2026-08-24T04:54:19.228677Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "CH03-09",
+  "chapter": "ch03",
+  "chapterTitle": "The Crossing and Waiting",
+  "era": "376 CE",
+  "location": "Danube riverbank and crossing points",
+  "shotNumber": 9,
+  "lighting": "storm approaching",
+  "camera": "wide dramatic sky",
+  "scene": "Boats racing for shore, dark clouds",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch03/CH03-09.png",
+  "fileSizeBytes": 17289446,
+  "generatedAt": "2026-08-24T05:07:25.143004Z"
+}

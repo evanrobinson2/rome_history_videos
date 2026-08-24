@@ -1,0 +1,18 @@
+{
+  "id": "CH08-08",
+  "chapter": "ch08",
+  "chapterTitle": "Adrianople",
+  "era": "9 August 378 CE",
+  "location": "Plains outside Adrianople",
+  "shotNumber": 8,
+  "lighting": "sunset blood red",
+  "camera": "wide aftermath beginning",
+  "scene": "Fighting dying down, scattered groups",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch08/CH08-08.png",
+  "fileSizeBytes": 14288615,
+  "generatedAt": "2026-08-24T05:05:27.089581Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "CH03-08",
+  "chapter": "ch03",
+  "chapterTitle": "The Crossing and Waiting",
+  "era": "376 CE",
+  "location": "Danube riverbank and crossing points",
+  "shotNumber": 8,
+  "lighting": "foggy cold",
+  "camera": "intimate close",
+  "scene": "Mother holding infant, breath visible",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch03/CH03-08.png",
+  "fileSizeBytes": 13967554,
+  "generatedAt": "2026-08-24T05:05:49.582338Z"
+}

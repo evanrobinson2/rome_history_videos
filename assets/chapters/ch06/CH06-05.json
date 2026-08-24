@@ -1,0 +1,18 @@
+{
+  "id": "CH06-05",
+  "chapter": "ch06",
+  "chapterTitle": "Open Revolt Across Thrace",
+  "era": "376-377 CE",
+  "location": "Thracian countryside, villages, roads",
+  "shotNumber": 5,
+  "lighting": "grey morning",
+  "camera": "wide battlefield after",
+  "scene": "Skirmish aftermath, scattered equipment, empty",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch06/CH06-05.png",
+  "fileSizeBytes": 15038501,
+  "generatedAt": "2026-08-24T05:00:56.972575Z"
+}

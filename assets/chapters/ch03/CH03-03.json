@@ -1,0 +1,18 @@
+{
+  "id": "CH03-03",
+  "chapter": "ch03",
+  "chapterTitle": "The Crossing and Waiting",
+  "era": "376 CE",
+  "location": "Danube riverbank and crossing points",
+  "shotNumber": 3,
+  "lighting": "dawn pink",
+  "camera": "wide river view",
+  "scene": "First boats launching, Roman shore distant",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch03/CH03-03.png",
+  "fileSizeBytes": 14407018,
+  "generatedAt": "2026-08-24T04:58:02.285266Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "CH09-08",
+  "chapter": "ch09",
+  "chapterTitle": "Aftermath",
+  "era": "378 CE",
+  "location": "Battlefield and surrounding territory",
+  "shotNumber": 8,
+  "lighting": "night stars",
+  "camera": "extreme wide",
+  "scene": "Empty field under stars, no fires",
+  "generator": "openai",
+  "model": "gpt-image-2",
+  "size": "3840x2160",
+  "quality": "high",
+  "filePath": "/workspace/assets/chapters/ch09/CH09-08.png",
+  "fileSizeBytes": 14413686,
+  "generatedAt": "2026-08-24T05:05:35.455524Z"
+}
