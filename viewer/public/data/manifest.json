@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.0.0",
-  "generatedAt": "2026-08-24T05:15:13.824183Z",
+  "generatedAt": "2026-08-24T06:27:46.916156+00:00",
   "title": "Gothic Invasion \u2014 Frame Review",
   "styleSuffix": "Layered cut-paper illustration, late-antique 376 CE, stacked paper planes soft drop shadows, handmade paper fibre, scissor-cut edges torn deckle for damage, light as flat translucent wedges, palette deep indigo bone iron grey tarnished gold gold only for light heat fire sun, 16:9 horizontal with crop headroom, no text no watermark no invented heraldry no medieval plate no mail hauberks, named principals stylized visible cut-paper faces, crowds faceless silhouettes, same dignity Gothic and Roman, not Batman not black void silhouettes, off-center composition.",
   "totalShots": 102,
@@ -33,15 +33,13 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/characters/ALA-001-turnaround.png"
+          "path": "characters/ALA-001-turnaround.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "fileSizeBytes": 15825935,
-        "medium": "layered cut-paper (R1)"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
@@ -80,15 +78,13 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/characters/FRI-001-turnaround.png"
+          "path": "characters/FRI-001-turnaround.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "fileSizeBytes": 15756673,
-        "medium": "layered cut-paper (R1)"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
@@ -127,15 +123,13 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/characters/LUP-001-turnaround.png"
+          "path": "characters/LUP-001-turnaround.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "fileSizeBytes": 16814127,
-        "medium": "layered cut-paper (R1)"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
@@ -158,13 +152,13 @@
         "name": "header"
       },
       "register": "R1",
-      "description": "Chapter header: CH01-HUNNIC-PRESSURE",
+      "description": "Chapter header: 1. Hunnic Pressure",
       "category": "header",
-      "storyPart": "CH01-HUNNIC-PRESSURE",
-      "storyBeat": "Chapter header for CH01-HUNNIC-PRESSURE",
+      "storyPart": "1. Hunnic Pressure",
+      "storyBeat": "Chapter header for 1. Hunnic Pressure",
       "tags": [
         "header",
-        "ch1"
+        "ch01"
       ],
       "url": "/assets/chapters/CH01-HUNNIC-PRESSURE.png",
       "imagePath": "/assets/chapters/CH01-HUNNIC-PRESSURE.png",
@@ -173,19 +167,17 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/CH01-HUNNIC-PRESSURE.png"
+          "path": "chapters/CH01-HUNNIC-PRESSURE.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "fileSizeBytes": 13935732,
-        "medium": "layered cut-paper (R1)"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
-        "yearApprox": ""
+        "yearApprox": "c. 375 CE"
       },
       "review": {
         "status": "unreviewed"
@@ -204,13 +196,13 @@
         "name": "header"
       },
       "register": "R1",
-      "description": "Chapter header: CH02-FLIGHT-DANUBE",
+      "description": "Chapter header: 2. Flight to the Danube",
       "category": "header",
-      "storyPart": "CH02-FLIGHT-DANUBE",
-      "storyBeat": "Chapter header for CH02-FLIGHT-DANUBE",
+      "storyPart": "2. Flight to the Danube",
+      "storyBeat": "Chapter header for 2. Flight to the Danube",
       "tags": [
         "header",
-        "ch2"
+        "ch02"
       ],
       "url": "/assets/chapters/CH02-FLIGHT-DANUBE.png",
       "imagePath": "/assets/chapters/CH02-FLIGHT-DANUBE.png",
@@ -219,19 +211,17 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/CH02-FLIGHT-DANUBE.png"
+          "path": "chapters/CH02-FLIGHT-DANUBE.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "fileSizeBytes": 16067424,
-        "medium": "layered cut-paper (R1)"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
-        "yearApprox": ""
+        "yearApprox": "376 CE"
       },
       "review": {
         "status": "unreviewed"
@@ -250,13 +240,13 @@
         "name": "header"
       },
       "register": "R1",
-      "description": "Chapter header: CH03-CROSSING-WAITING",
+      "description": "Chapter header: 3. The Crossing and Waiting",
       "category": "header",
-      "storyPart": "CH03-CROSSING-WAITING",
-      "storyBeat": "Chapter header for CH03-CROSSING-WAITING",
+      "storyPart": "3. The Crossing and Waiting",
+      "storyBeat": "Chapter header for 3. The Crossing and Waiting",
       "tags": [
         "header",
-        "ch3"
+        "ch03"
       ],
       "url": "/assets/chapters/CH03-CROSSING-WAITING.png",
       "imagePath": "/assets/chapters/CH03-CROSSING-WAITING.png",
@@ -265,19 +255,17 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/CH03-CROSSING-WAITING.png"
+          "path": "chapters/CH03-CROSSING-WAITING.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "fileSizeBytes": 15526026,
-        "medium": "layered cut-paper (R1)"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
-        "yearApprox": ""
+        "yearApprox": "376 CE"
       },
       "review": {
         "status": "unreviewed"
@@ -296,13 +284,13 @@
         "name": "header"
       },
       "register": "R1",
-      "description": "Chapter header: CH04-FAMINE-PRICE",
+      "description": "Chapter header: 4. Exploitation, Famine",
       "category": "header",
-      "storyPart": "CH04-FAMINE-PRICE",
-      "storyBeat": "Chapter header for CH04-FAMINE-PRICE",
+      "storyPart": "4. Exploitation, Famine",
+      "storyBeat": "Chapter header for 4. Exploitation, Famine",
       "tags": [
         "header",
-        "ch4"
+        "ch04"
       ],
       "url": "/assets/chapters/CH04-FAMINE-PRICE.png",
       "imagePath": "/assets/chapters/CH04-FAMINE-PRICE.png",
@@ -311,19 +299,17 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/CH04-FAMINE-PRICE.png"
+          "path": "chapters/CH04-FAMINE-PRICE.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "fileSizeBytes": 14963441,
-        "medium": "layered cut-paper (R1)"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
-        "yearApprox": ""
+        "yearApprox": "376 CE"
       },
       "review": {
         "status": "unreviewed"
@@ -342,13 +328,13 @@
         "name": "header"
       },
       "register": "R1",
-      "description": "Chapter header: CH05-MARCIANOPLE",
+      "description": "Chapter header: 5. Marcianople",
       "category": "header",
-      "storyPart": "CH05-MARCIANOPLE",
-      "storyBeat": "Chapter header for CH05-MARCIANOPLE",
+      "storyPart": "5. Marcianople",
+      "storyBeat": "Chapter header for 5. Marcianople",
       "tags": [
         "header",
-        "ch5"
+        "ch05"
       ],
       "url": "/assets/chapters/CH05-MARCIANOPLE.png",
       "imagePath": "/assets/chapters/CH05-MARCIANOPLE.png",
@@ -357,19 +343,17 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/CH05-MARCIANOPLE.png"
+          "path": "chapters/CH05-MARCIANOPLE.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "fileSizeBytes": 14924220,
-        "medium": "layered cut-paper (R1)"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
-        "yearApprox": ""
+        "yearApprox": "376 CE"
       },
       "review": {
         "status": "unreviewed"
@@ -388,13 +372,13 @@
         "name": "header"
       },
       "register": "R1",
-      "description": "Chapter header: CH06-REVOLT-THRACE",
+      "description": "Chapter header: 6. Open Revolt Across Thrace",
       "category": "header",
-      "storyPart": "CH06-REVOLT-THRACE",
-      "storyBeat": "Chapter header for CH06-REVOLT-THRACE",
+      "storyPart": "6. Open Revolt Across Thrace",
+      "storyBeat": "Chapter header for 6. Open Revolt Across Thrace",
       "tags": [
         "header",
-        "ch6"
+        "ch06"
       ],
       "url": "/assets/chapters/CH06-REVOLT-THRACE.png",
       "imagePath": "/assets/chapters/CH06-REVOLT-THRACE.png",
@@ -403,19 +387,17 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/CH06-REVOLT-THRACE.png"
+          "path": "chapters/CH06-REVOLT-THRACE.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "fileSizeBytes": 17270843,
-        "medium": "layered cut-paper (R1)"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
-        "yearApprox": ""
+        "yearApprox": "376-377 CE"
       },
       "review": {
         "status": "unreviewed"
@@ -434,13 +416,13 @@
         "name": "header"
       },
       "register": "R1",
-      "description": "Chapter header: CH07-VALENS-TURNS",
+      "description": "Chapter header: 7. Valens Turns",
       "category": "header",
-      "storyPart": "CH07-VALENS-TURNS",
-      "storyBeat": "Chapter header for CH07-VALENS-TURNS",
+      "storyPart": "7. Valens Turns",
+      "storyBeat": "Chapter header for 7. Valens Turns",
       "tags": [
         "header",
-        "ch7"
+        "ch07"
       ],
       "url": "/assets/chapters/CH07-VALENS-TURNS.png",
       "imagePath": "/assets/chapters/CH07-VALENS-TURNS.png",
@@ -449,19 +431,17 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/CH07-VALENS-TURNS.png"
+          "path": "chapters/CH07-VALENS-TURNS.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "fileSizeBytes": 14481052,
-        "medium": "layered cut-paper (R1)"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
-        "yearApprox": ""
+        "yearApprox": "377-378 CE"
       },
       "review": {
         "status": "unreviewed"
@@ -480,13 +460,13 @@
         "name": "header"
       },
       "register": "R1",
-      "description": "Chapter header: CH08-ADRIANOPLE",
+      "description": "Chapter header: 8. Adrianople",
       "category": "header",
-      "storyPart": "CH08-ADRIANOPLE",
-      "storyBeat": "Chapter header for CH08-ADRIANOPLE",
+      "storyPart": "8. Adrianople",
+      "storyBeat": "Chapter header for 8. Adrianople",
       "tags": [
         "header",
-        "ch8"
+        "ch08"
       ],
       "url": "/assets/chapters/CH08-ADRIANOPLE.png",
       "imagePath": "/assets/chapters/CH08-ADRIANOPLE.png",
@@ -495,19 +475,17 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/CH08-ADRIANOPLE.png"
+          "path": "chapters/CH08-ADRIANOPLE.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "fileSizeBytes": 14176089,
-        "medium": "layered cut-paper (R1)"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
-        "yearApprox": ""
+        "yearApprox": "9 August 378 CE"
       },
       "review": {
         "status": "unreviewed"
@@ -526,13 +504,13 @@
         "name": "header"
       },
       "register": "R1",
-      "description": "Chapter header: CH09-AFTERMATH",
+      "description": "Chapter header: 9. Aftermath",
       "category": "header",
-      "storyPart": "CH09-AFTERMATH",
-      "storyBeat": "Chapter header for CH09-AFTERMATH",
+      "storyPart": "9. Aftermath",
+      "storyBeat": "Chapter header for 9. Aftermath",
       "tags": [
         "header",
-        "ch9"
+        "ch09"
       ],
       "url": "/assets/chapters/CH09-AFTERMATH.png",
       "imagePath": "/assets/chapters/CH09-AFTERMATH.png",
@@ -541,19 +519,17 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/CH09-AFTERMATH.png"
+          "path": "chapters/CH09-AFTERMATH.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "fileSizeBytes": 15202531,
-        "medium": "layered cut-paper (R1)"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
-        "yearApprox": ""
+        "yearApprox": "378 CE"
       },
       "review": {
         "status": "unreviewed"
@@ -589,25 +565,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch01/CH01-01.png"
+          "path": "chapters/ch01/CH01-01.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14278601,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "c. 375 CE",
         "lighting": "pre-dawn grey",
-        "camera": "extreme wide, high angle",
-        "materialCulture": "Late 4th century CE"
+        "camera": "extreme wide, high angle"
       },
       "review": {
         "status": "unreviewed"
@@ -643,25 +613,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch01/CH01-02.png"
+          "path": "chapters/ch01/CH01-02.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15485453,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "c. 375 CE",
         "lighting": "harsh midday",
-        "camera": "medium wide, eye level",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium wide, eye level"
       },
       "review": {
         "status": "unreviewed"
@@ -697,25 +661,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch01/CH01-03.png"
+          "path": "chapters/ch01/CH01-03.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14675977,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "c. 375 CE",
         "lighting": "sunset backlit",
-        "camera": "low angle silhouette",
-        "materialCulture": "Late 4th century CE"
+        "camera": "low angle silhouette"
       },
       "review": {
         "status": "unreviewed"
@@ -751,25 +709,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch01/CH01-04.png"
+          "path": "chapters/ch01/CH01-04.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 17175351,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "c. 375 CE",
         "lighting": "firelight interior",
-        "camera": "medium close, Dutch angle",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium close, Dutch angle"
       },
       "review": {
         "status": "unreviewed"
@@ -805,25 +757,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch01/CH01-05.png"
+          "path": "chapters/ch01/CH01-05.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 17005879,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "c. 375 CE",
         "lighting": "overcast flat",
-        "camera": "wide tracking",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide tracking"
       },
       "review": {
         "status": "unreviewed"
@@ -859,25 +805,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch01/CH01-06.png"
+          "path": "chapters/ch01/CH01-06.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14565690,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "c. 375 CE",
         "lighting": "blue hour dusk",
-        "camera": "extreme wide panorama",
-        "materialCulture": "Late 4th century CE"
+        "camera": "extreme wide panorama"
       },
       "review": {
         "status": "unreviewed"
@@ -913,25 +853,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch01/CH01-07.png"
+          "path": "chapters/ch01/CH01-07.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 12159614,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "c. 375 CE",
         "lighting": "torchlight night",
-        "camera": "medium, through doorframe",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium, through doorframe"
       },
       "review": {
         "status": "unreviewed"
@@ -967,25 +901,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch01/CH01-08.png"
+          "path": "chapters/ch01/CH01-08.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13484788,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "c. 375 CE",
         "lighting": "storm light",
-        "camera": "wide, low horizon",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide, low horizon"
       },
       "review": {
         "status": "unreviewed"
@@ -1021,25 +949,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch01/CH01-09.png"
+          "path": "chapters/ch01/CH01-09.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13979630,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "c. 375 CE",
         "lighting": "dawn mist",
-        "camera": "close detail",
-        "materialCulture": "Late 4th century CE"
+        "camera": "close detail"
       },
       "review": {
         "status": "unreviewed"
@@ -1075,25 +997,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch01/CH01-10.png"
+          "path": "chapters/ch01/CH01-10.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14800624,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "c. 375 CE",
         "lighting": "golden hour side",
-        "camera": "medium wide, profile",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium wide, profile"
       },
       "review": {
         "status": "unreviewed"
@@ -1129,25 +1045,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch02/CH02-01.png"
+          "path": "chapters/ch02/CH02-01.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14689489,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "grey dawn",
-        "camera": "extreme wide aerial",
-        "materialCulture": "Late 4th century CE"
+        "camera": "extreme wide aerial"
       },
       "review": {
         "status": "unreviewed"
@@ -1183,25 +1093,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch02/CH02-02.png"
+          "path": "chapters/ch02/CH02-02.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14530359,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "noon harsh",
-        "camera": "close ground level",
-        "materialCulture": "Late 4th century CE"
+        "camera": "close ground level"
       },
       "review": {
         "status": "unreviewed"
@@ -1237,25 +1141,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch02/CH02-03.png"
+          "path": "chapters/ch02/CH02-03.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13469447,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "late afternoon",
-        "camera": "medium wide",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium wide"
       },
       "review": {
         "status": "unreviewed"
@@ -1291,25 +1189,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch02/CH02-04.png"
+          "path": "chapters/ch02/CH02-04.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13500246,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "campfire night",
-        "camera": "medium, warm pool of light",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium, warm pool of light"
       },
       "review": {
         "status": "unreviewed"
@@ -1345,25 +1237,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch02/CH02-05.png"
+          "path": "chapters/ch02/CH02-05.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13779554,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "overcast rain",
-        "camera": "wide, rain streaks",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide, rain streaks"
       },
       "review": {
         "status": "unreviewed"
@@ -1399,25 +1285,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch02/CH02-06.png"
+          "path": "chapters/ch02/CH02-06.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15139409,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "sunrise behind",
-        "camera": "silhouette panorama",
-        "materialCulture": "Late 4th century CE"
+        "camera": "silhouette panorama"
       },
       "review": {
         "status": "unreviewed"
@@ -1453,25 +1333,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch02/CH02-07.png"
+          "path": "chapters/ch02/CH02-07.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14028683,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "flat midday",
-        "camera": "high angle looking down",
-        "materialCulture": "Late 4th century CE"
+        "camera": "high angle looking down"
       },
       "review": {
         "status": "unreviewed"
@@ -1507,25 +1381,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch02/CH02-08.png"
+          "path": "chapters/ch02/CH02-08.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14683949,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "dusk purple",
-        "camera": "medium close",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium close"
       },
       "review": {
         "status": "unreviewed"
@@ -1561,25 +1429,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch02/CH02-09.png"
+          "path": "chapters/ch02/CH02-09.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13512096,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "moonlight blue",
-        "camera": "wide night",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide night"
       },
       "review": {
         "status": "unreviewed"
@@ -1615,25 +1477,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch02/CH02-10.png"
+          "path": "chapters/ch02/CH02-10.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 12511977,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "foggy morning",
-        "camera": "through fog layers",
-        "materialCulture": "Late 4th century CE"
+        "camera": "through fog layers"
       },
       "review": {
         "status": "unreviewed"
@@ -1669,25 +1525,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch03/CH03-01.png"
+          "path": "chapters/ch03/CH03-01.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14283600,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "grey overcast",
-        "camera": "extreme wide",
-        "materialCulture": "Late 4th century CE"
+        "camera": "extreme wide"
       },
       "review": {
         "status": "unreviewed"
@@ -1723,25 +1573,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch03/CH03-02.png"
+          "path": "chapters/ch03/CH03-02.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15175042,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "rain slanting",
-        "camera": "medium, rain-lashed",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium, rain-lashed"
       },
       "review": {
         "status": "unreviewed"
@@ -1777,25 +1621,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch03/CH03-03.png"
+          "path": "chapters/ch03/CH03-03.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14407018,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "dawn pink",
-        "camera": "wide river view",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide river view"
       },
       "review": {
         "status": "unreviewed"
@@ -1831,25 +1669,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch03/CH03-04.png"
+          "path": "chapters/ch03/CH03-04.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13725593,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "harsh noon",
-        "camera": "close detail",
-        "materialCulture": "Late 4th century CE"
+        "camera": "close detail"
       },
       "review": {
         "status": "unreviewed"
@@ -1885,25 +1717,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch03/CH03-05.png"
+          "path": "chapters/ch03/CH03-05.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15177878,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "afternoon haze",
-        "camera": "from water level",
-        "materialCulture": "Late 4th century CE"
+        "camera": "from water level"
       },
       "review": {
         "status": "unreviewed"
@@ -1939,25 +1765,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch03/CH03-06.png"
+          "path": "chapters/ch03/CH03-06.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14016095,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "sunset gold on water",
-        "camera": "panorama",
-        "materialCulture": "Late 4th century CE"
+        "camera": "panorama"
       },
       "review": {
         "status": "unreviewed"
@@ -1993,25 +1813,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch03/CH03-07.png"
+          "path": "chapters/ch03/CH03-07.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13617532,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "night torches",
-        "camera": "medium wide",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium wide"
       },
       "review": {
         "status": "unreviewed"
@@ -2047,25 +1861,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch03/CH03-08.png"
+          "path": "chapters/ch03/CH03-08.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13967554,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "foggy cold",
-        "camera": "intimate close",
-        "materialCulture": "Late 4th century CE"
+        "camera": "intimate close"
       },
       "review": {
         "status": "unreviewed"
@@ -2101,25 +1909,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch03/CH03-09.png"
+          "path": "chapters/ch03/CH03-09.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 17289446,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "storm approaching",
-        "camera": "wide dramatic sky",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide dramatic sky"
       },
       "review": {
         "status": "unreviewed"
@@ -2155,25 +1957,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch03/CH03-10.png"
+          "path": "chapters/ch03/CH03-10.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14915671,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "morning after storm",
-        "camera": "wide aftermath",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide aftermath"
       },
       "review": {
         "status": "unreviewed"
@@ -2209,25 +2005,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch04/CH04-01.png"
+          "path": "chapters/ch04/CH04-01.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14180252,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "flat institutional",
-        "camera": "wide, clinical",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide, clinical"
       },
       "review": {
         "status": "unreviewed"
@@ -2263,25 +2053,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch04/CH04-02.png"
+          "path": "chapters/ch04/CH04-02.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13964010,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "harsh noon shadows",
-        "camera": "medium, high contrast",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium, high contrast"
       },
       "review": {
         "status": "unreviewed"
@@ -2317,25 +2101,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch04/CH04-03.png"
+          "path": "chapters/ch04/CH04-03.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 12091733,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "dim interior",
-        "camera": "through bars/fence",
-        "materialCulture": "Late 4th century CE"
+        "camera": "through bars/fence"
       },
       "review": {
         "status": "unreviewed"
@@ -2371,25 +2149,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch04/CH04-04.png"
+          "path": "chapters/ch04/CH04-04.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15016606,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "morning market",
-        "camera": "medium transaction",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium transaction"
       },
       "review": {
         "status": "unreviewed"
@@ -2425,25 +2197,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch04/CH04-05.png"
+          "path": "chapters/ch04/CH04-05.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14097605,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "afternoon dust",
-        "camera": "wide camp overview",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide camp overview"
       },
       "review": {
         "status": "unreviewed"
@@ -2479,25 +2245,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch04/CH04-06.png"
+          "path": "chapters/ch04/CH04-06.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 12009379,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "firelight",
-        "camera": "close faces",
-        "materialCulture": "Late 4th century CE"
+        "camera": "close faces"
       },
       "review": {
         "status": "unreviewed"
@@ -2533,25 +2293,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch04/CH04-07.png"
+          "path": "chapters/ch04/CH04-07.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13821848,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "grey drizzle",
-        "camera": "medium queue",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium queue"
       },
       "review": {
         "status": "unreviewed"
@@ -2587,25 +2341,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch04/CH04-08.png"
+          "path": "chapters/ch04/CH04-08.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13728001,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "sunset red",
-        "camera": "silhouette wide",
-        "materialCulture": "Late 4th century CE"
+        "camera": "silhouette wide"
       },
       "review": {
         "status": "unreviewed"
@@ -2641,25 +2389,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch04/CH04-09.png"
+          "path": "chapters/ch04/CH04-09.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13511947,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "night minimal",
-        "camera": "intimate close",
-        "materialCulture": "Late 4th century CE"
+        "camera": "intimate close"
       },
       "review": {
         "status": "unreviewed"
@@ -2695,25 +2437,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch04/CH04-10.png"
+          "path": "chapters/ch04/CH04-10.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15669515,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "dawn cold",
-        "camera": "wide establishing",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide establishing"
       },
       "review": {
         "status": "unreviewed"
@@ -2749,25 +2485,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch05/CH05-01.png"
+          "path": "chapters/ch05/CH05-01.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 17903732,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "morning clear",
-        "camera": "wide approach",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide approach"
       },
       "review": {
         "status": "unreviewed"
@@ -2803,25 +2533,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch05/CH05-02.png"
+          "path": "chapters/ch05/CH05-02.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13417354,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "noon shadow",
-        "camera": "through gate arch",
-        "materialCulture": "Late 4th century CE"
+        "camera": "through gate arch"
       },
       "review": {
         "status": "unreviewed"
@@ -2857,25 +2581,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch05/CH05-03.png"
+          "path": "chapters/ch05/CH05-03.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14276127,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "courtyard afternoon",
-        "camera": "medium wide",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium wide"
       },
       "review": {
         "status": "unreviewed"
@@ -2911,25 +2629,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch05/CH05-04.png"
+          "path": "chapters/ch05/CH05-04.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 12976889,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "interior lamplight",
-        "camera": "wide room",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide room"
       },
       "review": {
         "status": "unreviewed"
@@ -2965,25 +2677,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch05/CH05-05.png"
+          "path": "chapters/ch05/CH05-05.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15100867,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "warm interior",
-        "camera": "medium table level",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium table level"
       },
       "review": {
         "status": "unreviewed"
@@ -3019,25 +2725,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch05/CH05-06.png"
+          "path": "chapters/ch05/CH05-06.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13422102,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "courtyard dusk",
-        "camera": "medium, tension",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium, tension"
       },
       "review": {
         "status": "unreviewed"
@@ -3073,25 +2773,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch05/CH05-07.png"
+          "path": "chapters/ch05/CH05-07.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15788687,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "interior gold",
-        "camera": "through doorway",
-        "materialCulture": "Late 4th century CE"
+        "camera": "through doorway"
       },
       "review": {
         "status": "unreviewed"
@@ -3127,25 +2821,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch05/CH05-08.png"
+          "path": "chapters/ch05/CH05-08.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15728028,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "torchlight sudden",
-        "camera": "dutch angle",
-        "materialCulture": "Late 4th century CE"
+        "camera": "dutch angle"
       },
       "review": {
         "status": "unreviewed"
@@ -3181,25 +2869,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch05/CH05-09.png"
+          "path": "chapters/ch05/CH05-09.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 12718262,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "interior chaos",
-        "camera": "wide room",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide room"
       },
       "review": {
         "status": "unreviewed"
@@ -3235,25 +2917,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch05/CH05-10.png"
+          "path": "chapters/ch05/CH05-10.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15489186,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376 CE",
         "lighting": "night aftermath",
-        "camera": "wide gate exterior",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide gate exterior"
       },
       "review": {
         "status": "unreviewed"
@@ -3289,25 +2965,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch06/CH06-01.png"
+          "path": "chapters/ch06/CH06-01.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15325537,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376-377 CE",
         "lighting": "dawn red",
-        "camera": "extreme wide",
-        "materialCulture": "Late 4th century CE"
+        "camera": "extreme wide"
       },
       "review": {
         "status": "unreviewed"
@@ -3343,25 +3013,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch06/CH06-02.png"
+          "path": "chapters/ch06/CH06-02.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14882547,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376-377 CE",
         "lighting": "noon dust",
-        "camera": "medium action",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium action"
       },
       "review": {
         "status": "unreviewed"
@@ -3397,25 +3061,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch06/CH06-03.png"
+          "path": "chapters/ch06/CH06-03.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 17129742,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376-377 CE",
         "lighting": "afternoon golden",
-        "camera": "wide landscape",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide landscape"
       },
       "review": {
         "status": "unreviewed"
@@ -3451,25 +3109,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch06/CH06-04.png"
+          "path": "chapters/ch06/CH06-04.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13604358,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376-377 CE",
         "lighting": "firelight night",
-        "camera": "medium gathering",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium gathering"
       },
       "review": {
         "status": "unreviewed"
@@ -3505,25 +3157,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch06/CH06-05.png"
+          "path": "chapters/ch06/CH06-05.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15038501,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376-377 CE",
         "lighting": "grey morning",
-        "camera": "wide battlefield after",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide battlefield after"
       },
       "review": {
         "status": "unreviewed"
@@ -3559,25 +3205,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch06/CH06-06.png"
+          "path": "chapters/ch06/CH06-06.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15626256,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376-377 CE",
         "lighting": "sunset dramatic",
-        "camera": "silhouette ridge",
-        "materialCulture": "Late 4th century CE"
+        "camera": "silhouette ridge"
       },
       "review": {
         "status": "unreviewed"
@@ -3613,25 +3253,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch06/CH06-07.png"
+          "path": "chapters/ch06/CH06-07.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14254178,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376-377 CE",
         "lighting": "overcast flat",
-        "camera": "medium movement",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium movement"
       },
       "review": {
         "status": "unreviewed"
@@ -3667,25 +3301,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch06/CH06-08.png"
+          "path": "chapters/ch06/CH06-08.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14963073,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376-377 CE",
         "lighting": "storm light",
-        "camera": "wide ominous",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide ominous"
       },
       "review": {
         "status": "unreviewed"
@@ -3721,25 +3349,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch06/CH06-09.png"
+          "path": "chapters/ch06/CH06-09.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13189699,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376-377 CE",
         "lighting": "night minimal",
-        "camera": "close detail",
-        "materialCulture": "Late 4th century CE"
+        "camera": "close detail"
       },
       "review": {
         "status": "unreviewed"
@@ -3775,25 +3397,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch06/CH06-10.png"
+          "path": "chapters/ch06/CH06-10.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13520254,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "376-377 CE",
         "lighting": "dawn mist",
-        "camera": "wide mysterious",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide mysterious"
       },
       "review": {
         "status": "unreviewed"
@@ -3829,25 +3445,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch07/CH07-01.png"
+          "path": "chapters/ch07/CH07-01.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15163990,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "377-378 CE",
         "lighting": "tent interior gold",
-        "camera": "wide command",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide command"
       },
       "review": {
         "status": "unreviewed"
@@ -3883,25 +3493,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch07/CH07-02.png"
+          "path": "chapters/ch07/CH07-02.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14670699,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "377-378 CE",
         "lighting": "afternoon formal",
-        "camera": "medium portrait",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium portrait"
       },
       "review": {
         "status": "unreviewed"
@@ -3937,25 +3541,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch07/CH07-03.png"
+          "path": "chapters/ch07/CH07-03.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14839848,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "377-378 CE",
         "lighting": "dawn departure",
-        "camera": "wide column",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide column"
       },
       "review": {
         "status": "unreviewed"
@@ -3991,25 +3589,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch07/CH07-04.png"
+          "path": "chapters/ch07/CH07-04.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15435848,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "377-378 CE",
         "lighting": "noon dust march",
-        "camera": "medium wide",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium wide"
       },
       "review": {
         "status": "unreviewed"
@@ -4045,25 +3637,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch07/CH07-05.png"
+          "path": "chapters/ch07/CH07-05.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13631771,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "377-378 CE",
         "lighting": "evening camp",
-        "camera": "wide establishing",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide establishing"
       },
       "review": {
         "status": "unreviewed"
@@ -4099,25 +3685,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch07/CH07-06.png"
+          "path": "chapters/ch07/CH07-06.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14012116,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "377-378 CE",
         "lighting": "interior lamplight",
-        "camera": "over shoulder",
-        "materialCulture": "Late 4th century CE"
+        "camera": "over shoulder"
       },
       "review": {
         "status": "unreviewed"
@@ -4153,25 +3733,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch07/CH07-07.png"
+          "path": "chapters/ch07/CH07-07.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14249384,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "377-378 CE",
         "lighting": "sunset dramatic",
-        "camera": "silhouette imperial",
-        "materialCulture": "Late 4th century CE"
+        "camera": "silhouette imperial"
       },
       "review": {
         "status": "unreviewed"
@@ -4207,25 +3781,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch07/CH07-08.png"
+          "path": "chapters/ch07/CH07-08.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14615655,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "377-378 CE",
         "lighting": "night stars",
-        "camera": "wide camp",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide camp"
       },
       "review": {
         "status": "unreviewed"
@@ -4261,25 +3829,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch07/CH07-09.png"
+          "path": "chapters/ch07/CH07-09.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15658768,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "377-378 CE",
         "lighting": "grey morning",
-        "camera": "medium ranks",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium ranks"
       },
       "review": {
         "status": "unreviewed"
@@ -4315,25 +3877,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch07/CH07-10.png"
+          "path": "chapters/ch07/CH07-10.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15364403,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "377-378 CE",
         "lighting": "harsh noon",
-        "camera": "wide approach",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide approach"
       },
       "review": {
         "status": "unreviewed"
@@ -4369,25 +3925,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch08/CH08-01.png"
+          "path": "chapters/ch08/CH08-01.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15819838,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "9 August 378 CE",
         "lighting": "dawn pre-battle",
-        "camera": "extreme wide",
-        "materialCulture": "Late 4th century CE"
+        "camera": "extreme wide"
       },
       "review": {
         "status": "unreviewed"
@@ -4423,25 +3973,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch08/CH08-02.png"
+          "path": "chapters/ch08/CH08-02.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15621558,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "9 August 378 CE",
         "lighting": "morning heat building",
-        "camera": "medium ranks",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium ranks"
       },
       "review": {
         "status": "unreviewed"
@@ -4477,25 +4021,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch08/CH08-03.png"
+          "path": "chapters/ch08/CH08-03.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 17690579,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "9 August 378 CE",
         "lighting": "noon brutal",
-        "camera": "close detail",
-        "materialCulture": "Late 4th century CE"
+        "camera": "close detail"
       },
       "review": {
         "status": "unreviewed"
@@ -4531,25 +4069,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch08/CH08-04.png"
+          "path": "chapters/ch08/CH08-04.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14787722,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "9 August 378 CE",
         "lighting": "afternoon dust haze",
-        "camera": "wide chaos",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide chaos"
       },
       "review": {
         "status": "unreviewed"
@@ -4585,25 +4117,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch08/CH08-05.png"
+          "path": "chapters/ch08/CH08-05.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14950051,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "9 August 378 CE",
         "lighting": "sun through dust",
-        "camera": "from within press",
-        "materialCulture": "Late 4th century CE"
+        "camera": "from within press"
       },
       "review": {
         "status": "unreviewed"
@@ -4639,25 +4165,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch08/CH08-06.png"
+          "path": "chapters/ch08/CH08-06.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15396077,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "9 August 378 CE",
         "lighting": "afternoon gold harsh",
-        "camera": "wide encirclement",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide encirclement"
       },
       "review": {
         "status": "unreviewed"
@@ -4693,25 +4213,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch08/CH08-07.png"
+          "path": "chapters/ch08/CH08-07.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14501322,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "9 August 378 CE",
         "lighting": "late afternoon",
-        "camera": "ground level",
-        "materialCulture": "Late 4th century CE"
+        "camera": "ground level"
       },
       "review": {
         "status": "unreviewed"
@@ -4747,25 +4261,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch08/CH08-08.png"
+          "path": "chapters/ch08/CH08-08.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14288615,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "9 August 378 CE",
         "lighting": "sunset blood red",
-        "camera": "wide aftermath beginning",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide aftermath beginning"
       },
       "review": {
         "status": "unreviewed"
@@ -4801,25 +4309,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch08/CH08-09.png"
+          "path": "chapters/ch08/CH08-09.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15305390,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "9 August 378 CE",
         "lighting": "dusk purple",
-        "camera": "medium searching",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium searching"
       },
       "review": {
         "status": "unreviewed"
@@ -4855,25 +4357,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch08/CH08-10.png"
+          "path": "chapters/ch08/CH08-10.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14103379,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "9 August 378 CE",
         "lighting": "night fires",
-        "camera": "wide field",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide field"
       },
       "review": {
         "status": "unreviewed"
@@ -4909,25 +4405,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch09/CH09-01.png"
+          "path": "chapters/ch09/CH09-01.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14835899,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "378 CE",
         "lighting": "grey dawn",
-        "camera": "extreme wide empty",
-        "materialCulture": "Late 4th century CE"
+        "camera": "extreme wide empty"
       },
       "review": {
         "status": "unreviewed"
@@ -4963,25 +4453,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch09/CH09-02.png"
+          "path": "chapters/ch09/CH09-02.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 13276964,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "378 CE",
         "lighting": "morning pale",
-        "camera": "close detail",
-        "materialCulture": "Late 4th century CE"
+        "camera": "close detail"
       },
       "review": {
         "status": "unreviewed"
@@ -5017,25 +4501,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch09/CH09-03.png"
+          "path": "chapters/ch09/CH09-03.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14820817,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "378 CE",
         "lighting": "flat overcast",
-        "camera": "wide searching",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide searching"
       },
       "review": {
         "status": "unreviewed"
@@ -5071,25 +4549,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch09/CH09-04.png"
+          "path": "chapters/ch09/CH09-04.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14701813,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "378 CE",
         "lighting": "afternoon",
-        "camera": "medium",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium"
       },
       "review": {
         "status": "unreviewed"
@@ -5125,25 +4597,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch09/CH09-05.png"
+          "path": "chapters/ch09/CH09-05.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14128148,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "378 CE",
         "lighting": "sunset lonely",
-        "camera": "silhouette single figure",
-        "materialCulture": "Late 4th century CE"
+        "camera": "silhouette single figure"
       },
       "review": {
         "status": "unreviewed"
@@ -5179,25 +4645,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch09/CH09-06.png"
+          "path": "chapters/ch09/CH09-06.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14125238,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "378 CE",
         "lighting": "grey",
-        "camera": "wide city",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide city"
       },
       "review": {
         "status": "unreviewed"
@@ -5233,25 +4693,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch09/CH09-07.png"
+          "path": "chapters/ch09/CH09-07.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15970032,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "378 CE",
         "lighting": "rain",
-        "camera": "medium detail",
-        "materialCulture": "Late 4th century CE"
+        "camera": "medium detail"
       },
       "review": {
         "status": "unreviewed"
@@ -5287,25 +4741,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch09/CH09-08.png"
+          "path": "chapters/ch09/CH09-08.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 14413686,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "378 CE",
         "lighting": "night stars",
-        "camera": "extreme wide",
-        "materialCulture": "Late 4th century CE"
+        "camera": "extreme wide"
       },
       "review": {
         "status": "unreviewed"
@@ -5341,25 +4789,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch09/CH09-09.png"
+          "path": "chapters/ch09/CH09-09.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 16117312,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "378 CE",
         "lighting": "dawn pale",
-        "camera": "birds eye",
-        "materialCulture": "Late 4th century CE"
+        "camera": "birds eye"
       },
       "review": {
         "status": "unreviewed"
@@ -5395,25 +4837,19 @@
         {
           "label": "v1",
           "status": "current",
-          "path": "assets/chapters/ch09/CH09-10.png"
+          "path": "chapters/ch09/CH09-10.png"
         }
       ],
       "physical": {
         "format": "png",
         "width": 3840,
-        "height": 2160,
-        "aspectRatio": "16:9",
-        "fileSizeBytes": 15002706,
-        "medium": "layered cut-paper (R1)",
-        "palette": "deep indigo \u00b7 bone \u00b7 iron grey \u00b7 tarnished gold",
-        "orientation": "landscape"
+        "height": 2160
       },
       "context": {
         "era": "Late Antiquity",
         "yearApprox": "378 CE",
         "lighting": "morning clearing",
-        "camera": "wide road",
-        "materialCulture": "Late 4th century CE"
+        "camera": "wide road"
       },
       "review": {
         "status": "unreviewed"
