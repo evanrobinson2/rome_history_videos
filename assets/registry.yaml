@@ -5,6 +5,12 @@
 # continuity can be checked by inspection rather than by memory.
 #
 # status: planned | draft | proposed | APPROVED | superseded
+#
+# generator: cursor | openai
+#   - cursor:  Generated via Cursor's built-in GenerateImage tool
+#   - openai:  Generated via OpenAI Image API (gpt-image-2) using scripts/generate_image.py
+#
+# For gallery filtering by source, filter on the `generator` field.
 
 id_scheme:
   characters: "<TAG>-<nnn>"                    # FRI-001
@@ -48,24 +54,28 @@ style_tests:
     style: painterly historical realism
     file: assets/style-tests/style-a-painterly-realism.png
     subject: MAR-GATE-INT-01
+    generator: cursor
     status: reference_only
   - id: STYLE-B
     register_candidate: R2
     style: ink and wash
     file: assets/style-tests/style-b-ink-and-wash.png
     subject: MAR-GATE-INT-01
+    generator: cursor
     status: reference_only
   - id: STYLE-C
     register_candidate: R3
     style: charcoal on toned paper
     file: assets/style-tests/style-c-charcoal.png
     subject: MAR-GATE-INT-01
+    generator: cursor
     status: reference_only
   - id: STYLE-D
     register_candidate: R1
     style: gouache limited palette
     file: assets/style-tests/style-d-gouache-limited-palette.png
     subject: MAR-GATE-INT-01
+    generator: cursor
     status: reference_only
 
   # Intimate-scale bake-off. The wide tests above cannot settle the R1 base
@@ -76,12 +86,14 @@ style_tests:
     style: painterly historical realism
     file: assets/style-tests/style-a2-painterly-intimate.png
     subject: intimate — hands breaking bread between two children
+    generator: cursor
     status: reference_only
   - id: STYLE-D2
     register_candidate: R1
     style: gouache limited palette
     file: assets/style-tests/style-d2-gouache-intimate.png
     subject: intimate — hands breaking bread between two children
+    generator: cursor
     status: reference_only
 
   # Layered cut-paper candidate, derived from the reference reel analysed in
@@ -95,6 +107,7 @@ style_tests:
     subject: benchmark 3 — the Gothic host (crowd scale)
     tests: does a multitude read as layered bands or collapse into mush
     result: PASS — legible to the horizon; defect: meaningless gold in foreground earth
+    generator: cursor
     status: reference_only
   - id: PAPERCUT-02
     register_candidate: R1
@@ -103,6 +116,7 @@ style_tests:
     subject: benchmark 12 — hands breaking bread (intimate)
     tests: does the moment carry emotion without faces
     result: PASS on emotion — but composition inherited devotional Madonna grammar; see symmetry rule
+    generator: cursor
     status: reference_only
   - id: PAPERCUT-03
     register_candidate: R1
@@ -111,6 +125,7 @@ style_tests:
     subject: benchmark 7 — firelight at night
     tests: does light read as flat cut shape rather than rendered glow
     result: PASS — but radial star composition reads diagrammatic; break symmetry
+    generator: cursor
     status: reference_only
   - id: PAPERCUT-04
     register_candidate: R1
@@ -119,6 +134,7 @@ style_tests:
     subject: benchmark 11 — aftermath (grime and hard content)
     tests: can torn deckle edges carry dirt, damage and wear
     result: PASS — strongest grime solution; palette collapsed toward monochrome, acceptable
+    generator: cursor
     status: reference_only
 
   # OpenAI gpt-image-2 via scripts/generate_image.py (production pipeline)
@@ -129,6 +145,7 @@ style_tests:
     model: gpt-image-2
     size: 3840x2160
     subject: benchmark 12 — hands (OpenAI pipeline proof)
+    generator: openai
     status: reference_only
 
 # Known defects in the style tests, kept as examples of the failure modes:
