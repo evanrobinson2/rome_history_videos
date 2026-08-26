@@ -2,7 +2,7 @@
 
 Status: **PLAN — canonical dramatic logic**  
 Series: Gothic Invasion · **Episode 2 of 3** (Film arc: Video 2 — Flight to Adrianople)  
-Sources: `feedback/inbox/transcript/audio1834333043.json` (2026-08-25 narration, ~45 min);
+Sources: `feedback/2026-08-25-direction-notes.md` (2026-08-25 narration session);
 Evan direction 2026-08-26 (tactical spine + Lupicinus correction).
 
 **Series cover:** fallen Roman segmentata / empty helm / shattered scutum — this is the

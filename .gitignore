@@ -30,8 +30,9 @@ research/**/*.mp4
 research/**/*.m4a
 research/**/*.wav
 
-# Inbox voice recordings — keep local; transcripts in feedback/inbox/transcript/ are tracked
+# Inbox voice recordings — keep local; direction notes in feedback/ are tracked
 feedback/inbox/**/*.m4a
+feedback/inbox/transcript/
 
 # Mind-meld runtime (locks / hook logs)
 mind/.sync.log

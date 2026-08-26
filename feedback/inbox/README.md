@@ -3,10 +3,10 @@
 Where each file came from. A Mac path here is provenance only — cloud agents
 cannot open it. Use the file in this folder.
 
-**`audio1834333043.m4a`** — Evan's Zoom review (48:31). **Gitignored** (local only);
-transcript is tracked at `feedback/inbox/transcript/audio1834333043.{json,txt,srt}`.
-Cloud agents cannot hear files and must not call this recording broken. Do not
-`Read` the `.m4a` as text.
+**`audio1834333043.m4a`** — Evan's Zoom review (48:31). **Gitignored** (local only).
+Transcript also local: `feedback/inbox/transcript/audio1834333043.{json,txt,srt}`.
+Creative direction extracted to `feedback/2026-08-25-direction-notes.md`.
+Cloud agents cannot hear files. Do not `Read` the `.m4a` as text.
 
 | File | Landed | Original path | How |
 | --- | --- | --- | --- |

@@ -893,15 +893,7 @@
       "bytes": 4868004,
       "sha256": "7705f5703a0f633b",
       "suggested_cue": "denouement",
-      "cue_note": "Frozen Plain Thrace \u2014 denouement"
-    },
-    {
-      "path": "feedback/inbox/audio1834333043.m4a",
-      "filename": "audio1834333043.m4a",
-      "bytes": 24395857,
-      "sha256": "4ef0ee7fa8c3c887",
-      "suggested_cue": null,
-      "cue_note": null
+      "cue_note": "Frozen Plain Thrace — denouement"
     }
   ]
 }

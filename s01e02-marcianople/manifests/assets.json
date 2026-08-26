@@ -2665,14 +2665,6 @@
       "shot_id": null,
       "status": "inventory",
       "notes": null
-    },
-    {
-      "path": "feedback/inbox/audio1834333043.m4a",
-      "bytes": 24395857,
-      "sha256": "4ef0ee7fa8c3c887",
-      "shot_id": null,
-      "status": "inventory",
-      "notes": null
     }
   ]
 }
