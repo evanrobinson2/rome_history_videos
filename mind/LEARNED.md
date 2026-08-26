@@ -154,3 +154,28 @@ script only appends standing material-culture constraints, not process gates.
 ground, FRI-001 + bride refs in the prompt / `--` reference path if used), writes frame
 cards, then generates, then screens like REVIEW-v1 before R2 keepers. Current V1 PNGs on R2
 are provisional sketches, not locks.
+
+## 2026-08-26 — Deploy cap was real; “100” was Vercel’s message, not our count
+
+**Was:** Hive lore said we burned exactly 100 production deploys/day on mind sync, and that
+is why the Video 1 images never reached `rome-history-videos.vercel.app`.
+
+**Is:**
+1. `vercel --prod` at 02:46 UTC did fail with `api-deployments-free-per-day` (“more than 100”).
+   That error is real. By 10:06 UTC the same command succeeded — quota had rolled.
+2. Retained Vercel API history for this project shows a **max rolling-24h of 53**
+   deployments, not 100. Aug 26 **01:00–02:00 UTC alone had 38** (mostly `mind: sync`
+   Ready/Canceled). The deleted stray `workspace` project likely doubled toward the
+   account cap; those rows are gone from the API so we cannot re-add them to 100.
+3. **Why V1 was missing from the site** was not “hit 100 so V1 couldn’t build.” V1 commits
+   (02:35–02:41) never got a Ready production deployment — a later `mind: sync` tip
+   canceled in-flight work and skip-ignored itself. The rate limit only blocked the
+   *remediation* redeploy a few minutes later.
+
+**How:** `GET /v6/deployments` for team `evan-8467`, hourly histogram 2026-08-26;
+`npx vercel inspect` on prod alias vs commit times; successful prod deploy
+`dpl_FDycXATZEiPNBzRLA97ws8LGxd9G` at 10:06 UTC now serves 58-item CDN manifest including V1.
+
+**Changed:** Say “Vercel returned the free-tier daily deployment cap error” and “cancel race
+left production stale,” not “we did 100 deploys.” Mind-sync still caused an outrageous
+burst (38/hour); ignoreCommand + deleting `workspace` were still the right mitigations.
