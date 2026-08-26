@@ -134,3 +134,23 @@ created by mistake, and doubles every remaining build:
 couples *thinking* to *building*. Any node that appends to `mind/` was silently spending a
 shared, finite production resource. When adding a new always-on write path, check what
 else watches that path.
+
+## 2026-08-26 — Video 1 frames skipped the creative pipeline
+
+**Was:** Cloud generated `V1-00-HOMELAND`, `V1-01-WEDDING-UNION`, `V1-02-WEDDING-RAID` as
+soon as shot-list rows existed, uploaded to R2, and registered them as reviewable.
+
+**Is:** That jumped from a shot-list line to Phase 8. Per `bible/00-scope-and-decisions.md` §6
+the path is: location/character assets → scene comps → beat board → **frame cards** →
+final generation → Phase 9 continuity review (`assets/production/REVIEW-v1.md` failure modes
++ turnaround refs) → LOCK. None of that happened for Part I. Predictable symptoms: groom ≠
+`FRI-001`, wedding too symmetric, no established homeland set to return to.
+
+**How:** Evan, looking at the Mac viewer and the tunnel review: "oh dear we didn't follow
+any creative process for those." Pipeline text is explicit in the bible; the generate
+script only appends standing material-culture constraints, not process gates.
+
+**Changed:** Next V1 work starts at Phase 5–7 for the wedding world (homeland set, wedding
+ground, FRI-001 + bride refs in the prompt / `--` reference path if used), writes frame
+cards, then generates, then screens like REVIEW-v1 before R2 keepers. Current V1 PNGs on R2
+are provisional sketches, not locks.

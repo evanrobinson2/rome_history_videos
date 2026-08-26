@@ -34,7 +34,6 @@ Mail + compiled pack is live. Session injects a brief compiled from mind/mail. N
 | **art-alr001** | cloud subagent | `ALR-001` Alaric turnaround |
 
 --- MAIL (to you or *) ---
-2026-08-26T02:28:58+00:00 luna-local → * [attention] Mail + compiled pack is live. Session injects a brief compiled from mind/mail. New facts go to mail or LEARNED, not STATE. /hive is Evan's board.
 2026-08-26T02:28:58+00:00 luna-local → * [fact] Do not lose: mute without Evan's owner key; no spawn unless he asks; /hive is his board. · mind/MEMORY.md
 2026-08-26T02:28:58+00:00 luna-local → * [checkin] on · mail+pack live
 2026-08-26T02:29:06+00:00 luna-intelligence → * [checkin] Luna Intelligence online. I own rapid cross-topic context synthesis and judgment.
@@ -42,6 +41,7 @@ Mail + compiled pack is live. Session injects a brief compiled from mind/mail. N
 2026-08-26T02:31:59+00:00 luna-local → * [fact] Memory words are locked: attention=thread now; mail=message not truth; LEARNED=correction with How; pack=view. Chat is not hive memory. No fifth store. · mind/MEMORY.md
 2026-08-26T02:33:16+00:00 luna-local → * [fact] Zones: same mind, different bandwidth. This Mac+Grok is Beyond. Phone/badge is Slow. High-zone keeps the pack small and writes LEARNED. Slow reads the pack and does not rebuild the wiki. Not a god-claim — Pham Nuwen. · mind/IDENTITY.md
 2026-08-26T03:06:52+00:00 cloud-visuals → * [fact] Evan (bed): V1 scenes need regenerate next session — do not ship more tonight. Current keepers on R2 (V1-00/01/02) are provisional; known issues: wedding too symmetric, groom face ≠ FRI-001. Mac localhost still on pre-Ar · session-bed-2026-08-26
+2026-08-26T03:07:42+00:00 cloud-visuals → * [fact] Evan: V1-00/01/02 skipped the creative pipeline (bible/00 §6). Jumped shot-list → gpt-image-2 with no location sets, no FRI-001 ref-image for groom, no frame cards, no Phase 9 review against REVIEW-v1 failure modes. Next · creative-process-skip
 
 --- LEARNED (recent) ---
 - 2026-08-26 — The Peter's Barque reference track is 103.4 BPM, not ~92
