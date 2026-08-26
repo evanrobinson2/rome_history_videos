@@ -1,0 +1,26 @@
+{
+  "id": "req-C02-960d324a",
+  "created_at": "2026-08-26T22:50:25.620446+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "C02",
+  "purpose": "scale and vulnerability on ferries",
+  "visual_mode": "brutalist_print",
+  "action": "midjourney_generate",
+  "prompt": "Elevated three-quarter view: overloaded flat timber ferries and lashed rafts mid-Danube, families standing tight among low squat carts, oxen, bundled children. Near raft edge: small wiry boy 5-7 clutches wagon sideboard \u2014 narrow oval face, enormous gray-blue eyes, thick brows with gap above left eye, unruly dark curls, faded blue hood, braided cord twice on left wrist. Rope tension, wet planks, vulnerable human scale against wide slow river and pale sky. Distant Roman bank orderly and small. Refined hand-drawn digital illustration, pale Thracian blue dirty ivory charcoal muted earth, geometric fractures in water and distant banks only, expressive readable face, clean ink contours textured color, 16:9 horizontal. Late-antique 376 CE Thracian",
+  "prompt_hash": "960d324a",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 200,
+    "chaos": 2
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-C02-scale-and-vulnerability-on-ferries-960d324a",
+  "filenames": [
+    "C02_0.png",
+    "C02_1.png",
+    "C02_2.png",
+    "C02_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}
