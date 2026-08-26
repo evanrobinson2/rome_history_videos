@@ -22,7 +22,7 @@ not with raw chat count.
 | **luna-intelligence** | localhost | Rapid cross-topic context synthesis and judgment |
 | **experience-observer** | live voice/chat | Subjective capture per `mind/EXPERIENCE.md` |
 | **cloud-visuals** | cloud on this repo | **Visuals** — scene + character image generation, style/continuity enforcement, manifest, deploys |
-| **cloud-music** | *unclaimed* | Music: Suno prompts, track analysis, cut points, mix headroom |
+| **cloud-music** | cloud on this repo | Music: score architecture, Suno prompts, track analysis, cut points, mix headroom |
 | **art-alr001** | cloud subagent | `ALR-001` Alaric turnaround |
 
 `/hive` is **Evan’s** check-in/status board. You maintain your own avatar
