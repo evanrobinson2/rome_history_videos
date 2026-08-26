@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "generated_at": "2026-08-26T18:30:55.188815+00:00",
+  "scan_dirs": [
+    "feedback/inbox/2026-08-26-music-archive",
+    "feedback/inbox"
+  ],
+  "summary": {
+    "files": 3,
+    "mapped_cues": 2,
+    "unmapped": 1
+  },
+  "episode_cues": {
+    "battle": {
+      "music_cue": "gothic_fracture",
+      "required": true
+    },
+    "denouement": {
+      "music_cue": "frozen_thrace",
+      "required": true
+    },
+    "crossing_open": {
+      "music_cue": "crossing_open",
+      "required": false
+    },
+    "heist_groove": {
+      "music_cue": "heist_groove",
+      "required": true
+    },
+    "family_memory": {
+      "music_cue": "exile_lullaby",
+      "required": false
+    }
+  },
+  "cue_picks": {
+    "crossing_reference": {
+      "path": "feedback/inbox/2026-08-24-dust-on-the-steppe.mp3",
+      "filename": "2026-08-24-dust-on-the-steppe.mp3",
+      "bytes": 3953786,
+      "sha256": "0df3ff10cc69a438",
+      "suggested_cue": "crossing_reference",
+      "cue_note": "Dust on the Steppe \u2014 crossing reference"
+    },
+    "denouement": {
+      "path": "feedback/inbox/2026-08-25-frozen-plain-thrace.mp3",
+      "filename": "2026-08-25-frozen-plain-thrace.mp3",
+      "bytes": 4868004,
+      "sha256": "7705f5703a0f633b",
+      "suggested_cue": "denouement",
+      "cue_note": "Frozen Thrace \u2014 denouement handoff"
+    }
+  },
+  "files": [
+    {
+      "path": "feedback/inbox/2026-08-24-dust-on-the-steppe.mp3",
+      "filename": "2026-08-24-dust-on-the-steppe.mp3",
+      "bytes": 3953786,
+      "sha256": "0df3ff10cc69a438",
+      "suggested_cue": "crossing_reference",
+      "cue_note": "Dust on the Steppe \u2014 crossing reference"
+    },
+    {
+      "path": "feedback/inbox/2026-08-25-frozen-plain-thrace.mp3",
+      "filename": "2026-08-25-frozen-plain-thrace.mp3",
+      "bytes": 4868004,
+      "sha256": "7705f5703a0f633b",
+      "suggested_cue": "denouement",
+      "cue_note": "Frozen Thrace \u2014 denouement handoff"
+    },
+    {
+      "path": "feedback/inbox/audio1834333043.m4a",
+      "filename": "audio1834333043.m4a",
+      "bytes": 24395857,
+      "sha256": "4ef0ee7fa8c3c887",
+      "suggested_cue": null,
+      "cue_note": null
+    }
+  ]
+}

@@ -21,9 +21,10 @@ First-draft illustrated episode: Gothic crossing → Roman mistreatment → banq
 
 | Cue | File (repo) |
 | --- | --- |
-| Battle | *The Gothic Fracture.mp3* — **pending ingest** |
-| Denouement | `feedback/inbox/2026-08-25-frozen-plain-thrace.mp3` |
-| Crossing / memory | `feedback/inbox/2026-08-24-dust-on-the-steppe.mp3`, *Exile Lullaby.mp3* TBD |
+| Battle | *The Gothic Fracture.mp3* — ingest from `Archive.zip` → `feedback/inbox/2026-08-26-music-archive/` |
+| Denouement | `feedback/inbox/2026-08-25-frozen-plain-thrace.mp3` (also in Archive) |
+| Crossing / memory | `feedback/inbox/2026-08-24-dust-on-the-steppe.mp3`, *Exile Lullaby.mp3* (Archive) |
+| Heist | pending — should be in Archive |
 
 ## Approved stills (register, do not regenerate)
 
@@ -38,3 +39,12 @@ Auto-mapped **20/41 shots** → see `manifests/mj-session-index.json`. Status `r
 ## Three questions (every frame)
 
 Whose experience is this? What changed? Why must this image exist?
+
+## Automation (local)
+
+```bash
+python3 s01e02-marcianople/automation/ingest/index_mj_session.py
+python3 s01e02-marcianople/automation/ingest/apply_mj_session.py
+python3 s01e02-marcianople/automation/validate/contact_sheet.py
+python3 s01e02-marcianople/automation/validate/validate_prompts.py
+```
