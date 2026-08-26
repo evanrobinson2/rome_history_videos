@@ -1,6 +1,6 @@
 # Current state
 
-Last updated: 2026-08-26 02:22 UTC (luna-local — memory eval in MEMORY.md)
+Last updated: 2026-08-26 02:27 UTC (cloud-production — music pairing mapped)
 
 ## Now
 
@@ -93,11 +93,13 @@ From `feedback/2026-08-25-direction-notes.md` §8:
 
 ## Open — other
 
-- Two music tracks in the inbox are **unanalyzed**: `2026-08-24-dust-on-the-steppe.mp3`
-  (2:43) and `2026-08-25-frozen-plain-thrace.mp3` (3:29). Both mastered to the ceiling
-  (peaks −0.1 dB and 0.0 dB) and will fight the spoken word for headroom. Tempo/key/section
-  analysis not yet run, so the ~92 BPM figure in `music-analysis.md` remains an unverified
-  markdown claim.
+- **Music pairing mapped:** use the inbox tracks as an E-flat major → minor → major
+  suite. `Frozen Plain Thrace` (107.7 BPM, E-flat major estimate) carries home,
+  migration, humiliation, and the bread-restored reprise. `Dust on the Steppe`
+  (112.3 BPM, E-flat minor estimate) carries the banquet reversal through Adrianople.
+  Both have real dynamics and decode below full scale; automate −8 dB starting gain
+  under narration. Cue sheet and measured cut points:
+  `feedback/2026-08-26-music-pairing.md`.
 - Image redo queue, ready to run now that credits exist: Lupicinus out of proportion /
   needs to read battle-worn and competent; the assault framing that is now an ambush;
   steppe origin shots; horses planted early to foreshadow the riderless imperial horse;
@@ -116,7 +118,7 @@ From `feedback/2026-08-25-direction-notes.md` §8:
 | File | What |
 | --- | --- |
 | `audio1834333043.m4a` | Zoom review, 48:31, valid AAC — **transcribed** |
-| `2026-08-25-frozen-plain-thrace.mp3` | music — unanalyzed |
-| `2026-08-24-dust-on-the-steppe.mp3` | music — unanalyzed |
+| `2026-08-25-frozen-plain-thrace.mp3` | music — analyzed and cue-mapped |
+| `2026-08-24-dust-on-the-steppe.mp3` | music — analyzed and cue-mapped |
 | `2026-08-25-zoom-recording.conf` | Zoom sidecar; mentions `video1834333043.mp4` (85.7 MB, never uploaded — too large for git, and audio was sufficient) |
 | `2026-08-26-bread-for-the-child.jpg` | still: mother offers bread to the child, wagon, paper-cut — **in git for remote** |
