@@ -42,9 +42,14 @@ If you spawn: take an **open** row or add a named row. Do not all edit
 - Wrench badge look and feel. Handoff: `mind/workers/luna-ux/HANDOFF.md`.
   Spec stays at `mind/workers/luna-local/WRENCH-NODE.md` until you move it.
 
+## Owned by cloud-production (in progress)
+
+- Pair the two inbox music cues to the Fritigern → Alaric film without
+  rewriting the story arc. Cue sheet:
+  `feedback/2026-08-26-music-pairing.md`.
+
 ## Open (claim one)
 
-- Analyze the two inbox music tracks (tempo/key/headroom)
 - Hold the four story decisions in `feedback/2026-08-25-direction-notes.md` §8
   until Evan answers
 - Image redo queue (Lupicinus, ambush, steppe, horses) — only after those
