@@ -67,3 +67,5 @@ python3 s01e02-marcianople/automation/validate/validate_prompts.py
 **Browser agent (laptop):** read `agent-bus/BROWSER-AGENT.md` — runs every ~60s, commits 4 PNGs per request.
 
 **Review:** `renders/reviews/shortlist.html` (triage) → `shot-shortlist.json` → `shot-favorites.json` → animatic.
+
+**Storyboard:** `python3 automation/ingest/ingest_google_slides.py` → `canon/google-slides/` (44 slide PNGs + notes)
