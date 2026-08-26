@@ -1,0 +1,109 @@
+{
+  "file": "s01e02-marcianople/assets/music/denouement.mp3",
+  "duration_sec": 184.08,
+  "duration_clock": "3:04",
+  "tempo_bpm": 117.5,
+  "tempo_bpm_from_beat_intervals": 117.5,
+  "tempo_half": 58.7,
+  "tempo_double": 234.9,
+  "beat_count": 345,
+  "key_estimate": "C minor",
+  "key_confidence": 0.911,
+  "key_alternatives": [
+    {
+      "key": "C minor",
+      "corr": 0.911
+    },
+    {
+      "key": "D# major",
+      "corr": 0.611
+    },
+    {
+      "key": "G minor",
+      "corr": 0.545
+    },
+    {
+      "key": "C major",
+      "corr": 0.538
+    }
+  ],
+  "peak_dbfs": -0.85,
+  "rms_dbfs": -16.37,
+  "crest_factor_db": 15.52,
+  "samples_at_full_scale": 0,
+  "section_count": 8,
+  "sections": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 11.96,
+      "start_clock": "0:00",
+      "length_sec": 11.96,
+      "mean_rms": 0.0431,
+      "mean_dbfs": -27.3
+    },
+    {
+      "index": 2,
+      "start": 11.96,
+      "end": 19.99,
+      "start_clock": "0:12",
+      "length_sec": 8.03,
+      "mean_rms": 0.05824,
+      "mean_dbfs": -24.7
+    },
+    {
+      "index": 3,
+      "start": 19.99,
+      "end": 92.93,
+      "start_clock": "0:20",
+      "length_sec": 72.94,
+      "mean_rms": 0.15474,
+      "mean_dbfs": -16.2
+    },
+    {
+      "index": 4,
+      "start": 92.93,
+      "end": 102.17,
+      "start_clock": "1:33",
+      "length_sec": 9.24,
+      "mean_rms": 0.08268,
+      "mean_dbfs": -21.7
+    },
+    {
+      "index": 5,
+      "start": 102.17,
+      "end": 132.45,
+      "start_clock": "1:42",
+      "length_sec": 30.28,
+      "mean_rms": 0.1278,
+      "mean_dbfs": -17.9
+    },
+    {
+      "index": 6,
+      "start": 132.45,
+      "end": 146.8,
+      "start_clock": "2:12",
+      "length_sec": 14.35,
+      "mean_rms": 0.10988,
+      "mean_dbfs": -19.2
+    },
+    {
+      "index": 7,
+      "start": 146.8,
+      "end": 172.57,
+      "start_clock": "2:27",
+      "length_sec": 25.77,
+      "mean_rms": 0.18178,
+      "mean_dbfs": -14.8
+    },
+    {
+      "index": 8,
+      "start": 172.57,
+      "end": 184.08,
+      "start_clock": "2:53",
+      "length_sec": 11.51,
+      "mean_rms": 0.1349,
+      "mean_dbfs": -17.4
+    }
+  ]
+}

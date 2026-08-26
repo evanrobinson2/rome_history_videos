@@ -21,10 +21,14 @@ First-draft illustrated episode: Gothic crossing → Roman mistreatment → banq
 
 | Cue | File (repo) |
 | --- | --- |
-| Battle | *The Gothic Fracture.mp3* — ingest from `Archive.zip` → `feedback/inbox/2026-08-26-music-archive/` |
-| Denouement | `feedback/inbox/2026-08-25-frozen-plain-thrace.mp3` (also in Archive) |
-| Crossing / memory | `feedback/inbox/2026-08-24-dust-on-the-steppe.mp3`, *Exile Lullaby.mp3* (Archive) |
-| Heist | pending — should be in Archive |
+| Battle | `assets/music/battle.mp3` ← *The Gothic Fracture (1)* |
+| Denouement | `assets/music/denouement.mp3` ← *Frozen Plain Thrace (1)* |
+| Crossing | `assets/music/crossing_open.mp3` ← *The First Step Across the (1)* |
+| Crossing ref | `assets/music/crossing_reference.mp3` ← *Dust on the Steppe (1)* |
+| Heist | `assets/music/heist_groove.mp3` ← *Wah-Step Pulse (Remastered) (1)* |
+| Family / memory | `assets/music/family_memory.mp3` ← *Exile Lullaby (1)* |
+
+Full archive: `feedback/inbox/2026-08-26-archive-music/` (98 tracks). Manifest: `manifests/music-manifest.json`.
 
 ## Approved stills (register, do not regenerate)
 

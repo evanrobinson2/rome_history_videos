@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 INBOX_DIRS = [
-    ROOT / "feedback" / "inbox" / "2026-08-26-music-archive",
+    ROOT / "feedback" / "inbox" / "2026-08-26-archive-music",
     ROOT / "feedback" / "inbox",
 ]
 OUT = ROOT / "s01e02-marcianople" / "manifests" / "music-manifest.json"
@@ -22,13 +22,23 @@ MEDIA = {".mp3", ".wav", ".flac", ".m4a", ".aac", ".ogg"}
 
 # cue_id -> substring patterns (normalized filename)
 CUE_RULES: list[tuple[str, list[str], str]] = [
-    ("battle", ["gothic_fracture", "gothic-fracture", "the_gothic_fracture"], "The Gothic Fracture — primary battle cue"),
-    ("denouement", ["frozen_plain", "frozen-plain", "frozen_thrace", "frozen-thrace"], "Frozen Thrace — denouement handoff"),
-    ("crossing_reference", ["dust_on_the_steppe", "dust-on-the-steppe", "dust_steppe"], "Dust on the Steppe — crossing reference"),
+    ("battle", ["the_gothic_fracture", "gothic_fracture"], "The Gothic Fracture — primary battle cue"),
+    ("denouement", ["frozen_plain_thrace", "frozen-plain-thrace"], "Frozen Plain Thrace — denouement"),
+    ("crossing_reference", ["dust_on_the_steppe", "dust-on-the-steppe"], "Dust on the Steppe — crossing reference"),
+    ("crossing_open", ["the_first_step_across", "warm_steps"], "Crossing opening"),
     ("family_memory", ["exile_lullaby", "exile-lullaby"], "Exile Lullaby — family / memory"),
-    ("heist_groove", ["heist", "banquet_groove", "marcianople_heist"], "Banquet / heist groove"),
-    ("crossing_open", ["crossing", "danube", "passage"], "Crossing opening (if distinct track)"),
+    ("heist_groove", ["wah_step_pulse", "wah-step_pulse", "the_iron_vault", "a_wild_evening"], "Banquet / heist groove"),
 ]
+
+# Prefer specific filenames when multiple variants match a cue (basename substring).
+PREFERRED_FILES: dict[str, str] = {
+    "battle": "The Gothic Fracture (1)",
+    "denouement": "Frozen Plain Thrace (1)",
+    "family_memory": "Exile Lullaby (1)",
+    "heist_groove": "Wah-Step Pulse (Remastered) (1)",
+    "crossing_open": "The First Step Across the (1)",
+    "crossing_reference": "Dust on the Steppe (1)",
+}
 
 
 def sha256_prefix(path: Path) -> str:
@@ -87,7 +97,15 @@ def main() -> None:
         }
         entries.append(entry)
         if cue_id:
+            preferred = PREFERRED_FILES.get(cue_id)
+            if preferred and preferred in path.name:
+                pick = dict(entry)
+                pick["pick_reason"] = "preferred_filename"
+                cue_picks[cue_id] = pick
+                continue
             prev = cue_picks.get(cue_id)
+            if prev and prev.get("pick_reason") == "preferred_filename":
+                continue
             if not prev or entry["bytes"] > prev["bytes"]:
                 cue_picks[cue_id] = entry
 
@@ -95,8 +113,10 @@ def main() -> None:
     for cue_id, entry in cue_picks.items():
         dest = ASSET_DIR / f"{cue_id}{Path(entry['path']).suffix.lower()}"
         src = ROOT / entry["path"]
-        if src.exists() and not dest.exists():
-            shutil.copy2(src, dest)
+        if src.exists():
+            if not dest.exists() or sha256_prefix(src) != sha256_prefix(dest):
+                shutil.copy2(src, dest)
+            entry["asset_copy"] = dest.relative_to(ROOT).as_posix()
 
     payload = {
         "schemaVersion": "1.0.0",
