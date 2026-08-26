@@ -1,0 +1,502 @@
+{
+  "schemaVersion": "1.0.0",
+  "generated_at": "2026-08-26T15:23:16.408815+00:00",
+  "assets": [
+    {
+      "path": "assets/scenes/SCENE-02-UPROOTING-01.png",
+      "bytes": 3139912,
+      "sha256": "518d7cfea66ab473",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-03-PETITION-01.png",
+      "bytes": 3159512,
+      "sha256": "59ff9b4b2a103f4e",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-04-ENDURANCE-01.png",
+      "bytes": 3376211,
+      "sha256": "f4ddce33e03d47bd",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-05-HUMILIATION-01.png",
+      "bytes": 3119619,
+      "sha256": "5cd79ff2efad783d",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-05-HUMILIATION-02.png",
+      "bytes": 3013511,
+      "sha256": "b85c42d7ae4f6537",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-05-HUMILIATION-03.png",
+      "bytes": 3506301,
+      "sha256": "5c75a437d46d764d",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-05-HUMILIATION-04.png",
+      "bytes": 3032293,
+      "sha256": "69fd6d2deb3677b9",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-05-HUMILIATION-05.png",
+      "bytes": 3052968,
+      "sha256": "a0437827b4462bcf",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-05-HUMILIATION-06.png",
+      "bytes": 3376070,
+      "sha256": "488ab40419c160f6",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-05-HUMILIATION-07.png",
+      "bytes": 3104842,
+      "sha256": "45dafcd6bd00a290",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-06-HUNGER-01.png",
+      "bytes": 3229669,
+      "sha256": "d38da49955f48af6",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-07-TENDERNESS-01.png",
+      "bytes": 3139491,
+      "sha256": "d8bc5ba478a41de7",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-08-LEVITY-01.png",
+      "bytes": 2825298,
+      "sha256": "80c7b11e0648ce50",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-09-UNEASE-01.png",
+      "bytes": 2798013,
+      "sha256": "4a51020a127e8b97",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-09-UNEASE-02.png",
+      "bytes": 3162934,
+      "sha256": "84c1788589059aae",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-09-UNEASE-03.png",
+      "bytes": 2923390,
+      "sha256": "568b8af90a6f1689",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-10-BETRAYAL-01.png",
+      "bytes": 2580232,
+      "sha256": "c303c228b0ac8c68",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-10-BETRAYAL-02.png",
+      "bytes": 2852737,
+      "sha256": "c3f9fa4421c8a7a8",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-10-BETRAYAL-03-R3.png",
+      "bytes": 3185038,
+      "sha256": "eb3d5222c6459bcf",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-10-BETRAYAL-04.png",
+      "bytes": 2390924,
+      "sha256": "5e348967d1b0722e",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-10-BETRAYAL-05.png",
+      "bytes": 3130787,
+      "sha256": "1f5d011aea9e8b29",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-11-FURY-01.png",
+      "bytes": 3449933,
+      "sha256": "5cf2e9e9f5806b20",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-ADV-01.png",
+      "bytes": 3471069,
+      "sha256": "2a366ae92ea2e763",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-ADV-02.png",
+      "bytes": 3443601,
+      "sha256": "7aa399cee94148c1",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-ADV-03.png",
+      "bytes": 3168811,
+      "sha256": "5e8bcc59c1eca007",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-ADV-04.png",
+      "bytes": 3690012,
+      "sha256": "11ce0c17995a12bc",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-ADV-05.png",
+      "bytes": 3395454,
+      "sha256": "23a290ad3cbab212",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-ADV-06.png",
+      "bytes": 3504798,
+      "sha256": "9267a604cfbc17ba",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-ADV-07.png",
+      "bytes": 3324704,
+      "sha256": "211646503f1b31f4",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-ADV-08.png",
+      "bytes": 3321204,
+      "sha256": "a32bd3e48728fd27",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-ADV-09.png",
+      "bytes": 3413784,
+      "sha256": "b6cdd719de4bfdb6",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-ADV-10.png",
+      "bytes": 2788475,
+      "sha256": "11c42aa5d0123739",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-BATTLE-LAAGER-01.png",
+      "bytes": 3133544,
+      "sha256": "94c91e32fa70c008",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-BATTLE-LAAGER-02.png",
+      "bytes": 2906616,
+      "sha256": "02906363a99e3fe6",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-BATTLE-LAAGER-03.png",
+      "bytes": 3097969,
+      "sha256": "1d678d2ab9c4717a",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-BATTLE-LAAGER-04.png",
+      "bytes": 2956954,
+      "sha256": "730b8a303d60e248",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-BATTLE-LAAGER-05.png",
+      "bytes": 3039169,
+      "sha256": "4e3319cea11e972e",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-BATTLE-LAAGER-06.png",
+      "bytes": 3048585,
+      "sha256": "90c904cfc6ead009",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-BATTLE-LAAGER-07.png",
+      "bytes": 3167797,
+      "sha256": "3279f8f076ce0ab5",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-BATTLE-LAAGER-08.png",
+      "bytes": 2989685,
+      "sha256": "285f503493d682f1",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/SCENE-PAIR-HUBRIS-01.png",
+      "bytes": 3048800,
+      "sha256": "2d48a30dc82667e0",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/V1-00-HOMELAND.png",
+      "bytes": 3489494,
+      "sha256": "fa2ec6c953b8677d",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/V1-01-WEDDING-UNION.png",
+      "bytes": 3092728,
+      "sha256": "fe3077af95dc6f7b",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/scenes/V1-02-WEDDING-RAID.png",
+      "bytes": 3092397,
+      "sha256": "9760ea45f10a9a7d",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/ALA-001-turnaround.png",
+      "bytes": 2555160,
+      "sha256": "bf78c3246c56cfb0",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/ALR-001-turnaround.png",
+      "bytes": 15471974,
+      "sha256": "4f1c740376a5ba9d",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/BANQUET-PAIR-001.png",
+      "bytes": 3027261,
+      "sha256": "d19ee2b390a35353",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/FRI-001-turnaround.png",
+      "bytes": 2601212,
+      "sha256": "f634850bbd145bc3",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/LUP-001-turnaround.png",
+      "bytes": 3147362,
+      "sha256": "8a8bb08171f6c2fb",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/VAL-001-COSTUME-COURT.png",
+      "bytes": 2303107,
+      "sha256": "f22e3d67c1b2416b",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/VAL-001-COSTUME-FIELD.png",
+      "bytes": 3139355,
+      "sha256": "fd7c1df420b50f45",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/VAL-001-MOOD-13-HUBRIS-A.png",
+      "bytes": 3232769,
+      "sha256": "f0d5c07649c2d840",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/VAL-001-MOOD-13-HUBRIS-B.png",
+      "bytes": 2995258,
+      "sha256": "bdb1eaa1327710b7",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/VAL-001-MOOD-14-TERROR-A.png",
+      "bytes": 3353398,
+      "sha256": "4fe6b01dbbc34afc",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/VAL-001-MOOD-14-TERROR-B.png",
+      "bytes": 3174013,
+      "sha256": "a271c147f81b57aa",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/VAL-001-MOOD-15-RUIN-A.png",
+      "bytes": 2900073,
+      "sha256": "a92793a537eb99dc",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/VAL-001-MOOD-15-RUIN-B.png",
+      "bytes": 2621063,
+      "sha256": "4594a2a7cdc6c90b",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "assets/characters/VAL-001-turnaround.png",
+      "bytes": 2963395,
+      "sha256": "79d1b45a8153fcd2",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-24-dust-on-the-steppe.mp3",
+      "bytes": 3953786,
+      "sha256": "0df3ff10cc69a438",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-25-frozen-plain-thrace.mp3",
+      "bytes": 4868004,
+      "sha256": "7705f5703a0f633b",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-bread-for-the-child.jpg",
+      "bytes": 151781,
+      "sha256": "cbcea55d98157274",
+      "shot_id": "C12",
+      "status": "tentative_match",
+      "notes": null
+    },
+    {
+      "path": "feedback/inbox/audio1834333043.m4a",
+      "bytes": 24395857,
+      "sha256": "4ef0ee7fa8c3c887",
+      "shot_id": null,
+      "status": "inventory",
+      "notes": null
+    }
+  ]
+}

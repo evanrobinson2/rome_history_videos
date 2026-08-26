@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0.0",
+  "note": "Tentative mappings from v1 cut-paper batch to remaster shot IDs. legacy_tentative != approved. User Midjourney proofs override when ingested.",
+  "mappings": [
+    {"shot_id": "C01", "path": "assets/scenes/SCENE-05-HUMILIATION-07.png", "status": "legacy_tentative", "reason": "Danube bank packed host"},
+    {"shot_id": "C04", "path": "assets/scenes/SCENE-05-HUMILIATION-03.png", "status": "legacy_tentative", "reason": "Weapon pile disarmament"},
+    {"shot_id": "C06", "path": "assets/scenes/SCENE-05-HUMILIATION-01.png", "status": "legacy_tentative", "reason": "Corral lanes containment"},
+    {"shot_id": "C07", "path": "assets/scenes/SCENE-04-ENDURANCE-01.png", "status": "legacy_tentative", "reason": "Camp waiting deprivation"},
+    {"shot_id": "C08", "path": "assets/scenes/SCENE-06-HUNGER-01.png", "status": "legacy_tentative", "reason": "Bread withheld — may need horse clasp reshoot"},
+    {"shot_id": "C10", "path": "assets/scenes/SCENE-05-HUMILIATION-04.png", "status": "legacy_tentative", "reason": "Child separation — needs Alaric/brother anchors"},
+    {"shot_id": "C12", "path": "feedback/inbox/2026-08-26-bread-for-the-child.jpg", "status": "approved", "reason": "User inbox still"},
+    {"shot_id": "C13", "path": "assets/scenes/SCENE-08-LEVITY-01.png", "status": "legacy_tentative", "reason": "Banquet warmth invitation"},
+    {"shot_id": "H02", "path": "assets/characters/BANQUET-PAIR-001.png", "status": "legacy_tentative", "reason": "Banquet entry pair"},
+    {"shot_id": "H03", "path": "assets/scenes/SCENE-10-BETRAYAL-01.png", "status": "legacy_tentative", "reason": "Fritigern rising — may become hostage beat"},
+    {"shot_id": "H04", "path": "assets/scenes/SCENE-10-BETRAYAL-03-R3.png", "status": "legacy_tentative", "reason": "Charcoal betrayal door"},
+    {"shot_id": "H05", "path": "assets/scenes/SCENE-09-UNEASE-02.png", "status": "legacy_tentative", "reason": "Retainers turning toward sound"},
+    {"shot_id": "H09", "path": "assets/scenes/SCENE-11-FURY-01.png", "status": "legacy_tentative", "reason": "Gate surge — postern extraction placeholder"},
+    {"shot_id": "B02", "path": "assets/scenes/SCENE-BATTLE-LAAGER-05.png", "status": "legacy_tentative", "reason": "Families inside laager"},
+    {"shot_id": "B03", "path": "assets/scenes/SCENE-BATTLE-LAAGER-02.png", "status": "legacy_tentative", "reason": "Warriors braced at wagons"},
+    {"shot_id": "B05", "path": "assets/scenes/SCENE-BATTLE-LAAGER-03.png", "status": "legacy_tentative", "reason": "Roman charge overconfidence"},
+    {"shot_id": "B08", "path": "assets/scenes/SCENE-BATTLE-LAAGER-04.png", "status": "legacy_tentative", "reason": "Warrior fighting from wagon"},
+    {"shot_id": "B13", "path": "assets/scenes/SCENE-BATTLE-LAAGER-01.png", "status": "legacy_tentative", "reason": "Aerial laager formation"}
+  ],
+  "music": [
+    {"cue": "denouement", "path": "feedback/inbox/2026-08-25-frozen-plain-thrace.mp3", "status": "approved"},
+    {"cue": "crossing_reference", "path": "feedback/inbox/2026-08-24-dust-on-the-steppe.mp3", "status": "reference"},
+    {"cue": "battle", "path": null, "status": "pending", "title": "The Gothic Fracture.mp3"},
+    {"cue": "family_memory", "path": null, "status": "pending", "title": "Exile Lullaby.mp3"}
+  ],
+  "pending_user_proofs": ["H01", "H02", "H03", "H04", "H05", "H06", "H07", "H08", "H09", "H10", "H11", "B03", "B06", "B07", "B08", "B09", "B10", "B15", "B17"]
+}

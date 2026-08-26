@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>S01E02 Marcianople — Contact Sheet</title>
+  <style>
+    :root { font-family: ui-sans-serif, system-ui, sans-serif; background: #1a1a1a; color: #e8e4dc; }
+    body { margin: 0; padding: 1.5rem; }
+    h1 { font-weight: 500; letter-spacing: 0.02em; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; }
+    .card { background: #242424; border: 1px solid #333; border-radius: 6px; padding: 0.75rem; }
+    .card[data-status="approved"] { border-color: #4a7c59; }
+    .card[data-status="legacy_tentative"] { border-color: #8a7344; }
+    figure { margin: 0.5rem 0; aspect-ratio: 16/9; background: #111; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    img { width: 100%; height: 100%; object-fit: cover; }
+    .placeholder { color: #666; font-size: 0.85rem; }
+    pre { white-space: pre-wrap; font-size: 0.72rem; max-height: 8rem; overflow: auto; background: #111; padding: 0.5rem; }
+    textarea { width: 100%; margin-top: 0.5rem; background: #111; color: inherit; border: 1px solid #444; }
+    button { margin-right: 0.5rem; background: #333; color: inherit; border: 1px solid #555; padding: 0.25rem 0.5rem; cursor: pointer; }
+    .actions { margin-top: 0.5rem; }
+    .purpose { font-size: 0.9rem; margin: 0.25rem 0; }
+    .mode { font-size: 0.75rem; color: #999; margin: 0; }
+  </style>
+</head>
+<body>
+  <h1>S01E02 · Fritigern's Gambit — Shot Contact Sheet</h1>
+  <p>Review UI writes notes locally only. Update <code>manifests/legacy-map.json</code> and <code>episode.yaml</code> after decisions.</p>
+  <div class="grid">
+      <article class="card" data-shot="C01" data-status="legacy_tentative">
+        <header><code>C01</code> · crossing · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-05-HUMILIATION-07.png" alt="C01" loading="lazy" /></figure>
+        <p class="purpose">establish promised refuge</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Wide 16:9 composition: Gothic families on near muddy Danube bank look across gray-green water toward ordered Roman shore — low timber watchtower, distant granary roofs, pale Thracian sky almost intact. Foreground: tall lean mother early 30s, long oval face high cheekbones gray-blue eyes, dark auburn braid, ochre shawl; small wiry boy 5-7 beside her, enormous gray-blue eyes unruly dark curls center curl, charcoal tunic blue hood, cord on left wrist; boy 11-12 with rust-red scarf holds both hands. Low squat timber carts with dark felt covers and thick wheels behind them. Oxen drinking at edge. Refined hand-drawn illustration, pale blue ivory charcoal earth tones, hairline sky fractures only, readable faces, ink contours lightly textured color.</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="C02" data-status="needed">
+        <header><code>C02</code> · crossing · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">scale and vulnerability on ferries</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Elevated three-quarter view: overloaded flat timber ferries and lashed rafts mid-Danube, families standing tight among low squat carts, oxen, bundled children. Near raft edge: small wiry boy 5-7 clutches wagon sideboard — narrow oval face, enormous gray-blue eyes, thick brows with gap above left eye, unruly dark curls, faded blue hood, braided cord twice on left wrist. Rope tension, wet planks, vulnerable human scale against wide slow river and pale sky. Distant Roman bank orderly and small. Refined hand-drawn digital illustration, pale Thracian blue dirty ivory charcoal muted earth, geometric fractures in water and distant banks only, expressive readable face, clean ink contours textured color, 16:9 horizontal. Late-antique 376 CE Thracian</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="C03" data-status="needed">
+        <header><code>C03</code> · crossing · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">mother, older brother, Alaric linked by hands</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Medium close three-shot on muddy landing: tall lean mother early 30s center, long oval face high cheekbones gray-blue eyes, dark auburn heavy braid, fine scar below right cheekbone, deep ochre shawl, bronze horse clasp at woven belt; left hand holds boy 11-12 — long face hazel-green eyes, notch upper left ear, chipped front tooth, gray-brown tunic, faded rust-red scarf, cord on right wrist; right hand holds small wiry boy 5-7 — enormous gray-blue eyes, center forehead curl, charcoal tunic, cord twice on left wrist. Linked hands fill lower frame. Almost intact horizon behind them. Refined hand-drawn illustration, pale blue ivory charcoal, faces fully readable, light paper fractures in sky only, ink contours, 16:9. Late-antique 376 CE Thracia</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="C04" data-status="legacy_tentative">
+        <header><code>C04</code> · crossing · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-05-HUMILIATION-03.png" alt="C04" loading="lazy" /></figure>
+        <p class="purpose">weapons surrendered at checkpoint</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Low angle composition: wooden checkpoint table piled with surrendered spears, axes, knives, wooden shields on Roman side of Danube landing. Foreground Gothic hands — weathered cracked fingers, split thumbnail — release a blade onto pile. Background: Roman soldier in ridge helmet and muted red-gray tunic receives weapons; tall broad-shouldered Gothic man early 40s waits — trapezoidal weathered face, broken nose displaced left, scar through right eyebrow, wavy dark hair, beard in two braids, charcoal-blue cloak. Low squat carts queued behind in lane. Refined hand-drawn illustration, pale Thracian blue ivory charcoal earth, hairline cracks in ground, readable faces and hands, ink contours, late 4th century. Late-antique 376 CE Thracian border,</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="C05" data-status="needed">
+        <header><code>C05</code> · crossing · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">blade hidden in wagon axle</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Tight ground-level detail: low squat four-wheeled timber cart with short sideboards, thick wooden wheel and visible axle joinery on muddy camp soil; a woman's cracked hand with split left thumbnail slides a small knife into a gap in the axle hub. Above frame edge: faded blue-gray dress hem and deep ochre shawl of tall lean mother early 30s, bronze horse clasp catching dull light at belt. Dark felt cover sagging low over shallow hoop. Quiet furtive gesture. Refined hand-drawn digital illustration, dirty ivory charcoal muted earth ember-red blade accent, minimal abstraction, readable hand, clean ink contours, 16:9 horizontal. Late-antique 376 CE Thracian border, illustration not photograph, essential faces and gestures remain natural and read</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="C06" data-status="legacy_tentative">
+        <header><code>C06</code> · crossing · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-05-HUMILIATION-01.png" alt="C06" loading="lazy" /></figure>
+        <p class="purpose">barrier closes; granaries visible</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Wide composition: Roman timber barrier and spear poles closing a corral lane while ripe golden fields and distant granary roofs remain cruelly visible beyond iron-gray palisade. Gothic families pressed inside — tall lean mother early 30s, auburn braid ochre shawl, bronze clasp; small wiry boy 5-7 with gray-blue eyes and faded blue hood watches through fence gap, cord on left wrist; low squat covered carts trapped. Separated ground planes and hairline fractures multiply in sky. Hope draining from composition. Refined hand-drawn illustration, pale Thracian blue dirty ivory charcoal earth, faces readable, abstraction in architecture and horizon, ink contours textured color, 16:9. Late-antique 376 CE Thracian border, illustration not photograph</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="C07" data-status="legacy_tentative">
+        <header><code>C07</code> · crossing · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-04-ENDURANCE-01.png" alt="C07" loading="lazy" /></figure>
+        <p class="purpose">mud camp, empty bowls, guarded grain</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Eye-level camp tableau: mud lanes between low squat timber carts with sagging dark felt covers; empty wooden bowls and dry crust crumbs in foreground; Roman soldier in ridge helmet and oval shield silhouette guards sack of grain on raised platform. Gothic families sit exhausted — tall lean mother early 30s, long oval face gray-blue eyes, dark auburn braid, ochre shawl; boy 11-12 with rust-red scarf slumped beside small wiry boy 5-7, enormous eyes, center curl, cord on left wrist. Separated paper planes in mud and sky. Refined hand-drawn illustration, pale blue ivory charcoal muted earth, readable faces, ink contours, late 4th century Thracian camp, 16:9. Late-antique 376 CE Thracian border, illustration not photograph, essential faces and g</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="C08" data-status="legacy_tentative">
+        <header><code>C08</code> · crossing · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-06-HUNGER-01.png" alt="C08" loading="lazy" /></figure>
+        <p class="purpose">mother offers bronze horse clasp for bread</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Close two-shot at ration table: tall lean mother early 30s extends open palm with bronze horse-shaped clasp toward Roman clerk's outstretched hand holding a small dry loaf. Her long oval face, high cheekbones, gray-blue eyes steady and unbowed; dark auburn braid over deep ochre shawl; cracked fingers, split left thumbnail visible against rough wood table. Roman muted red-gray tunic sleeve and wax tablet edge enter frame. Supplication without passivity in her posture — lean capable shoulders. Separated planes behind. Refined hand-drawn digital illustration, dirty ivory charcoal ember-red accent, faces and hands fully readable, geometric fractures in background only, 16:9. Late-antique 376 CE Thracian border, illustration not photograph, esse</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="C09" data-status="needed">
+        <header><code>C09</code> · crossing · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">older brother protects Alaric in ration line</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Medium shot in muddy ration queue: boy 11-12 tall for age, long youthful face hazel-green eyes, notch upper left ear, chipped front tooth, gray-brown tunic, faded rust-red scarf, braided cord on right wrist — arm firmly around small wiry boy 5-7, enormous gray-blue eyes, thick brows gap above left eye, unruly dark curls, charcoal tunic faded blue hood, cord twice on left wrist. Brother shields him from jostling crowd silhouettes and Roman spear poles. Low cart wheel and sideboard in foreground. Hairline cracks in waiting line geometry. Refined hand-drawn illustration, pale Thracian blue ivory charcoal earth, expressive readable faces, ink contours, 16:9 horizontal. Late-antique 376 CE Thracian border, illustration not photograph, essential </pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="C10" data-status="legacy_tentative">
+        <header><code>C10</code> · crossing · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-05-HUMILIATION-04.png" alt="C10" loading="lazy" /></figure>
+        <p class="purpose">brothers pulled apart by soldiers</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Violent medium-wide: two young Roman soldiers in ridge helmets and muted red-gray tunics pull boy 11-12 away — long face hazel-green eyes looking back over shoulder, rust-red scarf stretching between them, notch ear, chipped tooth, cord on right wrist; small wiry boy 5-7 reaches with both hands, enormous gray-blue eyes, center curl, cord on left wrist, shock as stillness not screaming. Composition torn by diagonal fractures through ground and sky. Tall lean mother early 30s, auburn braid ochre shawl, lunges from left background. Refined hand-drawn illustration, pale blue ivory charcoal ember-red, faces readable, separated planes, ink contours, 16:9, non-gory. Late-antique 376 CE Thracian border, illustration not photograph, essential faces </pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="C11" data-status="needed">
+        <header><code>C11</code> · crossing · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">nightmare version of C10</p>
+        <p class="mode">nightmare</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Expressionist xerox-and-crayon cut-paper nightmare: jointed marionette bodies distorted — Roman soldier arms impossibly long, laughing mouth an empty crescent; boy 11-12 stretched away, rust-red scarf like umbilical cord across frame, notch ear suggested; small wiry boy 5-7 tiny below, enormous gray-blue eyes, center curl. Loaf of bread as dead moon upper corner; vertical Danube strip filled with surrendered sword silhouettes rising like teeth. Radical scale distortion, terrifying non-gory memory language. Cut-paper crayon grain, black rust bone palette, simplified but identifiable curl and scarf anchors, 16:9 horizontal. Late-antique 376 CE Thracian border, illustration not photograph, essential faces and gestures remain natural and readab</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="C12" data-status="approved">
+        <header><code>C12</code> · crossing · approved</header>
+        <figure><img src="/feedback/inbox/2026-08-26-bread-for-the-child.jpg" alt="C12" loading="lazy" /></figure>
+        <p class="purpose">mother feeds Alaric; torn red scarf</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Intimate medium close inside low cart shelter: tall lean mother early 30s kneels, long oval face softened, gray-blue eyes downcast, dark auburn braid over deep ochre shawl, bronze horse clasp at belt; she breaks a small crust for small wiry boy 5-7 — enormous gray-blue eyes, thick brows gap above left eye, unruly curls, charcoal tunic, cord on left wrist — who clutches torn rust-red scarf fragment in small fist. Warm wedge light on hands and bread against charcoal shadow. Torn composition fractures admit faint warmth. Refined hand-drawn illustration, pale blue dirty ivory restrained ember-red scarf, readable faces, ink contours, 16:9. Late-antique 376 CE Thracian border, illustration not photograph, essential faces and gestures remain natur</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="C13" data-status="legacy_tentative">
+        <header><code>C13</code> · crossing · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-08-LEVITY-01.png" alt="C13" loading="lazy" /></figure>
+        <p class="purpose">Lupicinus offers banquet</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>Medium two-shot at camp edge before Marcianople walls: Roman commander early 40s in muted red-gray command tunic, controlled authority, heavy administrative ring on extended hand in apparent welcome; opposite him tall broad-shouldered Gothic man early 40s — trapezoidal weathered face, broken nose displaced left, scar through right eyebrow, dark eyes under heavy horizontal brows, wavy neck-length dark hair, beard in two practical braids, charcoal-blue cloak over smoke-brown banquet-ready tunic. Hopeful almost-intact horizon with subtle hairline cracks. Refined hand-drawn illustration, pale Thracian blue ivory charcoal earth, readable faces, ink contours, late 4th century, 16:9. Late-antique 376 CE Thracian border, illustration not photograph</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="H01" data-status="needed">
+        <header><code>H01</code> · heist · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">Roman blades prepared; Lupicinus oversees</p>
+        <p class="mode">brutalist_print</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="H02" data-status="legacy_tentative">
+        <header><code>H02</code> · heist · legacy_tentative</header>
+        <figure><img src="/assets/characters/BANQUET-PAIR-001.png" alt="H02" loading="lazy" /></figure>
+        <p class="purpose">Goths enter banquet apparently unarmed</p>
+        <p class="mode">brutalist_print</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="H03" data-status="legacy_tentative">
+        <header><code>H03</code> · heist · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-10-BETRAYAL-01.png" alt="H03" loading="lazy" /></figure>
+        <p class="purpose">Fritigern holds Lupicinus hostage</p>
+        <p class="mode">brutalist_print</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="H04" data-status="legacy_tentative">
+        <header><code>H04</code> · heist · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-10-BETRAYAL-03-R3.png" alt="H04" loading="lazy" /></figure>
+        <p class="purpose">banquet erupts in red-black chaos</p>
+        <p class="mode">brutalist_print</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="H05" data-status="legacy_tentative">
+        <header><code>H05</code> · heist · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-09-UNEASE-02.png" alt="H05" loading="lazy" /></figure>
+        <p class="purpose">retinue kills corridor guard</p>
+        <p class="mode">brutalist_print</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="H06" data-status="needed">
+        <header><code>H06</code> · heist · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">uniform exchange</p>
+        <p class="mode">brutalist_print</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="H07" data-status="needed">
+        <header><code>H07</code> · heist · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">armory; confiscated Gothic arms</p>
+        <p class="mode">brutalist_print</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="H08" data-status="needed">
+        <header><code>H08</code> · heist · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">weapon loads replaced with stones</p>
+        <p class="mode">brutalist_print</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="H09" data-status="legacy_tentative">
+        <header><code>H09</code> · heist · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-11-FURY-01.png" alt="H09" loading="lazy" /></figure>
+        <p class="purpose">wagons cross postern gate</p>
+        <p class="mode">brutalist_print</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="H10" data-status="needed">
+        <header><code>H10</code> · heist · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">indigo riders escort weapons into night</p>
+        <p class="mode">indigo_heist</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="H11" data-status="needed">
+        <header><code>H11</code> · heist · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">Fritigern exits with Lupicinus alive</p>
+        <p class="mode">brutalist_print</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B01" data-status="needed">
+        <header><code>B01</code> · battle · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">weapon wagons reach wooded clearing</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B02" data-status="legacy_tentative">
+        <header><code>B02</code> · battle · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-BATTLE-LAAGER-05.png" alt="B02" loading="lazy" /></figure>
+        <p class="purpose">families concealed in wagons and trees</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B03" data-status="legacy_tentative">
+        <header><code>B03</code> · battle · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-BATTLE-LAAGER-02.png" alt="B03" loading="lazy" /></figure>
+        <p class="purpose">travel cloaks fall; trained defenders appear</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B04" data-status="needed">
+        <header><code>B04</code> · battle · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">recovered weapons in practiced hands</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B05" data-status="legacy_tentative">
+        <header><code>B05</code> · battle · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-BATTLE-LAAGER-03.png" alt="B05" loading="lazy" /></figure>
+        <p class="purpose">Romans approach overconfidently</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B06" data-status="needed">
+        <header><code>B06</code> · battle · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">young Roman realizes what is forming</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B07" data-status="needed">
+        <header><code>B07</code> · battle · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">arrow volley strikes Roman shields</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B08" data-status="legacy_tentative">
+        <header><code>B08</code> · battle · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-BATTLE-LAAGER-04.png" alt="B08" loading="lazy" /></figure>
+        <p class="purpose">Gothic shield impact drives Romans back</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B09" data-status="needed">
+        <header><code>B09</code> · battle · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">Roman junior officer orders vanish in chaos</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B10" data-status="needed">
+        <header><code>B10</code> · battle · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">older Roman sees children in wagons</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B11" data-status="needed">
+        <header><code>B11</code> · battle · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">Alaric watches from beneath wagon canvas</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B12" data-status="needed">
+        <header><code>B12</code> · battle · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">family member fights near wagon</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B13" data-status="legacy_tentative">
+        <header><code>B13</code> · battle · legacy_tentative</header>
+        <figure><img src="/assets/scenes/SCENE-BATTLE-LAAGER-01.png" alt="B13" loading="lazy" /></figure>
+        <p class="purpose">Roman formation fractures</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B14" data-status="needed">
+        <header><code>B14</code> · battle · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">Fritigern and Lupicinus fight toward wagons</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B15" data-status="needed">
+        <header><code>B15</code> · battle · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">mercy — approved still (canonical)</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B16" data-status="needed">
+        <header><code>B16</code> · battle · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">flowers and sunlight; sound falls away</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article>
+      <article class="card" data-shot="B17" data-status="needed">
+        <header><code>B17</code> · battle · needed</header>
+        <figure><div class="placeholder">No asset</div></figure>
+        <p class="purpose">Alaric with damaged plumed Roman helmet</p>
+        <p class="mode">fractured_world</p>
+        <details>
+          <summary>Prompt</summary>
+          <pre>—</pre>
+        </details>
+        <div class="actions">
+          <button type="button" data-action="approve">Approve</button>
+          <button type="button" data-action="reject">Reject</button>
+          <textarea placeholder="Notes…" rows="2"></textarea>
+        </div>
+      </article></div>
+  <script>
+    document.querySelectorAll('.card').forEach(card => {
+      card.querySelectorAll('button').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const action = btn.dataset.action;
+          const notes = card.querySelector('textarea').value;
+          console.log(JSON.stringify({ shot: card.dataset.shot, action, notes, ts: new Date().toISOString() }));
+          if (action === 'approve') card.dataset.status = 'approved';
+          if (action === 'reject') card.dataset.status = 'rejected';
+        });
+      });
+    });
+  </script>
+</body>
+</html>

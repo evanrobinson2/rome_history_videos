@@ -1,0 +1,15 @@
+# Crossing — music direction (Suno / manual)
+
+Target mood: warmth, open air, human breath, restrained hand percussion, suggestion of arrival.
+Do NOT announce tragedy early. As Roman barrier closes (C06), remove harmonic warmth — do not add melodrama.
+
+Reference track in repo: feedback/inbox/2026-08-24-dust-on-the-steppe.mp3
+Alternate family/memory source: Exile Lullaby.mp3 (pending ingest)
+
+Instrumental. No lyrics unless evaluated against final narration timing.
+
+Suggested Suno style prompt (≤1000 chars):
+
+Instrumental historical drama opening, 70-76 BPM, open air folk minimalism, low hand drums, breathy wooden flute, sparse plucked strings, muted lyre, distant human hum, warm amber harmony gradually thinning, no epic choir, no trailer brass, no EDM, no jazz, no funk, late antique migration mood, intimate not triumphant, room for river and wagon diegetic sound, gentle pulse like footsteps on timber, harmonic warmth recedes in final third leaving cold fifths and silence pockets, acoustic only, film-adjacent but not cinematic blockbuster
+
+Excludes: choir, brass fanfare, EDM, trap, hip hop, jazz, funk, distorted guitar, lyrics
