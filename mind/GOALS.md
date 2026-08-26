@@ -22,7 +22,7 @@ not with raw chat count.
 | **luna-intelligence** | localhost | Rapid cross-topic context synthesis and judgment |
 | **experience-observer** | live voice/chat | Subjective capture per `mind/EXPERIENCE.md` |
 | **cloud-visuals** | cloud on this repo | **Visuals** — scene + character image generation, style/continuity enforcement, manifest, deploys |
-| **cloud-music** | *unclaimed* | Music: Suno prompts, track analysis, cut points, mix headroom |
+| **cloud-music** | cloud on this repo | Music: score architecture, Suno prompts, track analysis, cut points, mix headroom |
 | **art-alr001** | cloud subagent | `ALR-001` Alaric turnaround |
 
 `/hive` is **Evan’s** check-in/status board. You maintain your own avatar
@@ -53,11 +53,16 @@ Do not all edit `STATE.md`. Do not reboot the project.
   early to foreshadow the riderless imperial horse.
 - Video 3: 17 new frames, gated on `ALR-001` being approved by Evan.
 
+## Owned by cloud-music (in progress)
+
+- Three-film score architecture: Film 1 needs an original musical identity;
+  Film 2 begins with starvation/Roman treatment and has two candidate tracks;
+  Film 3 already has its music. Each film may use different musical rules.
+- Build language versions as alternate narration/mix deliverables over the
+  same picture timing where practical.
+- Working note: `feedback/2026-08-26-music-pairing.md`.
+
 ## Open (claim one)
 
-- **Music** — take the `cloud-music` row. Analysis is done; read
-  `mind/handoffs/2026-08-26-music-to-new-node.md` first. Reference is 103.4 BPM
-  (not the ~92 that was written down), and the two inbox tracks are parallel
-  keys in E♭.
 - Hold the remaining story decisions in `feedback/2026-08-25-direction-notes.md` §8
   until Evan answers.
