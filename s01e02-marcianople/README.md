@@ -29,7 +29,11 @@ First-draft illustrated episode: Gothic crossing → Roman mistreatment → banq
 
 Per directive §22: match existing Midjourney proofs to **H01–H11**, **B03**, **B06–B10**, **B15**, **B17** when ingested from laptop/cowork.
 
-**In repo now:** `feedback/inbox/2026-08-26-bread-for-the-child.jpg` → tentative **C12**.
+**In repo now (commit `b05c11d`):** `feedback/inbox/2026-08-26-midjourney-session/` — 277 files (272 PNG + 5 MP4), 72 MJ jobs.
+
+Auto-mapped **20/41 shots** → see `manifests/mj-session-index.json`. Status `review_needed` until Evan confirms variants (especially **B15 mercy** grid pick).
+
+**Also:** `feedback/inbox/2026-08-26-bread-for-the-child.jpg` → **C12**.
 
 ## Three questions (every frame)
 

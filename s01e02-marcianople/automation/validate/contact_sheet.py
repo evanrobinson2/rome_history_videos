@@ -51,13 +51,16 @@ def load_prompts() -> dict[str, dict]:
     return prompts
 
 
-def asset_for_shot(shot_id: str, legacy: dict, shots_manifest: dict) -> str | None:
-    for m in legacy.get("mappings", []):
-        if m["shot_id"] == shot_id:
-            return m["path"]
+def asset_for_shot(shot_id: str, legacy: dict, shots_manifest: dict, mj: dict) -> str | None:
     for s in shots_manifest.get("shots", []):
         if s["id"] == shot_id and s.get("approved_asset"):
             return s["approved_asset"]
+    pick = mj.get("shot_picks", {}).get(shot_id)
+    if pick:
+        return pick["default_variant"]["path"]
+    for m in legacy.get("mappings", []):
+        if m["shot_id"] == shot_id:
+            return m["path"]
     return None
 
 
@@ -65,14 +68,16 @@ def render() -> None:
     shots = load_yaml_shots(EPISODE / "episode.yaml")
     legacy = load_json(EPISODE / "manifests" / "legacy-map.json")
     shots_manifest = load_json(EPISODE / "manifests" / "shots.json")
+    mj = load_json(EPISODE / "manifests" / "mj-session-index.json") if (EPISODE / "manifests" / "mj-session-index.json").exists() else {"shot_picks": {}}
     prompts = load_prompts()
 
     cards = []
     for shot in shots:
         sid = shot["id"]
-        asset = asset_for_shot(sid, legacy, shots_manifest)
+        asset = asset_for_shot(sid, legacy, shots_manifest, mj)
+        mj_pick = mj.get("shot_picks", {}).get(sid)
         legacy_entry = next((m for m in legacy["mappings"] if m["shot_id"] == sid), None)
-        status = legacy_entry["status"] if legacy_entry else shot.get("image_status", "needed")
+        status = shot.get("image_status") or (legacy_entry["status"] if legacy_entry else "needed")
         prompt = prompts.get(sid, {})
         img_html = (
             f'<img src="/{asset}" alt="{sid}" loading="lazy" />'
@@ -85,7 +90,7 @@ def render() -> None:
         <header><code>{sid}</code> · {shot.get('movement','')} · {status}</header>
         <figure>{img_html}</figure>
         <p class="purpose">{shot.get('purpose','')}</p>
-        <p class="mode">{shot.get('visual_mode','')}</p>
+        <p class="mode">{shot.get('visual_mode','')}{' · ' + mj_pick.get('pick_reason','') if mj_pick and mj_pick.get('pick_reason') else ''}</p>
         <details>
           <summary>Prompt</summary>
           <pre>{prompt.get('prompt','—')}</pre>
