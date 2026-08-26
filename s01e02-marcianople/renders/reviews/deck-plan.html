@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deck shot plan — S01E02</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #111; color: #e8e4dc; margin: 0; padding: 1rem; }
+    h1 { font-size: 1.25rem; }
+    .meta { color: #888; font-size: 0.9rem; max-width: 60rem; }
+    .policy { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 1rem; margin: 1rem 0; max-width: 60rem; }
+    .policy ul { margin: 0.5rem 0 0 1.2rem; }
+    .toolbar { margin: 1rem 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .toolbar button { padding: 0.4rem 0.8rem; background: #2a2a2a; color: inherit; border: 1px solid #444; border-radius: 4px; cursor: pointer; }
+    .toolbar button.active { background: #4a2020; border-color: #844; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1rem; }
+    .card { background: #222; border: 1px solid #333; border-radius: 8px; padding: 0.75rem; }
+    .card.hidden { display: none; }
+    header { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+    .badge { font-size: 0.7rem; padding: 2px 6px; border-radius: 3px; color: #fff; }
+    .shots code { font-size: 0.75rem; }
+    img { width: 100%; border-radius: 4px; background: #000; }
+    h2 { font-size: 1rem; margin: 0.5rem 0; }
+    pre { white-space: pre-wrap; font-size: 0.8rem; color: #aaa; }
+    .ask { font-size: 0.85rem; color: #ccc; border-left: 3px solid #844; padding-left: 0.75rem; margin: 0.75rem 0; }
+    .note { font-size: 0.8rem; color: #c96; }
+    .ref { font-size: 0.8rem; color: #888; }
+  </style>
+</head>
+<body>
+  <h1>S01E02 deck shot plan</h1>
+  <p class="meta">Authoritative brief from Evan's Google Slides storyboard. Deck beats override <code>episode.yaml</code> gaps.</p>
+  <div class="policy">
+    <strong>Policy:</strong> queue MJ = <code>False</code>
+    — Prompts must match deck beats and bible/08-midjourney-prompting-guide.md before queueing
+    <ul>
+      <li>Slides 14–16 are THREE red/white/black screenprint beats, not one H04.</li><li>Slide 17 combines uniform swap + weapon heist; episode splits H06/H07/H08.</li><li>Slide 18 (hostage) comes AFTER heist in deck; episode.yaml lists H03 earlier.</li><li>Slide 23 is daytime camp cheers/fanfare; episode H10 is indigo night riders.</li><li>Slide 40 asks to redo mercy with proper Lupicinus yielding.</li>
+    </ul>
+    <p>Summary: 38 actionable · 15 needed · 1 redo · 22 review dump · 4 skip</p>
+  </div>
+  <div class="toolbar" id="filters">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="needed">Needed</button>
+    <button data-filter="redo">Redo</button>
+    <button data-filter="review_dump">Review dump</button>
+    <button data-filter="skip">Skip</button>
+  </div>
+  <div class="grid" id="grid">
+    
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 01</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>C01</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-01.png" alt="slide 1" loading="lazy" /></figure>
+      <h2>Series opening scene</h2>
+      
+      <details><summary>Speaker notes</summary><pre>Series opening scene</pre></details>
+      <p class="ask">Series open — establish Gothic refugee world before Danube crossing.</p>
+      <p class="ref">Prompt: <code>crossing.jsonl:C01</code></p><details><summary>Prompt text</summary><pre>Wide 16:9 composition: Gothic families on near muddy Danube bank look across gray-green water toward ordered Roman shore — low timber watchtower, distant granary roofs, pale Thracian sky almost intact. Foreground: tall lean mother early 30s, long oval face high cheekbones gray-blue eyes, dark auburn braid, ochre shawl; small wiry boy 5-7 beside her, enormous gray-blue eyes unruly dark curls center curl, charcoal tunic blue hood, cord on left wrist; boy 11-12 with rust-red scarf holds both hands. Low squat timber carts with dark felt covers and thick wheels behind them. Oxen drinking at edge. Refined hand-drawn illustration, pale blue ivory charcoal earth tones, hairline sky fractures only, readable faces, ink contours lightly textured color.</pre></details>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 02</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>C02</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-02.png" alt="slide 2" loading="lazy" /></figure>
+      <h2>RIVER CROSSING</h2>
+      
+      
+      <p class="ask">Wide river crossing — ferries, rafts, vulnerable scale.</p>
+      <p class="ref">Prompt: <code>crossing.jsonl:C02</code></p><details><summary>Prompt text</summary><pre>Elevated three-quarter view: overloaded flat timber ferries and lashed rafts mid-Danube, families standing tight among low squat carts, oxen, bundled children. Near raft edge: small wiry boy 5-7 clutches wagon sideboard — narrow oval face, enormous gray-blue eyes, thick brows with gap above left eye, unruly dark curls, faded blue hood, braided cord twice on left wrist. Rope tension, wet planks, vulnerable human scale against wide slow river and pale sky. Distant Roman bank orderly and small. Refined hand-drawn digital illustration, pale Thracian blue dirty ivory charcoal muted earth, geometric fractures in water and distant banks only, expressive readable face, clean ink contours textured color, 16:9 horizontal. Late-antique 376 CE Thracian</pre></details>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 03</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>C07</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-03.png" alt="slide 3" loading="lazy" /></figure>
+      <h2>ABUSE 1</h2>
+      
+      
+      <p class="ask">First abuse beat — mud camp, guarded grain, empty bowls.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D03</code></p><details><summary>Prompt text</summary><pre>Eye-level mud camp lane between low squat timber carts with sagging dark felt covers; empty wooden bowls and dry crust crumbs foreground; Roman soldier in ridge helmet and oval shield guards grain sacks on raised platform right. Gothic families sit exhausted left — tall lean mother early 30s, gray-blue eyes, dark auburn braid, ochre shawl; boy 11-12 rust-red scarf; small wiry boy 5-7, enormous gray-blue eyes, center curl, cord on left wrist. Hairline fractures in mud and pale sky. Refined hand-drawn illustration, pale Thracian blue ivory charcoal earth, readable faces, ink contours, 16:9, 376 CE.</pre></details>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 04</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>C08</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-04.png" alt="slide 4" loading="lazy" /></figure>
+      <h2>ABUSE 2</h2>
+      
+      
+      <p class="ask">Mother trades bronze horse clasp for bread.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D04</code></p><details><summary>Prompt text</summary><pre>Close two-shot at rough wood ration table: tall lean mother early 30s extends open palm with bronze horse-shaped clasp toward Roman clerk hand holding small dry loaf. Long oval face, high cheekbones, gray-blue eyes steady, dark auburn braid over ochre shawl, cracked fingers split left thumbnail visible. Roman muted red-gray tunic sleeve and wax tablet edge enter frame right. Lean shoulders, chin level. Separated planes behind. Refined hand-drawn illustration, dirty ivory charcoal ember-red accent, readable faces and hands, 16:9, late 4th century Thracian camp.</pre></details>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 05</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>C09</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-05.png" alt="slide 5" loading="lazy" /></figure>
+      <h2>ABUSE 5</h2>
+      
+      
+      <p class="ask">Older brother shields Alaric in ration line.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D05</code></p><details><summary>Prompt text</summary><pre>Medium shot muddy ration queue: boy 11-12 tall for age, long face hazel-green eyes, notch upper left ear, chipped front tooth, gray-brown tunic, faded rust-red scarf, cord on right wrist — arm around small wiry boy 5-7, enormous gray-blue eyes, thick brows gap above left eye, unruly dark curls, charcoal tunic faded blue hood, cord twice on left wrist. Brother blocks jostling crowd silhouettes and Roman spear poles. Low cart wheel foreground. Hairline cracks in waiting line. Refined hand-drawn illustration, pale blue ivory charcoal earth, readable faces, 16:9.</pre></details>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 06</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>C10</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-06.png" alt="slide 6" loading="lazy" /></figure>
+      <h2>ABUSE 4</h2>
+      
+      
+      <p class="ask">Brothers pulled apart by Roman soldiers.</p>
+      <p class="ref">Prompt: <code>crossing.jsonl:C10</code></p><details><summary>Prompt text</summary><pre>Violent medium-wide: two young Roman soldiers in ridge helmets and muted red-gray tunics pull boy 11-12 away — long face hazel-green eyes looking back over shoulder, rust-red scarf stretching between them, notch ear, chipped tooth, cord on right wrist; small wiry boy 5-7 reaches with both hands, enormous gray-blue eyes, center curl, cord on left wrist, shock as stillness not screaming. Composition torn by diagonal fractures through ground and sky. Tall lean mother early 30s, auburn braid ochre shawl, lunges from left background. Refined hand-drawn illustration, pale blue ivory charcoal ember-red, faces readable, separated planes, ink contours, 16:9, non-gory. Late-antique 376 CE Thracian border, illustration not photograph, essential faces </pre></details>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 07</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>C10b</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-07.png" alt="slide 7" loading="lazy" /></figure>
+      <h2>ABUSE 5 - a line too far</h2>
+      
+      <details><summary>Speaker notes</summary><pre>Trading alarics elder brother for dogmeat</pre></details>
+      <p class="ask">Elder brother traded for dogmeat — the line too far.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D07</code></p><details><summary>Prompt text</summary><pre>Medium-wide camp exchange: Roman soldier left foreground holds leather leash attached to large mongrel dog; second Roman soldier leads boy 11-12 away right — long face looking back, hazel-green eyes, rust-red scarf stretched, notch ear, chipped tooth, cord on right wrist. Tall lean mother early 30s center reaches both hands forward, gray-blue eyes, auburn braid, ochre shawl; small wiry boy 5-7 clutches her skirt, enormous gray-blue eyes up. Mud carts background. Refined hand-drawn illustration, pale blue ivory charcoal ember-red scarf accent, readable faces, non-gory, 16:9.</pre></details><p class="note">⚠ No episode shot; deck-specific beat between C10 and C11.</p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 08</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>C13</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-08.png" alt="slide 8" loading="lazy" /></figure>
+      <h2>Invite to banquet</h2>
+      
+      
+      <p class="ask">Lupicinus offers banquet — false hope.</p>
+      <p class="ref">Prompt: <code>crossing.jsonl:C13</code></p><details><summary>Prompt text</summary><pre>Medium two-shot at camp edge before Marcianople walls: Roman commander early 40s in muted red-gray command tunic, controlled authority, heavy administrative ring on extended hand in apparent welcome; opposite him tall broad-shouldered Gothic man early 40s — trapezoidal weathered face, broken nose displaced left, scar through right eyebrow, dark eyes under heavy horizontal brows, wavy neck-length dark hair, beard in two practical braids, charcoal-blue cloak over smoke-brown banquet-ready tunic. Hopeful almost-intact horizon with subtle hairline cracks. Refined hand-drawn illustration, pale Thracian blue ivory charcoal earth, readable faces, ink contours, late 4th century, 16:9. Late-antique 376 CE Thracian border, illustration not photograph</pre></details>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 09</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>H01</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-09.png" alt="slide 9" loading="lazy" /></figure>
+      <h2>TREACHERY PLANNED</h2>
+      <pre class="body">Lupicinous looking evil as we all see he&#x27;s planning something awful</pre>
+      
+      <p class="ask">Lupicinus visibly plotting — narrowed eyes, steepled hands, blade prep in shadow.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D09</code></p><details><summary>Prompt text</summary><pre>Roman commander early 40s seated at stone table underground chamber, muted red-gray tunic, heavy bronze ring on left hand, chin resting on steepled fingers, eyes narrowed toward frame left, mouth closed thin line, brows drawn inward; hard torch shadow covers left half of face. Background left: two soldiers sharpening blades on stone block. Soot black walls, dirty bone skin, iron gray armor, vermilion blade edge accent. Red-black brutalist screen-print, risograph grain, flat compressed space, monumental silhouettes, 16:9, no text.</pre></details>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 10</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>H01b</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-10.png" alt="slide 10" loading="lazy" /></figure>
+      <h2>Planned treachery</h2>
+      
+      
+      <p class="ask">Second treachery beat — soldiers/co-conspirators preparing trap.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D10</code></p><details><summary>Prompt text</summary><pre>Low wide underground chamber: four Roman soldiers in ridge helmets coil rope and stack manacles on stone table center; commander silhouette in muted red-gray tunic stands in arched doorway background right, one hand on door frame, face in shadow except narrowed eyes and ring glint. Blade racks on soot black wall left. Dirty bone torchlight, iron gray metal, vermilion rope accent. Red-black brutalist screen-print, risograph grain, flat compressed depth, angular monumental figures, 16:9, no text.</pre></details><p class="note">⚠ Deck has two treachery slides; episode has one H01.</p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 11</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>H02</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-11.png" alt="slide 11" loading="lazy" /></figure>
+      <h2>Outside gates</h2>
+      
+      <details><summary>Speaker notes</summary><pre>Outside gates .. hordes amassing</pre></details>
+      <p class="ask">Gothic hordes mass outside Marcianople gates.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D11</code></p><details><summary>Prompt text</summary><pre>Exterior wide: massive Gothic crowd pressed against closed Marcianople gate arch, spears and bundle poles raised above heads, faces reduced to angular silhouettes in layers three deep. Roman gate tower monumental soot black iron gray right; vermilion torch flare on gate lintel. Flat compressed horizontal depth, no individual faces readable. Red-black brutalist screen-print, distressed risograph grain, exaggerated angular bodies, 16:9, late-antique 376 CE, no text.</pre></details>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 12</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>H02b</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-12.png" alt="slide 12" loading="lazy" /></figure>
+      <h2>Crowd looking for food</h2>
+      
+      <details><summary>Speaker notes</summary><pre>Crowd looking for food</pre></details>
+      <p class="ask">Hungry Gothic crowd pressing toward banquet gates.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D12</code></p><details><summary>Prompt text</summary><pre>Medium exterior gate scene: hungry Gothic families press forward — empty wooden bowls extended at arm height, children on shoulders, travel cloaks in smoke-brown and charcoal-blue. Roman guards on wall above with spears pointed down. Gate arch fills upper third soot black iron gray; vermilion torch rim on stone blocks. Flat compressed crowd planes. Red-black brutalist screen-print, risograph grain, monumental silhouettes, angular anatomy, 16:9, no text.</pre></details><p class="note">⚠ No episode shot; deck-specific.</p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 13</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>H05</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-13.png" alt="slide 13" loading="lazy" /></figure>
+      <h2>Fight breaks out</h2>
+      
+      <details><summary>Speaker notes</summary><pre>A fight breaks out, Romans are killed</pre></details>
+      <p class="ask">Corridor violence — retinue kills Roman guard as fight spreads.</p>
+      <p class="ref">Prompt: <code>heist.jsonl:H05</code></p><details><summary>Prompt text</summary><pre>Narrow service passage behind Marcianople banquet hall: two Gothic retainers in smoke-brown tunics silence a distracted Roman guard against soot black stone wall, blade flash as vermilion accent only. Spectacle muffled beyond arched doorway. Red-black brutalist screen-print, risograph grain, flat compressed corridor, monumental silhouettes, angular anatomy, furtive violence, no text, 16:9, 376 CE.</pre></details>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 14</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>H04a</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-14.png" alt="slide 14" loading="lazy" /></figure>
+      <h2>red/white/black screenprint</h2>
+      <pre class="body">Chaos at the banquet</pre>
+      
+      <p class="ask">Screenprint 1/3 — banquet tables overturn, figures lunging, vermilion flood.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D14</code></p><details><summary>Prompt text</summary><pre>Banquet hall interior exploding: long timber tables overturned diagonally, benches tipped, clay cups and platters mid-air, eight figures lunging in flat monumental silhouettes colliding center frame. Vermilion red floods lower third like spilled wine; soot black ceiling; white negative gaps between bodies. No gore, no readable faces — graphic rupture only. Red white black brutalist screen-print, distressed risograph grain, flat compressed space, exaggerated angular bodies, 16:9, no text.</pre></details>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 15</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>H04b</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-15.png" alt="slide 15" loading="lazy" /></figure>
+      <h2>red/white/black screenprint</h2>
+      <pre class="body">Soldiers ordered to kill the retinue</pre>
+      
+      <p class="ask">Screenprint 2/3 — Roman soldiers advance on Gothic retinue against column.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D15</code></p><details><summary>Prompt text</summary><pre>Banquet hall column scene: three Roman soldiers in ridge helmets advance left with short swords extended; four Gothic retainers in smoke-brown tunics back against stone column right, arms raised palms out, one retainer reaching for fallen bench leg. Flat compressed horizontal space, bodies as angular silhouettes. Vermilion blade edges and tunic trim; soot black column; dirty bone floor. Red white black brutalist screen-print, risograph grain, monumental figures, no gore detail, 16:9, no text.</pre></details>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 16</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>H04c</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-16.png" alt="slide 16" loading="lazy" /></figure>
+      <h2>red/white/black screenprint</h2>
+      <pre class="body">Retinue counter attack and victory</pre>
+      
+      <p class="ask">Screenprint 3/3 — retinue lunges forward, Romans fall back, overturned table.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D16</code></p><details><summary>Prompt text</summary><pre>Banquet hall reversal: four Gothic retainers lunge forward blade-forward from right; two Roman soldiers fall backward left, ridge helmets tilting off, shields dropping. Overturned table foreground blocks lower frame. Vermilion diagonal slash across center; soot black figures; white negative space upper left. Flat compressed triumph geometry, no gore. Red white black brutalist screen-print, distressed risograph grain, angular monumental bodies, 16:9, no text.</pre></details>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 17</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>H06</code>, <code>H07</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-17.png" alt="slide 17" loading="lazy" /></figure>
+      <h2>Uniform swap and weapon heist</h2>
+      
+      
+      <p class="ask">Combined beat — disguise + armory grab in one slide.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D17</code></p><details><summary>Prompt text</summary><pre>Split horizontal composition armory corridor: left third — Gothic retainer steps out of Roman muted red-gray tunic puddled on floor, smoke-brown undertunic visible; right two-thirds — second retainer in half-fastened Roman tunic pulls ridge helmet down while left hand grabs spear from open rack, third figure loads axe into sling. Soot black walls, iron gray weapons, vermilion cloak lining accent. Red-black brutalist screen-print, risograph grain, flat compressed space, angular silhouettes, 16:9, no text.</pre></details><p class="note">⚠ Episode splits uniform (H06), armory (H07), stone decoy (H08). Deck omits H08.</p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 18</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>H03</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-18.png" alt="slide 18" loading="lazy" /></figure>
+      <h2>Fritigern hostage</h2>
+      
+      <details><summary>Speaker notes</summary><pre>Fritigern hostage</pre></details>
+      <p class="ask">Fritigern grips Lupicinus at collar beside overturned table.</p>
+      <p class="ref">Prompt: <code>heist.jsonl:H03</code></p><details><summary>Prompt text</summary><pre>Banquet hall reversal: tall broad-shouldered Gothic man early 40s, trapezoidal weathered face, broken nose, scar through right eyebrow, wavy dark hair, beard in two braids, charcoal-blue cloak — grips Roman commander early 40s in muted red-gray tunic at collar beside overturned table. Vermilion wine spill across soot black floor. Red-black brutalist screen-print, risograph grain, flat compressed space, monumental silhouettes, angular anatomy, readable faces, 16:9, 376 CE Marcianople, no text.</pre></details><p class="note">⚠ Deck order: after heist; episode.yaml lists H03 before H04–H06.</p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 19</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>H09</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-19.png" alt="slide 19" loading="lazy" /></figure>
+      <h2>Escaping with weapons</h2>
+      
+      <details><summary>Speaker notes</summary><pre>Escaping with the weapons</pre></details>
+      <p class="ask">Wagons slip through postern gate with weapons.</p>
+      <p class="ref">Prompt: <code>heist.jsonl:H09</code></p><details><summary>Prompt text</summary><pre>Fortified Roman postern gate at Marcianople during banquet distraction: low squat covered wagons slip through half-open rear gate, Roman gate arch monumental in soot black iron gray, vermilion torch on guard tower. Extraction under false calm. Red-black brutalist screen-print, risograph grain, flat compressed space, angular silhouettes, no text, 16:9 horizontal, late-antique 376 CE.</pre></details>
+    </article>
+
+    <article class="card" data-status="skip">
+      <header>
+        <strong>Slide 20</strong>
+        <span class="badge" style="background:#666">skip</span>
+        <span class="shots">—</span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-20.png" alt="slide 20" loading="lazy" /></figure>
+      <h2>(blank)</h2>
+      
+      
+      <p class="ask">Placeholder slide — no copy.</p>
+      
+    </article>
+
+    <article class="card" data-status="skip">
+      <header>
+        <strong>Slide 21</strong>
+        <span class="badge" style="background:#666">skip</span>
+        <span class="shots">—</span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-21.png" alt="slide 21" loading="lazy" /></figure>
+      <h2>(blank)</h2>
+      
+      
+      <p class="ask">Placeholder slide — no copy.</p>
+      
+    </article>
+
+    <article class="card" data-status="skip">
+      <header>
+        <strong>Slide 22</strong>
+        <span class="badge" style="background:#666">skip</span>
+        <span class="shots">—</span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-22.png" alt="slide 22" loading="lazy" /></figure>
+      <h2>(blank)</h2>
+      
+      
+      <p class="ask">Placeholder slide — no copy.</p>
+      
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 23</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B01</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-23.png" alt="slide 23" loading="lazy" /></figure>
+      <h2>Weapons arrive to camp,</h2>
+      <pre class="body">Met with cheers and fanfare, the riders return</pre>
+      
+      <p class="ask">Daytime camp — riders return with weapon cart, crowd cheers.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D23</code></p><details><summary>Prompt text</summary><pre>Wide daytime wooded clearing: four mounted Gothic riders enter left leading two-wheel Roman weapon cart stacked with spears and round shields; crowd of refugees right raises arms and open mouths cheering, sunlight on spear points and faces. Tall broad-shouldered Gothic man early 40s on lead horse — trapezoidal face, broken nose, braided beard, charcoal-blue cloak. Overcast bright daylight, pale blue sky fractures. Refined hand-drawn illustration, ivory charcoal earth tones, readable faces, 16:9, NOT night.</pre></details><p class="note">⚠ Not H10 indigo night ride; deck wants daylight fanfare.</p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 24</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B03</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-24.png" alt="slide 24" loading="lazy" /></figure>
+      <h2>Goth&#x27;s prepping</h2>
+      <pre class="body">Able bodied men suit up and prep for battle</pre>
+      
+      <p class="ask">Travel cloaks fall; defenders arm up.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D24</code></p>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 25</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>B03b</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-25.png" alt="slide 25" loading="lazy" /></figure>
+      <h2>Goth&#x27;s prepping</h2>
+      
+      
+      <p class="ask">Second prep beat — weapons distributed, faces set.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D25</code></p><details><summary>Prompt text</summary><pre>Medium wide forest clearing: able-bodied Gothic men kneel and stand in loose line receiving spears and oval shields from cart handlers; travel cloaks piled on ground left. Faces set — jaws clenched, brows drawn inward, eyes forward. Tall lean women roll covered wagons toward treeline background. Daylight through bare branches. Refined hand-drawn illustration, pale blue ivory charcoal earth, readable equipment and faces, hairline sky fractures, 16:9.</pre></details><p class="note">⚠ Deck has two prep slides; episode has one B03.</p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 26</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B05</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-26.png" alt="slide 26" loading="lazy" /></figure>
+      <h2>Romans marching</h2>
+      
+      
+      <p class="ask">Roman column approaches over open ground.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D26</code></p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 27</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B02</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-27.png" alt="slide 27" loading="lazy" /></figure>
+      <h2>Goths&#x27; prepping</h2>
+      <pre class="body">Women take infirm and children to the edge of the forest in wagons</pre>
+      
+      <p class="ask">Wagons roll toward treeline with women, children, infirm.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D27</code></p>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 28</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>B05b</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-28.png" alt="slide 28" loading="lazy" /></figure>
+      <h2>Romans marching to what they thing is an easy slaugher</h2>
+      
+      
+      <p class="ask">Roman officers confident — loose formation, smirking faces.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D28</code></p><details><summary>Prompt text</summary><pre>Medium shot Roman column on open track: junior officer foreground right — young face, slight smirk, one eyebrow raised, hand gesturing forward loosely; soldiers behind in relaxed formation, shields lowered, spears angled casual. Wooded ridgeline ahead conceals camp. Overconfident body language — shoulders back, chins up. Daylight. Refined hand-drawn illustration, pale Thracian blue ivory charcoal, readable faces, light fractures in distant trees, 16:9, late 4th century.</pre></details><p class="note">⚠ Variant of B05; deck-specific overconfidence beat.</p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 29</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B06</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-29.png" alt="slide 29" loading="lazy" /></figure>
+      <h2>BATTLE SCENE AT MARSIONOPLE</h2>
+      
+      <details><summary>Speaker notes</summary><pre>When they see the gothic horde</pre></details>
+      <p class="ask">Young Roman&#x27;s face as confidence drains — Gothic line revealed.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D29</code></p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 30</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B07</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-30.png" alt="slide 30" loading="lazy" /></figure>
+      <h2>BATTLE SCENE AT MARSIONOPLE</h2>
+      
+      
+      <p class="ask">Arrow volley strikes Roman shields.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D30</code></p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 31</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B08</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-31.png" alt="slide 31" loading="lazy" /></figure>
+      <h2>BATTLE SCENE AT MARSIONOPLE</h2>
+      <pre class="body">Defeated roman soldiers lying on the ground with berserking towering armed goths standing over them daytime, similar theme</pre>
+      
+      <p class="ask">Daytime — fallen Romans on ground, armed Goths standing over them.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D31</code></p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 32</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B09</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-32.png" alt="slide 32" loading="lazy" /></figure>
+      <h2>BATTLE SCENE AT MARSIONOPLE</h2>
+      
+      
+      <p class="ask">Roman junior officer shouting into chaos.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D32</code></p>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 33</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>B09b</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-33.png" alt="slide 33" loading="lazy" /></figure>
+      <h2>Realization of rout</h2>
+      
+      <details><summary>Speaker notes</summary><pre>Realization that it&#x27;s going to be a route</pre></details>
+      <p class="ask">Roman veteran&#x27;s face — eyes wide, mouth open, formation breaking behind.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D33</code></p><details><summary>Prompt text</summary><pre>Close-up older Roman veteran mid-battle: square weathered face, gray-streaked short beard, eyes widened, mouth slightly open, brow raised; iron ridge helmet askew; behind him out of focus Roman shields breaking apart and soldiers turning to run. Soot on cheeks, mail collar visible. Daylight hard side light. Refined hand-drawn illustration, pale blue ivory charcoal, crisp facial features, hairline fractures in background chaos, 16:9.</pre></details><p class="note">⚠ Deck-specific rout realization.</p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 34</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B10</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-34.png" alt="slide 34" loading="lazy" /></figure>
+      <h2>(reference image)</h2>
+      
+      
+      <p class="ask">Older Roman sees children in concealed wagons.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D34</code></p>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 35</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>B12</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-35.png" alt="slide 35" loading="lazy" /></figure>
+      <h2>More roman slaughter</h2>
+      
+      
+      <p class="ask">Family fighter at wagon perimeter — battle continues.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D35</code></p><details><summary>Prompt text</summary><pre>Medium action beside covered wagon: Gothic fighter in mail and leather strikes downward with short spear at fallen Roman soldier on trampled grass; wagon canvas billows left, child hand visible gripping interior frame. Second Roman retreats right background. Daytime, mud and broken shield pieces foreground. Refined hand-drawn illustration, pale blue ivory charcoal earth, readable armor and faces, dynamic diagonal composition, non-gory, 16:9.</pre></details>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 36</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B13</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-36.png" alt="slide 36" loading="lazy" /></figure>
+      <h2>Roman retreat</h2>
+      
+      
+      <p class="ask">Roman formation fractures and flees.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D36</code></p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 37</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B14</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-37.png" alt="slide 37" loading="lazy" /></figure>
+      <h2>A standoff</h2>
+      <pre class="body">Lupicinus catches up with Fritigern</pre>
+      
+      <p class="ask">Lupicinus catches Fritigern beside concealed wagons.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D37</code></p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 38</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B11</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-38.png" alt="slide 38" loading="lazy" /></figure>
+      <h2>Alaric watches</h2>
+      
+      <details><summary>Speaker notes</summary><pre>Alaric looks on as his father bests lupicinus</pre></details>
+      <p class="ask">Alaric peering from beneath wagon canvas.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D38</code></p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 39</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B14b</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-39.png" alt="slide 39" loading="lazy" /></figure>
+      <h2>Lupicinus and fritigern battling</h2>
+      
+      
+      <p class="ask">Close combat — Fritigern and Lupicinus locked in fight.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D39</code></p><p class="note">⚠ Second standoff slide; variant of B14.</p>
+    </article>
+
+    <article class="card" data-status="redo">
+      <header>
+        <strong>Slide 40</strong>
+        <span class="badge" style="background:#c84">redo</span>
+        <span class="shots"><code>B15</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-40.png" alt="slide 40" loading="lazy" /></figure>
+      <h2>Mercy redo</h2>
+      
+      <details><summary>Speaker notes</summary><pre>Redo with proper lupcinus yielding</pre></details>
+      <p class="ask">REDO — Lupicinus yields properly: sword on ground, open palms, head bowed.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D40</code></p><details><summary>Prompt text</summary><pre>Three-figure scene beside covered wagon after fight: tall Gothic warrior early 40s stands center — trapezoidal weathered face, broken nose, scar through right eyebrow, braided beard, charcoal-blue cloak, spear point lowered toward ground; Roman commander early 40s kneels right foreground — muted red-gray torn tunic, ridge helmet on grass beside him, both hands open palms up at chest height, head bowed chin to collarbone, mouth closed. Small boy peeks from wagon left, enormous gray-blue eyes. Daylight, trampled grass. Refined hand-drawn illustration, readable faces and hands, 16:9.</pre></details><p class="note">⚠ Slide has reference image; Evan wants yielding pose fixed.</p>
+    </article>
+
+    <article class="card" data-status="needed">
+      <header>
+        <strong>Slide 41</strong>
+        <span class="badge" style="background:#c44">needed</span>
+        <span class="shots"><code>B15b</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-41.png" alt="slide 41" loading="lazy" /></figure>
+      <h2>Mercy as lupicinus runs away</h2>
+      
+      
+      <p class="ask">Lupicinus flees; Fritigern stands with weapon lowered.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D41</code></p><details><summary>Prompt text</summary><pre>Wide shot wagon clearing: Roman commander early 40s runs away toward background right — torn muted red-gray tunic, arms pumping, head turned over shoulder; tall Gothic warrior early 40s center foreground stands still, spear lowered at side, broken nose braided beard charcoal-blue cloak, mouth closed eyes on fleeing figure. Covered wagon and forest edge left. Daylight, long shadows. Refined hand-drawn illustration, pale blue ivory charcoal earth, readable faces, 16:9.</pre></details><p class="note">⚠ Follows slide 40 yielding beat.</p>
+    </article>
+
+    <article class="card" data-status="skip">
+      <header>
+        <strong>Slide 42</strong>
+        <span class="badge" style="background:#666">skip</span>
+        <span class="shots">—</span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-42.png" alt="slide 42" loading="lazy" /></figure>
+      <h2>(blank)</h2>
+      
+      
+      <p class="ask">Placeholder slide.</p>
+      
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 43</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B16</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-43.png" alt="slide 43" loading="lazy" /></figure>
+      <h2>preview</h2>
+      
+      
+      <p class="ask">Aftermath calm — flowers, sunlight, wounded Fritigern.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D43</code></p>
+    </article>
+
+    <article class="card" data-status="review_dump">
+      <header>
+        <strong>Slide 44</strong>
+        <span class="badge" style="background:#48a">review_dump</span>
+        <span class="shots"><code>B17</code></span>
+      </header>
+      <figure><img src="/s01e02-marcianople/canon/google-slides/slides/slide-44.png" alt="slide 44" loading="lazy" /></figure>
+      <h2>A boy awakens</h2>
+      
+      <details><summary>Speaker notes</summary><pre>A boy awakens</pre></details>
+      <p class="ask">Young Alaric with damaged plumed Roman helmet — inheritance coda.</p>
+      <p class="ref">Prompt: <code>deck.jsonl:D44</code></p>
+    </article>
+  </div>
+  <script>
+    const buttons = document.querySelectorAll('#filters button');
+    const cards = document.querySelectorAll('.card');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const f = btn.dataset.filter;
+        cards.forEach(c => {
+          c.classList.toggle('hidden', f !== 'all' && c.dataset.status !== f);
+        });
+      });
+    });
+  </script>
+</body>
+</html>

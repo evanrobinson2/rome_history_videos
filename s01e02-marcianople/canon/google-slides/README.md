@@ -31,4 +31,8 @@ canon/google-slides/
 
 ## Shot mapping
 
-`manifest.json` includes heuristic `suggested_shot_id` from slide copy (e.g. screenprint slides → H04–H06). Evan overrides via shortlist/favorites workflow.
+`manifest.json` includes heuristic `suggested_shot_id` from slide copy.
+
+**Authoritative production plan:** `manifests/deck-shot-plan.json` — maps all 44 slides to shot IDs, deck asks, MJ status, and prompt refs. Review at `renders/reviews/deck-plan.html`.
+
+Deck beats override `episode.yaml` where they differ (e.g. three screenprint slides 14–16, combined uniform+heist on slide 17, daytime weapons arrival on slide 23).
