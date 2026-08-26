@@ -1,0 +1,7 @@
+{
+  "schemaVersion": "1.0.0",
+  "session_dir": "feedback/inbox/2026-08-26-midjourney-session",
+  "updated_at": null,
+  "note": "Evan's favored variants per shot. Empty until chosen via contact sheet or manual edit. apply_favorites.py writes winners to episode.yaml.",
+  "picks": {}
+}
