@@ -1,0 +1,51 @@
+[Script Info]
+Title: S01E02 Marcianople
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Narration,Inter,48,&H00E8E4DC,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,3,0,3,80,80,88,1
+Style: Chapter,Inter,62,&H00D4C4A8,&H000000FF,&H00000000,&H78000000,-1,0,0,0,102,100,2,0,3,0,4,0,0,0,1
+Style: Disclosure,Inter,34,&H00B8B8B8,&H000000FF,&H00000000,&H50000000,0,0,0,0,100,100,0,0,1,0,0,2,120,120,72,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:02.40,Chapter,,0,0,0,,The Danube\N376 CE
+Dialogue: 0,0:00:02.40,0:00:07.00,Narration,,0,0,0,,They looked across the water and\Nbelieved Rome would shelter them.
+Dialogue: 0,0:00:07.00,0:00:12.00,Narration,,0,0,0,,Weapons were surrendered for a promise\Nof land and peace.
+Dialogue: 0,0:00:12.00,0:00:18.00,Narration,,0,0,0,,The barrier closed. Fields and granaries\Nstayed visible beyond the fence.
+Dialogue: 0,0:00:18.00,0:00:25.00,Narration,,0,0,0,,Food became leverage. Bowls stayed empty\Nwhile grain was guarded.
+Dialogue: 0,0:00:25.00,0:00:31.00,Narration,,0,0,0,,A bronze horse clasp changed hands for a\Ncrust of bread.
+Dialogue: 0,0:00:31.00,0:00:39.00,Narration,,0,0,0,,A brother was taken. The family broke in\Nplain sight.
+Dialogue: 0,0:00:39.00,0:00:46.00,Narration,,0,0,0,,She fed what was left of the child. A\Ntorn scarf stayed in his fist.
+Dialogue: 0,0:00:46.00,0:00:51.00,Narration,,0,0,0,,Lupicinus offered a banquet — warmth\Nperformed as reconciliation.
+Dialogue: 0,0:00:51.00,0:00:53.40,Chapter,,0,0,0,,Marcianople\NThe banquet trap
+Dialogue: 0,0:00:53.40,0:00:56.00,Narration,,0,0,0,,Below the hall, Roman blades were\Nreadied in secret.
+Dialogue: 0,0:00:56.00,0:01:01.00,Narration,,0,0,0,,The invitation was an execution dressed\Nas hospitality.
+Dialogue: 0,0:01:01.00,0:01:07.00,Narration,,0,0,0,,Fritigern took Lupicinus hostage before\Nthe trap could close.
+Dialogue: 0,0:01:07.00,0:01:14.00,Narration,,0,0,0,,The hall became violence.
+Dialogue: 0,0:01:14.00,0:01:18.00,Narration,,0,0,0,,While spectacle held the room, the\Ncounteroperation moved elsewhere.
+Dialogue: 0,0:01:18.00,0:01:24.00,Narration,,0,0,0,,Confiscated arms crossed the postern\Ngate in wagons.
+Dialogue: 0,0:01:24.00,0:01:30.00,Narration,,0,0,0,,Cloaked riders carried the weapons into\Nindigo night.
+Dialogue: 0,0:01:30.00,0:01:35.00,Narration,,0,0,0,,Fritigern left with Lupicinus still\Nalive.
+Dialogue: 0,0:01:35.00,0:01:37.40,Chapter,,0,0,0,,Nine miles from the city\NThey mistook hunger for helplessness
+Dialogue: 0,0:01:37.40,0:01:40.00,Narration,,0,0,0,,The stolen weapons reached a wooded\Nclearing.
+Dialogue: 0,0:01:40.00,0:01:46.00,Narration,,0,0,0,,Children, wounded, and elders waited\Namong the wagons.
+Dialogue: 0,0:01:46.00,0:01:54.00,Narration,,0,0,0,,Travel cloaks fell. Men trained to fight\Nstood in their place.
+Dialogue: 0,0:01:54.00,0:02:00.00,Narration,,0,0,0,,Roman infantry approached as if\Nslaughtering refugees would be simple.
+Dialogue: 0,0:02:00.00,0:02:05.00,Narration,,0,0,0,,A young soldier saw what was forming\Nahead — and understood too late.
+Dialogue: 0,0:02:05.00,0:02:11.00,Narration,,0,0,0,,Arrows found Roman shields.
+Dialogue: 0,0:02:11.00,0:02:17.00,Narration,,0,0,0,,Gothic shields drove the line backward.
+Dialogue: 0,0:02:17.00,0:02:22.00,Narration,,0,0,0,,Orders dissolved into noise.
+Dialogue: 0,0:02:22.00,0:02:27.00,Narration,,0,0,0,,An older Roman saw children beneath the\Ncanvas.
+Dialogue: 0,0:02:27.00,0:02:33.00,Narration,,0,0,0,,Alaric watched without understanding\Neverything — only that it was terror.
+Dialogue: 0,0:02:33.00,0:02:40.00,Narration,,0,0,0,,The Roman formation fractured. The\NGothic line held.
+Dialogue: 0,0:02:40.00,0:02:47.00,Narration,,0,0,0,,Fritigern and Lupicinus fought toward\Nthe wagons where families hid.
+Dialogue: 0,0:02:47.00,0:02:57.00,Narration,,0,0,0,,He had taken up the knife for his child.\NHe would not teach the child to worship
+Dialogue: 0,0:02:57.00,0:03:03.00,Narration,,0,0,0,,Sunlight and flowers continued after the\Nviolence fell away.
+Dialogue: 0,0:03:03.00,0:03:11.00,Narration,,0,0,0,,A damaged Roman helmet passed into the\Nchild's hands — inheritance, not trophy.
+Dialogue: 0,0:03:11.00,0:03:16.00,Disclosure,,0,0,0,,Inspired by the Gothic migration and war\Nof 376–382 CE. Some characters,
