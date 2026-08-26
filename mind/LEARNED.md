@@ -126,11 +126,30 @@ accident during an early cloud `vercel --prod` run, is git-connected to the same
 or `sessions/` and exits 1 (build) otherwise. Verified both directions against real
 commits. This removes roughly 61% of builds.
 
-Still outstanding: the `workspace` project should be deleted. It serves nothing, was
-created by mistake, and doubles every remaining build:
-`npx vercel project rm workspace --yes`
+Still outstanding: ~~the `workspace` project should be deleted~~ **done 2026-08-26**
+(`npx vercel project rm workspace` — removed permanently).
 
 **The general lesson:** a memory system that writes to the same repo the app deploys from
 couples *thinking* to *building*. Any node that appends to `mind/` was silently spending a
 shared, finite production resource. When adding a new always-on write path, check what
 else watches that path.
+
+## 2026-08-26 — Mind-only tip can cancel an app deploy and leave production stale
+
+**Was:** `scripts/vercel-ignore-build.sh` compared only `HEAD^..HEAD`. A mind-only tip was
+assumed safe to skip.
+
+**Is:** Vercel cancels in-flight builds when a newer commit arrives. Sequence that bit us:
+Video 1 scenes + Arc filter landed on `main` (app commits), then a `mind: sync` tip canceled
+those builds and skipped itself. Production alias stayed on the pre-V1 deploy
+(`rome-history-videos.vercel.app` → dpl from 01:42 UTC; V1 commits were 02:35–02:41). Assets
+were already on R2; the site just never got the new manifest. Manual `vercel --prod` then
+failed with `api-deployments-free-per-day` (still inside the 100/day window).
+
+**How:** `npx vercel inspect rome-history-videos.vercel.app` vs commit times; canceled tip
+`rome-history-videos-owsv32d9y` at 02:43; prod manifest still 54 items / `2026-08-24`.
+
+**Changed:** Ignore script diffs against `VERCEL_GIT_PREVIOUS_SHA` when set, so a mind-only
+tip still builds if app files changed since the last deployment. After quota resets, one
+production deploy of current `main` ships V1 + Arc. Do not tell Evan to look on Mac disk —
+R2 + the Vercel app are the review surfaces.
