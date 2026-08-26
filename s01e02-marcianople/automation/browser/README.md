@@ -1,6 +1,8 @@
 # S01E02 browser automation — dry-run first
 
-Midjourney and Suno flows are **not** wired to production credentials in this repo.
+Midjourney live runs are handled by the **agent bus** on Evan's laptop.
+
+**Start here:** [`../agent-bus/BROWSER-AGENT.md`](../agent-bus/BROWSER-AGENT.md)
 
 ## Intended usage
 
@@ -8,11 +10,10 @@ Midjourney and Suno flows are **not** wired to production credentials in this re
 # Validate prompts before any submission
 python3 s01e02-marcianople/automation/validate/validate_prompts.py
 
-# Dry-run: print next actions without browser
-python3 s01e02-marcianople/automation/browser/mj_dispatch.py --dry-run
+# Queue a request for the browser agent
+python3 s01e02-marcianople/automation/ingest/queue_mj_request.py --shot H06
 
-# Live run requires local Playwright profile path (never commit)
-export MJ_BROWSER_PROFILE=/path/to/your/profile
+# Dry-run stub (legacy)
 python3 s01e02-marcianople/automation/browser/mj_dispatch.py --shot C01
 ```
 

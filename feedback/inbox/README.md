@@ -27,3 +27,13 @@ python3 s01e02-marcianople/automation/ingest/index_music_archive.py
 ```
 
 Maps filenames → episode cues and copies canonical picks into `s01e02-marcianople/assets/music/`.
+
+### MJ agent-bus runs
+
+Browser agent commits 4-up grids to `feedback/inbox/mj-runs/`. Luna re-indexes with:
+
+```bash
+python3 s01e02-marcianople/automation/ingest/index_mj_session.py
+```
+
+See `s01e02-marcianople/agent-bus/README.md`.

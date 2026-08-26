@@ -1,0 +1,8 @@
+{
+  "agent": "mj-browser",
+  "heartbeat_at": null,
+  "state": "idle",
+  "current_request_id": null,
+  "last_commit_sha": null,
+  "last_error": null
+}

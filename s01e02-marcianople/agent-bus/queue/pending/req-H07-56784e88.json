@@ -1,0 +1,26 @@
+{
+  "id": "req-H07-56784e88",
+  "created_at": "2026-08-26T21:44:05.867676+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "H07",
+  "purpose": "armory; confiscated Gothic arms",
+  "visual_mode": "brutalist_print",
+  "action": "midjourney_generate",
+  "prompt": "Roman armory doors forced open at Marcianople: racks of confiscated Gothic spears shields axes revealed in torchlight, Gothic hands in Roman sleeves reach for familiar weapons. Truth of objective. Soot black iron gray dirty bone, vermilion torch rim on blade edges. Red-black brutalist screen-print, risograph grain, flat compressed interior, monumental weapon silhouettes, angular figures, no text, 16:9 horizontal, 376 CE.",
+  "prompt_hash": "56784e88",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 250,
+    "chaos": 4
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-H07-armory-confiscated-gothic-arms-56784e88",
+  "filenames": [
+    "H07_0.png",
+    "H07_1.png",
+    "H07_2.png",
+    "H07_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "req-H06-c1b2532c",
+  "created_at": "2026-08-26T21:44:05.814142+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "H06",
+  "purpose": "uniform exchange",
+  "visual_mode": "brutalist_print",
+  "action": "midjourney_generate",
+  "prompt": "Side chamber off banquet corridor: Gothic retainer steps out of Roman muted red-gray tunic while another pulls on ridge-helmet and cloak over smoke-brown tunic, discarded armor heap on floor. Disguise mechanism, tense hurry, no faces fully lit. Soot black walls, dirty bone skin tones, iron gray metal, vermilion cloak lining. Red-black brutalist screen-print, distressed risograph grain, flat compressed space, monumental silhouettes, angular anatomy, no text, 16:9, Marcianople 376 CE.",
+  "prompt_hash": "c1b2532c",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 250,
+    "chaos": 4
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-H06-uniform-exchange-c1b2532c",
+  "filenames": [
+    "H06_0.png",
+    "H06_1.png",
+    "H06_2.png",
+    "H06_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

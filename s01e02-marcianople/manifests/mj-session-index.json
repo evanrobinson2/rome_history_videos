@@ -1,8 +1,10 @@
 {
-  "schemaVersion": "1.0.0",
-  "source_commit": "b05c11d",
-  "session_dir": "feedback/inbox/2026-08-26-midjourney-session",
-  "generated_at": "2026-08-26T19:23:53.616982+00:00",
+  "schemaVersion": "1.1.0",
+  "scanned_dirs": [
+    "feedback/inbox/2026-08-26-midjourney-session",
+    "feedback/inbox/mj-runs"
+  ],
+  "generated_at": "2026-08-26T21:44:06.799475+00:00",
   "summary": {
     "jobs": 72,
     "files": 277,
@@ -21,7 +23,8 @@
         "sha256": "81ef6a3b7ec3b5b2",
         "prefix": "Marcianople_376_AD_the_instant_a_Roman_assassination_banquet_",
         "suggested_shot_id": "H02",
-        "mapping_reason": "Banquet trap / entry"
+        "mapping_reason": "Banquet trap / entry",
+        "source": "mj_session"
       },
       "job_id": "b0d44cf4-1f2d-492b-9203-fa3c66b0a37a",
       "all_variant_paths": [
@@ -41,7 +44,8 @@
         "sha256": "6dbe6c50fd5dcacc",
         "prefix": "At_the_wooded_wagon_refuge_after_Marcianople_wounded_Fritiger",
         "suggested_shot_id": "B16",
-        "mapping_reason": "Aftermath at wagon refuge"
+        "mapping_reason": "Aftermath at wagon refuge",
+        "source": "mj_session"
       },
       "job_id": "e18529ef-7899-443e-96f1-6a17c1514c2e",
       "all_variant_paths": [
@@ -61,7 +65,8 @@
         "sha256": "29fbaa9a87a2cf76",
         "prefix": "Three_figure_scene_beside_a_covered_wagon_after_battle._A_tal",
         "suggested_shot_id": "B15",
-        "mapping_reason": "Mercy \u2014 canonical candidate"
+        "mapping_reason": "Mercy \u2014 canonical candidate",
+        "source": "mj_session"
       },
       "job_id": "7bd5f5ff-9057-4f02-b584-f621806e5e34",
       "all_variant_paths": [
@@ -82,7 +87,8 @@
         "sha256": "019af4eb07f6c9fb",
         "prefix": "Cloaked_Gothic_riders_escorting_a_stolen_two-wheel_Roman_weap",
         "suggested_shot_id": "H10",
-        "mapping_reason": "Indigo escape"
+        "mapping_reason": "Indigo escape",
+        "source": "mj_session"
       },
       "job_id": "46fe3711-9a94-4a3c-8c85-e93d20a28182",
       "all_variant_paths": [
@@ -102,7 +108,8 @@
         "sha256": "c990586a33145b3e",
         "prefix": "Close_ground-level_view_inside_the_Roman_formation_as_the_fir",
         "suggested_shot_id": "B07",
-        "mapping_reason": "Arrow volley / first shock"
+        "mapping_reason": "Arrow volley / first shock",
+        "source": "mj_session"
       },
       "job_id": "a08cb074-c7f9-4591-a9c0-4f61444b4cd6",
       "all_variant_paths": [
@@ -122,7 +129,8 @@
         "sha256": "fa1bf390a08ae731",
         "prefix": "Extreme_close-up_of_a_young_Roman_infantryman_as_confidence_d",
         "suggested_shot_id": "B06",
-        "mapping_reason": "Roman first realization"
+        "mapping_reason": "Roman first realization",
+        "source": "mj_session"
       },
       "job_id": "dd07a9a7-fc2e-44d3-aef6-067166282292",
       "all_variant_paths": [
@@ -142,7 +150,8 @@
         "sha256": "fb451d26c0cf5898",
         "prefix": "Extreme_close-up_of_adolescent_Alaric_peering_from_beneath_th",
         "suggested_shot_id": "B11",
-        "mapping_reason": "Alaric under wagon canvas"
+        "mapping_reason": "Alaric under wagon canvas",
+        "source": "mj_session"
       },
       "job_id": "43d98160-4c40-499a-ae64-931dca2258c3",
       "all_variant_paths": [
@@ -162,7 +171,8 @@
         "sha256": "961ee0ab44b8ab09",
         "prefix": "Extreme_close-up_of_an_older_Roman_veteran_pressed_among_coll",
         "suggested_shot_id": "B10",
-        "mapping_reason": "Older Roman sees children"
+        "mapping_reason": "Older Roman sees children",
+        "source": "mj_session"
       },
       "job_id": "e409a882-14eb-4bf9-a0d0-8646e94f2003",
       "all_variant_paths": [
@@ -182,7 +192,8 @@
         "sha256": "4e369d8903e25693",
         "prefix": "Fritigern_and_Lupicinus_fighting_beside_the_concealed_family_",
         "suggested_shot_id": "B14",
-        "mapping_reason": "Fritigern vs Lupicinus at wagons"
+        "mapping_reason": "Fritigern vs Lupicinus at wagons",
+        "source": "mj_session"
       },
       "job_id": "4da7b531-091e-4c27-9c26-aed6fa5076cf",
       "all_variant_paths": [
@@ -202,7 +213,8 @@
         "sha256": "140b26a6a43edbed",
         "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
         "suggested_shot_id": "H01",
-        "mapping_reason": "Roman blades/restraints prepared"
+        "mapping_reason": "Roman blades/restraints prepared",
+        "source": "mj_session"
       },
       "job_id": "39f93aa0-8550-404b-a182-0d0d6f02f2ac",
       "all_variant_paths": [
@@ -222,7 +234,8 @@
         "sha256": "750753828276a8d3",
         "prefix": "In_a_wooded_clearing_starving_Gothic_refugees_transform_into_",
         "suggested_shot_id": "B03",
-        "mapping_reason": "Cloaks fall / defenders appear"
+        "mapping_reason": "Cloaks fall / defenders appear",
+        "source": "mj_session"
       },
       "job_id": "d779fd8a-c89a-47b0-a959-6982eca0bfea",
       "all_variant_paths": [
@@ -242,7 +255,8 @@
         "sha256": "558580ed0f5a723a",
         "prefix": "Late-fourth-century_Roman_infantry_approaching_a_wooded_refug",
         "suggested_shot_id": "B05",
-        "mapping_reason": "Romans approach overconfidently"
+        "mapping_reason": "Romans approach overconfidently",
+        "source": "mj_session"
       },
       "job_id": "75f417c9-5288-468b-b69b-fbd5ca25bf0d",
       "all_variant_paths": [
@@ -262,7 +276,8 @@
         "sha256": "7dc1824a63234ef9",
         "prefix": "Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre",
         "suggested_shot_id": "H04",
-        "mapping_reason": "Banquet chaos"
+        "mapping_reason": "Banquet chaos",
+        "source": "mj_session"
       },
       "job_id": "11de42bc-f597-4378-9e23-38a0fe45f721",
       "all_variant_paths": [
@@ -283,7 +298,8 @@
         "sha256": "f4ef98be8b561ec1",
         "prefix": "Late_Roman_military_banquet_hall_at_Marcianople_Fritigern_pow",
         "suggested_shot_id": "H03",
-        "mapping_reason": "Fritigern holds Lupicinus"
+        "mapping_reason": "Fritigern holds Lupicinus",
+        "source": "mj_session"
       },
       "job_id": "ec2b0ab6-26f3-42c7-a43a-40d2f924db78",
       "all_variant_paths": [
@@ -303,7 +319,8 @@
         "sha256": "507ffaa512428cc5",
         "prefix": "Outside_the_fortified_Roman_gate_at_Marcianople_during_a_banq",
         "suggested_shot_id": "H09",
-        "mapping_reason": "Postern / gate extraction"
+        "mapping_reason": "Postern / gate extraction",
+        "source": "mj_session"
       },
       "job_id": "1f85d425-3278-4141-b06a-1a472b4ae426",
       "all_variant_paths": [
@@ -323,7 +340,8 @@
         "sha256": "f32261d2c998c09c",
         "prefix": "Narrow_service_passage_behind_a_banquet_hall_at_Marcianople._",
         "suggested_shot_id": "H05",
-        "mapping_reason": "Corridor / guard kill"
+        "mapping_reason": "Corridor / guard kill",
+        "source": "mj_session"
       },
       "job_id": "cfdf860e-a4a6-40c7-846d-e3f5ce42b2cd",
       "all_variant_paths": [
@@ -343,7 +361,8 @@
         "sha256": "52eb164e620f3da6",
         "prefix": "Roman_junior_officer_shouting_an_order_that_disappears_beneat",
         "suggested_shot_id": "B09",
-        "mapping_reason": "Command failure"
+        "mapping_reason": "Command failure",
+        "source": "mj_session"
       },
       "job_id": "5e4c9628-1027-4a99-a495-aa41d216f2f1",
       "all_variant_paths": [
@@ -363,7 +382,8 @@
         "sha256": "11727145b13fbf43",
         "prefix": "The_suspended_moment_inside_the_Marcianople_banquet_hall_afte",
         "suggested_shot_id": "H11",
-        "mapping_reason": "Fritigern exits with Lupicinus alive"
+        "mapping_reason": "Fritigern exits with Lupicinus alive",
+        "source": "mj_session"
       },
       "job_id": "7dc13d60-92da-4c02-9548-d92dcb7255cb",
       "all_variant_paths": [
@@ -383,7 +403,8 @@
         "sha256": "fac6093b0063770c",
         "prefix": "Young_Gothic_boy_Alaric_stands_alone_after_the_Battle_of_Marc",
         "suggested_shot_id": "B17",
-        "mapping_reason": "Child Alaric alone + helmet"
+        "mapping_reason": "Child Alaric alone + helmet",
+        "source": "mj_session"
       },
       "job_id": "47823736-ecbd-4269-83a4-1bbf333faa6b",
       "all_variant_paths": [
@@ -404,7 +425,8 @@
         "sha256": "cdc5d7356af65a34",
         "prefix": "n_a_wooded_clearing_hungry_but_trained_Gothic_refugees_prepar",
         "suggested_shot_id": "B01",
-        "mapping_reason": "Weapon wagons reach clearing"
+        "mapping_reason": "Weapon wagons reach clearing",
+        "source": "mj_session"
       },
       "job_id": "81139ab8-a050-44e2-9cb7-68edade0a660",
       "all_variant_paths": [
@@ -431,7 +453,8 @@
           "sha256": "f5fe11fd9a3afeff",
           "prefix": "A_cinematic_aftermath_of_catastrophic_defeat_on_a_barren_late",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:catastrophic_defeat_on_a_barren"
+          "mapping_reason": "off_episode:catastrophic_defeat_on_a_barren",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/A_cinematic_aftermath_of_catastrophic_defeat_on_a_barren_late_3c37724a-3958-47fd-9138-a86c04a1f522_1.png",
@@ -441,7 +464,8 @@
           "sha256": "238629f115521285",
           "prefix": "A_cinematic_aftermath_of_catastrophic_defeat_on_a_barren_late",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:catastrophic_defeat_on_a_barren"
+          "mapping_reason": "off_episode:catastrophic_defeat_on_a_barren",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/A_cinematic_aftermath_of_catastrophic_defeat_on_a_barren_late_3c37724a-3958-47fd-9138-a86c04a1f522_2.png",
@@ -451,7 +475,8 @@
           "sha256": "88fad09c53964d2a",
           "prefix": "A_cinematic_aftermath_of_catastrophic_defeat_on_a_barren_late",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:catastrophic_defeat_on_a_barren"
+          "mapping_reason": "off_episode:catastrophic_defeat_on_a_barren",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/A_cinematic_aftermath_of_catastrophic_defeat_on_a_barren_late_3c37724a-3958-47fd-9138-a86c04a1f522_3.png",
@@ -461,9 +486,11 @@
           "sha256": "d4e9bbfd9e5911d4",
           "prefix": "A_cinematic_aftermath_of_catastrophic_defeat_on_a_barren_late",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:catastrophic_defeat_on_a_barren"
+          "mapping_reason": "off_episode:catastrophic_defeat_on_a_barren",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "8983ba98-1bfb-46f9-b749-88c642f3d78d": {
       "job_id": "8983ba98-1bfb-46f9-b749-88c642f3d78d",
@@ -480,7 +507,8 @@
           "sha256": "0c7552652083597d",
           "prefix": "A_feast_prepared_as_an_execution_becomes_a_hostage_scene_late",
           "suggested_shot_id": "H02",
-          "mapping_reason": "Banquet trap / entry"
+          "mapping_reason": "Banquet trap / entry",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/A_feast_prepared_as_an_execution_becomes_a_hostage_scene_late_8983ba98-1bfb-46f9-b749-88c642f3d78d_1.png",
@@ -490,7 +518,8 @@
           "sha256": "f6b1e40b6b3a7927",
           "prefix": "A_feast_prepared_as_an_execution_becomes_a_hostage_scene_late",
           "suggested_shot_id": "H02",
-          "mapping_reason": "Banquet trap / entry"
+          "mapping_reason": "Banquet trap / entry",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/A_feast_prepared_as_an_execution_becomes_a_hostage_scene_late_8983ba98-1bfb-46f9-b749-88c642f3d78d_2.png",
@@ -500,7 +529,8 @@
           "sha256": "e4a827bcaeaafe95",
           "prefix": "A_feast_prepared_as_an_execution_becomes_a_hostage_scene_late",
           "suggested_shot_id": "H02",
-          "mapping_reason": "Banquet trap / entry"
+          "mapping_reason": "Banquet trap / entry",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/A_feast_prepared_as_an_execution_becomes_a_hostage_scene_late_8983ba98-1bfb-46f9-b749-88c642f3d78d_3.png",
@@ -510,9 +540,11 @@
           "sha256": "ffc0783110bd693b",
           "prefix": "A_feast_prepared_as_an_execution_becomes_a_hostage_scene_late",
           "suggested_shot_id": "H02",
-          "mapping_reason": "Banquet trap / entry"
+          "mapping_reason": "Banquet trap / entry",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "c261229c-7624-406d-bcb1-e4718a61b8d4": {
       "job_id": "c261229c-7624-406d-bcb1-e4718a61b8d4",
@@ -529,7 +561,8 @@
           "sha256": "76d002219701e12d",
           "prefix": "After_Adrianople_adolescent_Alaric_walks_away_across_the_ruin",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:adrianople"
+          "mapping_reason": "off_episode:adrianople",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/After_Adrianople_adolescent_Alaric_walks_away_across_the_ruin_c261229c-7624-406d-bcb1-e4718a61b8d4_1.png",
@@ -539,7 +572,8 @@
           "sha256": "0d2789dacacbe37c",
           "prefix": "After_Adrianople_adolescent_Alaric_walks_away_across_the_ruin",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:adrianople"
+          "mapping_reason": "off_episode:adrianople",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/After_Adrianople_adolescent_Alaric_walks_away_across_the_ruin_c261229c-7624-406d-bcb1-e4718a61b8d4_2.png",
@@ -549,7 +583,8 @@
           "sha256": "ba9410a8331bc999",
           "prefix": "After_Adrianople_adolescent_Alaric_walks_away_across_the_ruin",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:adrianople"
+          "mapping_reason": "off_episode:adrianople",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/After_Adrianople_adolescent_Alaric_walks_away_across_the_ruin_c261229c-7624-406d-bcb1-e4718a61b8d4_3.png",
@@ -559,9 +594,11 @@
           "sha256": "7f43154158c9746e",
           "prefix": "After_Adrianople_adolescent_Alaric_walks_away_across_the_ruin",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:adrianople"
+          "mapping_reason": "off_episode:adrianople",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "e18529ef-7899-443e-96f1-6a17c1514c2e": {
       "job_id": "e18529ef-7899-443e-96f1-6a17c1514c2e",
@@ -578,7 +615,8 @@
           "sha256": "6dbe6c50fd5dcacc",
           "prefix": "At_the_wooded_wagon_refuge_after_Marcianople_wounded_Fritiger",
           "suggested_shot_id": "B16",
-          "mapping_reason": "Aftermath at wagon refuge"
+          "mapping_reason": "Aftermath at wagon refuge",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/At_the_wooded_wagon_refuge_after_Marcianople_wounded_Fritiger_e18529ef-7899-443e-96f1-6a17c1514c2e_1.png",
@@ -588,7 +626,8 @@
           "sha256": "a948805abb0b1107",
           "prefix": "At_the_wooded_wagon_refuge_after_Marcianople_wounded_Fritiger",
           "suggested_shot_id": "B16",
-          "mapping_reason": "Aftermath at wagon refuge"
+          "mapping_reason": "Aftermath at wagon refuge",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/At_the_wooded_wagon_refuge_after_Marcianople_wounded_Fritiger_e18529ef-7899-443e-96f1-6a17c1514c2e_2.png",
@@ -598,7 +637,8 @@
           "sha256": "a07648be1f969b8d",
           "prefix": "At_the_wooded_wagon_refuge_after_Marcianople_wounded_Fritiger",
           "suggested_shot_id": "B16",
-          "mapping_reason": "Aftermath at wagon refuge"
+          "mapping_reason": "Aftermath at wagon refuge",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/At_the_wooded_wagon_refuge_after_Marcianople_wounded_Fritiger_e18529ef-7899-443e-96f1-6a17c1514c2e_3.png",
@@ -608,9 +648,11 @@
           "sha256": "d8d3aab606512606",
           "prefix": "At_the_wooded_wagon_refuge_after_Marcianople_wounded_Fritiger",
           "suggested_shot_id": "B16",
-          "mapping_reason": "Aftermath at wagon refuge"
+          "mapping_reason": "Aftermath at wagon refuge",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "f19d9845-679c-4501-81f3-072c7b409a2f": {
       "job_id": "f19d9845-679c-4501-81f3-072c7b409a2f",
@@ -627,7 +669,8 @@
           "sha256": "89370863f2c5005f",
           "prefix": "Clean_three_figure_composition_beside_a_covered_wagon_after_M",
           "suggested_shot_id": "B15",
-          "mapping_reason": "Mercy \u2014 canonical candidate"
+          "mapping_reason": "Mercy \u2014 canonical candidate",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Clean_three_figure_composition_beside_a_covered_wagon_after_M_f19d9845-679c-4501-81f3-072c7b409a2f_1.png",
@@ -637,7 +680,8 @@
           "sha256": "7e1216dbdef5354c",
           "prefix": "Clean_three_figure_composition_beside_a_covered_wagon_after_M",
           "suggested_shot_id": "B15",
-          "mapping_reason": "Mercy \u2014 canonical candidate"
+          "mapping_reason": "Mercy \u2014 canonical candidate",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Clean_three_figure_composition_beside_a_covered_wagon_after_M_f19d9845-679c-4501-81f3-072c7b409a2f_2.png",
@@ -647,7 +691,8 @@
           "sha256": "76141d84e83a190c",
           "prefix": "Clean_three_figure_composition_beside_a_covered_wagon_after_M",
           "suggested_shot_id": "B15",
-          "mapping_reason": "Mercy \u2014 canonical candidate"
+          "mapping_reason": "Mercy \u2014 canonical candidate",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Clean_three_figure_composition_beside_a_covered_wagon_after_M_f19d9845-679c-4501-81f3-072c7b409a2f_3.png",
@@ -657,9 +702,11 @@
           "sha256": "c907e3ddba827e1f",
           "prefix": "Clean_three_figure_composition_beside_a_covered_wagon_after_M",
           "suggested_shot_id": "B15",
-          "mapping_reason": "Mercy \u2014 canonical candidate"
+          "mapping_reason": "Mercy \u2014 canonical candidate",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "46fe3711-9a94-4a3c-8c85-e93d20a28182": {
       "job_id": "46fe3711-9a94-4a3c-8c85-e93d20a28182",
@@ -676,7 +723,8 @@
           "sha256": "019af4eb07f6c9fb",
           "prefix": "Cloaked_Gothic_riders_escorting_a_stolen_two-wheel_Roman_weap",
           "suggested_shot_id": "H10",
-          "mapping_reason": "Indigo escape"
+          "mapping_reason": "Indigo escape",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Cloaked_Gothic_riders_escorting_a_stolen_two-wheel_Roman_weap_46fe3711-9a94-4a3c-8c85-e93d20a28182_1.png",
@@ -686,7 +734,8 @@
           "sha256": "44a5408a0978a618",
           "prefix": "Cloaked_Gothic_riders_escorting_a_stolen_two-wheel_Roman_weap",
           "suggested_shot_id": "H10",
-          "mapping_reason": "Indigo escape"
+          "mapping_reason": "Indigo escape",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Cloaked_Gothic_riders_escorting_a_stolen_two-wheel_Roman_weap_46fe3711-9a94-4a3c-8c85-e93d20a28182_2.png",
@@ -696,7 +745,8 @@
           "sha256": "4e305d11979bc3de",
           "prefix": "Cloaked_Gothic_riders_escorting_a_stolen_two-wheel_Roman_weap",
           "suggested_shot_id": "H10",
-          "mapping_reason": "Indigo escape"
+          "mapping_reason": "Indigo escape",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Cloaked_Gothic_riders_escorting_a_stolen_two-wheel_Roman_weap_46fe3711-9a94-4a3c-8c85-e93d20a28182_3.png",
@@ -706,9 +756,11 @@
           "sha256": "b127ac5e457e63e6",
           "prefix": "Cloaked_Gothic_riders_escorting_a_stolen_two-wheel_Roman_weap",
           "suggested_shot_id": "H10",
-          "mapping_reason": "Indigo escape"
+          "mapping_reason": "Indigo escape",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "a08cb074-c7f9-4591-a9c0-4f61444b4cd6": {
       "job_id": "a08cb074-c7f9-4591-a9c0-4f61444b4cd6",
@@ -725,7 +777,8 @@
           "sha256": "c990586a33145b3e",
           "prefix": "Close_ground-level_view_inside_the_Roman_formation_as_the_fir",
           "suggested_shot_id": "B07",
-          "mapping_reason": "Arrow volley / first shock"
+          "mapping_reason": "Arrow volley / first shock",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Close_ground-level_view_inside_the_Roman_formation_as_the_fir_a08cb074-c7f9-4591-a9c0-4f61444b4cd6_1.png",
@@ -735,7 +788,8 @@
           "sha256": "29fc87d1589a359e",
           "prefix": "Close_ground-level_view_inside_the_Roman_formation_as_the_fir",
           "suggested_shot_id": "B07",
-          "mapping_reason": "Arrow volley / first shock"
+          "mapping_reason": "Arrow volley / first shock",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Close_ground-level_view_inside_the_Roman_formation_as_the_fir_a08cb074-c7f9-4591-a9c0-4f61444b4cd6_2.png",
@@ -745,7 +799,8 @@
           "sha256": "b2e5f7a9a0d0a055",
           "prefix": "Close_ground-level_view_inside_the_Roman_formation_as_the_fir",
           "suggested_shot_id": "B07",
-          "mapping_reason": "Arrow volley / first shock"
+          "mapping_reason": "Arrow volley / first shock",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Close_ground-level_view_inside_the_Roman_formation_as_the_fir_a08cb074-c7f9-4591-a9c0-4f61444b4cd6_3.png",
@@ -755,9 +810,11 @@
           "sha256": "a61bc14ab6322c57",
           "prefix": "Close_ground-level_view_inside_the_Roman_formation_as_the_fir",
           "suggested_shot_id": "B07",
-          "mapping_reason": "Arrow volley / first shock"
+          "mapping_reason": "Arrow volley / first shock",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "70472ec9-f623-4481-ad68-30af1e6eb9be": {
       "job_id": "70472ec9-f623-4481-ad68-30af1e6eb9be",
@@ -774,7 +831,8 @@
           "sha256": "1a97f85d0bdb5fdc",
           "prefix": "Continuous_vertical_composition_same_person_at_two_ages_no_ha",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:continuous_vertical_composition_same_person"
+          "mapping_reason": "off_episode:continuous_vertical_composition_same_person",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Continuous_vertical_composition_same_person_at_two_ages_no_ha_70472ec9-f623-4481-ad68-30af1e6eb9be_1.png",
@@ -784,7 +842,8 @@
           "sha256": "414d6a5fd9df9e99",
           "prefix": "Continuous_vertical_composition_same_person_at_two_ages_no_ha",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:continuous_vertical_composition_same_person"
+          "mapping_reason": "off_episode:continuous_vertical_composition_same_person",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Continuous_vertical_composition_same_person_at_two_ages_no_ha_70472ec9-f623-4481-ad68-30af1e6eb9be_2.png",
@@ -794,7 +853,8 @@
           "sha256": "a7bfae6efc66cf8e",
           "prefix": "Continuous_vertical_composition_same_person_at_two_ages_no_ha",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:continuous_vertical_composition_same_person"
+          "mapping_reason": "off_episode:continuous_vertical_composition_same_person",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Continuous_vertical_composition_same_person_at_two_ages_no_ha_70472ec9-f623-4481-ad68-30af1e6eb9be_3.png",
@@ -804,9 +864,11 @@
           "sha256": "3845c93d8bc59886",
           "prefix": "Continuous_vertical_composition_same_person_at_two_ages_no_ha",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:continuous_vertical_composition_same_person"
+          "mapping_reason": "off_episode:continuous_vertical_composition_same_person",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "90339d2d-1876-42dd-b59f-6eb9f851dc31": {
       "job_id": "90339d2d-1876-42dd-b59f-6eb9f851dc31",
@@ -823,7 +885,8 @@
           "sha256": "ad12dca7308c3d2d",
           "prefix": "Continuous_vertical_composition_same_person_at_two_ages_no_ha",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:continuous_vertical_composition_same_person"
+          "mapping_reason": "off_episode:continuous_vertical_composition_same_person",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Continuous_vertical_composition_same_person_at_two_ages_no_ha_90339d2d-1876-42dd-b59f-6eb9f851dc31_1.png",
@@ -833,7 +896,8 @@
           "sha256": "3a9e0af69535675e",
           "prefix": "Continuous_vertical_composition_same_person_at_two_ages_no_ha",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:continuous_vertical_composition_same_person"
+          "mapping_reason": "off_episode:continuous_vertical_composition_same_person",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Continuous_vertical_composition_same_person_at_two_ages_no_ha_90339d2d-1876-42dd-b59f-6eb9f851dc31_2.png",
@@ -843,7 +907,8 @@
           "sha256": "985467cff0a0def3",
           "prefix": "Continuous_vertical_composition_same_person_at_two_ages_no_ha",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:continuous_vertical_composition_same_person"
+          "mapping_reason": "off_episode:continuous_vertical_composition_same_person",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Continuous_vertical_composition_same_person_at_two_ages_no_ha_90339d2d-1876-42dd-b59f-6eb9f851dc31_3.png",
@@ -853,9 +918,11 @@
           "sha256": "1ff0c807d3f9a9c1",
           "prefix": "Continuous_vertical_composition_same_person_at_two_ages_no_ha",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:continuous_vertical_composition_same_person"
+          "mapping_reason": "off_episode:continuous_vertical_composition_same_person",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "dd07a9a7-fc2e-44d3-aef6-067166282292": {
       "job_id": "dd07a9a7-fc2e-44d3-aef6-067166282292",
@@ -872,7 +939,8 @@
           "sha256": "fa1bf390a08ae731",
           "prefix": "Extreme_close-up_of_a_young_Roman_infantryman_as_confidence_d",
           "suggested_shot_id": "B06",
-          "mapping_reason": "Roman first realization"
+          "mapping_reason": "Roman first realization",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Extreme_close-up_of_a_young_Roman_infantryman_as_confidence_d_dd07a9a7-fc2e-44d3-aef6-067166282292_1.png",
@@ -882,7 +950,8 @@
           "sha256": "055a5c436f607233",
           "prefix": "Extreme_close-up_of_a_young_Roman_infantryman_as_confidence_d",
           "suggested_shot_id": "B06",
-          "mapping_reason": "Roman first realization"
+          "mapping_reason": "Roman first realization",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Extreme_close-up_of_a_young_Roman_infantryman_as_confidence_d_dd07a9a7-fc2e-44d3-aef6-067166282292_2.png",
@@ -892,7 +961,8 @@
           "sha256": "6aef08ccec2afd49",
           "prefix": "Extreme_close-up_of_a_young_Roman_infantryman_as_confidence_d",
           "suggested_shot_id": "B06",
-          "mapping_reason": "Roman first realization"
+          "mapping_reason": "Roman first realization",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Extreme_close-up_of_a_young_Roman_infantryman_as_confidence_d_dd07a9a7-fc2e-44d3-aef6-067166282292_3.png",
@@ -902,9 +972,11 @@
           "sha256": "da01e6778fe2fc49",
           "prefix": "Extreme_close-up_of_a_young_Roman_infantryman_as_confidence_d",
           "suggested_shot_id": "B06",
-          "mapping_reason": "Roman first realization"
+          "mapping_reason": "Roman first realization",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "43d98160-4c40-499a-ae64-931dca2258c3": {
       "job_id": "43d98160-4c40-499a-ae64-931dca2258c3",
@@ -921,7 +993,8 @@
           "sha256": "fb451d26c0cf5898",
           "prefix": "Extreme_close-up_of_adolescent_Alaric_peering_from_beneath_th",
           "suggested_shot_id": "B11",
-          "mapping_reason": "Alaric under wagon canvas"
+          "mapping_reason": "Alaric under wagon canvas",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Extreme_close-up_of_adolescent_Alaric_peering_from_beneath_th_43d98160-4c40-499a-ae64-931dca2258c3_1.png",
@@ -931,7 +1004,8 @@
           "sha256": "6f8b7edaa2a6977a",
           "prefix": "Extreme_close-up_of_adolescent_Alaric_peering_from_beneath_th",
           "suggested_shot_id": "B11",
-          "mapping_reason": "Alaric under wagon canvas"
+          "mapping_reason": "Alaric under wagon canvas",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Extreme_close-up_of_adolescent_Alaric_peering_from_beneath_th_43d98160-4c40-499a-ae64-931dca2258c3_2.png",
@@ -941,7 +1015,8 @@
           "sha256": "bd50c54ff7fb7365",
           "prefix": "Extreme_close-up_of_adolescent_Alaric_peering_from_beneath_th",
           "suggested_shot_id": "B11",
-          "mapping_reason": "Alaric under wagon canvas"
+          "mapping_reason": "Alaric under wagon canvas",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Extreme_close-up_of_adolescent_Alaric_peering_from_beneath_th_43d98160-4c40-499a-ae64-931dca2258c3_3.png",
@@ -951,9 +1026,11 @@
           "sha256": "16ba2b54881dc4cd",
           "prefix": "Extreme_close-up_of_adolescent_Alaric_peering_from_beneath_th",
           "suggested_shot_id": "B11",
-          "mapping_reason": "Alaric under wagon canvas"
+          "mapping_reason": "Alaric under wagon canvas",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "e409a882-14eb-4bf9-a0d0-8646e94f2003": {
       "job_id": "e409a882-14eb-4bf9-a0d0-8646e94f2003",
@@ -970,7 +1047,8 @@
           "sha256": "961ee0ab44b8ab09",
           "prefix": "Extreme_close-up_of_an_older_Roman_veteran_pressed_among_coll",
           "suggested_shot_id": "B10",
-          "mapping_reason": "Older Roman sees children"
+          "mapping_reason": "Older Roman sees children",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Extreme_close-up_of_an_older_Roman_veteran_pressed_among_coll_e409a882-14eb-4bf9-a0d0-8646e94f2003_1.png",
@@ -980,7 +1058,8 @@
           "sha256": "312f6acc03fb17a9",
           "prefix": "Extreme_close-up_of_an_older_Roman_veteran_pressed_among_coll",
           "suggested_shot_id": "B10",
-          "mapping_reason": "Older Roman sees children"
+          "mapping_reason": "Older Roman sees children",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Extreme_close-up_of_an_older_Roman_veteran_pressed_among_coll_e409a882-14eb-4bf9-a0d0-8646e94f2003_2.png",
@@ -990,7 +1069,8 @@
           "sha256": "432be42af2da57ed",
           "prefix": "Extreme_close-up_of_an_older_Roman_veteran_pressed_among_coll",
           "suggested_shot_id": "B10",
-          "mapping_reason": "Older Roman sees children"
+          "mapping_reason": "Older Roman sees children",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Extreme_close-up_of_an_older_Roman_veteran_pressed_among_coll_e409a882-14eb-4bf9-a0d0-8646e94f2003_3.png",
@@ -1000,9 +1080,11 @@
           "sha256": "abfee1e2623adbbf",
           "prefix": "Extreme_close-up_of_an_older_Roman_veteran_pressed_among_coll",
           "suggested_shot_id": "B10",
-          "mapping_reason": "Older Roman sees children"
+          "mapping_reason": "Older Roman sees children",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "4da7b531-091e-4c27-9c26-aed6fa5076cf": {
       "job_id": "4da7b531-091e-4c27-9c26-aed6fa5076cf",
@@ -1019,7 +1101,8 @@
           "sha256": "4e369d8903e25693",
           "prefix": "Fritigern_and_Lupicinus_fighting_beside_the_concealed_family_",
           "suggested_shot_id": "B14",
-          "mapping_reason": "Fritigern vs Lupicinus at wagons"
+          "mapping_reason": "Fritigern vs Lupicinus at wagons",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Fritigern_and_Lupicinus_fighting_beside_the_concealed_family__4da7b531-091e-4c27-9c26-aed6fa5076cf_1.png",
@@ -1029,7 +1112,8 @@
           "sha256": "1eef0f64c1d1e9ab",
           "prefix": "Fritigern_and_Lupicinus_fighting_beside_the_concealed_family_",
           "suggested_shot_id": "B14",
-          "mapping_reason": "Fritigern vs Lupicinus at wagons"
+          "mapping_reason": "Fritigern vs Lupicinus at wagons",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Fritigern_and_Lupicinus_fighting_beside_the_concealed_family__4da7b531-091e-4c27-9c26-aed6fa5076cf_2.png",
@@ -1039,7 +1123,8 @@
           "sha256": "7ad77110403b59d9",
           "prefix": "Fritigern_and_Lupicinus_fighting_beside_the_concealed_family_",
           "suggested_shot_id": "B14",
-          "mapping_reason": "Fritigern vs Lupicinus at wagons"
+          "mapping_reason": "Fritigern vs Lupicinus at wagons",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Fritigern_and_Lupicinus_fighting_beside_the_concealed_family__4da7b531-091e-4c27-9c26-aed6fa5076cf_3.png",
@@ -1049,9 +1134,11 @@
           "sha256": "031166405585c8ff",
           "prefix": "Fritigern_and_Lupicinus_fighting_beside_the_concealed_family_",
           "suggested_shot_id": "B14",
-          "mapping_reason": "Fritigern vs Lupicinus at wagons"
+          "mapping_reason": "Fritigern vs Lupicinus at wagons",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "ba3cc55f-d953-4df1-8f1e-4543e25b49ae": {
       "job_id": "ba3cc55f-d953-4df1-8f1e-4543e25b49ae",
@@ -1068,7 +1155,8 @@
           "sha256": "4667dfb4e88b3900",
           "prefix": "Graphic_digital_animation_illustration_of_Fritigern_overpower",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower"
+          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Graphic_digital_animation_illustration_of_Fritigern_overpower_ba3cc55f-d953-4df1-8f1e-4543e25b49ae_1.png",
@@ -1078,7 +1166,8 @@
           "sha256": "470aaab1516de046",
           "prefix": "Graphic_digital_animation_illustration_of_Fritigern_overpower",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower"
+          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Graphic_digital_animation_illustration_of_Fritigern_overpower_ba3cc55f-d953-4df1-8f1e-4543e25b49ae_2.png",
@@ -1088,7 +1177,8 @@
           "sha256": "02f4d5eb3b905639",
           "prefix": "Graphic_digital_animation_illustration_of_Fritigern_overpower",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower"
+          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Graphic_digital_animation_illustration_of_Fritigern_overpower_ba3cc55f-d953-4df1-8f1e-4543e25b49ae_3.png",
@@ -1098,9 +1188,11 @@
           "sha256": "0cc40138037a8d49",
           "prefix": "Graphic_digital_animation_illustration_of_Fritigern_overpower",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower"
+          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "d4fec8ad-743b-4e60-9b88-785c84cb716a": {
       "job_id": "d4fec8ad-743b-4e60-9b88-785c84cb716a",
@@ -1117,7 +1209,8 @@
           "sha256": "31689e2b01b8e217",
           "prefix": "Graphic_digital_animation_illustration_of_Fritigern_overpower",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower"
+          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Graphic_digital_animation_illustration_of_Fritigern_overpower_d4fec8ad-743b-4e60-9b88-785c84cb716a_1.png",
@@ -1127,7 +1220,8 @@
           "sha256": "aae6e73509409b83",
           "prefix": "Graphic_digital_animation_illustration_of_Fritigern_overpower",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower"
+          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Graphic_digital_animation_illustration_of_Fritigern_overpower_d4fec8ad-743b-4e60-9b88-785c84cb716a_2.png",
@@ -1137,7 +1231,8 @@
           "sha256": "015609ee661a43fb",
           "prefix": "Graphic_digital_animation_illustration_of_Fritigern_overpower",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower"
+          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Graphic_digital_animation_illustration_of_Fritigern_overpower_d4fec8ad-743b-4e60-9b88-785c84cb716a_3.png",
@@ -1147,9 +1242,11 @@
           "sha256": "a85154640dd6e2cf",
           "prefix": "Graphic_digital_animation_illustration_of_Fritigern_overpower",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower"
+          "mapping_reason": "off_episode:graphic_digital_animation_illustration_of_fritigern_overpower",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "39f93aa0-8550-404b-a182-0d0d6f02f2ac": {
       "job_id": "39f93aa0-8550-404b-a182-0d0d6f02f2ac",
@@ -1166,7 +1263,8 @@
           "sha256": "140b26a6a43edbed",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_39f93aa0-8550-404b-a182-0d0d6f02f2ac_1.png",
@@ -1176,7 +1274,8 @@
           "sha256": "7a0e1675acaa2991",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_39f93aa0-8550-404b-a182-0d0d6f02f2ac_2.png",
@@ -1186,7 +1285,8 @@
           "sha256": "8e07e65e1693e933",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_39f93aa0-8550-404b-a182-0d0d6f02f2ac_3.png",
@@ -1196,9 +1296,11 @@
           "sha256": "9583b911f1f94a24",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "7480c2d3-a398-48fa-9413-a04b2eb29b7d": {
       "job_id": "7480c2d3-a398-48fa-9413-a04b2eb29b7d",
@@ -1215,7 +1317,8 @@
           "sha256": "94d3e1de54278fda",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_7480c2d3-a398-48fa-9413-a04b2eb29b7d_1.png",
@@ -1225,7 +1328,8 @@
           "sha256": "2a80a8e08b5e9273",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_7480c2d3-a398-48fa-9413-a04b2eb29b7d_2.png",
@@ -1235,7 +1339,8 @@
           "sha256": "d7c11e011bf23977",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_7480c2d3-a398-48fa-9413-a04b2eb29b7d_3.png",
@@ -1245,9 +1350,11 @@
           "sha256": "d8f83ac2c7bdca67",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "7bd02bab-b1a5-44f2-8dc3-79b1a2f38f42": {
       "job_id": "7bd02bab-b1a5-44f2-8dc3-79b1a2f38f42",
@@ -1264,7 +1371,8 @@
           "sha256": "18ac6f890e6ff769",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_7bd02bab-b1a5-44f2-8dc3-79b1a2f38f42_1.png",
@@ -1274,7 +1382,8 @@
           "sha256": "69988f1d69b2322d",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_7bd02bab-b1a5-44f2-8dc3-79b1a2f38f42_2.png",
@@ -1284,7 +1393,8 @@
           "sha256": "e6a134f1e3632b12",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_7bd02bab-b1a5-44f2-8dc3-79b1a2f38f42_3.png",
@@ -1294,9 +1404,11 @@
           "sha256": "dfcdba3bb433a97b",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "d0c24287-75ce-4182-ab24-e17cbbd0e7e4": {
       "job_id": "d0c24287-75ce-4182-ab24-e17cbbd0e7e4",
@@ -1313,7 +1425,8 @@
           "sha256": "b0a38f43bfc6e02a",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_d0c24287-75ce-4182-ab24-e17cbbd0e7e4_1.png",
@@ -1323,7 +1436,8 @@
           "sha256": "5b8d3303b2568c84",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_d0c24287-75ce-4182-ab24-e17cbbd0e7e4_2.png",
@@ -1333,7 +1447,8 @@
           "sha256": "b2d5f4ec2231770a",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_d0c24287-75ce-4182-ab24-e17cbbd0e7e4_3.png",
@@ -1343,9 +1458,11 @@
           "sha256": "5b7420e6e42db54d",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "d2669834-4237-4758-b712-65f67b1bd278": {
       "job_id": "d2669834-4237-4758-b712-65f67b1bd278",
@@ -1362,7 +1479,8 @@
           "sha256": "86ac488660185151",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_d2669834-4237-4758-b712-65f67b1bd278_1.png",
@@ -1372,7 +1490,8 @@
           "sha256": "b7d2debe3d2918f5",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_d2669834-4237-4758-b712-65f67b1bd278_2.png",
@@ -1382,7 +1501,8 @@
           "sha256": "3641cca8991b3750",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers_d2669834-4237-4758-b712-65f67b1bd278_3.png",
@@ -1392,9 +1512,11 @@
           "sha256": "6bd205cdd352f3c0",
           "prefix": "Hidden_Roman_preparation_chamber_beneath_Marcianople_soldiers",
           "suggested_shot_id": "H01",
-          "mapping_reason": "Roman blades/restraints prepared"
+          "mapping_reason": "Roman blades/restraints prepared",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "d779fd8a-c89a-47b0-a959-6982eca0bfea": {
       "job_id": "d779fd8a-c89a-47b0-a959-6982eca0bfea",
@@ -1411,7 +1533,8 @@
           "sha256": "750753828276a8d3",
           "prefix": "In_a_wooded_clearing_starving_Gothic_refugees_transform_into_",
           "suggested_shot_id": "B03",
-          "mapping_reason": "Cloaks fall / defenders appear"
+          "mapping_reason": "Cloaks fall / defenders appear",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/In_a_wooded_clearing_starving_Gothic_refugees_transform_into__d779fd8a-c89a-47b0-a959-6982eca0bfea_1.png",
@@ -1421,7 +1544,8 @@
           "sha256": "8f7d40a5c494671d",
           "prefix": "In_a_wooded_clearing_starving_Gothic_refugees_transform_into_",
           "suggested_shot_id": "B03",
-          "mapping_reason": "Cloaks fall / defenders appear"
+          "mapping_reason": "Cloaks fall / defenders appear",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/In_a_wooded_clearing_starving_Gothic_refugees_transform_into__d779fd8a-c89a-47b0-a959-6982eca0bfea_2.png",
@@ -1431,7 +1555,8 @@
           "sha256": "0109160cbf1c6f49",
           "prefix": "In_a_wooded_clearing_starving_Gothic_refugees_transform_into_",
           "suggested_shot_id": "B03",
-          "mapping_reason": "Cloaks fall / defenders appear"
+          "mapping_reason": "Cloaks fall / defenders appear",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/In_a_wooded_clearing_starving_Gothic_refugees_transform_into__d779fd8a-c89a-47b0-a959-6982eca0bfea_3.png",
@@ -1441,9 +1566,11 @@
           "sha256": "ee7b0f6b01e4c29a",
           "prefix": "In_a_wooded_clearing_starving_Gothic_refugees_transform_into_",
           "suggested_shot_id": "B03",
-          "mapping_reason": "Cloaks fall / defenders appear"
+          "mapping_reason": "Cloaks fall / defenders appear",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "75f417c9-5288-468b-b69b-fbd5ca25bf0d": {
       "job_id": "75f417c9-5288-468b-b69b-fbd5ca25bf0d",
@@ -1460,7 +1587,8 @@
           "sha256": "558580ed0f5a723a",
           "prefix": "Late-fourth-century_Roman_infantry_approaching_a_wooded_refug",
           "suggested_shot_id": "B05",
-          "mapping_reason": "Romans approach overconfidently"
+          "mapping_reason": "Romans approach overconfidently",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late-fourth-century_Roman_infantry_approaching_a_wooded_refug_75f417c9-5288-468b-b69b-fbd5ca25bf0d_1.png",
@@ -1470,7 +1598,8 @@
           "sha256": "f2b5000abd94a3d9",
           "prefix": "Late-fourth-century_Roman_infantry_approaching_a_wooded_refug",
           "suggested_shot_id": "B05",
-          "mapping_reason": "Romans approach overconfidently"
+          "mapping_reason": "Romans approach overconfidently",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late-fourth-century_Roman_infantry_approaching_a_wooded_refug_75f417c9-5288-468b-b69b-fbd5ca25bf0d_2.png",
@@ -1480,7 +1609,8 @@
           "sha256": "c92bcc56833e0619",
           "prefix": "Late-fourth-century_Roman_infantry_approaching_a_wooded_refug",
           "suggested_shot_id": "B05",
-          "mapping_reason": "Romans approach overconfidently"
+          "mapping_reason": "Romans approach overconfidently",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late-fourth-century_Roman_infantry_approaching_a_wooded_refug_75f417c9-5288-468b-b69b-fbd5ca25bf0d_3.png",
@@ -1490,9 +1620,11 @@
           "sha256": "c9233e1889253241",
           "prefix": "Late-fourth-century_Roman_infantry_approaching_a_wooded_refug",
           "suggested_shot_id": "B05",
-          "mapping_reason": "Romans approach overconfidently"
+          "mapping_reason": "Romans approach overconfidently",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "11de42bc-f597-4378-9e23-38a0fe45f721": {
       "job_id": "11de42bc-f597-4378-9e23-38a0fe45f721",
@@ -1509,7 +1641,8 @@
           "sha256": "7dc1824a63234ef9",
           "prefix": "Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre",
           "suggested_shot_id": "H04",
-          "mapping_reason": "Banquet chaos"
+          "mapping_reason": "Banquet chaos",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_11de42bc-f597-4378-9e23-38a0fe45f721_1.png",
@@ -1519,7 +1652,8 @@
           "sha256": "945bb47603db5dc1",
           "prefix": "Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre",
           "suggested_shot_id": "H04",
-          "mapping_reason": "Banquet chaos"
+          "mapping_reason": "Banquet chaos",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_11de42bc-f597-4378-9e23-38a0fe45f721_2.png",
@@ -1529,7 +1663,8 @@
           "sha256": "8dee03f8142e855e",
           "prefix": "Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre",
           "suggested_shot_id": "H04",
-          "mapping_reason": "Banquet chaos"
+          "mapping_reason": "Banquet chaos",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_11de42bc-f597-4378-9e23-38a0fe45f721_3.png",
@@ -1539,9 +1674,11 @@
           "sha256": "21e7d10c73aac473",
           "prefix": "Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre",
           "suggested_shot_id": "H04",
-          "mapping_reason": "Banquet chaos"
+          "mapping_reason": "Banquet chaos",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "53ed0dae-4e6d-4019-ab70-a60848eb0452": {
       "job_id": "53ed0dae-4e6d-4019-ab70-a60848eb0452",
@@ -1558,7 +1695,8 @@
           "sha256": "05a275dba2277bf7",
           "prefix": "Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre",
           "suggested_shot_id": "H04",
-          "mapping_reason": "Banquet chaos"
+          "mapping_reason": "Banquet chaos",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_53ed0dae-4e6d-4019-ab70-a60848eb0452_1.mp4",
@@ -1568,9 +1706,11 @@
           "sha256": "33f125d7fd056f69",
           "prefix": "Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre",
           "suggested_shot_id": "H04",
-          "mapping_reason": "Banquet chaos"
+          "mapping_reason": "Banquet chaos",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "6a9b207b-2d44-42eb-a69c-2418306d6503": {
       "job_id": "6a9b207b-2d44-42eb-a69c-2418306d6503",
@@ -1587,7 +1727,8 @@
           "sha256": "a6150e810b6baf2b",
           "prefix": "Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre",
           "suggested_shot_id": "H04",
-          "mapping_reason": "Banquet chaos"
+          "mapping_reason": "Banquet chaos",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_6a9b207b-2d44-42eb-a69c-2418306d6503_1.png",
@@ -1597,7 +1738,8 @@
           "sha256": "ba7adba102ec867f",
           "prefix": "Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre",
           "suggested_shot_id": "H04",
-          "mapping_reason": "Banquet chaos"
+          "mapping_reason": "Banquet chaos",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_6a9b207b-2d44-42eb-a69c-2418306d6503_2.png",
@@ -1607,7 +1749,8 @@
           "sha256": "caf36a31eae39d33",
           "prefix": "Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre",
           "suggested_shot_id": "H04",
-          "mapping_reason": "Banquet chaos"
+          "mapping_reason": "Banquet chaos",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_6a9b207b-2d44-42eb-a69c-2418306d6503_3.png",
@@ -1617,9 +1760,11 @@
           "sha256": "d726be9d4ff8ba77",
           "prefix": "Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre",
           "suggested_shot_id": "H04",
-          "mapping_reason": "Banquet chaos"
+          "mapping_reason": "Banquet chaos",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "ec2b0ab6-26f3-42c7-a43a-40d2f924db78": {
       "job_id": "ec2b0ab6-26f3-42c7-a43a-40d2f924db78",
@@ -1636,7 +1781,8 @@
           "sha256": "f4ef98be8b561ec1",
           "prefix": "Late_Roman_military_banquet_hall_at_Marcianople_Fritigern_pow",
           "suggested_shot_id": "H03",
-          "mapping_reason": "Fritigern holds Lupicinus"
+          "mapping_reason": "Fritigern holds Lupicinus",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_military_banquet_hall_at_Marcianople_Fritigern_pow_ec2b0ab6-26f3-42c7-a43a-40d2f924db78_1.png",
@@ -1646,7 +1792,8 @@
           "sha256": "5db86569b3205587",
           "prefix": "Late_Roman_military_banquet_hall_at_Marcianople_Fritigern_pow",
           "suggested_shot_id": "H03",
-          "mapping_reason": "Fritigern holds Lupicinus"
+          "mapping_reason": "Fritigern holds Lupicinus",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_military_banquet_hall_at_Marcianople_Fritigern_pow_ec2b0ab6-26f3-42c7-a43a-40d2f924db78_2.png",
@@ -1656,7 +1803,8 @@
           "sha256": "07d1a9b00c78fac2",
           "prefix": "Late_Roman_military_banquet_hall_at_Marcianople_Fritigern_pow",
           "suggested_shot_id": "H03",
-          "mapping_reason": "Fritigern holds Lupicinus"
+          "mapping_reason": "Fritigern holds Lupicinus",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_military_banquet_hall_at_Marcianople_Fritigern_pow_ec2b0ab6-26f3-42c7-a43a-40d2f924db78_3.png",
@@ -1666,9 +1814,11 @@
           "sha256": "0bbc66800ca3ed7c",
           "prefix": "Late_Roman_military_banquet_hall_at_Marcianople_Fritigern_pow",
           "suggested_shot_id": "H03",
-          "mapping_reason": "Fritigern holds Lupicinus"
+          "mapping_reason": "Fritigern holds Lupicinus",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "2a897f20-568c-4e8a-87c0-934fb6b6d764": {
       "job_id": "2a897f20-568c-4e8a-87c0-934fb6b6d764",
@@ -1685,7 +1835,8 @@
           "sha256": "1dbd76a031a86e78",
           "prefix": "Late_Roman_moonless_night_beyond_Marcianoples_rear_gate_Gothi",
           "suggested_shot_id": "H09",
-          "mapping_reason": "Postern / gate extraction"
+          "mapping_reason": "Postern / gate extraction",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_moonless_night_beyond_Marcianoples_rear_gate_Gothi_2a897f20-568c-4e8a-87c0-934fb6b6d764_1.png",
@@ -1695,7 +1846,8 @@
           "sha256": "2a4e391506cf6bc1",
           "prefix": "Late_Roman_moonless_night_beyond_Marcianoples_rear_gate_Gothi",
           "suggested_shot_id": "H09",
-          "mapping_reason": "Postern / gate extraction"
+          "mapping_reason": "Postern / gate extraction",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_moonless_night_beyond_Marcianoples_rear_gate_Gothi_2a897f20-568c-4e8a-87c0-934fb6b6d764_2.png",
@@ -1705,7 +1857,8 @@
           "sha256": "4a1b4ef6c5fe6d14",
           "prefix": "Late_Roman_moonless_night_beyond_Marcianoples_rear_gate_Gothi",
           "suggested_shot_id": "H09",
-          "mapping_reason": "Postern / gate extraction"
+          "mapping_reason": "Postern / gate extraction",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_moonless_night_beyond_Marcianoples_rear_gate_Gothi_2a897f20-568c-4e8a-87c0-934fb6b6d764_3.png",
@@ -1715,9 +1868,11 @@
           "sha256": "d0373b6cca843152",
           "prefix": "Late_Roman_moonless_night_beyond_Marcianoples_rear_gate_Gothi",
           "suggested_shot_id": "H09",
-          "mapping_reason": "Postern / gate extraction"
+          "mapping_reason": "Postern / gate extraction",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "b0d44cf4-1f2d-492b-9203-fa3c66b0a37a": {
       "job_id": "b0d44cf4-1f2d-492b-9203-fa3c66b0a37a",
@@ -1734,7 +1889,8 @@
           "sha256": "81ef6a3b7ec3b5b2",
           "prefix": "Marcianople_376_AD_the_instant_a_Roman_assassination_banquet_",
           "suggested_shot_id": "H02",
-          "mapping_reason": "Banquet trap / entry"
+          "mapping_reason": "Banquet trap / entry",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Marcianople_376_AD_the_instant_a_Roman_assassination_banquet__b0d44cf4-1f2d-492b-9203-fa3c66b0a37a_1.png",
@@ -1744,7 +1900,8 @@
           "sha256": "0f039000d9efaf81",
           "prefix": "Marcianople_376_AD_the_instant_a_Roman_assassination_banquet_",
           "suggested_shot_id": "H02",
-          "mapping_reason": "Banquet trap / entry"
+          "mapping_reason": "Banquet trap / entry",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Marcianople_376_AD_the_instant_a_Roman_assassination_banquet__b0d44cf4-1f2d-492b-9203-fa3c66b0a37a_2.png",
@@ -1754,7 +1911,8 @@
           "sha256": "661467be3ee8694b",
           "prefix": "Marcianople_376_AD_the_instant_a_Roman_assassination_banquet_",
           "suggested_shot_id": "H02",
-          "mapping_reason": "Banquet trap / entry"
+          "mapping_reason": "Banquet trap / entry",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Marcianople_376_AD_the_instant_a_Roman_assassination_banquet__b0d44cf4-1f2d-492b-9203-fa3c66b0a37a_3.png",
@@ -1764,9 +1922,11 @@
           "sha256": "dfd49c5ff24a6144",
           "prefix": "Marcianople_376_AD_the_instant_a_Roman_assassination_banquet_",
           "suggested_shot_id": "H02",
-          "mapping_reason": "Banquet trap / entry"
+          "mapping_reason": "Banquet trap / entry",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "cfdf860e-a4a6-40c7-846d-e3f5ce42b2cd": {
       "job_id": "cfdf860e-a4a6-40c7-846d-e3f5ce42b2cd",
@@ -1783,7 +1943,8 @@
           "sha256": "f32261d2c998c09c",
           "prefix": "Narrow_service_passage_behind_a_banquet_hall_at_Marcianople._",
           "suggested_shot_id": "H05",
-          "mapping_reason": "Corridor / guard kill"
+          "mapping_reason": "Corridor / guard kill",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Narrow_service_passage_behind_a_banquet_hall_at_Marcianople.__cfdf860e-a4a6-40c7-846d-e3f5ce42b2cd_1.png",
@@ -1793,7 +1954,8 @@
           "sha256": "77bdf0039e2c563e",
           "prefix": "Narrow_service_passage_behind_a_banquet_hall_at_Marcianople._",
           "suggested_shot_id": "H05",
-          "mapping_reason": "Corridor / guard kill"
+          "mapping_reason": "Corridor / guard kill",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Narrow_service_passage_behind_a_banquet_hall_at_Marcianople.__cfdf860e-a4a6-40c7-846d-e3f5ce42b2cd_2.png",
@@ -1803,7 +1965,8 @@
           "sha256": "9308a1d60bc6c8c6",
           "prefix": "Narrow_service_passage_behind_a_banquet_hall_at_Marcianople._",
           "suggested_shot_id": "H05",
-          "mapping_reason": "Corridor / guard kill"
+          "mapping_reason": "Corridor / guard kill",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Narrow_service_passage_behind_a_banquet_hall_at_Marcianople.__cfdf860e-a4a6-40c7-846d-e3f5ce42b2cd_3.png",
@@ -1813,9 +1976,11 @@
           "sha256": "3d8881745e9f66d7",
           "prefix": "Narrow_service_passage_behind_a_banquet_hall_at_Marcianople._",
           "suggested_shot_id": "H05",
-          "mapping_reason": "Corridor / guard kill"
+          "mapping_reason": "Corridor / guard kill",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "d48e6e05-577e-4d68-a2a2-c055fd515d74": {
       "job_id": "d48e6e05-577e-4d68-a2a2-c055fd515d74",
@@ -1832,7 +1997,8 @@
           "sha256": "fa9b8f1c817fe1a0",
           "prefix": "Neo-expressionist_digital_cel_illustration_of_Fritigern_holdi",
           "suggested_shot_id": "H03",
-          "mapping_reason": "Fritigern holds Lupicinus"
+          "mapping_reason": "Fritigern holds Lupicinus",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Neo-expressionist_digital_cel_illustration_of_Fritigern_holdi_d48e6e05-577e-4d68-a2a2-c055fd515d74_1.png",
@@ -1842,7 +2008,8 @@
           "sha256": "70052dba35039d55",
           "prefix": "Neo-expressionist_digital_cel_illustration_of_Fritigern_holdi",
           "suggested_shot_id": "H03",
-          "mapping_reason": "Fritigern holds Lupicinus"
+          "mapping_reason": "Fritigern holds Lupicinus",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Neo-expressionist_digital_cel_illustration_of_Fritigern_holdi_d48e6e05-577e-4d68-a2a2-c055fd515d74_2.png",
@@ -1852,7 +2019,8 @@
           "sha256": "52288ff7cb5fec86",
           "prefix": "Neo-expressionist_digital_cel_illustration_of_Fritigern_holdi",
           "suggested_shot_id": "H03",
-          "mapping_reason": "Fritigern holds Lupicinus"
+          "mapping_reason": "Fritigern holds Lupicinus",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Neo-expressionist_digital_cel_illustration_of_Fritigern_holdi_d48e6e05-577e-4d68-a2a2-c055fd515d74_3.png",
@@ -1862,9 +2030,11 @@
           "sha256": "d7b08faac98795a6",
           "prefix": "Neo-expressionist_digital_cel_illustration_of_Fritigern_holdi",
           "suggested_shot_id": "H03",
-          "mapping_reason": "Fritigern holds Lupicinus"
+          "mapping_reason": "Fritigern holds Lupicinus",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "1f85d425-3278-4141-b06a-1a472b4ae426": {
       "job_id": "1f85d425-3278-4141-b06a-1a472b4ae426",
@@ -1881,7 +2051,8 @@
           "sha256": "507ffaa512428cc5",
           "prefix": "Outside_the_fortified_Roman_gate_at_Marcianople_during_a_banq",
           "suggested_shot_id": "H09",
-          "mapping_reason": "Postern / gate extraction"
+          "mapping_reason": "Postern / gate extraction",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Outside_the_fortified_Roman_gate_at_Marcianople_during_a_banq_1f85d425-3278-4141-b06a-1a472b4ae426_1.png",
@@ -1891,7 +2062,8 @@
           "sha256": "457f09f93816603b",
           "prefix": "Outside_the_fortified_Roman_gate_at_Marcianople_during_a_banq",
           "suggested_shot_id": "H09",
-          "mapping_reason": "Postern / gate extraction"
+          "mapping_reason": "Postern / gate extraction",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Outside_the_fortified_Roman_gate_at_Marcianople_during_a_banq_1f85d425-3278-4141-b06a-1a472b4ae426_2.png",
@@ -1901,7 +2073,8 @@
           "sha256": "a13cfc462e7d52db",
           "prefix": "Outside_the_fortified_Roman_gate_at_Marcianople_during_a_banq",
           "suggested_shot_id": "H09",
-          "mapping_reason": "Postern / gate extraction"
+          "mapping_reason": "Postern / gate extraction",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Outside_the_fortified_Roman_gate_at_Marcianople_during_a_banq_1f85d425-3278-4141-b06a-1a472b4ae426_3.png",
@@ -1911,9 +2084,11 @@
           "sha256": "4014e4503abc28ac",
           "prefix": "Outside_the_fortified_Roman_gate_at_Marcianople_during_a_banq",
           "suggested_shot_id": "H09",
-          "mapping_reason": "Postern / gate extraction"
+          "mapping_reason": "Postern / gate extraction",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "5e4c9628-1027-4a99-a495-aa41d216f2f1": {
       "job_id": "5e4c9628-1027-4a99-a495-aa41d216f2f1",
@@ -1930,7 +2105,8 @@
           "sha256": "52eb164e620f3da6",
           "prefix": "Roman_junior_officer_shouting_an_order_that_disappears_beneat",
           "suggested_shot_id": "B09",
-          "mapping_reason": "Command failure"
+          "mapping_reason": "Command failure",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Roman_junior_officer_shouting_an_order_that_disappears_beneat_5e4c9628-1027-4a99-a495-aa41d216f2f1_1.png",
@@ -1940,7 +2116,8 @@
           "sha256": "94c9ce14c44cdefb",
           "prefix": "Roman_junior_officer_shouting_an_order_that_disappears_beneat",
           "suggested_shot_id": "B09",
-          "mapping_reason": "Command failure"
+          "mapping_reason": "Command failure",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Roman_junior_officer_shouting_an_order_that_disappears_beneat_5e4c9628-1027-4a99-a495-aa41d216f2f1_2.png",
@@ -1950,7 +2127,8 @@
           "sha256": "a439bd4146646d6e",
           "prefix": "Roman_junior_officer_shouting_an_order_that_disappears_beneat",
           "suggested_shot_id": "B09",
-          "mapping_reason": "Command failure"
+          "mapping_reason": "Command failure",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Roman_junior_officer_shouting_an_order_that_disappears_beneat_5e4c9628-1027-4a99-a495-aa41d216f2f1_3.png",
@@ -1960,9 +2138,11 @@
           "sha256": "87973554e7370546",
           "prefix": "Roman_junior_officer_shouting_an_order_that_disappears_beneat",
           "suggested_shot_id": "B09",
-          "mapping_reason": "Command failure"
+          "mapping_reason": "Command failure",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "b0b25e85-bcaf-4618-892c-b70b65d5fd4b": {
       "job_id": "b0b25e85-bcaf-4618-892c-b70b65d5fd4b",
@@ -1979,7 +2159,8 @@
           "sha256": "5228e06a525ead17",
           "prefix": "The_remembered_nightmare_of_the_Marcianople_banquet_Fritigern",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:nightmare_of_the_marcianople_banquet"
+          "mapping_reason": "off_episode:nightmare_of_the_marcianople_banquet",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/The_remembered_nightmare_of_the_Marcianople_banquet_Fritigern_b0b25e85-bcaf-4618-892c-b70b65d5fd4b_1.png",
@@ -1989,7 +2170,8 @@
           "sha256": "ba1d5760b90139c0",
           "prefix": "The_remembered_nightmare_of_the_Marcianople_banquet_Fritigern",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:nightmare_of_the_marcianople_banquet"
+          "mapping_reason": "off_episode:nightmare_of_the_marcianople_banquet",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/The_remembered_nightmare_of_the_Marcianople_banquet_Fritigern_b0b25e85-bcaf-4618-892c-b70b65d5fd4b_2.png",
@@ -1999,7 +2181,8 @@
           "sha256": "b22bf8f0653991f6",
           "prefix": "The_remembered_nightmare_of_the_Marcianople_banquet_Fritigern",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:nightmare_of_the_marcianople_banquet"
+          "mapping_reason": "off_episode:nightmare_of_the_marcianople_banquet",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/The_remembered_nightmare_of_the_Marcianople_banquet_Fritigern_b0b25e85-bcaf-4618-892c-b70b65d5fd4b_3.png",
@@ -2009,9 +2192,11 @@
           "sha256": "43fe9af42fc2b71c",
           "prefix": "The_remembered_nightmare_of_the_Marcianople_banquet_Fritigern",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:nightmare_of_the_marcianople_banquet"
+          "mapping_reason": "off_episode:nightmare_of_the_marcianople_banquet",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "7dc13d60-92da-4c02-9548-d92dcb7255cb": {
       "job_id": "7dc13d60-92da-4c02-9548-d92dcb7255cb",
@@ -2028,7 +2213,8 @@
           "sha256": "11727145b13fbf43",
           "prefix": "The_suspended_moment_inside_the_Marcianople_banquet_hall_afte",
           "suggested_shot_id": "H11",
-          "mapping_reason": "Fritigern exits with Lupicinus alive"
+          "mapping_reason": "Fritigern exits with Lupicinus alive",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/The_suspended_moment_inside_the_Marcianople_banquet_hall_afte_7dc13d60-92da-4c02-9548-d92dcb7255cb_1.png",
@@ -2038,7 +2224,8 @@
           "sha256": "8518e64d085d9a4c",
           "prefix": "The_suspended_moment_inside_the_Marcianople_banquet_hall_afte",
           "suggested_shot_id": "H11",
-          "mapping_reason": "Fritigern exits with Lupicinus alive"
+          "mapping_reason": "Fritigern exits with Lupicinus alive",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/The_suspended_moment_inside_the_Marcianople_banquet_hall_afte_7dc13d60-92da-4c02-9548-d92dcb7255cb_2.png",
@@ -2048,7 +2235,8 @@
           "sha256": "2a99acbfc1c44829",
           "prefix": "The_suspended_moment_inside_the_Marcianople_banquet_hall_afte",
           "suggested_shot_id": "H11",
-          "mapping_reason": "Fritigern exits with Lupicinus alive"
+          "mapping_reason": "Fritigern exits with Lupicinus alive",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/The_suspended_moment_inside_the_Marcianople_banquet_hall_afte_7dc13d60-92da-4c02-9548-d92dcb7255cb_3.png",
@@ -2058,9 +2246,11 @@
           "sha256": "b33742a3e8ada9b7",
           "prefix": "The_suspended_moment_inside_the_Marcianople_banquet_hall_afte",
           "suggested_shot_id": "H11",
-          "mapping_reason": "Fritigern exits with Lupicinus alive"
+          "mapping_reason": "Fritigern exits with Lupicinus alive",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "7bd5f5ff-9057-4f02-b584-f621806e5e34": {
       "job_id": "7bd5f5ff-9057-4f02-b584-f621806e5e34",
@@ -2077,7 +2267,8 @@
           "sha256": "29fbaa9a87a2cf76",
           "prefix": "Three_figure_scene_beside_a_covered_wagon_after_battle._A_tal",
           "suggested_shot_id": "B15",
-          "mapping_reason": "Mercy \u2014 canonical candidate"
+          "mapping_reason": "Mercy \u2014 canonical candidate",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Three_figure_scene_beside_a_covered_wagon_after_battle._A_tal_7bd5f5ff-9057-4f02-b584-f621806e5e34_1.png",
@@ -2087,7 +2278,8 @@
           "sha256": "7da5b2e793b672ad",
           "prefix": "Three_figure_scene_beside_a_covered_wagon_after_battle._A_tal",
           "suggested_shot_id": "B15",
-          "mapping_reason": "Mercy \u2014 canonical candidate"
+          "mapping_reason": "Mercy \u2014 canonical candidate",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Three_figure_scene_beside_a_covered_wagon_after_battle._A_tal_7bd5f5ff-9057-4f02-b584-f621806e5e34_2.png",
@@ -2097,7 +2289,8 @@
           "sha256": "02e43a1b447a94a6",
           "prefix": "Three_figure_scene_beside_a_covered_wagon_after_battle._A_tal",
           "suggested_shot_id": "B15",
-          "mapping_reason": "Mercy \u2014 canonical candidate"
+          "mapping_reason": "Mercy \u2014 canonical candidate",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Three_figure_scene_beside_a_covered_wagon_after_battle._A_tal_7bd5f5ff-9057-4f02-b584-f621806e5e34_3.png",
@@ -2107,9 +2300,11 @@
           "sha256": "301f6ff582a0c9f8",
           "prefix": "Three_figure_scene_beside_a_covered_wagon_after_battle._A_tal",
           "suggested_shot_id": "B15",
-          "mapping_reason": "Mercy \u2014 canonical candidate"
+          "mapping_reason": "Mercy \u2014 canonical candidate",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "8e7a8bfd-cea0-4a33-9fc8-067770083b7c": {
       "job_id": "8e7a8bfd-cea0-4a33-9fc8-067770083b7c",
@@ -2126,7 +2321,8 @@
           "sha256": "961a6b78441c4a64",
           "prefix": "Three_figures_beside_a_covered_wagon_after_battle._A_tall_bro",
           "suggested_shot_id": "B15",
-          "mapping_reason": "Mercy \u2014 canonical candidate"
+          "mapping_reason": "Mercy \u2014 canonical candidate",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Three_figures_beside_a_covered_wagon_after_battle._A_tall_bro_8e7a8bfd-cea0-4a33-9fc8-067770083b7c_1.png",
@@ -2136,7 +2332,8 @@
           "sha256": "dfbc02ee0dc2307b",
           "prefix": "Three_figures_beside_a_covered_wagon_after_battle._A_tall_bro",
           "suggested_shot_id": "B15",
-          "mapping_reason": "Mercy \u2014 canonical candidate"
+          "mapping_reason": "Mercy \u2014 canonical candidate",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Three_figures_beside_a_covered_wagon_after_battle._A_tall_bro_8e7a8bfd-cea0-4a33-9fc8-067770083b7c_2.png",
@@ -2146,7 +2343,8 @@
           "sha256": "42f29726f8a592d8",
           "prefix": "Three_figures_beside_a_covered_wagon_after_battle._A_tall_bro",
           "suggested_shot_id": "B15",
-          "mapping_reason": "Mercy \u2014 canonical candidate"
+          "mapping_reason": "Mercy \u2014 canonical candidate",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Three_figures_beside_a_covered_wagon_after_battle._A_tall_bro_8e7a8bfd-cea0-4a33-9fc8-067770083b7c_3.png",
@@ -2156,9 +2354,11 @@
           "sha256": "fc79214c9a30537f",
           "prefix": "Three_figures_beside_a_covered_wagon_after_battle._A_tall_bro",
           "suggested_shot_id": "B15",
-          "mapping_reason": "Mercy \u2014 canonical candidate"
+          "mapping_reason": "Mercy \u2014 canonical candidate",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "1e4b9f40-5985-4ea6-a25b-d7617634c92c": {
       "job_id": "1e4b9f40-5985-4ea6-a25b-d7617634c92c",
@@ -2175,7 +2375,8 @@
           "sha256": "b7d7f19e7c3fb07b",
           "prefix": "Two_versions_of_the_same_man_side_by_side_vertical_cinematic_",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:two_versions_of_the_same_man"
+          "mapping_reason": "off_episode:two_versions_of_the_same_man",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Two_versions_of_the_same_man_side_by_side_vertical_cinematic__1e4b9f40-5985-4ea6-a25b-d7617634c92c_1.png",
@@ -2185,7 +2386,8 @@
           "sha256": "35ee3e5da1c8c98f",
           "prefix": "Two_versions_of_the_same_man_side_by_side_vertical_cinematic_",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:two_versions_of_the_same_man"
+          "mapping_reason": "off_episode:two_versions_of_the_same_man",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Two_versions_of_the_same_man_side_by_side_vertical_cinematic__1e4b9f40-5985-4ea6-a25b-d7617634c92c_2.png",
@@ -2195,7 +2397,8 @@
           "sha256": "7aeb95a667884650",
           "prefix": "Two_versions_of_the_same_man_side_by_side_vertical_cinematic_",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:two_versions_of_the_same_man"
+          "mapping_reason": "off_episode:two_versions_of_the_same_man",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Two_versions_of_the_same_man_side_by_side_vertical_cinematic__1e4b9f40-5985-4ea6-a25b-d7617634c92c_3.png",
@@ -2205,9 +2408,11 @@
           "sha256": "dd5ed44fbd898e74",
           "prefix": "Two_versions_of_the_same_man_side_by_side_vertical_cinematic_",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:two_versions_of_the_same_man"
+          "mapping_reason": "off_episode:two_versions_of_the_same_man",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "f54d035f-f38b-4f98-ba9b-c58ec8c7d5aa": {
       "job_id": "f54d035f-f38b-4f98-ba9b-c58ec8c7d5aa",
@@ -2224,7 +2429,8 @@
           "sha256": "8bb9e0f5940a0cb2",
           "prefix": "Vertical_diptych_of_the_same_man_at_two_ages._Left_Alaric_at_",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:vertical_diptych"
+          "mapping_reason": "off_episode:vertical_diptych",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Vertical_diptych_of_the_same_man_at_two_ages._Left_Alaric_at__f54d035f-f38b-4f98-ba9b-c58ec8c7d5aa_1.png",
@@ -2234,7 +2440,8 @@
           "sha256": "afb8e9744b318289",
           "prefix": "Vertical_diptych_of_the_same_man_at_two_ages._Left_Alaric_at_",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:vertical_diptych"
+          "mapping_reason": "off_episode:vertical_diptych",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Vertical_diptych_of_the_same_man_at_two_ages._Left_Alaric_at__f54d035f-f38b-4f98-ba9b-c58ec8c7d5aa_2.png",
@@ -2244,7 +2451,8 @@
           "sha256": "22afc946c2f4612d",
           "prefix": "Vertical_diptych_of_the_same_man_at_two_ages._Left_Alaric_at_",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:vertical_diptych"
+          "mapping_reason": "off_episode:vertical_diptych",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Vertical_diptych_of_the_same_man_at_two_ages._Left_Alaric_at__f54d035f-f38b-4f98-ba9b-c58ec8c7d5aa_3.png",
@@ -2254,9 +2462,11 @@
           "sha256": "0ab3cf51d8d1d0f3",
           "prefix": "Vertical_diptych_of_the_same_man_at_two_ages._Left_Alaric_at_",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:vertical_diptych"
+          "mapping_reason": "off_episode:vertical_diptych",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "47823736-ecbd-4269-83a4-1bbf333faa6b": {
       "job_id": "47823736-ecbd-4269-83a4-1bbf333faa6b",
@@ -2273,7 +2483,8 @@
           "sha256": "fac6093b0063770c",
           "prefix": "Young_Gothic_boy_Alaric_stands_alone_after_the_Battle_of_Marc",
           "suggested_shot_id": "B17",
-          "mapping_reason": "Child Alaric alone + helmet"
+          "mapping_reason": "Child Alaric alone + helmet",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Young_Gothic_boy_Alaric_stands_alone_after_the_Battle_of_Marc_47823736-ecbd-4269-83a4-1bbf333faa6b_1.png",
@@ -2283,7 +2494,8 @@
           "sha256": "2810c36a20d58679",
           "prefix": "Young_Gothic_boy_Alaric_stands_alone_after_the_Battle_of_Marc",
           "suggested_shot_id": "B17",
-          "mapping_reason": "Child Alaric alone + helmet"
+          "mapping_reason": "Child Alaric alone + helmet",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Young_Gothic_boy_Alaric_stands_alone_after_the_Battle_of_Marc_47823736-ecbd-4269-83a4-1bbf333faa6b_2.png",
@@ -2293,7 +2505,8 @@
           "sha256": "c26a9b25801c8a19",
           "prefix": "Young_Gothic_boy_Alaric_stands_alone_after_the_Battle_of_Marc",
           "suggested_shot_id": "B17",
-          "mapping_reason": "Child Alaric alone + helmet"
+          "mapping_reason": "Child Alaric alone + helmet",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/Young_Gothic_boy_Alaric_stands_alone_after_the_Battle_of_Marc_47823736-ecbd-4269-83a4-1bbf333faa6b_3.png",
@@ -2303,9 +2516,11 @@
           "sha256": "2296be54dc3f59a5",
           "prefix": "Young_Gothic_boy_Alaric_stands_alone_after_the_Battle_of_Marc",
           "suggested_shot_id": "B17",
-          "mapping_reason": "Child Alaric alone + helmet"
+          "mapping_reason": "Child Alaric alone + helmet",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "d3850a08-f412-42b5-b94d-d6cb02a95b9d": {
       "job_id": "d3850a08-f412-42b5-b94d-d6cb02a95b9d",
@@ -2322,7 +2537,8 @@
           "sha256": "272637cf47a23f94",
           "prefix": "adult_Alaric_dominates_the_upper_right_wearing_a_large_batter",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/adult_Alaric_dominates_the_upper_right_wearing_a_large_batter_d3850a08-f412-42b5-b94d-d6cb02a95b9d_1.png",
@@ -2332,7 +2548,8 @@
           "sha256": "48f5491a0ab16a29",
           "prefix": "adult_Alaric_dominates_the_upper_right_wearing_a_large_batter",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/adult_Alaric_dominates_the_upper_right_wearing_a_large_batter_d3850a08-f412-42b5-b94d-d6cb02a95b9d_2.png",
@@ -2342,7 +2559,8 @@
           "sha256": "ad512dbc0bfe3c8e",
           "prefix": "adult_Alaric_dominates_the_upper_right_wearing_a_large_batter",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/adult_Alaric_dominates_the_upper_right_wearing_a_large_batter_d3850a08-f412-42b5-b94d-d6cb02a95b9d_3.png",
@@ -2352,9 +2570,11 @@
           "sha256": "e599fa6e9a17f5e3",
           "prefix": "adult_Alaric_dominates_the_upper_right_wearing_a_large_batter",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "ca927d7f-62d1-4a7f-912c-cf6b66a413a8": {
       "job_id": "ca927d7f-62d1-4a7f-912c-cf6b66a413a8",
@@ -2371,7 +2591,8 @@
           "sha256": "e8b84636d3bce571",
           "prefix": "adult_Alaric_upper_right_long_dark_hair_streaked_gray_weather",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/adult_Alaric_upper_right_long_dark_hair_streaked_gray_weather_ca927d7f-62d1-4a7f-912c-cf6b66a413a8_1.png",
@@ -2381,7 +2602,8 @@
           "sha256": "902090ec57f0770e",
           "prefix": "adult_Alaric_upper_right_long_dark_hair_streaked_gray_weather",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/adult_Alaric_upper_right_long_dark_hair_streaked_gray_weather_ca927d7f-62d1-4a7f-912c-cf6b66a413a8_2.png",
@@ -2391,7 +2613,8 @@
           "sha256": "d43e902f23042de9",
           "prefix": "adult_Alaric_upper_right_long_dark_hair_streaked_gray_weather",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/adult_Alaric_upper_right_long_dark_hair_streaked_gray_weather_ca927d7f-62d1-4a7f-912c-cf6b66a413a8_3.png",
@@ -2401,9 +2624,11 @@
           "sha256": "1a808618b6bf77ac",
           "prefix": "adult_Alaric_upper_right_long_dark_hair_streaked_gray_weather",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "cb615ed7-13fd-4d4b-b1b5-e61bfc8d7264": {
       "job_id": "cb615ed7-13fd-4d4b-b1b5-e61bfc8d7264",
@@ -2420,7 +2645,8 @@
           "sha256": "3c7b2d66a23ae760",
           "prefix": "adult_Alaric_upper_right_wearing_a_large_battered_late-Roman_",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/adult_Alaric_upper_right_wearing_a_large_battered_late-Roman__cb615ed7-13fd-4d4b-b1b5-e61bfc8d7264_1.png",
@@ -2430,7 +2656,8 @@
           "sha256": "113e92675ab650b4",
           "prefix": "adult_Alaric_upper_right_wearing_a_large_battered_late-Roman_",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/adult_Alaric_upper_right_wearing_a_large_battered_late-Roman__cb615ed7-13fd-4d4b-b1b5-e61bfc8d7264_2.png",
@@ -2440,7 +2667,8 @@
           "sha256": "6414365f566cdd0e",
           "prefix": "adult_Alaric_upper_right_wearing_a_large_battered_late-Roman_",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/adult_Alaric_upper_right_wearing_a_large_battered_late-Roman__cb615ed7-13fd-4d4b-b1b5-e61bfc8d7264_3.png",
@@ -2450,9 +2678,11 @@
           "sha256": "f9081a84ebc9c124",
           "prefix": "adult_Alaric_upper_right_wearing_a_large_battered_late-Roman_",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "3eb33345-0671-40f1-b9f2-956e8f7212ea": {
       "job_id": "3eb33345-0671-40f1-b9f2-956e8f7212ea",
@@ -2469,7 +2699,8 @@
           "sha256": "2ab5007d332e83dd",
           "prefix": "cinematic_historical_realism_front-facing_empty_late-Roman_ar",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/cinematic_historical_realism_front-facing_empty_late-Roman_ar_3eb33345-0671-40f1-b9f2-956e8f7212ea_1.png",
@@ -2479,7 +2710,8 @@
           "sha256": "1568221b67ab7858",
           "prefix": "cinematic_historical_realism_front-facing_empty_late-Roman_ar",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/cinematic_historical_realism_front-facing_empty_late-Roman_ar_3eb33345-0671-40f1-b9f2-956e8f7212ea_2.png",
@@ -2489,7 +2721,8 @@
           "sha256": "f50c2151caee6759",
           "prefix": "cinematic_historical_realism_front-facing_empty_late-Roman_ar",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/cinematic_historical_realism_front-facing_empty_late-Roman_ar_3eb33345-0671-40f1-b9f2-956e8f7212ea_3.png",
@@ -2499,9 +2732,11 @@
           "sha256": "5e151013b44369c8",
           "prefix": "cinematic_historical_realism_front-facing_empty_late-Roman_ar",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "f6cb1e03-5308-4841-8086-4caa46915f47": {
       "job_id": "f6cb1e03-5308-4841-8086-4caa46915f47",
@@ -2518,7 +2753,8 @@
           "sha256": "2d2156e69aab1169",
           "prefix": "cinematic_historical_realism_front-facing_empty_late-Roman_ar",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/cinematic_historical_realism_front-facing_empty_late-Roman_ar_f6cb1e03-5308-4841-8086-4caa46915f47_1.png",
@@ -2528,7 +2764,8 @@
           "sha256": "e482989571c5be0c",
           "prefix": "cinematic_historical_realism_front-facing_empty_late-Roman_ar",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/cinematic_historical_realism_front-facing_empty_late-Roman_ar_f6cb1e03-5308-4841-8086-4caa46915f47_2.png",
@@ -2538,7 +2775,8 @@
           "sha256": "36d0e65e6d33cc50",
           "prefix": "cinematic_historical_realism_front-facing_empty_late-Roman_ar",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/cinematic_historical_realism_front-facing_empty_late-Roman_ar_f6cb1e03-5308-4841-8086-4caa46915f47_3.png",
@@ -2548,9 +2786,11 @@
           "sha256": "41991808791fcd5d",
           "prefix": "cinematic_historical_realism_front-facing_empty_late-Roman_ar",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "640b81fb-c560-4bc2-9500-9d5536e348f2": {
       "job_id": "640b81fb-c560-4bc2-9500-9d5536e348f2",
@@ -2567,7 +2807,8 @@
           "sha256": "e14f5f799f96fd8d",
           "prefix": "cinematic_historical_realism_vertical_composition_front-facin",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/cinematic_historical_realism_vertical_composition_front-facin_640b81fb-c560-4bc2-9500-9d5536e348f2_1.png",
@@ -2577,7 +2818,8 @@
           "sha256": "7c599053b4a075af",
           "prefix": "cinematic_historical_realism_vertical_composition_front-facin",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/cinematic_historical_realism_vertical_composition_front-facin_640b81fb-c560-4bc2-9500-9d5536e348f2_2.png",
@@ -2587,7 +2829,8 @@
           "sha256": "5fd5da5696743823",
           "prefix": "cinematic_historical_realism_vertical_composition_front-facin",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/cinematic_historical_realism_vertical_composition_front-facin_640b81fb-c560-4bc2-9500-9d5536e348f2_3.png",
@@ -2597,9 +2840,11 @@
           "sha256": "48f1b688a4bd41c5",
           "prefix": "cinematic_historical_realism_vertical_composition_front-facin",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "d43135d6-ed6a-4477-a322-91fafd027419": {
       "job_id": "d43135d6-ed6a-4477-a322-91fafd027419",
@@ -2616,7 +2861,8 @@
           "sha256": "e3e5a5aa1430f95a",
           "prefix": "continuous_vertical_composition_with_no_hard_split_young_Alar",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:continuous_vertical_composition_with_no_hard_split"
+          "mapping_reason": "off_episode:continuous_vertical_composition_with_no_hard_split",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/continuous_vertical_composition_with_no_hard_split_young_Alar_d43135d6-ed6a-4477-a322-91fafd027419_1.png",
@@ -2626,7 +2872,8 @@
           "sha256": "ced4be0c11d48851",
           "prefix": "continuous_vertical_composition_with_no_hard_split_young_Alar",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:continuous_vertical_composition_with_no_hard_split"
+          "mapping_reason": "off_episode:continuous_vertical_composition_with_no_hard_split",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/continuous_vertical_composition_with_no_hard_split_young_Alar_d43135d6-ed6a-4477-a322-91fafd027419_2.png",
@@ -2636,7 +2883,8 @@
           "sha256": "7aa7b00c7358d598",
           "prefix": "continuous_vertical_composition_with_no_hard_split_young_Alar",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:continuous_vertical_composition_with_no_hard_split"
+          "mapping_reason": "off_episode:continuous_vertical_composition_with_no_hard_split",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/continuous_vertical_composition_with_no_hard_split_young_Alar_d43135d6-ed6a-4477-a322-91fafd027419_3.png",
@@ -2646,9 +2894,11 @@
           "sha256": "e57252129716b5bd",
           "prefix": "continuous_vertical_composition_with_no_hard_split_young_Alar",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:continuous_vertical_composition_with_no_hard_split"
+          "mapping_reason": "off_episode:continuous_vertical_composition_with_no_hard_split",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "461dbdd5-e93a-4be0-b5fe-561fad693270": {
       "job_id": "461dbdd5-e93a-4be0-b5fe-561fad693270",
@@ -2665,7 +2915,8 @@
           "sha256": "68851bc32dc9b6c3",
           "prefix": "httpss.mj.run-u35l20QgL0_cinematic_historical_realism_headles",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:headles"
+          "mapping_reason": "off_episode:headles",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.run-u35l20QgL0_cinematic_historical_realism_headles_461dbdd5-e93a-4be0-b5fe-561fad693270_1.png",
@@ -2675,7 +2926,8 @@
           "sha256": "8bc959dc0e82febe",
           "prefix": "httpss.mj.run-u35l20QgL0_cinematic_historical_realism_headles",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:headles"
+          "mapping_reason": "off_episode:headles",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.run-u35l20QgL0_cinematic_historical_realism_headles_461dbdd5-e93a-4be0-b5fe-561fad693270_2.png",
@@ -2685,7 +2937,8 @@
           "sha256": "4a2cc267f276e3b5",
           "prefix": "httpss.mj.run-u35l20QgL0_cinematic_historical_realism_headles",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:headles"
+          "mapping_reason": "off_episode:headles",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.run-u35l20QgL0_cinematic_historical_realism_headles_461dbdd5-e93a-4be0-b5fe-561fad693270_3.png",
@@ -2695,9 +2948,11 @@
           "sha256": "5f1da38534227d2c",
           "prefix": "httpss.mj.run-u35l20QgL0_cinematic_historical_realism_headles",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:headles"
+          "mapping_reason": "off_episode:headles",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "c4520092-8133-4bd5-8ae5-1973d5d043ce": {
       "job_id": "c4520092-8133-4bd5-8ae5-1973d5d043ce",
@@ -2714,7 +2969,8 @@
           "sha256": "44bbd23b5bd4ec56",
           "prefix": "httpss.mj.runAzcYHNxlG-0_A_cinematic_aftermath_of_catastrophi",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runAzcYHNxlG-0_A_cinematic_aftermath_of_catastrophi_c4520092-8133-4bd5-8ae5-1973d5d043ce_1.png",
@@ -2724,7 +2980,8 @@
           "sha256": "f76a77053c22c741",
           "prefix": "httpss.mj.runAzcYHNxlG-0_A_cinematic_aftermath_of_catastrophi",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runAzcYHNxlG-0_A_cinematic_aftermath_of_catastrophi_c4520092-8133-4bd5-8ae5-1973d5d043ce_2.png",
@@ -2734,7 +2991,8 @@
           "sha256": "17faa5993a7eca1b",
           "prefix": "httpss.mj.runAzcYHNxlG-0_A_cinematic_aftermath_of_catastrophi",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runAzcYHNxlG-0_A_cinematic_aftermath_of_catastrophi_c4520092-8133-4bd5-8ae5-1973d5d043ce_3.png",
@@ -2744,9 +3002,11 @@
           "sha256": "c75ecafb0d5a1538",
           "prefix": "httpss.mj.runAzcYHNxlG-0_A_cinematic_aftermath_of_catastrophi",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "e78a9760-0d15-4813-bf45-a8018072b03c": {
       "job_id": "e78a9760-0d15-4813-bf45-a8018072b03c",
@@ -2763,7 +3023,8 @@
           "sha256": "c98b36c00e7acf83",
           "prefix": "httpss.mj.runAzcYHNxlG-0_Empty_Gothic_armor_after_Adrianople_",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:adrianople"
+          "mapping_reason": "off_episode:adrianople",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runAzcYHNxlG-0_Empty_Gothic_armor_after_Adrianople__e78a9760-0d15-4813-bf45-a8018072b03c_1.png",
@@ -2773,7 +3034,8 @@
           "sha256": "4f024f83426a7478",
           "prefix": "httpss.mj.runAzcYHNxlG-0_Empty_Gothic_armor_after_Adrianople_",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:adrianople"
+          "mapping_reason": "off_episode:adrianople",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runAzcYHNxlG-0_Empty_Gothic_armor_after_Adrianople__e78a9760-0d15-4813-bf45-a8018072b03c_2.png",
@@ -2783,7 +3045,8 @@
           "sha256": "7ce2437e9c64a21e",
           "prefix": "httpss.mj.runAzcYHNxlG-0_Empty_Gothic_armor_after_Adrianople_",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:adrianople"
+          "mapping_reason": "off_episode:adrianople",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runAzcYHNxlG-0_Empty_Gothic_armor_after_Adrianople__e78a9760-0d15-4813-bf45-a8018072b03c_3.png",
@@ -2793,9 +3056,11 @@
           "sha256": "822ebe3fa0b12021",
           "prefix": "httpss.mj.runAzcYHNxlG-0_Empty_Gothic_armor_after_Adrianople_",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:adrianople"
+          "mapping_reason": "off_episode:adrianople",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "59d1ed6b-65e9-4aa7-884b-5dcb5797c0b5": {
       "job_id": "59d1ed6b-65e9-4aa7-884b-5dcb5797c0b5",
@@ -2812,7 +3077,8 @@
           "sha256": "ea839bd6a6a3dbea",
           "prefix": "httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f_59d1ed6b-65e9-4aa7-884b-5dcb5797c0b5_1.png",
@@ -2822,7 +3088,8 @@
           "sha256": "c2f0b1b729ae5778",
           "prefix": "httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f_59d1ed6b-65e9-4aa7-884b-5dcb5797c0b5_2.png",
@@ -2832,7 +3099,8 @@
           "sha256": "aca7ea756bdcb205",
           "prefix": "httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f_59d1ed6b-65e9-4aa7-884b-5dcb5797c0b5_3.png",
@@ -2842,9 +3110,11 @@
           "sha256": "90f24f42f15fefcf",
           "prefix": "httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "c71a8833-9e2a-46b5-9b63-080642f4f459": {
       "job_id": "c71a8833-9e2a-46b5-9b63-080642f4f459",
@@ -2861,7 +3131,8 @@
           "sha256": "a97f24e26746dd3a",
           "prefix": "httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f_c71a8833-9e2a-46b5-9b63-080642f4f459_1.png",
@@ -2871,7 +3142,8 @@
           "sha256": "da02498904cef500",
           "prefix": "httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f_c71a8833-9e2a-46b5-9b63-080642f4f459_2.png",
@@ -2881,7 +3153,8 @@
           "sha256": "b9d273b54f18abd8",
           "prefix": "httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f_c71a8833-9e2a-46b5-9b63-080642f4f459_3.png",
@@ -2891,9 +3164,11 @@
           "sha256": "1d15935712958d58",
           "prefix": "httpss.mj.runAzcYHNxlG-0_cinematic_historical_realism_front-f",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "2797c5b3-3efe-4dad-b4e3-8d647dd019ed": {
       "job_id": "2797c5b3-3efe-4dad-b4e3-8d647dd019ed",
@@ -2910,7 +3185,8 @@
           "sha256": "6ca9a75f64d97960",
           "prefix": "httpss.mj.runXJg9Go8bDQE_pasta_brand_packaging_label_on_bag_o",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:pasta_brand_packaging"
+          "mapping_reason": "off_episode:pasta_brand_packaging",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runXJg9Go8bDQE_pasta_brand_packaging_label_on_bag_o_2797c5b3-3efe-4dad-b4e3-8d647dd019ed_1.png",
@@ -2920,7 +3196,8 @@
           "sha256": "927bd12a6727e447",
           "prefix": "httpss.mj.runXJg9Go8bDQE_pasta_brand_packaging_label_on_bag_o",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:pasta_brand_packaging"
+          "mapping_reason": "off_episode:pasta_brand_packaging",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runXJg9Go8bDQE_pasta_brand_packaging_label_on_bag_o_2797c5b3-3efe-4dad-b4e3-8d647dd019ed_2.png",
@@ -2930,7 +3207,8 @@
           "sha256": "c4373600accbd680",
           "prefix": "httpss.mj.runXJg9Go8bDQE_pasta_brand_packaging_label_on_bag_o",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:pasta_brand_packaging"
+          "mapping_reason": "off_episode:pasta_brand_packaging",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runXJg9Go8bDQE_pasta_brand_packaging_label_on_bag_o_2797c5b3-3efe-4dad-b4e3-8d647dd019ed_3.png",
@@ -2940,9 +3218,11 @@
           "sha256": "36f964e8f7bc77fc",
           "prefix": "httpss.mj.runXJg9Go8bDQE_pasta_brand_packaging_label_on_bag_o",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:pasta_brand_packaging"
+          "mapping_reason": "off_episode:pasta_brand_packaging",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "46b4afe6-70ae-449e-a05b-f69ea8627379": {
       "job_id": "46b4afe6-70ae-449e-a05b-f69ea8627379",
@@ -2959,7 +3239,8 @@
           "sha256": "fb880e69e9f1b1db",
           "prefix": "httpss.mj.runhELF6gib4gs_adult_Alaric_upper_right_long_dark_h",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runhELF6gib4gs_adult_Alaric_upper_right_long_dark_h_46b4afe6-70ae-449e-a05b-f69ea8627379_1.png",
@@ -2969,7 +3250,8 @@
           "sha256": "67eb3e9478f07ae1",
           "prefix": "httpss.mj.runhELF6gib4gs_adult_Alaric_upper_right_long_dark_h",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runhELF6gib4gs_adult_Alaric_upper_right_long_dark_h_46b4afe6-70ae-449e-a05b-f69ea8627379_2.png",
@@ -2979,7 +3261,8 @@
           "sha256": "f4d611932b57aeb1",
           "prefix": "httpss.mj.runhELF6gib4gs_adult_Alaric_upper_right_long_dark_h",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runhELF6gib4gs_adult_Alaric_upper_right_long_dark_h_46b4afe6-70ae-449e-a05b-f69ea8627379_3.png",
@@ -2989,9 +3272,11 @@
           "sha256": "0c4549d84630f900",
           "prefix": "httpss.mj.runhELF6gib4gs_adult_Alaric_upper_right_long_dark_h",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "275193e0-3847-4505-bb04-9cba82f85061": {
       "job_id": "275193e0-3847-4505-bb04-9cba82f85061",
@@ -3008,7 +3293,8 @@
           "sha256": "dff459b99728fb7c",
           "prefix": "httpss.mj.runmJef40eCTow_young_Alaric_lower_left_about_10_dar",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runmJef40eCTow_young_Alaric_lower_left_about_10_dar_275193e0-3847-4505-bb04-9cba82f85061_1.png",
@@ -3018,7 +3304,8 @@
           "sha256": "2f793aee6e812f62",
           "prefix": "httpss.mj.runmJef40eCTow_young_Alaric_lower_left_about_10_dar",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runmJef40eCTow_young_Alaric_lower_left_about_10_dar_275193e0-3847-4505-bb04-9cba82f85061_2.png",
@@ -3028,7 +3315,8 @@
           "sha256": "d16301ce9cc490ab",
           "prefix": "httpss.mj.runmJef40eCTow_young_Alaric_lower_left_about_10_dar",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runmJef40eCTow_young_Alaric_lower_left_about_10_dar_275193e0-3847-4505-bb04-9cba82f85061_3.png",
@@ -3038,9 +3326,11 @@
           "sha256": "27c66aca0a3781e1",
           "prefix": "httpss.mj.runmJef40eCTow_young_Alaric_lower_left_about_10_dar",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "17083e2e-d747-4b34-9263-6d87d2982792": {
       "job_id": "17083e2e-d747-4b34-9263-6d87d2982792",
@@ -3057,7 +3347,8 @@
           "sha256": "ce1db12857a02285",
           "prefix": "httpss.mj.runvLLZIXhn9_Y_A_feast_prepared_as_an_execution_bec",
           "suggested_shot_id": "H02",
-          "mapping_reason": "Banquet trap / entry"
+          "mapping_reason": "Banquet trap / entry",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runvLLZIXhn9_Y_A_feast_prepared_as_an_execution_bec_17083e2e-d747-4b34-9263-6d87d2982792_1.png",
@@ -3067,7 +3358,8 @@
           "sha256": "e4a57bfd969fcd57",
           "prefix": "httpss.mj.runvLLZIXhn9_Y_A_feast_prepared_as_an_execution_bec",
           "suggested_shot_id": "H02",
-          "mapping_reason": "Banquet trap / entry"
+          "mapping_reason": "Banquet trap / entry",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runvLLZIXhn9_Y_A_feast_prepared_as_an_execution_bec_17083e2e-d747-4b34-9263-6d87d2982792_2.png",
@@ -3077,7 +3369,8 @@
           "sha256": "0ec6ad7046e77e4a",
           "prefix": "httpss.mj.runvLLZIXhn9_Y_A_feast_prepared_as_an_execution_bec",
           "suggested_shot_id": "H02",
-          "mapping_reason": "Banquet trap / entry"
+          "mapping_reason": "Banquet trap / entry",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/httpss.mj.runvLLZIXhn9_Y_A_feast_prepared_as_an_execution_bec_17083e2e-d747-4b34-9263-6d87d2982792_3.png",
@@ -3087,9 +3380,11 @@
           "sha256": "bb132b8179ba522e",
           "prefix": "httpss.mj.runvLLZIXhn9_Y_A_feast_prepared_as_an_execution_bec",
           "suggested_shot_id": "H02",
-          "mapping_reason": "Banquet trap / entry"
+          "mapping_reason": "Banquet trap / entry",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "ef025e3c-e1dd-4ccb-89f9-d73656a40d4d": {
       "job_id": "ef025e3c-e1dd-4ccb-89f9-d73656a40d4d",
@@ -3106,7 +3401,8 @@
           "sha256": "f43857d193ba4f2c",
           "prefix": "imagine_prompt_two_versions_of_the_same_man_vertical_split_co",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:two_versions_of_the_same_man"
+          "mapping_reason": "off_episode:two_versions_of_the_same_man",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/imagine_prompt_two_versions_of_the_same_man_vertical_split_co_ef025e3c-e1dd-4ccb-89f9-d73656a40d4d_1.png",
@@ -3116,7 +3412,8 @@
           "sha256": "8311ad05abd4398c",
           "prefix": "imagine_prompt_two_versions_of_the_same_man_vertical_split_co",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:two_versions_of_the_same_man"
+          "mapping_reason": "off_episode:two_versions_of_the_same_man",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/imagine_prompt_two_versions_of_the_same_man_vertical_split_co_ef025e3c-e1dd-4ccb-89f9-d73656a40d4d_2.png",
@@ -3126,7 +3423,8 @@
           "sha256": "c8122152873b67b5",
           "prefix": "imagine_prompt_two_versions_of_the_same_man_vertical_split_co",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:two_versions_of_the_same_man"
+          "mapping_reason": "off_episode:two_versions_of_the_same_man",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/imagine_prompt_two_versions_of_the_same_man_vertical_split_co_ef025e3c-e1dd-4ccb-89f9-d73656a40d4d_3.png",
@@ -3136,9 +3434,11 @@
           "sha256": "c316424b3d61221f",
           "prefix": "imagine_prompt_two_versions_of_the_same_man_vertical_split_co",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:two_versions_of_the_same_man"
+          "mapping_reason": "off_episode:two_versions_of_the_same_man",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "2609f4dc-0c49-463f-93ef-bb0928e61a56": {
       "job_id": "2609f4dc-0c49-463f-93ef-bb0928e61a56",
@@ -3155,9 +3455,11 @@
           "sha256": "395bf97b6e7f06a1",
           "prefix": "locked-off_tripod_shot_completely_static_camera_ruined_empty_",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "4f1712ab-4b49-428b-a6d1-69e49aa5d23b": {
       "job_id": "4f1712ab-4b49-428b-a6d1-69e49aa5d23b",
@@ -3174,9 +3476,11 @@
           "sha256": "de303527bd3c5b83",
           "prefix": "locked-off_tripod_shot_completely_static_portrait_frame_empty",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "6259132a-c149-4504-a775-fd83318f2e62": {
       "job_id": "6259132a-c149-4504-a775-fd83318f2e62",
@@ -3193,9 +3497,11 @@
           "sha256": "1ade75bd5c3cd94e",
           "prefix": "locked-off_tripod_shot_static_portrait_frame_empty_armor_rema",
           "suggested_shot_id": null,
-          "mapping_reason": "off_episode:empty_armor"
+          "mapping_reason": "off_episode:empty_armor",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "81139ab8-a050-44e2-9cb7-68edade0a660": {
       "job_id": "81139ab8-a050-44e2-9cb7-68edade0a660",
@@ -3212,7 +3518,8 @@
           "sha256": "cdc5d7356af65a34",
           "prefix": "n_a_wooded_clearing_hungry_but_trained_Gothic_refugees_prepar",
           "suggested_shot_id": "B01",
-          "mapping_reason": "Weapon wagons reach clearing"
+          "mapping_reason": "Weapon wagons reach clearing",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/n_a_wooded_clearing_hungry_but_trained_Gothic_refugees_prepar_81139ab8-a050-44e2-9cb7-68edade0a660_1.png",
@@ -3222,7 +3529,8 @@
           "sha256": "2117e626237baf49",
           "prefix": "n_a_wooded_clearing_hungry_but_trained_Gothic_refugees_prepar",
           "suggested_shot_id": "B01",
-          "mapping_reason": "Weapon wagons reach clearing"
+          "mapping_reason": "Weapon wagons reach clearing",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/n_a_wooded_clearing_hungry_but_trained_Gothic_refugees_prepar_81139ab8-a050-44e2-9cb7-68edade0a660_2.png",
@@ -3232,7 +3540,8 @@
           "sha256": "0b2849c5e1fea38b",
           "prefix": "n_a_wooded_clearing_hungry_but_trained_Gothic_refugees_prepar",
           "suggested_shot_id": "B01",
-          "mapping_reason": "Weapon wagons reach clearing"
+          "mapping_reason": "Weapon wagons reach clearing",
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/n_a_wooded_clearing_hungry_but_trained_Gothic_refugees_prepar_81139ab8-a050-44e2-9cb7-68edade0a660_3.png",
@@ -3242,9 +3551,11 @@
           "sha256": "3ec2e0df1a9a1ff6",
           "prefix": "n_a_wooded_clearing_hungry_but_trained_Gothic_refugees_prepar",
           "suggested_shot_id": "B01",
-          "mapping_reason": "Weapon wagons reach clearing"
+          "mapping_reason": "Weapon wagons reach clearing",
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "25969b4a-ea9d-4094-af6e-fade55818e95": {
       "job_id": "25969b4a-ea9d-4094-af6e-fade55818e95",
@@ -3261,7 +3572,8 @@
           "sha256": "8982c47510f1eb2c",
           "prefix": "ontinuous_vertical_composition_young_Alaric_lower_left_and_ol",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/ontinuous_vertical_composition_young_Alaric_lower_left_and_ol_25969b4a-ea9d-4094-af6e-fade55818e95_1.png",
@@ -3271,7 +3583,8 @@
           "sha256": "ca45bc3b7396cec3",
           "prefix": "ontinuous_vertical_composition_young_Alaric_lower_left_and_ol",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/ontinuous_vertical_composition_young_Alaric_lower_left_and_ol_25969b4a-ea9d-4094-af6e-fade55818e95_2.png",
@@ -3281,7 +3594,8 @@
           "sha256": "638d8a05642e32c9",
           "prefix": "ontinuous_vertical_composition_young_Alaric_lower_left_and_ol",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/ontinuous_vertical_composition_young_Alaric_lower_left_and_ol_25969b4a-ea9d-4094-af6e-fade55818e95_3.png",
@@ -3291,9 +3605,11 @@
           "sha256": "88e3866a894dea4b",
           "prefix": "ontinuous_vertical_composition_young_Alaric_lower_left_and_ol",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "b9433f62-7347-4482-917f-52af6182418a": {
       "job_id": "b9433f62-7347-4482-917f-52af6182418a",
@@ -3310,7 +3626,8 @@
           "sha256": "2dabecdbaa009c57",
           "prefix": "oung_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_blu",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/oung_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_blu_b9433f62-7347-4482-917f-52af6182418a_1.png",
@@ -3320,7 +3637,8 @@
           "sha256": "21c3a68ee9d37bf8",
           "prefix": "oung_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_blu",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/oung_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_blu_b9433f62-7347-4482-917f-52af6182418a_2.png",
@@ -3330,7 +3648,8 @@
           "sha256": "d76eb2e3395f777b",
           "prefix": "oung_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_blu",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/oung_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_blu_b9433f62-7347-4482-917f-52af6182418a_3.png",
@@ -3340,9 +3659,11 @@
           "sha256": "c820d1a61b2dfd7a",
           "prefix": "oung_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_blu",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "26e19375-1e73-4433-9256-cbe48956706b": {
       "job_id": "26e19375-1e73-4433-9256-cbe48956706b",
@@ -3359,7 +3680,8 @@
           "sha256": "4eec481cbe2d2001",
           "prefix": "young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th_26e19375-1e73-4433-9256-cbe48956706b_1.png",
@@ -3369,7 +3691,8 @@
           "sha256": "2f9140b6c5722db3",
           "prefix": "young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th_26e19375-1e73-4433-9256-cbe48956706b_2.png",
@@ -3379,7 +3702,8 @@
           "sha256": "50f6718cb13292cd",
           "prefix": "young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th_26e19375-1e73-4433-9256-cbe48956706b_3.png",
@@ -3389,9 +3713,11 @@
           "sha256": "32101c3ec635bb38",
           "prefix": "young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "975ccb8c-bb33-4e92-ac9c-0b2a8ec62f4a": {
       "job_id": "975ccb8c-bb33-4e92-ac9c-0b2a8ec62f4a",
@@ -3408,7 +3734,8 @@
           "sha256": "7a9959d5517a747e",
           "prefix": "young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th_975ccb8c-bb33-4e92-ac9c-0b2a8ec62f4a_1.png",
@@ -3418,7 +3745,8 @@
           "sha256": "28d3a162e0142f81",
           "prefix": "young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th_975ccb8c-bb33-4e92-ac9c-0b2a8ec62f4a_2.png",
@@ -3428,7 +3756,8 @@
           "sha256": "8a3963bc294b97eb",
           "prefix": "young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th_975ccb8c-bb33-4e92-ac9c-0b2a8ec62f4a_3.png",
@@ -3438,9 +3767,11 @@
           "sha256": "f078a9927866fc3f",
           "prefix": "young_Alaric_at_10_in_the_lower_left_older_Alaric_at_39_in_th",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "27ae7985-23f0-4341-858c-6fd7e4047a8a": {
       "job_id": "27ae7985-23f0-4341-858c-6fd7e4047a8a",
@@ -3457,7 +3788,8 @@
           "sha256": "c228d9acca54679d",
           "prefix": "young_Alaric_in_the_lower_left_about_10_years_old_slim_pale_b",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_in_the_lower_left_about_10_years_old_slim_pale_b_27ae7985-23f0-4341-858c-6fd7e4047a8a_1.png",
@@ -3467,7 +3799,8 @@
           "sha256": "6d55ee46b4eca2ef",
           "prefix": "young_Alaric_in_the_lower_left_about_10_years_old_slim_pale_b",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_in_the_lower_left_about_10_years_old_slim_pale_b_27ae7985-23f0-4341-858c-6fd7e4047a8a_2.png",
@@ -3477,7 +3810,8 @@
           "sha256": "14333ad594abf28e",
           "prefix": "young_Alaric_in_the_lower_left_about_10_years_old_slim_pale_b",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_in_the_lower_left_about_10_years_old_slim_pale_b_27ae7985-23f0-4341-858c-6fd7e4047a8a_3.png",
@@ -3487,9 +3821,11 @@
           "sha256": "7b31449d4a0ea701",
           "prefix": "young_Alaric_in_the_lower_left_about_10_years_old_slim_pale_b",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "38e1756d-4165-4e2d-904c-474877332d11": {
       "job_id": "38e1756d-4165-4e2d-904c-474877332d11",
@@ -3506,7 +3842,8 @@
           "sha256": "440cdc547d8933ae",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so_38e1756d-4165-4e2d-904c-474877332d11_1.png",
@@ -3516,7 +3853,8 @@
           "sha256": "61ccac1b1368f6c2",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so_38e1756d-4165-4e2d-904c-474877332d11_2.png",
@@ -3526,7 +3864,8 @@
           "sha256": "81546889112bea55",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so_38e1756d-4165-4e2d-904c-474877332d11_3.png",
@@ -3536,9 +3875,11 @@
           "sha256": "3ceb2a055c88620e",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "39e01adb-c7ae-46fd-b619-05b9cf613c9c": {
       "job_id": "39e01adb-c7ae-46fd-b619-05b9cf613c9c",
@@ -3555,7 +3896,8 @@
           "sha256": "26b47f38f888a884",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so_39e01adb-c7ae-46fd-b619-05b9cf613c9c_1.png",
@@ -3565,7 +3907,8 @@
           "sha256": "fc877af6216ebd2e",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so_39e01adb-c7ae-46fd-b619-05b9cf613c9c_2.png",
@@ -3575,7 +3918,8 @@
           "sha256": "f60988957fc4a353",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so_39e01adb-c7ae-46fd-b619-05b9cf613c9c_3.png",
@@ -3585,9 +3929,11 @@
           "sha256": "5a2a1c1c0a784572",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "623003c4-76e7-490d-98d4-e0406926c384": {
       "job_id": "623003c4-76e7-490d-98d4-e0406926c384",
@@ -3604,7 +3950,8 @@
           "sha256": "e1a43292d9fa1812",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so_623003c4-76e7-490d-98d4-e0406926c384_1.png",
@@ -3614,7 +3961,8 @@
           "sha256": "2825d14aaa84cb5f",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so_623003c4-76e7-490d-98d4-e0406926c384_2.png",
@@ -3624,7 +3972,8 @@
           "sha256": "dd3596f80e83fe74",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so_623003c4-76e7-490d-98d4-e0406926c384_3.png",
@@ -3634,9 +3983,11 @@
           "sha256": "2b0b3c1c5e7f9fc6",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "6240b26d-9dd6-4124-a834-64d1b0379353": {
       "job_id": "6240b26d-9dd6-4124-a834-64d1b0379353",
@@ -3653,7 +4004,8 @@
           "sha256": "681412346ef1f146",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so_6240b26d-9dd6-4124-a834-64d1b0379353_1.png",
@@ -3663,7 +4015,8 @@
           "sha256": "7f43dccc6e35a220",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so_6240b26d-9dd6-4124-a834-64d1b0379353_2.png",
@@ -3673,7 +4026,8 @@
           "sha256": "2ac21c624c6113af",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so_6240b26d-9dd6-4124-a834-64d1b0379353_3.png",
@@ -3683,9 +4037,11 @@
           "sha256": "74f758a1484fd222",
           "prefix": "young_Alaric_lower_left_about_10_dark_curls_deep_blue_eyes_so",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "5d19318f-f0d8-4677-9142-732cd0408b57": {
       "job_id": "5d19318f-f0d8-4677-9142-732cd0408b57",
@@ -3702,7 +4058,8 @@
           "sha256": "cdfaa2c32e5b6bc4",
           "prefix": "young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl_5d19318f-f0d8-4677-9142-732cd0408b57_1.png",
@@ -3712,7 +4069,8 @@
           "sha256": "f5b669f65b91e1ff",
           "prefix": "young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl_5d19318f-f0d8-4677-9142-732cd0408b57_2.png",
@@ -3722,7 +4080,8 @@
           "sha256": "6dd724ecccb1832e",
           "prefix": "young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl_5d19318f-f0d8-4677-9142-732cd0408b57_3.png",
@@ -3732,9 +4091,11 @@
           "sha256": "a6ec3298c545f1f2",
           "prefix": "young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "aca80e0e-14ce-447f-8f45-8c0708c678fe": {
       "job_id": "aca80e0e-14ce-447f-8f45-8c0708c678fe",
@@ -3751,7 +4112,8 @@
           "sha256": "89d92b88ca2d22cf",
           "prefix": "young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl_aca80e0e-14ce-447f-8f45-8c0708c678fe_1.png",
@@ -3761,7 +4123,8 @@
           "sha256": "cfe91a672aca2290",
           "prefix": "young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl_aca80e0e-14ce-447f-8f45-8c0708c678fe_2.png",
@@ -3771,7 +4134,8 @@
           "sha256": "a9025eb5a25870f3",
           "prefix": "young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl_aca80e0e-14ce-447f-8f45-8c0708c678fe_3.png",
@@ -3781,9 +4145,11 @@
           "sha256": "a33bd7fd0889e5bc",
           "prefix": "young_Alaric_lower_left_about_10_slim_dark_curly_hair_deep_bl",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     },
     "8623c562-2068-46bb-aeec-8265c003637d": {
       "job_id": "8623c562-2068-46bb-aeec-8265c003637d",
@@ -3800,7 +4166,8 @@
           "sha256": "6df657ee73b41485",
           "prefix": "young_Alaric_lower_left_about_10_slim_dark_curly_hair_natural",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_slim_dark_curly_hair_natural_8623c562-2068-46bb-aeec-8265c003637d_1.png",
@@ -3810,7 +4177,8 @@
           "sha256": "05ed507d1051f6a2",
           "prefix": "young_Alaric_lower_left_about_10_slim_dark_curly_hair_natural",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_slim_dark_curly_hair_natural_8623c562-2068-46bb-aeec-8265c003637d_2.png",
@@ -3820,7 +4188,8 @@
           "sha256": "5f3f96da25c4ba09",
           "prefix": "young_Alaric_lower_left_about_10_slim_dark_curly_hair_natural",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         },
         {
           "path": "feedback/inbox/2026-08-26-midjourney-session/young_Alaric_lower_left_about_10_slim_dark_curly_hair_natural_8623c562-2068-46bb-aeec-8265c003637d_3.png",
@@ -3830,9 +4199,11 @@
           "sha256": "ae61b1d2383a8699",
           "prefix": "young_Alaric_lower_left_about_10_slim_dark_curly_hair_natural",
           "suggested_shot_id": null,
-          "mapping_reason": null
+          "mapping_reason": null,
+          "source": "mj_session"
         }
-      ]
+      ],
+      "source": "mj_session"
     }
   },
   "unmapped_job_ids": [

@@ -54,10 +54,16 @@ Whose experience is this? What changed? Why must this image exist?
 ## Automation (local)
 
 ```bash
+# Agent bus — see s01e02-marcianople/agent-bus/README.md
+python3 s01e02-marcianople/automation/ingest/queue_mj_request.py --shot H06
 python3 s01e02-marcianople/automation/ingest/index_mj_session.py
-python3 s01e02-marcianople/automation/ingest/apply_mj_session.py   # optional: copy samples into episode.yaml
-python3 s01e02-marcianople/automation/ingest/apply_favorites.py   # after shot-favorites.json is filled
+python3 s01e02-marcianople/automation/validate/shortlist_sheet.py   # mobile triage UI
 python3 s01e02-marcianople/automation/validate/contact_sheet.py
-python3 s01e02-marcianople/automation/render/quick_animatic.py    # samples from dump via asset_resolver
+python3 s01e02-marcianople/automation/ingest/apply_favorites.py
+python3 s01e02-marcianople/automation/render/quick_animatic.py
 python3 s01e02-marcianople/automation/validate/validate_prompts.py
 ```
+
+**Browser agent (laptop):** read `agent-bus/BROWSER-AGENT.md` — runs every ~60s, commits 4 PNGs per request.
+
+**Review:** `renders/reviews/shortlist.html` (triage) → `shot-shortlist.json` → `shot-favorites.json` → animatic.
