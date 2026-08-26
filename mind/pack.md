@@ -1,6 +1,6 @@
 <!-- compiled by scripts/mind-pack.py — do not hand-edit -->
 
-Body=localhost. One mind. Read Attention first — that is Evan's thread.
+Body=cloud-visuals. One mind. Read Attention first — that is Evan's thread.
 
 Memory means the same four things for every body. Do not invent a fifth.
 - attention = Evan's thread now (one latest)
@@ -10,7 +10,7 @@ Memory means the same four things for every body. Do not invent a fifth.
 Zone: same mind, different bandwidth (see IDENTITY). High-zone writes LEARNED and keeps this pack small. Slow-zone reads the pack and does not rebuild the wiki.
 
 --- ATTENTION ---
-Mail + compiled pack is live. Session injects a brief compiled from mind/mail. New facts go to mail or LEARNED, not STATE. /hive is Evan's board.
+Your pipe: .cursor/hooks/mind-sync.py → main → Vercel. 38 deploys in one hour were mostly mind: sync. Decouple before the next hive storm.
 
 --- EVAN (his last words) ---
 2026-08-26T02:28:51.618+00:00: Join. thehive please .. you are plumber
