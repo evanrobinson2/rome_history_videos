@@ -1,149 +1,114 @@
-# Trilogy music architecture
+# Music pairing — Fritigern to Alaric
 
-Date: 2026-08-26
-Owner: `cloud-music`
-Scope: music and versioning only; the story worker owns narrative structure
+Date: 2026-08-26  
+Scope: music lane only; this does not revise the story arc  
+Sources:
 
-## Correction
+- `feedback/inbox/2026-08-25-frozen-plain-thrace.mp3`
+- `feedback/inbox/2026-08-24-dust-on-the-steppe.mp3`
+- `mind/handoffs/2026-08-25-fritigern-alaric-story-arc-to-cloud-production.md`
 
-The project is **three videos**, not one continuous film sharing a six-minute
-suite. The earlier major → minor → major assembly was a useful compatibility
-test, but it is not the score plan.
+## Decision
 
-Each video may establish its own musical grammar. Continuity across the trilogy
-can come from a small returning motif, voice, or instrument; it does not require
-one tempo, key, or production style.
+Use the tracks as one **major → minor → major** suite, not as competing
+candidates.
 
-## Current score status
+- **Frozen Plain Thrace** is the human-world cue: home, migration, dependence,
+  and the final restoration of bread.
+- **Dust on the Steppe** is the operation-and-war cue: the banquet reversal,
+  Marcianople, revolt, and Adrianople.
+- Return to a short **Frozen Plain Thrace** reprise after the war cue. The
+  ending should resolve to self-possession, not remain in battle mode.
 
-| Video | Story territory | Music status | Next music decision |
-| --- | --- | --- | --- |
-| **1** | Young Fritigern, love, wedding, union, first Hunnic wound, years of pressure | **No music yet** | Create the first film's musical identity from its own emotional rules |
-| **2** | Begins with starvation and Roman treatment; humiliation, bread denied, Marcianople reversal, revolt, Adrianople | **Candidates exist** | Test the candidates against picture and narration; a cue may change grammar at the reversal |
-| **3** | Fritigern fades; Alaric inherits; Rome; bread restored | **Music already exists** | Preserve it and identify the exact source master/stems in the delivery manifest |
+The musical hinge is unusually clean: both tracks center on E-flat, with
+`Frozen Plain Thrace` estimated in E-flat major and `Dust on the Steppe` in
+E-flat minor. The tonic stays fixed while the moral weather changes.
 
-Do not spend Film 3's score solving Films 1 or 2. Do not force Film 1 to sound
-like either later film merely to make the trilogy feel branded.
+## Why this pairing works
 
-## Film 1 — music brief
+These are measured properties, not listening impressions:
 
-Film 1 needs music that can hold two truths at once:
+| Property | Frozen Plain Thrace | Dust on the Steppe | Editorial use |
+| --- | ---: | ---: | --- |
+| Length | 3:30 | 2:44 | A two-cue film can run about 6:14 before narration holds |
+| Tempo | 107.7 BPM | 112.3 BPM | War accelerates by only 4.6 BPM; it feels related, not like a new film |
+| Key estimate | E-flat major | E-flat minor | Same tonic makes the mode pivot the emotional turn |
+| Onset rate | 1.62/sec | 4.24/sec | Dust supplies 2.6× denser attack activity |
+| Harmonic/percussive ratio | +16.1 dB | +9.7 dB | Frozen leaves more room for reflective narration; Dust is the attack cue |
+| Median spectral centroid | 409 Hz | 1068 Hz | Dust is materially brighter and more cutting |
+| Integrated RMS | −13.36 dBFS | −14.17 dBFS | Similar overall level; transitions will not require a large gain jump |
+| True sample peak in current decode | −0.61 dBFS | −0.48 dBFS | Neither decoded file clips; both still need narration ducking |
 
-1. ordinary life is real and worth losing;
-2. danger is already present but has not yet become the governing rhythm.
+Key estimates come from chroma correlation and should be treated as estimates,
+especially because `Frozen Plain Thrace` also correlates strongly with G minor.
+Tempo estimates were independently cross-checked against median beat intervals.
 
-### Musical behavior
+## First-pass cue sheet
 
-- Begin from human-scale sound: breath, hand percussion, wood, skin, plucked
-  strings, or a small unison hum.
-- Let the wedding create actual warmth and movement. The love and union should
-  not be scored as pre-tragedy from the first frame.
-- The Hunnic raid should **break the established musical rule**, not merely make
-  the same cue louder.
-- After the raid, leave enough of the opening motif alive to show that the union
-  survived.
-- Across the later pressure montage, make repetition accumulate rather than
-  jumping immediately to battle music.
+This is an edit map for the current father-to-son continuity. The story-arc
+worker can move the picture beats without changing the musical logic.
 
-### Avoid
+### Cue A — `Frozen Plain Thrace`
 
-- Generic epic trailer scoring.
-- Cathedral choir or modern "Techno Gothic."
-- A continuous ominous drone that tells the audience the wedding is doomed
-  before they have lived inside it.
-- Borrowing Film 2's starvation grammar before starvation begins.
+| Music time | Story function | Cut logic |
+| --- | --- | --- |
+| 0:00–0:16 | Part I: ordinary life; bread freely shared; first human humming | Preserve the unusually quiet opening; do not begin with explanatory narration at full density |
+| 0:16–1:47 | Part II: pressure, departure, wagons, the walk | Long stable section supports geographic and domestic montage |
+| 1:47–2:14 | The crossing becomes Roman procedure | First major energy lift; tighten visual cuts without changing cue |
+| 2:14–2:59 | Part III: disarmament, hunger, kneeling, boot + tied hand | Highest sustained energy in this cue; land child Alaric's witness here |
+| 2:59–3:08 | Break / held image | The measured level falls by roughly 12 dB; use this as the breath before the reversal |
 
-### Motif opportunity
+At 2:59, either hold on Alaric or let the ancestral hum survive alone. Do not
+fill the drop with more score.
 
-The ancestral hum can originate here as a few imperfect human voices. Later
-films may transform or quote it, but they do not need to preserve Film 1's
-instrumentation, tempo, or key.
+### Cue B — `Dust on the Steppe`
 
-## Film 2 — candidate test
+Crossfade from E-flat major to E-flat minor over the quiet break. Do not
+hard-cut merely because the BPM changes.
 
-Film 2 begins with starvation and Roman treatment. That means the opening music
-should already understand dependence, waiting, and procedural humiliation; it
-does not need to recreate Film 1's domestic opening.
+| Music time | Story function | Cut logic |
+| --- | --- | --- |
+| 0:00–0:28 | Part IV: banquet setup; apparent vulnerability; training flashes begin | Lower-energy opening lets the audience read the plan before the attack |
+| 0:28–1:35 | Reversal: the Goths were prepared; Marcianople erupts | The track's largest early level jump is the reveal/attack point |
+| 1:35–1:37 | Two-second rupture | Use for wound, blackout, date card, or temporal break—not another action cut |
+| 1:37–2:35 | Part V: revolt; wagon fighting; Adrianople; Valens trapped | Second sustained block carries the military consequence |
+| 2:35–2:44 | Part VI: aftermath; Fritigern begins to fade | Natural low-energy exit; remove triumph from the victory |
 
-The two analyzed inbox tracks remain useful candidates:
+### Cue C — `Frozen Plain Thrace` reprise
 
-| Track | Length | Tempo | Key estimate | Measured character |
-| --- | ---: | ---: | --- | --- |
-| `Frozen Plain Thrace` | 3:30 | 107.7 BPM | E-flat major / G-minor ambiguity | More harmonic, darker spectral center, gradual energy rise |
-| `Dust on the Steppe` | 2:44 | 112.3 BPM | E-flat minor | 2.6× denser onset activity, brighter, more percussive |
+The existing 3:08–3:30 tail is only 22 seconds, so it is enough for a proof
+edit but not for the full Alaric/Rome/bread ending. For the final cut, make a
+60–90 second instrumental extension in the same E-flat-major world:
 
-These measurements establish compatibility, not placement. The tracks share an
-E-flat tonic estimate and can crossfade cleanly, but Film 2 is free to choose
-one, use both, or reject both after a picture test.
+1. adult Alaric inherits the memory;
+2. Rome is reached without victory music;
+3. the cue strips back to household scale;
+4. a parent gives bread to a child;
+5. end on “They will not beg again.”
 
-### Picture-test markers
+Bring back the human humming motif here. The voices should now sound communal,
+but still human and intimate—not a cathedral choir.
 
-`Frozen Plain Thrace`:
+## Narration mix
 
-- 0:00–0:16 — unusually quiet opening
-- 0:16–1:47 — long stable section
-- 1:47 — energy lift
-- 2:23–2:59 — loudest sustained section
-- 2:59–3:08 — approximately 12 dB collapse; strong aftermath or reveal space
+Both files are finished music masters, not dialogue beds. Use automation
+rather than one static trim:
 
-`Dust on the Steppe`:
+- Start at **−8 dB** relative to the supplied masters under narration.
+- Duck another **2–4 dB** on dense spoken passages.
+- Let the 0:28 Dust attack rise only after the reversal line clears.
+- Keep the 2:59 Frozen break and 2:35 Dust exit substantially unfilled.
+- Target dialogue around **−16 LUFS short-term** and keep the final program
+  true peak at or below **−1 dBTP**.
+- If spoken-word delivery is locked to the beat, do not time-stretch one cue
+  to the other. The 4.6 BPM acceleration is part of the design.
 
-- 0:00–0:28 — lower-energy setup
-- 0:28–1:35 — first sustained attack block
-- 1:35–1:37 — two-second rupture
-- 1:37–2:35 — second sustained block
-- 2:35–end — low-energy exit
+## What is still missing
 
-The decisive test is not which waveform looks better. It is which cue lets the
-starvation narration remain intelligible and which musical rule-break makes
-the Marcianople reversal legible.
+The two existing tracks cover Parts I–VI well but do not give Part VII and the
+bread-restored coda enough room. The next music deliverable should be the
+E-flat-major reprise/extension, not a third unrelated battle cue.
 
-## Film 3 — preserve the existing score
-
-Film 3 already has music. Before editing:
-
-1. record the exact source filename and generation/version ID;
-2. preserve the highest-quality master;
-3. obtain or create separate music and effects stems where possible;
-4. mark the approved picture synchronization points;
-5. do not replace it simply to make the trilogy sonically uniform.
-
-Film 3 may still quote the ancestral hum or another trilogy motif if that can
-be added without weakening the score Evan already chose.
-
-## Language and alternate versions
-
-The pipeline should treat picture, music/effects, narration, and text as
-separate deliverables:
-
-- one picture master per approved cut;
-- one **M&E** master (music and effects, no narration);
-- one narration stem per language;
-- one subtitle/caption file per language;
-- one small manifest recording language, narrator, mix, and source versions.
-
-This makes language versions inexpensive, but not literally automatic.
-Different languages expand and contract. Build breathing room into narration
-holds and permit small language-specific picture retimes rather than
-time-stretching speech or crushing translation.
-
-The same structure also supports alternate musical versions:
-
-- score-forward vs narration-forward mix;
-- historically restrained vs more contemporary treatment;
-- festival, classroom, social, and accessibility cuts;
-- localized narration with the same M&E bed.
-
-## Mix baseline
-
-For any candidate picture test:
-
-- begin around **−8 dB** below the supplied music master under narration;
-- automate another **2–4 dB** of ducking on dense speech;
-- keep the program true peak at or below **−1 dBTP**;
-- preserve intentional low-energy holes instead of filling every pause;
-- compare candidates at matched perceived loudness.
-
-The next concrete music deliverable is a Film 1 prompt/reference brief and a
-Film 2 A/B picture test. Film 3 should enter conform as an existing approved
-asset, not as an open composition problem.
+This preserves the current split of work: story structure can change, while
+the score remains organized around one tonic and three states—human world,
+organized violence, human world restored.

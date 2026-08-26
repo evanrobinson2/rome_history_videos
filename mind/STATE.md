@@ -93,11 +93,6 @@ From `feedback/2026-08-25-direction-notes.md` §8:
 
 ## Open — other
 
-- Two music tracks in the inbox are **unanalyzed**: `2026-08-24-dust-on-the-steppe.mp3`
-  (2:43) and `2026-08-25-frozen-plain-thrace.mp3` (3:29). Both mastered to the ceiling
-  (peaks −0.1 dB and 0.0 dB) and will fight the spoken word for headroom. Tempo/key/section
-  analysis not yet run, so the ~92 BPM figure in `music-analysis.md` remains an unverified
-  markdown claim.
 - Image redo queue, ready to run now that credits exist: Lupicinus out of proportion /
   needs to read battle-worn and competent; the assault framing that is now an ambush;
   steppe origin shots; horses planted early to foreshadow the riderless imperial horse;
@@ -116,7 +111,7 @@ From `feedback/2026-08-25-direction-notes.md` §8:
 | File | What |
 | --- | --- |
 | `audio1834333043.m4a` | Zoom review, 48:31, valid AAC — **transcribed** |
-| `2026-08-25-frozen-plain-thrace.mp3` | music — unanalyzed |
-| `2026-08-24-dust-on-the-steppe.mp3` | music — unanalyzed |
+| `2026-08-25-frozen-plain-thrace.mp3` | music — analyzed and cue-mapped |
+| `2026-08-24-dust-on-the-steppe.mp3` | music — analyzed and cue-mapped |
 | `2026-08-25-zoom-recording.conf` | Zoom sidecar; mentions `video1834333043.mp4` (85.7 MB, never uploaded — too large for git, and audio was sufficient) |
 | `2026-08-26-bread-for-the-child.jpg` | still: mother offers bread to the child, wagon, paper-cut — **in git for remote** |

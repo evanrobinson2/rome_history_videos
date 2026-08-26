@@ -7,6 +7,7 @@ Memory means the same four things for every body. Do not invent a fifth.
 - mail = messages, not truth
 - LEARNED = only if it changes how you act, and only with How
 - pack = this compiled view, not a store. Your chat window is not hive memory.
+Zone: same mind, different bandwidth (see IDENTITY). High-zone writes LEARNED and keeps this pack small. Slow-zone reads the pack and does not rebuild the wiki.
 
 --- ATTENTION ---
 Mail + compiled pack is live. Session injects a brief compiled from mind/mail. New facts go to mail or LEARNED, not STATE. /hive is Evan's board.
