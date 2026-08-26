@@ -134,3 +134,23 @@ created by mistake, and doubles every remaining build:
 couples *thinking* to *building*. Any node that appends to `mind/` was silently spending a
 shared, finite production resource. When adding a new always-on write path, check what
 else watches that path.
+
+## 2026-08-26 — Lupicinus has hubris, not foolishness; Fritigern does not walk free
+
+**Was:** Implicit Marcianople beat: Lupicinus releases Fritigern, then follows to decimate
+the Gothic camp — or generic "Fritigern escapes the banquet" without holding the split.
+
+**Is:** Lupicinus is a **competent** commander undone by **Roman hubris** (starving
+disarmed supplicants look manageable). He does **not** let Fritigern leave so he can march
+on the encampment — that would be stupid. He believes he **holds** Fritigern at the banquet
+while Roman procedure handles the rest. Fritigern **stays** with Lupicinus; the prepared
+operation (gate ruse, uniform swap, burn, wagon-circle ambush) runs elsewhere. Hubris =
+misreading who is trapped. Spec: `assets/production/S01E02-REMASTER.md`.
+
+**How:** Evan, remastering E02: "my version actually makes more sense… lupicinus was no fool
+— he suffered from roman hubris, but he wouldn't have allowed fritigern to leave only to
+follow him."
+
+**Changed:** Reject release-and-pursuit staging. `STORY_ARC.md` Part IV and all Marcianople
+/ laager frame cards must reflect stay-and-split + ambush. Lupicinus stays dignified
+(Principle 5) but surprised at the reveal.
