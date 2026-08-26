@@ -1,0 +1,26 @@
+{
+  "id": "req-D15-23918b2d",
+  "created_at": "2026-08-26T22:50:25.938492+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D15",
+  "purpose": "screenprint 2 \u2014 soldiers ordered to kill retinue",
+  "visual_mode": "brutalist_print",
+  "action": "midjourney_generate",
+  "prompt": "Banquet hall column scene: three Roman soldiers in ridge helmets advance left with short swords extended; four Gothic retainers in smoke-brown tunics back against stone column right, arms raised palms out, one retainer reaching for fallen bench leg. Flat compressed horizontal space, bodies as angular silhouettes. Vermilion blade edges and tunic trim; soot black column; dirty bone floor. Red white black brutalist screen-print, risograph grain, monumental figures, no gore detail, 16:9, no text.",
+  "prompt_hash": "23918b2d",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 250,
+    "chaos": 6
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D15-screenprint-2-soldiers-ordered-to-kill-r-23918b2d",
+  "filenames": [
+    "D15_0.png",
+    "D15_1.png",
+    "D15_2.png",
+    "D15_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

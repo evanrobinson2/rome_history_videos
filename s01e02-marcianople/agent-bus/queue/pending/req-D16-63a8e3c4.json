@@ -1,0 +1,26 @@
+{
+  "id": "req-D16-63a8e3c4",
+  "created_at": "2026-08-26T22:50:25.990469+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D16",
+  "purpose": "screenprint 3 \u2014 retinue counter-attack",
+  "visual_mode": "brutalist_print",
+  "action": "midjourney_generate",
+  "prompt": "Banquet hall reversal: four Gothic retainers lunge forward blade-forward from right; two Roman soldiers fall backward left, ridge helmets tilting off, shields dropping. Overturned table foreground blocks lower frame. Vermilion diagonal slash across center; soot black figures; white negative space upper left. Flat compressed triumph geometry, no gore. Red white black brutalist screen-print, distressed risograph grain, angular monumental bodies, 16:9, no text.",
+  "prompt_hash": "63a8e3c4",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 250,
+    "chaos": 6
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D16-screenprint-3-retinue-counter-attack-63a8e3c4",
+  "filenames": [
+    "D16_0.png",
+    "D16_1.png",
+    "D16_2.png",
+    "D16_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

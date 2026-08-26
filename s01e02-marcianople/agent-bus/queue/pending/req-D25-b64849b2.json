@@ -1,0 +1,26 @@
+{
+  "id": "req-D25-b64849b2",
+  "created_at": "2026-08-26T22:50:26.095383+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D25",
+  "purpose": "second prep beat \u2014 weapons distributed",
+  "visual_mode": "fractured_world",
+  "action": "midjourney_generate",
+  "prompt": "Medium wide forest clearing: able-bodied Gothic men kneel and stand in loose line receiving spears and oval shields from cart handlers; travel cloaks piled on ground left. Faces set \u2014 jaws clenched, brows drawn inward, eyes forward. Tall lean women roll covered wagons toward treeline background. Daylight through bare branches. Refined hand-drawn illustration, pale blue ivory charcoal earth, readable equipment and faces, hairline sky fractures, 16:9.",
+  "prompt_hash": "b64849b2",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 200,
+    "chaos": 2
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D25-second-prep-beat-weapons-distributed-b64849b2",
+  "filenames": [
+    "D25_0.png",
+    "D25_1.png",
+    "D25_2.png",
+    "D25_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

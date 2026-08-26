@@ -1,0 +1,26 @@
+{
+  "id": "req-D41-b0d4c0e2",
+  "created_at": "2026-08-26T22:50:26.293395+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D41",
+  "purpose": "mercy \u2014 Lupicinus runs away",
+  "visual_mode": "fractured_world",
+  "action": "midjourney_generate",
+  "prompt": "Wide shot wagon clearing: Roman commander early 40s runs away toward background right \u2014 torn muted red-gray tunic, arms pumping, head turned over shoulder; tall Gothic warrior early 40s center foreground stands still, spear lowered at side, broken nose braided beard charcoal-blue cloak, mouth closed eyes on fleeing figure. Covered wagon and forest edge left. Daylight, long shadows. Refined hand-drawn illustration, pale blue ivory charcoal earth, readable faces, 16:9.",
+  "prompt_hash": "b0d4c0e2",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 200,
+    "chaos": 2
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D41-mercy-lupicinus-runs-away-b0d4c0e2",
+  "filenames": [
+    "D41_0.png",
+    "D41_1.png",
+    "D41_2.png",
+    "D41_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

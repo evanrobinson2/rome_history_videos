@@ -5,13 +5,14 @@
   "source_manifest": "s01e02-marcianople/canon/google-slides/manifest.json",
   "updated_at": "2026-08-26T22:45:00Z",
   "policy": {
-    "queue_mj": false,
-    "reason": "Prompts must match deck beats and bible/08-midjourney-prompting-guide.md before queueing",
+    "queue_mj": true,
+    "reason": "Evan approved \u2014 15 deck beats queued for browser agent",
     "animatic_source": "deck_order_first",
-    "episode_yaml": "reference_only_unless_deck_silent"
+    "episode_yaml": "reference_only_unless_deck_silent",
+    "queued_at": "2026-08-26T22:50:26Z"
   },
   "deck_vs_episode": [
-    "Slides 14–16 are THREE red/white/black screenprint beats, not one H04.",
+    "Slides 14\u201316 are THREE red/white/black screenprint beats, not one H04.",
     "Slide 17 combines uniform swap + weapon heist; episode splits H06/H07/H08.",
     "Slide 18 (hostage) comes AFTER heist in deck; episode.yaml lists H03 earlier.",
     "Slide 23 is daytime camp cheers/fanfare; episode H10 is indigo night riders.",
@@ -24,9 +25,11 @@
       "title": "",
       "body": "",
       "notes": "Series opening scene",
-      "shot_ids": ["C01"],
+      "shot_ids": [
+        "C01"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Series open — establish Gothic refugee world before Danube crossing.",
+      "deck_ask": "Series open \u2014 establish Gothic refugee world before Danube crossing.",
       "mj_status": "review_dump",
       "prompt_ref": "crossing.jsonl:C01"
     },
@@ -36,10 +39,12 @@
       "title": "RIVER CROSSING",
       "body": "",
       "notes": "",
-      "shot_ids": ["C02"],
+      "shot_ids": [
+        "C02"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Wide river crossing — ferries, rafts, vulnerable scale.",
-      "mj_status": "needed",
+      "deck_ask": "Wide river crossing \u2014 ferries, rafts, vulnerable scale.",
+      "mj_status": "queued",
       "prompt_ref": "crossing.jsonl:C02"
     },
     {
@@ -48,10 +53,12 @@
       "title": "ABUSE 1",
       "body": "",
       "notes": "",
-      "shot_ids": ["C07"],
+      "shot_ids": [
+        "C07"
+      ],
       "deck_beat": "abuse_1",
       "visual_mode": "fractured_world",
-      "deck_ask": "First abuse beat — mud camp, guarded grain, empty bowls.",
+      "deck_ask": "First abuse beat \u2014 mud camp, guarded grain, empty bowls.",
       "mj_status": "review_dump",
       "prompt_ref": "deck.jsonl:D03"
     },
@@ -61,7 +68,9 @@
       "title": "ABUSE 2",
       "body": "",
       "notes": "",
-      "shot_ids": ["C08"],
+      "shot_ids": [
+        "C08"
+      ],
       "deck_beat": "abuse_2",
       "visual_mode": "fractured_world",
       "deck_ask": "Mother trades bronze horse clasp for bread.",
@@ -74,11 +83,13 @@
       "title": "ABUSE 5",
       "body": "",
       "notes": "",
-      "shot_ids": ["C09"],
+      "shot_ids": [
+        "C09"
+      ],
       "deck_beat": "abuse_5",
       "visual_mode": "fractured_world",
       "deck_ask": "Older brother shields Alaric in ration line.",
-      "mj_status": "needed",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D05"
     },
     {
@@ -87,7 +98,9 @@
       "title": "ABUSE 4",
       "body": "",
       "notes": "",
-      "shot_ids": ["C10"],
+      "shot_ids": [
+        "C10"
+      ],
       "deck_beat": "abuse_4",
       "visual_mode": "fractured_world",
       "deck_ask": "Brothers pulled apart by Roman soldiers.",
@@ -100,12 +113,14 @@
       "title": "ABUSE 5 - a line too far",
       "body": "",
       "notes": "Trading alarics elder brother for dogmeat",
-      "shot_ids": ["C10b"],
+      "shot_ids": [
+        "C10b"
+      ],
       "deck_beat": "abuse_line_too_far",
       "visual_mode": "fractured_world",
-      "deck_ask": "Elder brother traded for dogmeat — the line too far.",
+      "deck_ask": "Elder brother traded for dogmeat \u2014 the line too far.",
       "episode_note": "No episode shot; deck-specific beat between C10 and C11.",
-      "mj_status": "needed",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D07"
     },
     {
@@ -114,9 +129,11 @@
       "title": "Invite to banquet",
       "body": "",
       "notes": "",
-      "shot_ids": ["C13"],
+      "shot_ids": [
+        "C13"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Lupicinus offers banquet — false hope.",
+      "deck_ask": "Lupicinus offers banquet \u2014 false hope.",
       "mj_status": "review_dump",
       "prompt_ref": "crossing.jsonl:C13"
     },
@@ -126,10 +143,12 @@
       "title": "TREACHERY PLANNED",
       "body": "Lupicinous looking evil as we all see he's planning something awful",
       "notes": "",
-      "shot_ids": ["H01"],
+      "shot_ids": [
+        "H01"
+      ],
       "deck_beat": "treachery_lupicinus",
       "visual_mode": "brutalist_print",
-      "deck_ask": "Lupicinus visibly plotting — narrowed eyes, steepled hands, blade prep in shadow.",
+      "deck_ask": "Lupicinus visibly plotting \u2014 narrowed eyes, steepled hands, blade prep in shadow.",
       "mj_status": "review_dump",
       "prompt_ref": "deck.jsonl:D09"
     },
@@ -139,12 +158,14 @@
       "title": "Planned treachery",
       "body": "",
       "notes": "",
-      "shot_ids": ["H01b"],
+      "shot_ids": [
+        "H01b"
+      ],
       "deck_beat": "treachery_prep",
       "visual_mode": "brutalist_print",
-      "deck_ask": "Second treachery beat — soldiers/co-conspirators preparing trap.",
+      "deck_ask": "Second treachery beat \u2014 soldiers/co-conspirators preparing trap.",
       "episode_note": "Deck has two treachery slides; episode has one H01.",
-      "mj_status": "needed",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D10"
     },
     {
@@ -153,7 +174,9 @@
       "title": "",
       "body": "",
       "notes": "Outside gates .. hordes amassing",
-      "shot_ids": ["H02"],
+      "shot_ids": [
+        "H02"
+      ],
       "visual_mode": "brutalist_print",
       "deck_ask": "Gothic hordes mass outside Marcianople gates.",
       "mj_status": "review_dump",
@@ -165,11 +188,13 @@
       "title": "",
       "body": "",
       "notes": "Crowd looking for food",
-      "shot_ids": ["H02b"],
+      "shot_ids": [
+        "H02b"
+      ],
       "visual_mode": "brutalist_print",
       "deck_ask": "Hungry Gothic crowd pressing toward banquet gates.",
       "episode_note": "No episode shot; deck-specific.",
-      "mj_status": "needed",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D12"
     },
     {
@@ -178,9 +203,11 @@
       "title": "",
       "body": "",
       "notes": "A fight breaks out, Romans are killed",
-      "shot_ids": ["H05"],
+      "shot_ids": [
+        "H05"
+      ],
       "visual_mode": "brutalist_print",
-      "deck_ask": "Corridor violence — retinue kills Roman guard as fight spreads.",
+      "deck_ask": "Corridor violence \u2014 retinue kills Roman guard as fight spreads.",
       "mj_status": "review_dump",
       "prompt_ref": "heist.jsonl:H05"
     },
@@ -190,11 +217,13 @@
       "title": "red/white/black screenprint",
       "body": "Chaos at the banquet",
       "notes": "",
-      "shot_ids": ["H04a"],
+      "shot_ids": [
+        "H04a"
+      ],
       "parent_shot": "H04",
       "visual_mode": "brutalist_print",
-      "deck_ask": "Screenprint 1/3 — banquet tables overturn, figures lunging, vermilion flood.",
-      "mj_status": "needed",
+      "deck_ask": "Screenprint 1/3 \u2014 banquet tables overturn, figures lunging, vermilion flood.",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D14"
     },
     {
@@ -203,11 +232,13 @@
       "title": "red/white/black screenprint",
       "body": "Soldiers ordered to kill the retinue",
       "notes": "",
-      "shot_ids": ["H04b"],
+      "shot_ids": [
+        "H04b"
+      ],
       "parent_shot": "H04",
       "visual_mode": "brutalist_print",
-      "deck_ask": "Screenprint 2/3 — Roman soldiers advance on Gothic retinue against column.",
-      "mj_status": "needed",
+      "deck_ask": "Screenprint 2/3 \u2014 Roman soldiers advance on Gothic retinue against column.",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D15"
     },
     {
@@ -216,11 +247,13 @@
       "title": "red/white/black screenprint",
       "body": "Retinue counter attack and victory",
       "notes": "",
-      "shot_ids": ["H04c"],
+      "shot_ids": [
+        "H04c"
+      ],
       "parent_shot": "H04",
       "visual_mode": "brutalist_print",
-      "deck_ask": "Screenprint 3/3 — retinue lunges forward, Romans fall back, overturned table.",
-      "mj_status": "needed",
+      "deck_ask": "Screenprint 3/3 \u2014 retinue lunges forward, Romans fall back, overturned table.",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D16"
     },
     {
@@ -229,11 +262,14 @@
       "title": "Uniform swap and weapon heist",
       "body": "",
       "notes": "",
-      "shot_ids": ["H06", "H07"],
+      "shot_ids": [
+        "H06",
+        "H07"
+      ],
       "visual_mode": "brutalist_print",
-      "deck_ask": "Combined beat — disguise + armory grab in one slide.",
+      "deck_ask": "Combined beat \u2014 disguise + armory grab in one slide.",
       "episode_note": "Episode splits uniform (H06), armory (H07), stone decoy (H08). Deck omits H08.",
-      "mj_status": "needed",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D17"
     },
     {
@@ -242,10 +278,12 @@
       "title": "",
       "body": "",
       "notes": "Fritigern hostage",
-      "shot_ids": ["H03"],
+      "shot_ids": [
+        "H03"
+      ],
       "visual_mode": "brutalist_print",
       "deck_ask": "Fritigern grips Lupicinus at collar beside overturned table.",
-      "episode_note": "Deck order: after heist; episode.yaml lists H03 before H04–H06.",
+      "episode_note": "Deck order: after heist; episode.yaml lists H03 before H04\u2013H06.",
       "mj_status": "review_dump",
       "prompt_ref": "heist.jsonl:H03"
     },
@@ -255,7 +293,9 @@
       "title": "",
       "body": "",
       "notes": "Escaping with the weapons",
-      "shot_ids": ["H09"],
+      "shot_ids": [
+        "H09"
+      ],
       "visual_mode": "brutalist_print",
       "deck_ask": "Wagons slip through postern gate with weapons.",
       "mj_status": "review_dump",
@@ -269,7 +309,7 @@
       "notes": "",
       "shot_ids": [],
       "visual_mode": null,
-      "deck_ask": "Placeholder slide — no copy.",
+      "deck_ask": "Placeholder slide \u2014 no copy.",
       "mj_status": "skip"
     },
     {
@@ -280,7 +320,7 @@
       "notes": "",
       "shot_ids": [],
       "visual_mode": null,
-      "deck_ask": "Placeholder slide — no copy.",
+      "deck_ask": "Placeholder slide \u2014 no copy.",
       "mj_status": "skip"
     },
     {
@@ -291,7 +331,7 @@
       "notes": "",
       "shot_ids": [],
       "visual_mode": null,
-      "deck_ask": "Placeholder slide — no copy.",
+      "deck_ask": "Placeholder slide \u2014 no copy.",
       "mj_status": "skip"
     },
     {
@@ -300,9 +340,11 @@
       "title": "Weapons arrive to camp,",
       "body": "Met with cheers and fanfare, the riders return",
       "notes": "",
-      "shot_ids": ["B01"],
+      "shot_ids": [
+        "B01"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Daytime camp — riders return with weapon cart, crowd cheers.",
+      "deck_ask": "Daytime camp \u2014 riders return with weapon cart, crowd cheers.",
       "episode_note": "Not H10 indigo night ride; deck wants daylight fanfare.",
       "mj_status": "review_dump",
       "prompt_ref": "deck.jsonl:D23"
@@ -313,7 +355,9 @@
       "title": "Goth's prepping",
       "body": "Able bodied men suit up and prep for battle",
       "notes": "",
-      "shot_ids": ["B03"],
+      "shot_ids": [
+        "B03"
+      ],
       "visual_mode": "fractured_world",
       "deck_ask": "Travel cloaks fall; defenders arm up.",
       "mj_status": "review_dump",
@@ -325,11 +369,13 @@
       "title": "Goth's prepping",
       "body": "",
       "notes": "",
-      "shot_ids": ["B03b"],
+      "shot_ids": [
+        "B03b"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Second prep beat — weapons distributed, faces set.",
+      "deck_ask": "Second prep beat \u2014 weapons distributed, faces set.",
       "episode_note": "Deck has two prep slides; episode has one B03.",
-      "mj_status": "needed",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D25"
     },
     {
@@ -338,7 +384,9 @@
       "title": "Romans marching",
       "body": "",
       "notes": "",
-      "shot_ids": ["B05"],
+      "shot_ids": [
+        "B05"
+      ],
       "visual_mode": "fractured_world",
       "deck_ask": "Roman column approaches over open ground.",
       "mj_status": "review_dump",
@@ -350,7 +398,9 @@
       "title": "Goths' prepping",
       "body": "Women take infirm and children to the edge of the forest in wagons",
       "notes": "",
-      "shot_ids": ["B02"],
+      "shot_ids": [
+        "B02"
+      ],
       "visual_mode": "fractured_world",
       "deck_ask": "Wagons roll toward treeline with women, children, infirm.",
       "mj_status": "review_dump",
@@ -362,22 +412,26 @@
       "title": "Romans marching to what they thing is an easy slaugher",
       "body": "",
       "notes": "",
-      "shot_ids": ["B05b"],
+      "shot_ids": [
+        "B05b"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Roman officers confident — loose formation, smirking faces.",
+      "deck_ask": "Roman officers confident \u2014 loose formation, smirking faces.",
       "episode_note": "Variant of B05; deck-specific overconfidence beat.",
-      "mj_status": "needed",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D28"
     },
     {
       "slide": 29,
-      "deck_label": "Battle — see Gothic horde",
+      "deck_label": "Battle \u2014 see Gothic horde",
       "title": "BATTLE SCENE AT MARSIONOPLE",
       "body": "",
       "notes": "When they see the gothic horde",
-      "shot_ids": ["B06"],
+      "shot_ids": [
+        "B06"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Young Roman's face as confidence drains — Gothic line revealed.",
+      "deck_ask": "Young Roman's face as confidence drains \u2014 Gothic line revealed.",
       "mj_status": "review_dump",
       "prompt_ref": "deck.jsonl:D29"
     },
@@ -387,7 +441,9 @@
       "title": "BATTLE SCENE AT MARSIONOPLE",
       "body": "",
       "notes": "",
-      "shot_ids": ["B07"],
+      "shot_ids": [
+        "B07"
+      ],
       "visual_mode": "fractured_world",
       "deck_ask": "Arrow volley strikes Roman shields.",
       "mj_status": "review_dump",
@@ -395,13 +451,15 @@
     },
     {
       "slide": 31,
-      "deck_label": "Battle — defeated Romans",
+      "deck_label": "Battle \u2014 defeated Romans",
       "title": "BATTLE SCENE AT MARSIONOPLE",
       "body": "Defeated roman soldiers lying on the ground with berserking towering armed goths standing over them daytime, similar theme",
       "notes": "",
-      "shot_ids": ["B08"],
+      "shot_ids": [
+        "B08"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Daytime — fallen Romans on ground, armed Goths standing over them.",
+      "deck_ask": "Daytime \u2014 fallen Romans on ground, armed Goths standing over them.",
       "mj_status": "review_dump",
       "prompt_ref": "deck.jsonl:D31"
     },
@@ -411,7 +469,9 @@
       "title": "BATTLE SCENE AT MARSIONOPLE",
       "body": "",
       "notes": "",
-      "shot_ids": ["B09"],
+      "shot_ids": [
+        "B09"
+      ],
       "visual_mode": "fractured_world",
       "deck_ask": "Roman junior officer shouting into chaos.",
       "mj_status": "review_dump",
@@ -423,11 +483,13 @@
       "title": "",
       "body": "",
       "notes": "Realization that it's going to be a route",
-      "shot_ids": ["B09b"],
+      "shot_ids": [
+        "B09b"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Roman veteran's face — eyes wide, mouth open, formation breaking behind.",
+      "deck_ask": "Roman veteran's face \u2014 eyes wide, mouth open, formation breaking behind.",
       "episode_note": "Deck-specific rout realization.",
-      "mj_status": "needed",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D33"
     },
     {
@@ -436,7 +498,9 @@
       "title": "",
       "body": "",
       "notes": "",
-      "shot_ids": ["B10"],
+      "shot_ids": [
+        "B10"
+      ],
       "visual_mode": "fractured_world",
       "deck_ask": "Older Roman sees children in concealed wagons.",
       "mj_status": "review_dump",
@@ -448,10 +512,12 @@
       "title": "More roman slaughter",
       "body": "",
       "notes": "",
-      "shot_ids": ["B12"],
+      "shot_ids": [
+        "B12"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Family fighter at wagon perimeter — battle continues.",
-      "mj_status": "needed",
+      "deck_ask": "Family fighter at wagon perimeter \u2014 battle continues.",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D35"
     },
     {
@@ -460,7 +526,9 @@
       "title": "Roman retreat",
       "body": "",
       "notes": "",
-      "shot_ids": ["B13"],
+      "shot_ids": [
+        "B13"
+      ],
       "visual_mode": "fractured_world",
       "deck_ask": "Roman formation fractures and flees.",
       "mj_status": "review_dump",
@@ -472,7 +540,9 @@
       "title": "A standoff",
       "body": "Lupicinus catches up with Fritigern",
       "notes": "",
-      "shot_ids": ["B14"],
+      "shot_ids": [
+        "B14"
+      ],
       "visual_mode": "fractured_world",
       "deck_ask": "Lupicinus catches Fritigern beside concealed wagons.",
       "mj_status": "review_dump",
@@ -484,7 +554,9 @@
       "title": "",
       "body": "",
       "notes": "Alaric looks on as his father bests lupicinus",
-      "shot_ids": ["B11"],
+      "shot_ids": [
+        "B11"
+      ],
       "visual_mode": "fractured_world",
       "deck_ask": "Alaric peering from beneath wagon canvas.",
       "mj_status": "review_dump",
@@ -496,9 +568,11 @@
       "title": "Lupicinus and fritigern battling",
       "body": "",
       "notes": "",
-      "shot_ids": ["B14b"],
+      "shot_ids": [
+        "B14b"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Close combat — Fritigern and Lupicinus locked in fight.",
+      "deck_ask": "Close combat \u2014 Fritigern and Lupicinus locked in fight.",
       "episode_note": "Second standoff slide; variant of B14.",
       "mj_status": "review_dump",
       "prompt_ref": "deck.jsonl:D39"
@@ -509,11 +583,13 @@
       "title": "",
       "body": "",
       "notes": "Redo with proper lupcinus yielding",
-      "shot_ids": ["B15"],
+      "shot_ids": [
+        "B15"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "REDO — Lupicinus yields properly: sword on ground, open palms, head bowed.",
+      "deck_ask": "REDO \u2014 Lupicinus yields properly: sword on ground, open palms, head bowed.",
       "episode_note": "Slide has reference image; Evan wants yielding pose fixed.",
-      "mj_status": "redo",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D40"
     },
     {
@@ -522,11 +598,13 @@
       "title": "Mercy as lupicinus runs away",
       "body": "",
       "notes": "",
-      "shot_ids": ["B15b"],
+      "shot_ids": [
+        "B15b"
+      ],
       "visual_mode": "fractured_world",
       "deck_ask": "Lupicinus flees; Fritigern stands with weapon lowered.",
       "episode_note": "Follows slide 40 yielding beat.",
-      "mj_status": "needed",
+      "mj_status": "queued",
       "prompt_ref": "deck.jsonl:D41"
     },
     {
@@ -546,9 +624,11 @@
       "title": "preview",
       "body": "",
       "notes": "",
-      "shot_ids": ["B16"],
+      "shot_ids": [
+        "B16"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Aftermath calm — flowers, sunlight, wounded Fritigern.",
+      "deck_ask": "Aftermath calm \u2014 flowers, sunlight, wounded Fritigern.",
       "mj_status": "review_dump",
       "prompt_ref": "deck.jsonl:D43"
     },
@@ -558,9 +638,11 @@
       "title": "",
       "body": "",
       "notes": "A boy awakens",
-      "shot_ids": ["B17"],
+      "shot_ids": [
+        "B17"
+      ],
       "visual_mode": "fractured_world",
-      "deck_ask": "Young Alaric with damaged plumed Roman helmet — inheritance coda.",
+      "deck_ask": "Young Alaric with damaged plumed Roman helmet \u2014 inheritance coda.",
       "mj_status": "review_dump",
       "prompt_ref": "deck.jsonl:D44"
     }
@@ -569,8 +651,9 @@
     "total_slides": 44,
     "actionable": 38,
     "skip": 4,
-    "needed": 15,
-    "redo": 1,
-    "review_dump": 22
+    "needed": 0,
+    "redo": 0,
+    "review_dump": 22,
+    "queued": 15
   }
 }

@@ -1,0 +1,26 @@
+{
+  "id": "req-D12-7e8de486",
+  "created_at": "2026-08-26T22:50:25.826345+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D12",
+  "purpose": "crowd looking for food at gates",
+  "visual_mode": "brutalist_print",
+  "action": "midjourney_generate",
+  "prompt": "Medium exterior gate scene: hungry Gothic families press forward \u2014 empty wooden bowls extended at arm height, children on shoulders, travel cloaks in smoke-brown and charcoal-blue. Roman guards on wall above with spears pointed down. Gate arch fills upper third soot black iron gray; vermilion torch rim on stone blocks. Flat compressed crowd planes. Red-black brutalist screen-print, risograph grain, monumental silhouettes, angular anatomy, 16:9, no text.",
+  "prompt_hash": "7e8de486",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 250,
+    "chaos": 4
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D12-crowd-looking-for-food-at-gates-7e8de486",
+  "filenames": [
+    "D12_0.png",
+    "D12_1.png",
+    "D12_2.png",
+    "D12_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}
