@@ -38,6 +38,13 @@ Per directive §22: match existing Midjourney proofs to **H01–H11**, **B03**, 
 
 Auto-mapped **20/41 shots** → see `manifests/mj-session-index.json`. Status `review_needed` until Evan confirms variants (especially **B15 mercy** grid pick).
 
+**Animatic sampling:** renders use `asset_resolver.py` — favorites → MJ dump sample → approved only → legacy placeholder. Heist banquet shots (`brutalist_print`) are **dump-only** (red-black screen-print stills, never legacy cut-paper).
+
+**Favoriting workflow:**
+1. Open `renders/reviews/contact-sheet.html` — click dump variants to favor
+2. Export `shot-favorites.json` → save to `manifests/shot-favorites.json`
+3. `python3 automation/ingest/apply_favorites.py` — writes winners to `episode.yaml` as `approved`
+
 **Also:** `feedback/inbox/2026-08-26-bread-for-the-child.jpg` → **C12**.
 
 ## Three questions (every frame)
@@ -48,7 +55,9 @@ Whose experience is this? What changed? Why must this image exist?
 
 ```bash
 python3 s01e02-marcianople/automation/ingest/index_mj_session.py
-python3 s01e02-marcianople/automation/ingest/apply_mj_session.py
+python3 s01e02-marcianople/automation/ingest/apply_mj_session.py   # optional: copy samples into episode.yaml
+python3 s01e02-marcianople/automation/ingest/apply_favorites.py   # after shot-favorites.json is filled
 python3 s01e02-marcianople/automation/validate/contact_sheet.py
+python3 s01e02-marcianople/automation/render/quick_animatic.py    # samples from dump via asset_resolver
 python3 s01e02-marcianople/automation/validate/validate_prompts.py
 ```

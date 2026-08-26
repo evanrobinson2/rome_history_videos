@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "source_commit": "b05c11d",
   "session_dir": "feedback/inbox/2026-08-26-midjourney-session",
-  "generated_at": "2026-08-26T17:51:56.620722+00:00",
+  "generated_at": "2026-08-26T19:23:53.616982+00:00",
   "summary": {
     "jobs": 72,
     "files": 277,
@@ -255,20 +255,23 @@
     "H04": {
       "shot_id": "H04",
       "default_variant": {
-        "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_53ed0dae-4e6d-4019-ab70-a60848eb0452_0.mp4",
+        "path": "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_11de42bc-f597-4378-9e23-38a0fe45f721_0.png",
         "grid_index": 0,
-        "ext": "mp4",
-        "bytes": 6841121,
-        "sha256": "05a275dba2277bf7",
+        "ext": "png",
+        "bytes": 2048067,
+        "sha256": "7dc1824a63234ef9",
         "prefix": "Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre",
         "suggested_shot_id": "H04",
         "mapping_reason": "Banquet chaos"
       },
-      "job_id": "53ed0dae-4e6d-4019-ab70-a60848eb0452",
+      "job_id": "11de42bc-f597-4378-9e23-38a0fe45f721",
       "all_variant_paths": [
-        "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_53ed0dae-4e6d-4019-ab70-a60848eb0452_0.mp4",
-        "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_53ed0dae-4e6d-4019-ab70-a60848eb0452_1.mp4"
-      ]
+        "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_11de42bc-f597-4378-9e23-38a0fe45f721_0.png",
+        "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_11de42bc-f597-4378-9e23-38a0fe45f721_1.png",
+        "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_11de42bc-f597-4378-9e23-38a0fe45f721_2.png",
+        "feedback/inbox/2026-08-26-midjourney-session/Late_Roman_banquet_collapsing_into_panic_at_Marcianople_expre_11de42bc-f597-4378-9e23-38a0fe45f721_3.png"
+      ],
+      "pick_reason": "preferred_job"
     },
     "H03": {
       "shot_id": "H03",

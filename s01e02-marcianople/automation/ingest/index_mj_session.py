@@ -22,7 +22,7 @@ JOB_RE = re.compile(
 SHOT_RULES: list[tuple[str, list[str], str]] = [
     ("H01", ["hidden_roman_preparation_chamber"], "Roman blades/restraints prepared"),
     ("H02", ["assassination_banquet", "feast_prepared_as_an_execution"], "Banquet trap / entry"),
-    ("H03", ["hostage_scene", "fritigern_holdi", "fritigern_pow"], "Fritigern holds Lupicinus"),
+    ("H03", ["hostage_scene", "feast_prepared_as_an_execution_becomes", "fritigern_holdi", "fritigern_pow"], "Fritigern holds Lupicinus"),
     ("H04", ["banquet_collapsing_into_panic"], "Banquet chaos"),
     ("H05", ["narrow_service_passage", "service_passage_behind"], "Corridor / guard kill"),
     ("H09", ["outside_the_fortified_roman_gate", "rear_gate"], "Postern / gate extraction"),
@@ -48,7 +48,13 @@ SHOT_RULES: list[tuple[str, list[str], str]] = [
 PREFERRED_JOBS: dict[str, str] = {
     "B15": "7bd5f5ff-9057-4f02-b584-f621806e5e34",  # Three_figure_scene… mercy
     "B17": "47823736-ecbd-4269-83a4-1bbf333faa6b",  # Young_Gothic_boy_Alaric_stands_alone…
+    "H04": "11de42bc-f597-4378-9e23-38a0fe45f721",  # PNG screen-print chaos (not MJ video)
 }
+
+# Red-black brutalist screen-print shots — always prefer still PNG over MJ video.
+PREFER_PNG_SHOTS = frozenset({
+    "H01", "H02", "H03", "H04", "H05", "H06", "H07", "H08", "H09", "H11",
+})
 
 OFF_EPISODE = [
     "adrianople",
@@ -67,6 +73,16 @@ OFF_EPISODE = [
     "nightmare_of_the_marcianople_banquet",
     "graphic_digital_animation_illustration_of_fritigern_overpower",
 ]
+
+
+def pick_variant(job: dict, shot_id: str) -> dict:
+    variants = job["variants"]
+    if shot_id in PREFER_PNG_SHOTS:
+        pngs = [v for v in variants if v["ext"] == "png"]
+        if pngs:
+            return next((v for v in pngs if v["grid_index"] == 0), pngs[0])
+    pngs = [v for v in variants if v["ext"] == "png"]
+    return next((v for v in pngs if v["grid_index"] == 0), pngs[0] if pngs else variants[0])
 
 
 def sha256_prefix(path: Path) -> str:
@@ -148,8 +164,7 @@ def main() -> None:
             continue
         preferred = PREFERRED_JOBS.get(sid)
         if preferred and job["job_id"] == preferred:
-            pngs = [v for v in job["variants"] if v["ext"] == "png"]
-            pick = next((v for v in pngs if v["grid_index"] == 0), pngs[0] if pngs else job["variants"][0])
+            pick = pick_variant(job, sid)
             shot_picks[sid] = {
                 "shot_id": sid,
                 "default_variant": pick,
@@ -158,8 +173,7 @@ def main() -> None:
                 "pick_reason": "preferred_job",
             }
             continue
-        pngs = [v for v in job["variants"] if v["ext"] == "png"]
-        pick = next((v for v in pngs if v["grid_index"] == 0), pngs[0] if pngs else job["variants"][0])
+        pick = pick_variant(job, sid)
         prev = shot_picks.get(sid)
         if prev and prev.get("pick_reason") == "preferred_job":
             continue

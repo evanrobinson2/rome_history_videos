@@ -9,8 +9,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-import yaml
-
 ROOT = Path(__file__).resolve().parents[3]
 EPISODE = ROOT / "s01e02-marcianople"
 MUSIC = EPISODE / "assets" / "music"
@@ -19,6 +17,7 @@ WORK = OUT_DIR / "_work"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from caption_styles import build_events, write_ass, write_srt  # noqa: E402
+from asset_resolver import load_renderable_shots  # noqa: E402
 from motion_effects import (  # noqa: E402
     FPS,
     H,
@@ -43,12 +42,11 @@ def run(cmd: list[str], **kw) -> None:
 
 
 def load_shots() -> list[dict]:
-    data = yaml.safe_load((EPISODE / "episode.yaml").read_text(encoding="utf-8"))
-    shots = [s for s in data["shots"] if s.get("approved_asset")]
+    shots = load_renderable_shots(EPISODE / "episode.yaml")
+    sources: dict[str, int] = {}
     for s in shots:
-        p = ROOT / s["approved_asset"]
-        if not p.exists():
-            raise FileNotFoundError(p)
+        sources[s["asset_source"]] = sources.get(s["asset_source"], 0) + 1
+    print("Asset sources:", sources)
     return shots
 
 
@@ -125,7 +123,7 @@ def segment_from_shot(
     review_watermark: bool,
     static: bool,
 ) -> None:
-    src = ROOT / shot["approved_asset"]
+    src = ROOT / shot["resolved_asset"]
     dur = float(shot["duration_target_sec"])
     is_video = src.suffix.lower() == ".mp4"
 
@@ -276,6 +274,7 @@ def main() -> None:
     meta = {
         "shots": len(shots),
         "duration_sec": total,
+        "asset_policy": "favorites > mj_sample > approved > legacy (heist = dump only)",
         "motion": motion_summary if not args.static else {"static": len(shots)},
         "caption_style": "documentary ASS — Inter, lower-third narration, chapter cards",
         "outputs": {
