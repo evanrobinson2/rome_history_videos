@@ -164,11 +164,12 @@ push hit the Vercel Git integration on the frame-review app.
 should hold film/assets/app only; hive memory and sync belong in the hive repo so thinking
 does not spend deployment budget on the app.
 
-**How:** Evan message 2026-08-26. Cloud agent could not clone the repo yet (private or not
-provisioned for this token) — bodies should `git clone` locally and repoint
-`.cursor/hooks/mind-sync.py` when ready.
+**How:** Evan message 2026-08-26. `gh auth status` shows login as **cursor** GitHub App with
+**repository_selection: selected** and **only** `rome_history_videos` (total_count 1).
+`gh repo view evanrobinson2/hive_mind` → **404** (repo does not exist on GitHub yet).
+`gh repo create` fails: *Resource not accessible by integration*. Bootstrap ready at
+`/tmp/hive_mind` via `scripts/bootstrap-hive-mind.sh`.
 
-**Changed:** `mind/MEMORY.md`, `AGENTS.md`, `IDENTITY.md`, `README.md` now cite `hive_mind`.
-Plumber's job: finish the split (sync target, submodule or second clone, drop mind-only
-pushes from `rome_history_videos`). Until migration completes, treat `mind/` here as
-transitional.
+**Changed:** `mind/MEMORY.md`, `AGENTS.md`, etc. cite `hive_mind`. Run bootstrap script;
+Evan creates empty repo + adds it to Cursor App repository access; then push. Plumber
+repoints `mind-sync.py` to push hive only.
