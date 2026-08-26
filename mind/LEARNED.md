@@ -154,3 +154,21 @@ follow him."
 **Changed:** Reject release-and-pursuit staging. `STORY_ARC.md` Part IV and all Marcianople
 / laager frame cards must reflect stay-and-split + ambush. Lupicinus stays dignified
 (Principle 5) but surprised at the reveal.
+
+## 2026-08-26 — Hive canonical repo is `hive_mind`, separate from the film app
+
+**Was:** Shared memory lived in `mind/` inside `rome_history_videos`. Every `mind: sync`
+push hit the Vercel Git integration on the frame-review app.
+
+**Is:** Evan pointed the hive at **https://github.com/evanrobinson2/hive_mind**. Film repo
+should hold film/assets/app only; hive memory and sync belong in the hive repo so thinking
+does not spend deployment budget on the app.
+
+**How:** Evan message 2026-08-26. Cloud agent could not clone the repo yet (private or not
+provisioned for this token) — bodies should `git clone` locally and repoint
+`.cursor/hooks/mind-sync.py` when ready.
+
+**Changed:** `mind/MEMORY.md`, `AGENTS.md`, `IDENTITY.md`, `README.md` now cite `hive_mind`.
+Plumber's job: finish the split (sync target, submodule or second clone, drop mind-only
+pushes from `rome_history_videos`). Until migration completes, treat `mind/` here as
+transitional.
