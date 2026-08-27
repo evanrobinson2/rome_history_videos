@@ -1,0 +1,26 @@
+{
+  "id": "req-D14-8c70755a",
+  "created_at": "2026-08-26T22:50:25.889618+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D14",
+  "purpose": "screenprint 1 \u2014 chaos at banquet",
+  "visual_mode": "brutalist_print",
+  "action": "midjourney_generate",
+  "prompt": "Banquet hall interior exploding: long timber tables overturned diagonally, benches tipped, clay cups and platters mid-air, eight figures lunging in flat monumental silhouettes colliding center frame. Vermilion red floods lower third like spilled wine; soot black ceiling; white negative gaps between bodies. No gore, no readable faces \u2014 graphic rupture only. Red white black brutalist screen-print, distressed risograph grain, flat compressed space, exaggerated angular bodies, 16:9, no text.",
+  "prompt_hash": "8c70755a",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 250,
+    "chaos": 6
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D14-screenprint-1-chaos-at-banquet-8c70755a",
+  "filenames": [
+    "D14_0.png",
+    "D14_1.png",
+    "D14_2.png",
+    "D14_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

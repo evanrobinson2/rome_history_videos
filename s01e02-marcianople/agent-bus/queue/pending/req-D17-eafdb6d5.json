@@ -1,0 +1,26 @@
+{
+  "id": "req-D17-eafdb6d5",
+  "created_at": "2026-08-26T22:50:26.044828+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D17",
+  "purpose": "uniform swap and weapon heist combined",
+  "visual_mode": "brutalist_print",
+  "action": "midjourney_generate",
+  "prompt": "Split horizontal composition armory corridor: left third \u2014 Gothic retainer steps out of Roman muted red-gray tunic puddled on floor, smoke-brown undertunic visible; right two-thirds \u2014 second retainer in half-fastened Roman tunic pulls ridge helmet down while left hand grabs spear from open rack, third figure loads axe into sling. Soot black walls, iron gray weapons, vermilion cloak lining accent. Red-black brutalist screen-print, risograph grain, flat compressed space, angular silhouettes, 16:9, no text.",
+  "prompt_hash": "eafdb6d5",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 250,
+    "chaos": 4
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D17-uniform-swap-and-weapon-heist-combined-eafdb6d5",
+  "filenames": [
+    "D17_0.png",
+    "D17_1.png",
+    "D17_2.png",
+    "D17_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

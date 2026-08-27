@@ -3,11 +3,10 @@
 Where each file came from. A Mac path here is provenance only — cloud agents
 cannot open it. Use the file in this folder.
 
-**`audio1834333043.m4a` is valid.** 48:31 AAC-LC stereo, 67 kb/s, 23 MB.
-Localhost playback is fine (user confirmed). Cloud agents cannot hear files
-and must not call this recording broken. Transcribe with
-`scripts/transcribe_inbox.py` (needs `OPENAI_API_KEY` with credits), then
-read the `.md`. Do not `Read` the `.m4a` as text.
+**`audio1834333043.m4a`** — Evan's Zoom review (48:31). **Gitignored** (local only).
+Transcript also local: `feedback/inbox/transcript/audio1834333043.{json,txt,srt}`.
+Creative direction extracted to `feedback/2026-08-25-direction-notes.md`.
+Cloud agents cannot hear files. Do not `Read` the `.m4a` as text.
 
 | File | Landed | Original path | How |
 | --- | --- | --- | --- |
@@ -19,3 +18,21 @@ read the `.md`. Do not `Read` the `.m4a` as text.
 | 2026-08-26-bread-for-the-child.jpg | 2026-08-26 | chat attachment (Luna window) | user uploaded via localhost — mother offers bread to the child, wagon, paper-cut |
 | 2026-08-26-midjourney-session/ | 2026-08-26 | `/Users/evanrobinson/Downloads/midjourney_session.zip` (596 MB) | unzipped — GitHub blocks the zip as one file; 277 PNGs/MP4s, none over 10 MB |
 | 2026-08-26-archive-music/ | 2026-08-26 | `/Users/evanrobinson/Downloads/Archive.zip` (338 MB) | unzipped — 98 MP3s, none over 7 MB |
+
+After music lands, run:
+
+```bash
+python3 s01e02-marcianople/automation/ingest/index_music_archive.py
+```
+
+Maps filenames → episode cues and copies canonical picks into `s01e02-marcianople/assets/music/`.
+
+### MJ agent-bus runs
+
+Browser agent commits 4-up grids to `feedback/inbox/mj-runs/`. Luna re-indexes with:
+
+```bash
+python3 s01e02-marcianople/automation/ingest/index_mj_session.py
+```
+
+See `s01e02-marcianople/agent-bus/README.md`.

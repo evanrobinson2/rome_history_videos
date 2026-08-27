@@ -1,0 +1,3 @@
+1
+00:00:00,000 --> 00:00:00,000
+S01E02 captions — draft placeholder. Generate after narration timing lock.

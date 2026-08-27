@@ -1,0 +1,8 @@
+{
+  "agent": "mj-browser",
+  "heartbeat_at": "2026-08-26T22:51:00Z",
+  "state": "generating",
+  "current_request_id": "req-C02-960d324a",
+  "last_commit_sha": null,
+  "last_error": null
+}

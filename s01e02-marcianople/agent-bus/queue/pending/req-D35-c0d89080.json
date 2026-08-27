@@ -1,0 +1,26 @@
+{
+  "id": "req-D35-c0d89080",
+  "created_at": "2026-08-26T22:50:26.244994+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D35",
+  "purpose": "more roman slaughter at wagons",
+  "visual_mode": "fractured_world",
+  "action": "midjourney_generate",
+  "prompt": "Medium action beside covered wagon: Gothic fighter in mail and leather strikes downward with short spear at fallen Roman soldier on trampled grass; wagon canvas billows left, child hand visible gripping interior frame. Second Roman retreats right background. Daytime, mud and broken shield pieces foreground. Refined hand-drawn illustration, pale blue ivory charcoal earth, readable armor and faces, dynamic diagonal composition, non-gory, 16:9.",
+  "prompt_hash": "c0d89080",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 200,
+    "chaos": 2
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D35-more-roman-slaughter-at-wagons-c0d89080",
+  "filenames": [
+    "D35_0.png",
+    "D35_1.png",
+    "D35_2.png",
+    "D35_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

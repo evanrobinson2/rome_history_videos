@@ -1,0 +1,100 @@
+{
+  "file": "s01e02-marcianople/assets/music/battle.mp3",
+  "duration_sec": 172.68,
+  "duration_clock": "2:53",
+  "tempo_bpm": 95.7,
+  "tempo_bpm_from_beat_intervals": 95.7,
+  "tempo_half": 47.9,
+  "tempo_double": 191.4,
+  "beat_count": 264,
+  "key_estimate": "E minor",
+  "key_confidence": 0.808,
+  "key_alternatives": [
+    {
+      "key": "E minor",
+      "corr": 0.808
+    },
+    {
+      "key": "E major",
+      "corr": 0.665
+    },
+    {
+      "key": "B major",
+      "corr": 0.339
+    },
+    {
+      "key": "C major",
+      "corr": 0.258
+    }
+  ],
+  "peak_dbfs": -1.49,
+  "rms_dbfs": -14.48,
+  "crest_factor_db": 12.99,
+  "samples_at_full_scale": 0,
+  "section_count": 7,
+  "sections": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 16.72,
+      "start_clock": "0:00",
+      "length_sec": 16.72,
+      "mean_rms": 0.09632,
+      "mean_dbfs": -20.3
+    },
+    {
+      "index": 2,
+      "start": 16.72,
+      "end": 22.31,
+      "start_clock": "0:17",
+      "length_sec": 5.59,
+      "mean_rms": 0.12868,
+      "mean_dbfs": -17.8
+    },
+    {
+      "index": 3,
+      "start": 22.31,
+      "end": 51.11,
+      "start_clock": "0:22",
+      "length_sec": 28.8,
+      "mean_rms": 0.14844,
+      "mean_dbfs": -16.6
+    },
+    {
+      "index": 4,
+      "start": 51.11,
+      "end": 52.27,
+      "start_clock": "0:51",
+      "length_sec": 1.16,
+      "mean_rms": 0.08253,
+      "mean_dbfs": -21.7
+    },
+    {
+      "index": 5,
+      "start": 52.27,
+      "end": 157.9,
+      "start_clock": "0:52",
+      "length_sec": 105.63,
+      "mean_rms": 0.20094,
+      "mean_dbfs": -13.9
+    },
+    {
+      "index": 6,
+      "start": 157.9,
+      "end": 169.95,
+      "start_clock": "2:38",
+      "length_sec": 12.05,
+      "mean_rms": 0.20273,
+      "mean_dbfs": -13.9
+    },
+    {
+      "index": 7,
+      "start": 169.95,
+      "end": 172.68,
+      "start_clock": "2:50",
+      "length_sec": 2.73,
+      "mean_rms": 0.07611,
+      "mean_dbfs": -22.4
+    }
+  ]
+}

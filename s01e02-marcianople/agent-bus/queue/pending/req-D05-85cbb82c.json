@@ -1,0 +1,26 @@
+{
+  "id": "req-D05-85cbb82c",
+  "created_at": "2026-08-26T22:50:25.670201+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D05",
+  "purpose": "ABUSE 5 \u2014 brother shields Alaric in line",
+  "visual_mode": "fractured_world",
+  "action": "midjourney_generate",
+  "prompt": "Medium shot muddy ration queue: boy 11-12 tall for age, long face hazel-green eyes, notch upper left ear, chipped front tooth, gray-brown tunic, faded rust-red scarf, cord on right wrist \u2014 arm around small wiry boy 5-7, enormous gray-blue eyes, thick brows gap above left eye, unruly dark curls, charcoal tunic faded blue hood, cord twice on left wrist. Brother blocks jostling crowd silhouettes and Roman spear poles. Low cart wheel foreground. Hairline cracks in waiting line. Refined hand-drawn illustration, pale blue ivory charcoal earth, readable faces, 16:9.",
+  "prompt_hash": "85cbb82c",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 200,
+    "chaos": 2
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D05-abuse-5-brother-shields-alaric-in-line-85cbb82c",
+  "filenames": [
+    "D05_0.png",
+    "D05_1.png",
+    "D05_2.png",
+    "D05_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

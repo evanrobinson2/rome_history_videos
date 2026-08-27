@@ -1,7 +1,7 @@
 # Direction notes — 2026-08-25 narration session
 
-Source: `feedback/inbox/audio1834333043.m4a` (48:31, speech spans 0:09–45:00)
-Transcript: `feedback/inbox/transcript/audio1834333043.{txt,srt,json}`
+Source: local Zoom recording `audio1834333043.m4a` (48:31, speech spans 0:09–45:00; not in repo).
+Transcript was local-only at `feedback/inbox/transcript/audio1834333043.{txt,srt,json}`.
 Transcribed locally with faster-whisper `small.en` (no API; OpenAI balance is exhausted).
 
 **Caveat on attribution.** The recording is a single room mic capturing a spoken

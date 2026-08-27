@@ -1,0 +1,17 @@
+# Banquet / heist — music direction
+
+Target: instrumental fraught heist groove, ~88-92 BPM, tense swung 12/8.
+
+Four low cellos as rhythm section. Hard snapped/muted strings, bow pressure, scraping attacks, body knocks.
+Intermittent distorted electric guitar with muted wah-wah sixteenth-note chicka-chicka punctuation.
+Frame drum, hide percussion, dull iron strikes.
+
+Roman square march introduced against flexible Gothic swing; low riff survives as Roman rhythm fractures.
+
+NO: playful pizzicato, funk, jazz, heroic brass, choir, trailer booms.
+
+Suggested Suno style prompt (≤1000 chars):
+
+Instrumental tense heist score 88 BPM swung twelve-eight, four low cellos driving rhythm, snapped muted strings scraping bow pressure, frame drum hide percussion dull iron strikes, intermittent muted wah-wah electric guitar sixteenth chicka punctuation, Roman square march fragment colliding with loose Gothic swing phrasing, noir pressure not action comedy, red-black banquet violence energy, compressed dynamics, no vocals, no choir, no brass fanfare, no funk bass, no jazz drums, no playful pizzicato, no trailer impacts, late antique siege mood through modern chamber-metal hybrid, darkness controlled then flooding
+
+Excludes: choir, brass, funk, jazz, pizzicato comedy, lyrics, EDM

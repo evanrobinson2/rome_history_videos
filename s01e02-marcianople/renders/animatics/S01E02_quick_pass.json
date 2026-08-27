@@ -1,0 +1,9 @@
+{
+  "shots": 31,
+  "duration_sec": 195.0,
+  "outputs": {
+    "mp4": "s01e02-marcianople/renders/animatics/S01E02_quick_pass.mp4",
+    "m4a": "s01e02-marcianople/renders/animatics/S01E02_quick_pass.m4a",
+    "srt": "s01e02-marcianople/renders/animatics/S01E02_quick_pass.srt"
+  }
+}

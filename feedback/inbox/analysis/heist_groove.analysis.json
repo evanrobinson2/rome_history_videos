@@ -1,0 +1,82 @@
+{
+  "file": "s01e02-marcianople/assets/music/heist_groove.mp3",
+  "duration_sec": 116.64,
+  "duration_clock": "1:57",
+  "tempo_bpm": 92.3,
+  "tempo_bpm_from_beat_intervals": 92.3,
+  "tempo_half": 46.1,
+  "tempo_double": 184.6,
+  "beat_count": 175,
+  "key_estimate": "F major",
+  "key_confidence": 0.515,
+  "key_alternatives": [
+    {
+      "key": "F major",
+      "corr": 0.515
+    },
+    {
+      "key": "F minor",
+      "corr": 0.477
+    },
+    {
+      "key": "A# major",
+      "corr": 0.293
+    },
+    {
+      "key": "D minor",
+      "corr": 0.276
+    }
+  ],
+  "peak_dbfs": -0.91,
+  "rms_dbfs": -13.81,
+  "crest_factor_db": 12.9,
+  "samples_at_full_scale": 0,
+  "section_count": 5,
+  "sections": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 39.43,
+      "start_clock": "0:00",
+      "length_sec": 39.43,
+      "mean_rms": 0.14046,
+      "mean_dbfs": -17.0
+    },
+    {
+      "index": 2,
+      "start": 39.43,
+      "end": 42.49,
+      "start_clock": "0:39",
+      "length_sec": 3.06,
+      "mean_rms": 0.11549,
+      "mean_dbfs": -18.7
+    },
+    {
+      "index": 3,
+      "start": 42.49,
+      "end": 83.13,
+      "start_clock": "0:42",
+      "length_sec": 40.64,
+      "mean_rms": 0.21314,
+      "mean_dbfs": -13.4
+    },
+    {
+      "index": 4,
+      "start": 83.13,
+      "end": 94.3,
+      "start_clock": "1:23",
+      "length_sec": 11.17,
+      "mean_rms": 0.15717,
+      "mean_dbfs": -16.1
+    },
+    {
+      "index": 5,
+      "start": 94.3,
+      "end": 116.64,
+      "start_clock": "1:34",
+      "length_sec": 22.34,
+      "mean_rms": 0.19764,
+      "mean_dbfs": -14.1
+    }
+  ]
+}

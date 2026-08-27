@@ -1,0 +1,23 @@
+# Battle — music direction
+
+Primary asset: The Gothic Fracture.mp3 (pending ingest into assets/music/)
+
+Align major musical changes to shots:
+- B03 travel cloaks fall; defenders appear
+- B07 arrow volley
+- B08 shield impact reversal
+- B13 Roman formation fractures
+- B15 mercy (canonical still — do not regenerate for minor face drift)
+
+Battle cue must carry fear, transformation, emotional reversal, consequence — NOT uncomplicated victory.
+
+Handoff to denouement: lose percussion, resolve into opening drone/tonal bed of Frozen Thrace
+(feedback/inbox/2026-08-25-frozen-plain-thrace.mp3).
+
+Do not force music under every frame. Alaric subjective hearing narrows SFX; music may drop entirely B11.
+
+Suggested placeholder Suno prompt if Gothic Fracture unavailable (≤1000 chars):
+
+Instrumental battle transformation score, 96-104 BPM, fear before triumph, low drones and pulsing cellos, irregular frame drums, bow scrapes, dissonant string clusters resolving into grim forward motion, Gothic swing against collapsing Roman march rhythm, moments of near-silence for child perspective, no heroic choir, no brass victory, no EDM, no fantasy orchestra, emotional reversal not conquest anthem, percussion thins in final minute into cold open fifth drone handoff, late antique refugee defense mood, dark amber and charcoal tone
+
+Excludes: victory choir, brass fanfare, EDM, lyrics, trailer booms

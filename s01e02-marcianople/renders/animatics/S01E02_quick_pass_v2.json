@@ -1,0 +1,11 @@
+{
+  "shots": 31,
+  "duration_sec": 196.0,
+  "caption_style": "documentary ASS \u2014 Inter, lower-third narration, chapter cards",
+  "outputs": {
+    "mp4": "s01e02-marcianople/renders/animatics/S01E02_quick_pass_v2.mp4",
+    "m4a": "s01e02-marcianople/renders/animatics/S01E02_quick_pass_v2.m4a",
+    "ass": "s01e02-marcianople/renders/animatics/S01E02_quick_pass_v2.ass",
+    "srt": "s01e02-marcianople/renders/animatics/S01E02_quick_pass_v2.srt"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "req-D33-60108cbd",
+  "created_at": "2026-08-26T22:50:26.196016+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D33",
+  "purpose": "realization of rout",
+  "visual_mode": "fractured_world",
+  "action": "midjourney_generate",
+  "prompt": "Close-up older Roman veteran mid-battle: square weathered face, gray-streaked short beard, eyes widened, mouth slightly open, brow raised; iron ridge helmet askew; behind him out of focus Roman shields breaking apart and soldiers turning to run. Soot on cheeks, mail collar visible. Daylight hard side light. Refined hand-drawn illustration, pale blue ivory charcoal, crisp facial features, hairline fractures in background chaos, 16:9.",
+  "prompt_hash": "60108cbd",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 200,
+    "chaos": 2
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D33-realization-of-rout-60108cbd",
+  "filenames": [
+    "D33_0.png",
+    "D33_1.png",
+    "D33_2.png",
+    "D33_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

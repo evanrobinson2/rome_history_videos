@@ -1,0 +1,26 @@
+{
+  "id": "req-D28-e71e253f",
+  "created_at": "2026-08-26T22:50:26.145623+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D28",
+  "purpose": "Romans expect easy slaughter",
+  "visual_mode": "fractured_world",
+  "action": "midjourney_generate",
+  "prompt": "Medium shot Roman column on open track: junior officer foreground right \u2014 young face, slight smirk, one eyebrow raised, hand gesturing forward loosely; soldiers behind in relaxed formation, shields lowered, spears angled casual. Wooded ridgeline ahead conceals camp. Overconfident body language \u2014 shoulders back, chins up. Daylight. Refined hand-drawn illustration, pale Thracian blue ivory charcoal, readable faces, light fractures in distant trees, 16:9, late 4th century.",
+  "prompt_hash": "e71e253f",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 200,
+    "chaos": 2
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D28-romans-expect-easy-slaughter-e71e253f",
+  "filenames": [
+    "D28_0.png",
+    "D28_1.png",
+    "D28_2.png",
+    "D28_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

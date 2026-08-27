@@ -1,0 +1,26 @@
+{
+  "id": "req-D40-23c7e219",
+  "created_at": "2026-08-26T22:50:26.345373+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D40",
+  "purpose": "REDO \u2014 Lupicinus yielding properly",
+  "visual_mode": "fractured_world",
+  "action": "midjourney_generate",
+  "prompt": "Three-figure scene beside covered wagon after fight: tall Gothic warrior early 40s stands center \u2014 trapezoidal weathered face, broken nose, scar through right eyebrow, braided beard, charcoal-blue cloak, spear point lowered toward ground; Roman commander early 40s kneels right foreground \u2014 muted red-gray torn tunic, ridge helmet on grass beside him, both hands open palms up at chest height, head bowed chin to collarbone, mouth closed. Small boy peeks from wagon left, enormous gray-blue eyes. Daylight, trampled grass. Refined hand-drawn illustration, readable faces and hands, 16:9.",
+  "prompt_hash": "23c7e219",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 200,
+    "chaos": 2
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D40-redo-lupicinus-yielding-properly-23c7e219",
+  "filenames": [
+    "D40_0.png",
+    "D40_1.png",
+    "D40_2.png",
+    "D40_3.png"
+  ],
+  "priority": 10,
+  "force": true,
+  "status": "pending"
+}

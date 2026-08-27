@@ -1,0 +1,26 @@
+{
+  "id": "req-D10-f83aa5f8",
+  "created_at": "2026-08-26T22:50:25.766611+00:00",
+  "created_by": "luna-visuals",
+  "shot_id": "D10",
+  "purpose": "planned treachery \u2014 co-conspirators",
+  "visual_mode": "brutalist_print",
+  "action": "midjourney_generate",
+  "prompt": "Low wide underground chamber: four Roman soldiers in ridge helmets coil rope and stack manacles on stone table center; commander silhouette in muted red-gray tunic stands in arched doorway background right, one hand on door frame, face in shadow except narrowed eyes and ring glint. Blade racks on soot black wall left. Dirty bone torchlight, iron gray metal, vermilion rope accent. Red-black brutalist screen-print, risograph grain, flat compressed depth, angular monumental figures, 16:9, no text.",
+  "prompt_hash": "f83aa5f8",
+  "mj": {
+    "aspect_ratio": "16:9",
+    "stylize": 250,
+    "chaos": 4
+  },
+  "output_dir": "feedback/inbox/mj-runs/2026-08-26-D10-planned-treachery-co-conspirators-f83aa5f8",
+  "filenames": [
+    "D10_0.png",
+    "D10_1.png",
+    "D10_2.png",
+    "D10_3.png"
+  ],
+  "priority": 10,
+  "force": false,
+  "status": "pending"
+}

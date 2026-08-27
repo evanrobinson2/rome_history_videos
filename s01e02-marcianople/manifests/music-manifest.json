@@ -1,0 +1,899 @@
+{
+  "schemaVersion": "1.0.0",
+  "generated_at": "2026-08-26T18:49:26.186564+00:00",
+  "scan_dirs": [
+    "feedback/inbox/2026-08-26-archive-music",
+    "feedback/inbox"
+  ],
+  "summary": {
+    "files": 101,
+    "mapped_cues": 6,
+    "unmapped": 68
+  },
+  "episode_cues": {
+    "battle": {
+      "music_cue": "gothic_fracture",
+      "required": true
+    },
+    "denouement": {
+      "music_cue": "frozen_thrace",
+      "required": true
+    },
+    "crossing_open": {
+      "music_cue": "crossing_open",
+      "required": false
+    },
+    "heist_groove": {
+      "music_cue": "heist_groove",
+      "required": true
+    },
+    "family_memory": {
+      "music_cue": "exile_lullaby",
+      "required": false
+    }
+  },
+  "cue_picks": {
+    "heist_groove": {
+      "path": "feedback/inbox/2026-08-26-archive-music/Wah-Step Pulse (Remastered) (1) [a65110ad].mp3",
+      "filename": "Wah-Step Pulse (Remastered) (1) [a65110ad].mp3",
+      "bytes": 2697630,
+      "sha256": "0e57cdfd1e052239",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove",
+      "pick_reason": "preferred_filename",
+      "asset_copy": "s01e02-marcianople/assets/music/heist_groove.mp3"
+    },
+    "crossing_reference": {
+      "path": "feedback/inbox/2026-08-26-archive-music/Dust on the Steppe (1) [31b157d7].mp3",
+      "filename": "Dust on the Steppe (1) [31b157d7].mp3",
+      "bytes": 3345516,
+      "sha256": "ced5a3dc6ad94e5b",
+      "suggested_cue": "crossing_reference",
+      "cue_note": "Dust on the Steppe \u2014 crossing reference",
+      "pick_reason": "preferred_filename",
+      "asset_copy": "s01e02-marcianople/assets/music/crossing_reference.mp3"
+    },
+    "family_memory": {
+      "path": "feedback/inbox/2026-08-26-archive-music/Exile Lullaby (1) [52208590].mp3",
+      "filename": "Exile Lullaby (1) [52208590].mp3",
+      "bytes": 3268584,
+      "sha256": "3e2c966bfa677100",
+      "suggested_cue": "family_memory",
+      "cue_note": "Exile Lullaby \u2014 family / memory",
+      "pick_reason": "preferred_filename",
+      "asset_copy": "s01e02-marcianople/assets/music/family_memory.mp3"
+    },
+    "denouement": {
+      "path": "feedback/inbox/2026-08-26-archive-music/Frozen Plain Thrace (1) [60b4ed81].mp3",
+      "filename": "Frozen Plain Thrace (1) [60b4ed81].mp3",
+      "bytes": 4152072,
+      "sha256": "0021b986fcc38b44",
+      "suggested_cue": "denouement",
+      "cue_note": "Frozen Plain Thrace \u2014 denouement",
+      "pick_reason": "preferred_filename",
+      "asset_copy": "s01e02-marcianople/assets/music/denouement.mp3"
+    },
+    "crossing_open": {
+      "path": "feedback/inbox/2026-08-26-archive-music/The First Step Across the (1) [d1dedc11].mp3",
+      "filename": "The First Step Across the (1) [d1dedc11].mp3",
+      "bytes": 3390792,
+      "sha256": "b7190392f37d9790",
+      "suggested_cue": "crossing_open",
+      "cue_note": "Crossing opening",
+      "pick_reason": "preferred_filename",
+      "asset_copy": "s01e02-marcianople/assets/music/crossing_open.mp3"
+    },
+    "battle": {
+      "path": "feedback/inbox/2026-08-26-archive-music/The Gothic Fracture (1) [5f6790b9].mp3",
+      "filename": "The Gothic Fracture (1) [5f6790b9].mp3",
+      "bytes": 3891672,
+      "sha256": "5a42147eedc7745b",
+      "suggested_cue": "battle",
+      "cue_note": "The Gothic Fracture \u2014 primary battle cue",
+      "pick_reason": "preferred_filename",
+      "asset_copy": "s01e02-marcianople/assets/music/battle.mp3"
+    }
+  },
+  "files": [
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/A Wild Evening (1) [b2d68550].mp3",
+      "filename": "A Wild Evening (1) [b2d68550].mp3",
+      "bytes": 5027949,
+      "sha256": "cbef96b9609bf5c4",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/A Wild Evening (2) [9a9744a1].mp3",
+      "filename": "A Wild Evening (2) [9a9744a1].mp3",
+      "bytes": 4603437,
+      "sha256": "e8658a3acf641373",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/A Wild Evening (Cover) (1) [d58fdf86].mp3",
+      "filename": "A Wild Evening (Cover) (1) [d58fdf86].mp3",
+      "bytes": 4152429,
+      "sha256": "20175b441b0d1365",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/A Wild Evening (Cover) (2) [9f0647a5].mp3",
+      "filename": "A Wild Evening (Cover) (2) [9f0647a5].mp3",
+      "bytes": 4007277,
+      "sha256": "31c47b673232d612",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/A Wild Evening (Cover) (3) [e31bf92c].mp3",
+      "filename": "A Wild Evening (Cover) (3) [e31bf92c].mp3",
+      "bytes": 3121389,
+      "sha256": "5536552972612296",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/A Wild Evening (Cover) (4) [86b8b8ac].mp3",
+      "filename": "A Wild Evening (Cover) (4) [86b8b8ac].mp3",
+      "bytes": 4465197,
+      "sha256": "7f259333c33e8051",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/A Wild Evening (Cover) (5) [b7a7b2e8].mp3",
+      "filename": "A Wild Evening (Cover) (5) [b7a7b2e8].mp3",
+      "bytes": 3079341,
+      "sha256": "5e6a9732917e9636",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/A Wild Evening (Cover) (6) [0c8c7553].mp3",
+      "filename": "A Wild Evening (Cover) (6) [0c8c7553].mp3",
+      "bytes": 3148461,
+      "sha256": "f1a0c195e49634b6",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/A Wild Evening (Cover) (7) [b66feaf9].mp3",
+      "filename": "A Wild Evening (Cover) (7) [b66feaf9].mp3",
+      "bytes": 3308589,
+      "sha256": "8b5b7d5b76042804",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Ash on the Spearhead (1).mp3",
+      "filename": "Ash on the Spearhead (1).mp3",
+      "bytes": 5564352,
+      "sha256": "4915f5894186f95d",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Ashes to Anthem (1) [45431de3].mp3",
+      "filename": "Ashes to Anthem (1) [45431de3].mp3",
+      "bytes": 5770584,
+      "sha256": "1dff4e7649e0ac29",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Ashes to Anthem (2) [688efc5f].mp3",
+      "filename": "Ashes to Anthem (2) [688efc5f].mp3",
+      "bytes": 5509752,
+      "sha256": "1d74f3de129b9c9e",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Bitter and Sweet (1) [35dee45c].mp3",
+      "filename": "Bitter and Sweet (1) [35dee45c].mp3",
+      "bytes": 4618749,
+      "sha256": "db9bce1c772eb587",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Bitter and Sweet (2) [d3c0026d].mp3",
+      "filename": "Bitter and Sweet (2) [d3c0026d].mp3",
+      "bytes": 3938733,
+      "sha256": "d81a6e20f4d4e1b7",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Broken CPQ (1) [31973137].mp3",
+      "filename": "Broken CPQ (1) [31973137].mp3",
+      "bytes": 3890478,
+      "sha256": "c3de64d50d4d428e",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Broken CPQ (2) [9baffccf].mp3",
+      "filename": "Broken CPQ (2) [9baffccf].mp3",
+      "bytes": 3209070,
+      "sha256": "80458d5dcbda62b2",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Bubblegum Skies (1) [cbb173a8].mp3",
+      "filename": "Bubblegum Skies (1) [cbb173a8].mp3",
+      "bytes": 2624277,
+      "sha256": "4cec8f1acf732e54",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Bubblegum Skies (2) [910c522f].mp3",
+      "filename": "Bubblegum Skies (2) [910c522f].mp3",
+      "bytes": 3426045,
+      "sha256": "a4044ee0ec1e666d",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Checkout Line (1) [efea5f51].mp3",
+      "filename": "Checkout Line (1) [efea5f51].mp3",
+      "bytes": 4515072,
+      "sha256": "e0c4d13f5714dd64",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Checkout Line (2) [61d2f6d8].mp3",
+      "filename": "Checkout Line (2) [61d2f6d8].mp3",
+      "bytes": 4901640,
+      "sha256": "d2d5c446fe223441",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Cinders of the Legion.mp3",
+      "filename": "Cinders of the Legion.mp3",
+      "bytes": 3837888,
+      "sha256": "c60e4469e45bf6a9",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Dancing Through the Meadow (1) [195fafc0].mp3",
+      "filename": "Dancing Through the Meadow (1) [195fafc0].mp3",
+      "bytes": 1580733,
+      "sha256": "64e6b6652b2163a4",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Dancing Through the Meadow (2) [e6b4ea53].mp3",
+      "filename": "Dancing Through the Meadow (2) [e6b4ea53].mp3",
+      "bytes": 1880925,
+      "sha256": "ddffce41a7579b52",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Drift away, little paws and fur so light (Cover) (1) [19f6c5ad].mp3",
+      "filename": "Drift away, little paws and fur so light (Cover) (1) [19f6c5ad].mp3",
+      "bytes": 4170861,
+      "sha256": "28e92237935b6bb4",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Drift away, little paws and fur so light (Cover) (2) [c795ba38].mp3",
+      "filename": "Drift away, little paws and fur so light (Cover) (2) [c795ba38].mp3",
+      "bytes": 4197357,
+      "sha256": "5cfd60c4147298eb",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Dust and Step (1) [fa98bec5].mp3",
+      "filename": "Dust and Step (1) [fa98bec5].mp3",
+      "bytes": 4282470,
+      "sha256": "119f6c059ffed3bc",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Dust and Step (2) [64b6c883].mp3",
+      "filename": "Dust and Step (2) [64b6c883].mp3",
+      "bytes": 4430118,
+      "sha256": "59d65e266469d767",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Dust and Step (3) [da129524].mp3",
+      "filename": "Dust and Step (3) [da129524].mp3",
+      "bytes": 2139432,
+      "sha256": "c5cd6a73f4a39c08",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Dust and Step (4) [62139411].mp3",
+      "filename": "Dust and Step (4) [62139411].mp3",
+      "bytes": 3510888,
+      "sha256": "504eb8ed2d2b118f",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Dust on the Steppe (1) [31b157d7].mp3",
+      "filename": "Dust on the Steppe (1) [31b157d7].mp3",
+      "bytes": 3345516,
+      "sha256": "ced5a3dc6ad94e5b",
+      "suggested_cue": "crossing_reference",
+      "cue_note": "Dust on the Steppe \u2014 crossing reference"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Dust on the Steppe (2) [06bd5cf9].mp3",
+      "filename": "Dust on the Steppe (2) [06bd5cf9].mp3",
+      "bytes": 3953786,
+      "sha256": "0df3ff10cc69a438",
+      "suggested_cue": "crossing_reference",
+      "cue_note": "Dust on the Steppe \u2014 crossing reference"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Dust on the Steppe (3) [d8807c81].mp3",
+      "filename": "Dust on the Steppe (3) [d8807c81].mp3",
+      "bytes": 3351384,
+      "sha256": "4f92fa8e9f9971e4",
+      "suggested_cue": "crossing_reference",
+      "cue_note": "Dust on the Steppe \u2014 crossing reference"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Dust on the Steppe (4) [7e7ecac8].mp3",
+      "filename": "Dust on the Steppe (4) [7e7ecac8].mp3",
+      "bytes": 4019976,
+      "sha256": "9525fb75f28bbbf0",
+      "suggested_cue": "crossing_reference",
+      "cue_note": "Dust on the Steppe \u2014 crossing reference"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Evening Stroll (1) [8143980f].mp3",
+      "filename": "Evening Stroll (1) [8143980f].mp3",
+      "bytes": 2863845,
+      "sha256": "856b3f30b40dcd06",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Evening Stroll (2) [42df25be].mp3",
+      "filename": "Evening Stroll (2) [42df25be].mp3",
+      "bytes": 2871837,
+      "sha256": "ec950b56de9ffc18",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Exile Lullaby (1) [52208590].mp3",
+      "filename": "Exile Lullaby (1) [52208590].mp3",
+      "bytes": 3268584,
+      "sha256": "3e2c966bfa677100",
+      "suggested_cue": "family_memory",
+      "cue_note": "Exile Lullaby \u2014 family / memory"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Exile Lullaby (2) [a376fc33].mp3",
+      "filename": "Exile Lullaby (2) [a376fc33].mp3",
+      "bytes": 3546316,
+      "sha256": "1862dfb757da4ecf",
+      "suggested_cue": "family_memory",
+      "cue_note": "Exile Lullaby \u2014 family / memory"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Flying Picnic (1) [733e6fc6].mp3",
+      "filename": "Flying Picnic (1) [733e6fc6].mp3",
+      "bytes": 1495821,
+      "sha256": "b6af836ce5c507fa",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Flying Picnic (2) [290b8481].mp3",
+      "filename": "Flying Picnic (2) [290b8481].mp3",
+      "bytes": 2070909,
+      "sha256": "fe8eb631e25f98d5",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Frozen Plain Thrace (1) [60b4ed81].mp3",
+      "filename": "Frozen Plain Thrace (1) [60b4ed81].mp3",
+      "bytes": 4152072,
+      "sha256": "0021b986fcc38b44",
+      "suggested_cue": "denouement",
+      "cue_note": "Frozen Plain Thrace \u2014 denouement"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Frozen Plain Thrace (2) [b254dded].mp3",
+      "filename": "Frozen Plain Thrace (2) [b254dded].mp3",
+      "bytes": 4868004,
+      "sha256": "7705f5703a0f633b",
+      "suggested_cue": "denouement",
+      "cue_note": "Frozen Plain Thrace \u2014 denouement"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Horsehead River (1) [a36d1c7e].mp3",
+      "filename": "Horsehead River (1) [a36d1c7e].mp3",
+      "bytes": 4093992,
+      "sha256": "72c6a95adb011852",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Horsehead River (2) [2eb16e3d].mp3",
+      "filename": "Horsehead River (2) [2eb16e3d].mp3",
+      "bytes": 3155352,
+      "sha256": "1f4b269875cba2ad",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Iron and Ash (1) [d732de0b].mp3",
+      "filename": "Iron and Ash (1) [d732de0b].mp3",
+      "bytes": 1991688,
+      "sha256": "b43c5bc6f04cc38d",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Iron and Ash (2) [b2e3e780].mp3",
+      "filename": "Iron and Ash (2) [b2e3e780].mp3",
+      "bytes": 1454232,
+      "sha256": "243dde3d63801dbe",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Jumping Jellybeans (1) [041daf0c].mp3",
+      "filename": "Jumping Jellybeans (1) [041daf0c].mp3",
+      "bytes": 2921613,
+      "sha256": "dc30cd22a79891c0",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Jumping Jellybeans (2) [9fe9a37f].mp3",
+      "filename": "Jumping Jellybeans (2) [9fe9a37f].mp3",
+      "bytes": 3280701,
+      "sha256": "1344fc9c5e560d9c",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Nassau Boys (1) [1620fe11].mp3",
+      "filename": "Nassau Boys (1) [1620fe11].mp3",
+      "bytes": 4048008,
+      "sha256": "5851d1dd6390d720",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Nassau Boys (2) [f45f9d22].mp3",
+      "filename": "Nassau Boys (2) [f45f9d22].mp3",
+      "bytes": 3979224,
+      "sha256": "123a26b11eb183e1",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Orb of Light (1) [7cd4e8a4].mp3",
+      "filename": "Orb of Light (1) [7cd4e8a4].mp3",
+      "bytes": 4608621,
+      "sha256": "8854e03ec90fedc7",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Orb of Light (2) [b7b08018].mp3",
+      "filename": "Orb of Light (2) [b7b08018].mp3",
+      "bytes": 4297581,
+      "sha256": "e9364a903fa4c4b5",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Orb of Light (Cover) (1) [0fc5a9bf].mp3",
+      "filename": "Orb of Light (Cover) (1) [0fc5a9bf].mp3",
+      "bytes": 5152941,
+      "sha256": "889f695a3dad83f0",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Orb of Light (Cover) (2) [4d0f5011].mp3",
+      "filename": "Orb of Light (Cover) (2) [4d0f5011].mp3",
+      "bytes": 3748077,
+      "sha256": "659948bbc0f2ac52",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Roman Dust (1) [78854e91].mp3",
+      "filename": "Roman Dust (1) [78854e91].mp3",
+      "bytes": 1612008,
+      "sha256": "7b14fbc1d144da49",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Roman Dust (2) [03fa8e14].mp3",
+      "filename": "Roman Dust (2) [03fa8e14].mp3",
+      "bytes": 2691816,
+      "sha256": "f587a3af0b95b5d6",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Roman March (1) [4fbfcbd5].mp3",
+      "filename": "Roman March (1) [4fbfcbd5].mp3",
+      "bytes": 3933000,
+      "sha256": "67d0e89abb92f5c2",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Roman March (2) [7c712365].mp3",
+      "filename": "Roman March (2) [7c712365].mp3",
+      "bytes": 4281816,
+      "sha256": "a2488a71174061db",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Shadows on the Hollow Road (1) [8ce84f15].mp3",
+      "filename": "Shadows on the Hollow Road (1) [8ce84f15].mp3",
+      "bytes": 3333141,
+      "sha256": "aeaab40e1eb4aa8a",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Shadows on the Hollow Road (2) [04f14b41].mp3",
+      "filename": "Shadows on the Hollow Road (2) [04f14b41].mp3",
+      "bytes": 4515117,
+      "sha256": "6c0898154da4344c",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Silent River (1) [108d542d].mp3",
+      "filename": "Silent River (1) [108d542d].mp3",
+      "bytes": 3972432,
+      "sha256": "69b4813020825969",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Silent River (2) [4d4a44cb].mp3",
+      "filename": "Silent River (2) [4d4a44cb].mp3",
+      "bytes": 4151592,
+      "sha256": "574b1a71e198dd08",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Steppe Pulse (1) [1609ca74].mp3",
+      "filename": "Steppe Pulse (1) [1609ca74].mp3",
+      "bytes": 3195960,
+      "sha256": "86582f0f96e5bbc7",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Steppe Pulse (2) [35d8694b].mp3",
+      "filename": "Steppe Pulse (2) [35d8694b].mp3",
+      "bytes": 3907128,
+      "sha256": "719532eaef625ca8",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Sunshine & Sneakers (1) [3bff76bd].mp3",
+      "filename": "Sunshine & Sneakers (1) [3bff76bd].mp3",
+      "bytes": 3573213,
+      "sha256": "2e470bf9c42b66e3",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Sunshine & Sneakers (2) [979868c3].mp3",
+      "filename": "Sunshine & Sneakers (2) [979868c3].mp3",
+      "bytes": 3947781,
+      "sha256": "a51000ec30646c2f",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Sunshine in My Pocket.mp3",
+      "filename": "Sunshine in My Pocket.mp3",
+      "bytes": 4758765,
+      "sha256": "de2d2b6cd6739213",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/The First Step Across the (1) [d1dedc11].mp3",
+      "filename": "The First Step Across the (1) [d1dedc11].mp3",
+      "bytes": 3390792,
+      "sha256": "b7190392f37d9790",
+      "suggested_cue": "crossing_open",
+      "cue_note": "Crossing opening"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/The First Step Across the (2) [e98f0263].mp3",
+      "filename": "The First Step Across the (2) [e98f0263].mp3",
+      "bytes": 3106008,
+      "sha256": "255d54a45c0f62e0",
+      "suggested_cue": "crossing_open",
+      "cue_note": "Crossing opening"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/The Gothic Fracture (1) [5f6790b9].mp3",
+      "filename": "The Gothic Fracture (1) [5f6790b9].mp3",
+      "bytes": 3891672,
+      "sha256": "5a42147eedc7745b",
+      "suggested_cue": "battle",
+      "cue_note": "The Gothic Fracture \u2014 primary battle cue"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/The Gothic Fracture (2) [fed31736].mp3",
+      "filename": "The Gothic Fracture (2) [fed31736].mp3",
+      "bytes": 3643547,
+      "sha256": "564294d022811cc7",
+      "suggested_cue": "battle",
+      "cue_note": "The Gothic Fracture \u2014 primary battle cue"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/The Iron Vault (1) [868cb713].mp3",
+      "filename": "The Iron Vault (1) [868cb713].mp3",
+      "bytes": 3319896,
+      "sha256": "15b7801670d6269a",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/The Iron Vault (2) [1ec7d535].mp3",
+      "filename": "The Iron Vault (2) [1ec7d535].mp3",
+      "bytes": 3008520,
+      "sha256": "942a516c7f745420",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/The Land of Lollipops (1) [cd4b871c].mp3",
+      "filename": "The Land of Lollipops (1) [cd4b871c].mp3",
+      "bytes": 3139821,
+      "sha256": "55f3963f716fcf82",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/The Land of Lollipops (2) [91812bd7].mp3",
+      "filename": "The Land of Lollipops (2) [91812bd7].mp3",
+      "bytes": 2885373,
+      "sha256": "98175efda5119cd2",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/The North and the Walk (1) [71c1d00b].mp3",
+      "filename": "The North and the Walk (1) [71c1d00b].mp3",
+      "bytes": 6130344,
+      "sha256": "88a02fd9be5284a9",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/The North and the Walk (2) [91596b27].mp3",
+      "filename": "The North and the Walk (2) [91596b27].mp3",
+      "bytes": 5793912,
+      "sha256": "60b057f0aed03f14",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/The Unresolved Beat (1) [71d43e32].mp3",
+      "filename": "The Unresolved Beat (1) [71d43e32].mp3",
+      "bytes": 2451648,
+      "sha256": "60785ef8453c23a2",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/The Unresolved Beat (2) [97ea3b77].mp3",
+      "filename": "The Unresolved Beat (2) [97ea3b77].mp3",
+      "bytes": 2871432,
+      "sha256": "fb2e2c436ee93fa8",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Tiger and Cat on a Cosmic Quest (1) [342b2bf7].mp3",
+      "filename": "Tiger and Cat on a Cosmic Quest (1) [342b2bf7].mp3",
+      "bytes": 5761197,
+      "sha256": "bb8734ba560c5349",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Tiger and Cat on a Cosmic Quest (2) [3db2c630].mp3",
+      "filename": "Tiger and Cat on a Cosmic Quest (2) [3db2c630].mp3",
+      "bytes": 4595949,
+      "sha256": "253f941cca3ce8d7",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Under the Neon Moon (1) [23b1287f].mp3",
+      "filename": "Under the Neon Moon (1) [23b1287f].mp3",
+      "bytes": 3335637,
+      "sha256": "1ecfede9ec4ea167",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Under the Neon Moon (2) [a4d8b6a6].mp3",
+      "filename": "Under the Neon Moon (2) [a4d8b6a6].mp3",
+      "bytes": 2872029,
+      "sha256": "018b41f320d4bbea",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Untitled (1) [e0f9dd3d].mp3",
+      "filename": "Untitled (1) [e0f9dd3d].mp3",
+      "bytes": 2784357,
+      "sha256": "094906dfa1f508d0",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Untitled (2) [5ec0ab75].mp3",
+      "filename": "Untitled (2) [5ec0ab75].mp3",
+      "bytes": 2976477,
+      "sha256": "e04517894071b458",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Untitled (3) [d058a266].mp3",
+      "filename": "Untitled (3) [d058a266].mp3",
+      "bytes": 3100701,
+      "sha256": "2a3c04edafad5ab6",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Untitled (4) [bc030a98].mp3",
+      "filename": "Untitled (4) [bc030a98].mp3",
+      "bytes": 1275309,
+      "sha256": "865d17fede7cabca",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Untitled (5) [b844144d].mp3",
+      "filename": "Untitled (5) [b844144d].mp3",
+      "bytes": 5331501,
+      "sha256": "3477a6816398487b",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Untitled (6) [436e2c5b].mp3",
+      "filename": "Untitled (6) [436e2c5b].mp3",
+      "bytes": 4126509,
+      "sha256": "80599eaf5b619119",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Untitled (7) [43c39b87].mp3",
+      "filename": "Untitled (7) [43c39b87].mp3",
+      "bytes": 4294701,
+      "sha256": "d8775d52035047fb",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Untitled (8) [108cf189].mp3",
+      "filename": "Untitled (8) [108cf189].mp3",
+      "bytes": 5061357,
+      "sha256": "97b1be65e06148a2",
+      "suggested_cue": null,
+      "cue_note": null
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Wah-Step Pulse (1) [f1ce4956].mp3",
+      "filename": "Wah-Step Pulse (1) [f1ce4956].mp3",
+      "bytes": 3485928,
+      "sha256": "5f20f8c60803ab8d",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Wah-Step Pulse (2) [5662e88a].mp3",
+      "filename": "Wah-Step Pulse (2) [5662e88a].mp3",
+      "bytes": 3719256,
+      "sha256": "bc126f43a5c27c5f",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Wah-Step Pulse (3) [9f3a4edb].mp3",
+      "filename": "Wah-Step Pulse (3) [9f3a4edb].mp3",
+      "bytes": 2722344,
+      "sha256": "0e644395afd9eea2",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Wah-Step Pulse (4) [0b6eab28].mp3",
+      "filename": "Wah-Step Pulse (4) [0b6eab28].mp3",
+      "bytes": 2895959,
+      "sha256": "092d6b0396df4702",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Wah-Step Pulse (Remastered) (1) [a65110ad].mp3",
+      "filename": "Wah-Step Pulse (Remastered) (1) [a65110ad].mp3",
+      "bytes": 2697630,
+      "sha256": "0e57cdfd1e052239",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Wah-Step Pulse (Remastered) (2) [88118bc7].mp3",
+      "filename": "Wah-Step Pulse (Remastered) (2) [88118bc7].mp3",
+      "bytes": 2766174,
+      "sha256": "14c40ccf797fa802",
+      "suggested_cue": "heist_groove",
+      "cue_note": "Banquet / heist groove"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Warm Steps (1) [7c851123].mp3",
+      "filename": "Warm Steps (1) [7c851123].mp3",
+      "bytes": 2535981,
+      "sha256": "a4483f086e9b4fe0",
+      "suggested_cue": "crossing_open",
+      "cue_note": "Crossing opening"
+    },
+    {
+      "path": "feedback/inbox/2026-08-26-archive-music/Warm Steps (2) [80aba5d7].mp3",
+      "filename": "Warm Steps (2) [80aba5d7].mp3",
+      "bytes": 2660637,
+      "sha256": "1c939bcdae706cb3",
+      "suggested_cue": "crossing_open",
+      "cue_note": "Crossing opening"
+    },
+    {
+      "path": "feedback/inbox/2026-08-24-dust-on-the-steppe.mp3",
+      "filename": "2026-08-24-dust-on-the-steppe.mp3",
+      "bytes": 3953786,
+      "sha256": "0df3ff10cc69a438",
+      "suggested_cue": "crossing_reference",
+      "cue_note": "Dust on the Steppe \u2014 crossing reference"
+    },
+    {
+      "path": "feedback/inbox/2026-08-25-frozen-plain-thrace.mp3",
+      "filename": "2026-08-25-frozen-plain-thrace.mp3",
+      "bytes": 4868004,
+      "sha256": "7705f5703a0f633b",
+      "suggested_cue": "denouement",
+      "cue_note": "Frozen Plain Thrace — denouement"
+    }
+  ]
+}

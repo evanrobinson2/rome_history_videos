@@ -25,10 +25,14 @@ viewer/public/assets
 .vercel
 .env*
 
-# Reference media — source video stays local (too large); extracted audio is tracked
+# Reference media — source video stays local (too large)
 research/**/*.mp4
 research/**/*.m4a
 research/**/*.wav
+
+# Inbox voice recordings — keep local; direction notes in feedback/ are tracked
+feedback/inbox/**/*.m4a
+feedback/inbox/transcript/
 
 # Mind-meld runtime (locks / hook logs)
 mind/.sync.log
