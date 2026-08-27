@@ -22,5 +22,15 @@
   ],
   "priority": 10,
   "force": false,
-  "status": "pending"
+  "status": "done",
+  "claimed_at": "2026-08-27T00:03:45.452219+00:00",
+  "claimed_by": "mj-browser",
+  "completed_at": "2026-08-27T00:06:02.569497+00:00",
+  "completed_by": "mj-browser",
+  "output_files": [
+    "D07_0.png",
+    "D07_1.png",
+    "D07_2.png",
+    "D07_3.png"
+  ]
 }
