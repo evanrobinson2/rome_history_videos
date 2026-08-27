@@ -118,9 +118,9 @@
       ],
       "deck_beat": "abuse_line_too_far",
       "visual_mode": "fractured_world",
-      "deck_ask": "Elder brother traded for dogmeat \u2014 the line too far.",
-      "episode_note": "No episode shot; deck-specific beat between C10 and C11.",
-      "mj_status": "queued",
+      "deck_ask": "Elder brother traded for dogmeat — the line too far. Mother must be horrified and lunging toward taken brother, NOT smiling or encouraging.",
+      "episode_note": "No episode shot; deck-specific beat between C10 and C11. v1 failed: mother read as egging child on.",
+      "mj_status": "redo",
       "prompt_ref": "deck.jsonl:D07"
     },
     {
